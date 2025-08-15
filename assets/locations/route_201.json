@@ -1,0 +1,9 @@
+{
+  "id": "route_201",
+  "name": "Route 201",
+  "adjacent": ["twinleaf_town", "sandgem_town"],
+  "encounters": {
+    "grass": "route_201_grass"
+  },
+  "coord": [3,18]
+}

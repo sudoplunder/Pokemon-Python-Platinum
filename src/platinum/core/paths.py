@@ -5,5 +5,7 @@ ROOT = Path(__file__).resolve().parents[2]  # project root (assuming src/platinu
 ASSETS = ROOT / "assets"
 DIALOGUE_EN = ASSETS / "dialogue" / "en"
 EVENTS = ASSETS / "events"
+LOCATIONS = ASSETS / "locations"
+ENCOUNTERS = ASSETS / "encounters"
 SCHEMA = ROOT / "schema"
 SETTINGS_FILE_CANDIDATE_HOME = "~/.platinum_settings.json"

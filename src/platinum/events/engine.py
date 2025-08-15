@@ -25,7 +25,7 @@ class EventEngine:
         while fired_loop and safety < 5:
             fired_loop = False
             for evt in candidates:
-                if not evt.eligible(self.context.flags):
+                if not evt.eligible(self.context.flags._flags):
                     continue
                 if not self._matches(evt.trigger, trigger):
                     continue

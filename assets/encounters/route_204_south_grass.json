@@ -1,0 +1,12 @@
+{
+  "id": "route_204_south_grass",
+  "method": "grass",
+  "slots": [
+    {"species":"starly","rate":25,"min":4,"max":6},
+    {"species":"bidoof","rate":25,"min":4,"max":6},
+    {"species":"shinx","rate":15,"min":4,"max":5},
+    {"species":"budew","rate":15,"min":4,"max":5},
+    {"species":"kricketot","rate":10,"min":4,"max":4},
+    {"species":"zubat","rate":10,"min":3,"max":3}
+  ]
+}
