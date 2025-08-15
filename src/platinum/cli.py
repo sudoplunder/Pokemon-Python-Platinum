@@ -99,7 +99,7 @@ def start_new_game(ctx: GameContext):
     ctx.typewriter.print("Starting your Pokemon adventure...")
     
     # Trigger the game start event
-    ctx.event_engine.trigger("game_start")
+    ctx.event_engine.handle_trigger("game_start")
     
     # Basic exploration loop placeholder
     print("\n[EXPLORATION STUB]")
