@@ -1,0 +1,151 @@
+{
+  "id": 28,
+  "name": "sandslash",
+  "generation": "1",
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 110,
+    "sp_atk": 45,
+    "sp_def": 55,
+    "speed": 65
+  },
+  "base_experience": 158,
+  "growth_rate": "medium",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "sand-veil",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 7,
+        "name": "rollout"
+      },
+      {
+        "level": 9,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 11,
+        "name": "swift"
+      },
+      {
+        "level": 14,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 17,
+        "name": "magnitude"
+      },
+      {
+        "level": 20,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 22,
+        "name": "crush-claw"
+      },
+      {
+        "level": 23,
+        "name": "sand-tomb"
+      },
+      {
+        "level": 24,
+        "name": "slash"
+      },
+      {
+        "level": 30,
+        "name": "dig"
+      },
+      {
+        "level": 34,
+        "name": "gyro-ball"
+      },
+      {
+        "level": 38,
+        "name": "swords-dance"
+      },
+      {
+        "level": 42,
+        "name": "sandstorm"
+      },
+      {
+        "level": 46,
+        "name": "earthquake"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "poison-jab",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-claw",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 27,
+    "next": [],
+    "root": 27,
+    "next_details": []
+  }
+}

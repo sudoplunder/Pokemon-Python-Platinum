@@ -1,0 +1,16 @@
+{
+  "name": "mind-plate",
+  "display_name": "Mind Plate",
+  "category": "plates",
+  "cost": 1000,
+  "fling_power": 90,
+  "effect": "Held: Increases the power of the holder's Psychic moves by 20%.\nHeld by a Multitype Pok\u00e9mon: Holder's type becomes Psychic.",
+  "short_effect": "Held: Psychic-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Psychic.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active",
+    "underground"
+  ]
+}

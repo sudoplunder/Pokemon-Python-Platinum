@@ -1,0 +1,136 @@
+{
+  "id": 354,
+  "name": "banette",
+  "generation": "3",
+  "types": [
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 64,
+    "attack": 115,
+    "defense": 65,
+    "sp_atk": 83,
+    "sp_def": 63,
+    "speed": 65
+  },
+  "base_experience": 159,
+  "growth_rate": "fast",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 35,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "insomnia",
+    "secondary": "frisk",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "curse"
+      },
+      {
+        "level": 1,
+        "name": "knock-off"
+      },
+      {
+        "level": 1,
+        "name": "night-shade"
+      },
+      {
+        "level": 1,
+        "name": "screech"
+      },
+      {
+        "level": 10,
+        "name": "spite"
+      },
+      {
+        "level": 13,
+        "name": "will-o-wisp"
+      },
+      {
+        "level": 16,
+        "name": "shadow-sneak"
+      },
+      {
+        "level": 22,
+        "name": "feint-attack"
+      },
+      {
+        "level": 30,
+        "name": "shadow-ball"
+      },
+      {
+        "level": 34,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 40,
+        "name": "embargo"
+      },
+      {
+        "level": 46,
+        "name": "snatch"
+      },
+      {
+        "level": 52,
+        "name": "grudge"
+      },
+      {
+        "level": 58,
+        "name": "trick"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 353,
+    "next": [],
+    "root": 353,
+    "next_details": []
+  }
+}

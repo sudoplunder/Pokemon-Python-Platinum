@@ -1,0 +1,15 @@
+{
+  "id": 221,
+  "item": {
+    "name": "tm11",
+    "url": "https://pokeapi.co/api/v2/item/315/"
+  },
+  "move": {
+    "name": "solar-beam",
+    "url": "https://pokeapi.co/api/v2/move/76/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

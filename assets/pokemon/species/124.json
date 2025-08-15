@@ -1,0 +1,138 @@
+{
+  "id": 124,
+  "name": "jynx",
+  "generation": "1",
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "sp_atk": 115,
+    "sp_def": 95,
+    "speed": 95
+  },
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 8,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "oblivious",
+    "secondary": "forewarn",
+    "hidden": "dry-skin"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 1,
+        "name": "lovely-kiss"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "powder-snow"
+      },
+      {
+        "level": 15,
+        "name": "double-slap"
+      },
+      {
+        "level": 18,
+        "name": "ice-punch"
+      },
+      {
+        "level": 25,
+        "name": "mean-look"
+      },
+      {
+        "level": 28,
+        "name": "fake-tears"
+      },
+      {
+        "level": 33,
+        "name": "wake-up-slap"
+      },
+      {
+        "level": 39,
+        "name": "avalanche"
+      },
+      {
+        "level": 44,
+        "name": "body-slam"
+      },
+      {
+        "level": 49,
+        "name": "wring-out"
+      },
+      {
+        "level": 55,
+        "name": "perish-song"
+      },
+      {
+        "level": 60,
+        "name": "blizzard"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "substitute",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "trick-room",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 238,
+    "next": [],
+    "root": 238,
+    "next_details": []
+  }
+}

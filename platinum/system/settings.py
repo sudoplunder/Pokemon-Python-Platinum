@@ -9,13 +9,12 @@ SETTINGS_FILENAME = ".platinum_settings.json"
 
 @dataclass
 class SettingsData:
-    dialogue_mode: str = "base"    # concise / base / expanded / alt
     text_speed: int = 2            # 1 fast, 2 normal, 3 slow
     log_level: str = "INFO"        # DEBUG / INFO / WARN / ERROR
+    autosave: bool = True          # Automatically save after key progression changes
+    debug: bool = False            # Verbose battle/debug prints
 
     def normalize(self):
-        if self.dialogue_mode not in {"concise","base","expanded","alt"}:
-            self.dialogue_mode = "base"
         if self.text_speed not in {1,2,3}:
             self.text_speed = 2
         if self.log_level not in {"DEBUG","INFO","WARN","ERROR"}:
@@ -46,6 +45,9 @@ class Settings:
                 for name in field_names:
                     if name in raw:
                         data_kwargs[name] = raw[name]
+                # Backfill missing debug explicitly if not present
+                if 'debug' not in data_kwargs:
+                    data_kwargs['debug'] = False
                 data = SettingsData(**data_kwargs)
                 data.normalize()
                 logger.debug("SettingsLoaded", path=str(path))
@@ -73,23 +75,27 @@ class Settings:
     # Arrow/WASD options menu uses specific functions; keep legacy interactive for fallback if needed
     def interactive_menu(self):
         print("\n-- Options (legacy text input) --")
-        print(f"1) Dialogue Mode [{self.data.dialogue_mode}]")
-        print(f"2) Text Speed [{self.data.text_speed}]")
-        print(f"3) Log Level [{self.data.log_level}]")
+        print(f"1) Text Speed [{self.data.text_speed}]")
+        print(f"2) Log Level [{self.data.log_level}]")
+        print(f"3) Autosave [{'ON' if self.data.autosave else 'OFF'}]")
         print("Enter number or blank to return.")
         choice = input("> ").strip()
         if choice == "1":
-            mode = input("Mode (concise/base/expanded/alt): ").strip().lower()
-            self.data.dialogue_mode = mode
-        elif choice == "2":
             sp = input("Speed (1/2/3): ").strip()
             if sp.isdigit():
                 self.data.text_speed = int(sp)
-        elif choice == "3":
+        elif choice == "2":
             lvl = input("Log Level (DEBUG/INFO/WARN/ERROR): ").strip().upper()
             self.data.log_level = lvl
+        elif choice == "3":
+            val = input("Autosave (on/off): ").strip().lower()
+            if val in {"on","off"}:
+                self.data.autosave = (val == "on")
         self.data.normalize()
         from platinum.core.logging import logger as global_logger
-        global_logger.set_level(self.data.log_level)
+        # Type narrowing for static checker; value already normalized
+        lvl: str = self.data.log_level
+        if lvl in {"DEBUG","INFO","WARN","ERROR"}:
+            global_logger.set_level(lvl)  # type: ignore[arg-type]
         self.save()
         self._notify()

@@ -1,0 +1,133 @@
+{
+  "id": 214,
+  "name": "heracross",
+  "generation": "2",
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 125,
+    "defense": 75,
+    "sp_atk": 40,
+    "sp_def": 95,
+    "speed": 85
+  },
+  "base_experience": 175,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swarm",
+    "secondary": "guts",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "endure"
+      },
+      {
+        "level": 1,
+        "name": "horn-attack"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "night-slash"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 7,
+        "name": "fury-attack"
+      },
+      {
+        "level": 10,
+        "name": "aerial-ace"
+      },
+      {
+        "level": 19,
+        "name": "counter"
+      },
+      {
+        "level": 23,
+        "name": "brick-break"
+      },
+      {
+        "level": 28,
+        "name": "take-down"
+      },
+      {
+        "level": 34,
+        "name": "close-combat"
+      },
+      {
+        "level": 37,
+        "name": "feint"
+      },
+      {
+        "level": 43,
+        "name": "reversal"
+      },
+      {
+        "level": 46,
+        "name": "megahorn"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "false-swipe",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 214,
+    "next_details": []
+  }
+}

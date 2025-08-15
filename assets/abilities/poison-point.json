@@ -1,0 +1,8 @@
+{
+  "name": "poison-point",
+  "display_name": "Poison Point",
+  "generation": 3,
+  "short_effect": "Has a 30% chance of poisoning attacking Pok\u00e9mon on contact.",
+  "effect": "Whenever a move makes contact with this Pok\u00e9mon, the move's user has a 30% chance of being poisoned.",
+  "is_gen4_or_prior": true
+}

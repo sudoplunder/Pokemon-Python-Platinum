@@ -1,0 +1,146 @@
+{
+  "id": 93,
+  "name": "haunter",
+  "generation": "1",
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 45,
+    "sp_atk": 115,
+    "sp_def": 55,
+    "speed": 95
+  },
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 1,
+        "name": "spite"
+      },
+      {
+        "level": 8,
+        "name": "mean-look"
+      },
+      {
+        "level": 12,
+        "name": "curse"
+      },
+      {
+        "level": 15,
+        "name": "night-shade"
+      },
+      {
+        "level": 19,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 22,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 25,
+        "name": "shadow-punch"
+      },
+      {
+        "level": 28,
+        "name": "payback"
+      },
+      {
+        "level": 33,
+        "name": "shadow-ball"
+      },
+      {
+        "level": 39,
+        "name": "dream-eater"
+      },
+      {
+        "level": 44,
+        "name": "dark-pulse"
+      },
+      {
+        "level": 48,
+        "name": "destiny-bond"
+      },
+      {
+        "level": 61,
+        "name": "nightmare"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "energy-ball",
+      "explosion",
+      "facade",
+      "fling",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "payback",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "skill-swap",
+      "sludge-bomb",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 92,
+    "next": [
+      94
+    ],
+    "root": 92,
+    "next_details": [
+      {
+        "id": 94,
+        "trigger": "trade",
+        "conditions": {}
+      }
+    ]
+  }
+}

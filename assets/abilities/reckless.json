@@ -1,0 +1,8 @@
+{
+  "name": "reckless",
+  "display_name": "Reckless",
+  "generation": 4,
+  "short_effect": "Strengthens recoil moves to 1.2\u00d7 their power.",
+  "effect": "This Pok\u00e9mon's recoil moves and crash moves have 1.2\u00d7 their base power.\n\nstruggle is unaffected.\n\nThe \"crash moves\" are the moves that damage the user upon missing: jump kick and high jump kick.",
+  "is_gen4_or_prior": true
+}

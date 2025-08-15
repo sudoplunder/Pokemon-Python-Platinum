@@ -1,0 +1,14 @@
+{
+  "name": "adamant-orb",
+  "display_name": "Adamant Orb",
+  "category": "species-specific",
+  "cost": 0,
+  "fling_power": 60,
+  "effect": "Held by dialga\n:   Holder's dragon- and steel-type moves have 1.2\u00d7 their usual power.",
+  "short_effect": "Boosts the damage from Dialga's Dragon-type and Steel-type moves by 20%.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "rock-climb",
+  "display_name": "Rock Climb",
+  "type": "normal",
+  "category": "physical",
+  "power": 90,
+  "accuracy": 85,
+  "pp": 20,
+  "priority": 0,
+  "generation": 4,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Has a 20% chance to confuse the target.",
+  "effect": "Inflicts regular damage.  Has a 20% chance to confuse the target.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    2,
+    5
+  ],
+  "flinch_chance": 0,
+  "ailment": "confusion",
+  "ailment_chance": 20,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

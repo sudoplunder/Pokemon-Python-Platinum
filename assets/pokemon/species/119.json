@@ -1,0 +1,121 @@
+{
+  "id": 119,
+  "name": "seaking",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "sp_atk": 65,
+    "sp_def": 80,
+    "speed": 68
+  },
+  "base_experience": 158,
+  "growth_rate": "medium",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "water-veil",
+    "hidden": "lightning-rod"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 1,
+        "name": "poison-jab"
+      },
+      {
+        "level": 1,
+        "name": "supersonic"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 1,
+        "name": "water-sport"
+      },
+      {
+        "level": 11,
+        "name": "horn-attack"
+      },
+      {
+        "level": 17,
+        "name": "water-pulse"
+      },
+      {
+        "level": 21,
+        "name": "flail"
+      },
+      {
+        "level": 27,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 29,
+        "name": "fury-attack"
+      },
+      {
+        "level": 40,
+        "name": "waterfall"
+      },
+      {
+        "level": 47,
+        "name": "horn-drill"
+      },
+      {
+        "level": 56,
+        "name": "agility"
+      },
+      {
+        "level": 72,
+        "name": "megahorn"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 118,
+    "next": [],
+    "root": 118,
+    "next_details": []
+  }
+}

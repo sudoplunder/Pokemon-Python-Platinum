@@ -1,0 +1,134 @@
+{
+  "id": 105,
+  "name": "marowak",
+  "generation": "1",
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 110,
+    "sp_atk": 50,
+    "sp_def": 80,
+    "speed": 45
+  },
+  "base_experience": 149,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "rock-head",
+    "secondary": "lightning-rod",
+    "hidden": "battle-armor"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bone-club"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "headbutt"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 13,
+        "name": "leer"
+      },
+      {
+        "level": 17,
+        "name": "focus-energy"
+      },
+      {
+        "level": 21,
+        "name": "bonemerang"
+      },
+      {
+        "level": 23,
+        "name": "rage"
+      },
+      {
+        "level": 27,
+        "name": "false-swipe"
+      },
+      {
+        "level": 33,
+        "name": "thrash"
+      },
+      {
+        "level": 37,
+        "name": "fling"
+      },
+      {
+        "level": 43,
+        "name": "bone-rush"
+      },
+      {
+        "level": 49,
+        "name": "endeavor"
+      },
+      {
+        "level": 53,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "false-swipe",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 104,
+    "next": [],
+    "root": 104,
+    "next_details": []
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": 133,
+  "name": "eevee",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "sp_atk": 45,
+    "sp_def": 65,
+    "speed": 55
+  },
+  "base_experience": 65,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 35,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "run-away",
+    "secondary": "adaptability",
+    "hidden": "anticipation"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "helping-hand"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 5,
+        "name": "sand-attack"
+      },
+      {
+        "level": 9,
+        "name": "growl"
+      },
+      {
+        "level": 13,
+        "name": "quick-attack"
+      },
+      {
+        "level": 17,
+        "name": "bite"
+      },
+      {
+        "level": 21,
+        "name": "covet"
+      },
+      {
+        "level": 25,
+        "name": "take-down"
+      },
+      {
+        "level": 29,
+        "name": "charm"
+      },
+      {
+        "level": 33,
+        "name": "baton-pass"
+      },
+      {
+        "level": 37,
+        "name": "double-edge"
+      },
+      {
+        "level": 41,
+        "name": "last-resort"
+      },
+      {
+        "level": 45,
+        "name": "trump-card"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      134,
+      135,
+      136,
+      196,
+      197,
+      470,
+      471
+    ],
+    "root": 133,
+    "next_details": [
+      {
+        "id": 134,
+        "trigger": "item",
+        "conditions": {
+          "item": "water-stone"
+        }
+      },
+      {
+        "id": 135,
+        "trigger": "item",
+        "conditions": {
+          "item": "thunder-stone"
+        }
+      },
+      {
+        "id": 136,
+        "trigger": "item",
+        "conditions": {
+          "item": "fire-stone"
+        }
+      },
+      {
+        "id": 196,
+        "trigger": "friendship",
+        "conditions": {
+          "time": "day"
+        }
+      },
+      {
+        "id": 197,
+        "trigger": "friendship",
+        "conditions": {
+          "time": "night"
+        }
+      },
+      {
+        "id": 470,
+        "trigger": "location",
+        "conditions": {
+          "feature": "moss-rock"
+        }
+      },
+      {
+        "id": 471,
+        "trigger": "location",
+        "conditions": {
+          "feature": "ice-rock"
+        }
+      }
+    ]
+  }
+}

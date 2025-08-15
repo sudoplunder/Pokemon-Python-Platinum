@@ -1,0 +1,136 @@
+{
+  "id": 299,
+  "name": "nosepass",
+  "generation": "3",
+  "types": [
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 135,
+    "sp_atk": 45,
+    "sp_def": 90,
+    "speed": 30
+  },
+  "base_experience": 75,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "sturdy",
+    "secondary": "magnet-pull",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 4,
+        "name": "harden"
+      },
+      {
+        "level": 8,
+        "name": "block"
+      },
+      {
+        "level": 11,
+        "name": "rock-throw"
+      },
+      {
+        "level": 15,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 18,
+        "name": "rock-blast"
+      },
+      {
+        "level": 22,
+        "name": "rest"
+      },
+      {
+        "level": 25,
+        "name": "spark"
+      },
+      {
+        "level": 28,
+        "name": "rock-slide"
+      },
+      {
+        "level": 31,
+        "name": "sandstorm"
+      },
+      {
+        "level": 32,
+        "name": "power-gem"
+      },
+      {
+        "level": 39,
+        "name": "discharge"
+      },
+      {
+        "level": 43,
+        "name": "earth-power"
+      },
+      {
+        "level": 43,
+        "name": "zap-cannon"
+      },
+      {
+        "level": 46,
+        "name": "lock-on"
+      },
+      {
+        "level": 46,
+        "name": "stone-edge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "protect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shock-wave",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      476
+    ],
+    "root": 299,
+    "next_details": []
+  }
+}

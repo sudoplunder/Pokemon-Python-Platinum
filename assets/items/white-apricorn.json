@@ -1,0 +1,12 @@
+{
+  "name": "white-apricorn",
+  "display_name": "White Apricorn",
+  "category": "apricorn-box",
+  "cost": 200,
+  "fling_power": 10,
+  "effect": "May be given to Kurt in azalea town to produce a fast ball.",
+  "short_effect": "Used to make a Fast Ball.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -6,6 +6,7 @@
     "none": ["received_running_shoes"]
   },
   "actions": [
+  { "command": "SET_LOCATION", "location": "twinleaf_town_player_home" },
     { "command": "SHOW_TEXT", "dialogue_key": "intro.mom.running_shoes" },
     { "command": "SET_FLAG", "flag": "received_running_shoes" }
   ],

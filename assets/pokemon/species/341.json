@@ -1,0 +1,131 @@
+{
+  "id": 341,
+  "name": "corphish",
+  "generation": "3",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 43,
+    "attack": 80,
+    "defense": 65,
+    "sp_atk": 50,
+    "sp_def": 35,
+    "speed": 35
+  },
+  "base_experience": 62,
+  "growth_rate": "fast-then-very-slow",
+  "capture_rate": 205,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "abilities": {
+    "primary": "hyper-cutter",
+    "secondary": "shell-armor",
+    "hidden": "adaptability"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 7,
+        "name": "harden"
+      },
+      {
+        "level": 10,
+        "name": "vice-grip"
+      },
+      {
+        "level": 13,
+        "name": "leer"
+      },
+      {
+        "level": 20,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 23,
+        "name": "protect"
+      },
+      {
+        "level": 26,
+        "name": "knock-off"
+      },
+      {
+        "level": 32,
+        "name": "taunt"
+      },
+      {
+        "level": 35,
+        "name": "crabhammer"
+      },
+      {
+        "level": 35,
+        "name": "night-slash"
+      },
+      {
+        "level": 38,
+        "name": "swords-dance"
+      },
+      {
+        "level": 44,
+        "name": "guillotine"
+      },
+      {
+        "level": 47,
+        "name": "crunch"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "fling",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "toxic",
+      "water-pulse",
+      "waterfall",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      342
+    ],
+    "root": 341,
+    "next_details": []
+  }
+}

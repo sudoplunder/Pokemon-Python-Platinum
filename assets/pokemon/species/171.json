@@ -1,0 +1,139 @@
+{
+  "id": 171,
+  "name": "lanturn",
+  "generation": "2",
+  "types": [
+    "water",
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 125,
+    "attack": 58,
+    "defense": 58,
+    "sp_atk": 76,
+    "sp_def": 76,
+    "speed": 67
+  },
+  "base_experience": 161,
+  "growth_rate": "slow",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "volt-absorb",
+    "secondary": "illuminate",
+    "hidden": "water-absorb"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "supersonic"
+      },
+      {
+        "level": 1,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 9,
+        "name": "flail"
+      },
+      {
+        "level": 12,
+        "name": "water-gun"
+      },
+      {
+        "level": 17,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 20,
+        "name": "spark"
+      },
+      {
+        "level": 23,
+        "name": "take-down"
+      },
+      {
+        "level": 27,
+        "name": "spit-up"
+      },
+      {
+        "level": 27,
+        "name": "stockpile"
+      },
+      {
+        "level": 27,
+        "name": "swallow"
+      },
+      {
+        "level": 35,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 40,
+        "name": "signal-beam"
+      },
+      {
+        "level": 47,
+        "name": "discharge"
+      },
+      {
+        "level": 50,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 52,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 61,
+        "name": "charge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "charge-beam",
+      "dive",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shock-wave",
+      "substitute",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 170,
+    "next": [],
+    "root": 170,
+    "next_details": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1923,
+  "item": {
+    "name": "tm218",
+    "url": "https://pokeapi.co/api/v2/item/2207/"
+  },
+  "move": {
+    "name": "expanding-force",
+    "url": "https://pokeapi.co/api/v2/move/797/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "count": 64,
+  "next": "https://pokeapi.co/api/v2/berry?offset=60&limit=4",
+  "previous": "https://pokeapi.co/api/v2/berry?offset=20&limit=20",
+  "results": [
+    {
+      "name": "chople",
+      "url": "https://pokeapi.co/api/v2/berry/41/"
+    },
+    {
+      "name": "kebia",
+      "url": "https://pokeapi.co/api/v2/berry/42/"
+    },
+    {
+      "name": "shuca",
+      "url": "https://pokeapi.co/api/v2/berry/43/"
+    },
+    {
+      "name": "coba",
+      "url": "https://pokeapi.co/api/v2/berry/44/"
+    },
+    {
+      "name": "payapa",
+      "url": "https://pokeapi.co/api/v2/berry/45/"
+    },
+    {
+      "name": "tanga",
+      "url": "https://pokeapi.co/api/v2/berry/46/"
+    },
+    {
+      "name": "charti",
+      "url": "https://pokeapi.co/api/v2/berry/47/"
+    },
+    {
+      "name": "kasib",
+      "url": "https://pokeapi.co/api/v2/berry/48/"
+    },
+    {
+      "name": "haban",
+      "url": "https://pokeapi.co/api/v2/berry/49/"
+    },
+    {
+      "name": "colbur",
+      "url": "https://pokeapi.co/api/v2/berry/50/"
+    },
+    {
+      "name": "babiri",
+      "url": "https://pokeapi.co/api/v2/berry/51/"
+    },
+    {
+      "name": "chilan",
+      "url": "https://pokeapi.co/api/v2/berry/52/"
+    },
+    {
+      "name": "liechi",
+      "url": "https://pokeapi.co/api/v2/berry/53/"
+    },
+    {
+      "name": "ganlon",
+      "url": "https://pokeapi.co/api/v2/berry/54/"
+    },
+    {
+      "name": "salac",
+      "url": "https://pokeapi.co/api/v2/berry/55/"
+    },
+    {
+      "name": "petaya",
+      "url": "https://pokeapi.co/api/v2/berry/56/"
+    },
+    {
+      "name": "apicot",
+      "url": "https://pokeapi.co/api/v2/berry/57/"
+    },
+    {
+      "name": "lansat",
+      "url": "https://pokeapi.co/api/v2/berry/58/"
+    },
+    {
+      "name": "starf",
+      "url": "https://pokeapi.co/api/v2/berry/59/"
+    },
+    {
+      "name": "enigma",
+      "url": "https://pokeapi.co/api/v2/berry/60/"
+    }
+  ]
+}

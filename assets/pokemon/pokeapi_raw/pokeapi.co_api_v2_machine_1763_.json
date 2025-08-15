@@ -1,0 +1,15 @@
+{
+  "id": 1763,
+  "item": {
+    "name": "tm58",
+    "url": "https://pokeapi.co/api/v2/item/362/"
+  },
+  "move": {
+    "name": "brick-break",
+    "url": "https://pokeapi.co/api/v2/move/280/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

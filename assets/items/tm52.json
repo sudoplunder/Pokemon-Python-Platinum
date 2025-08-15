@@ -1,0 +1,12 @@
+{
+  "name": "tm52",
+  "display_name": "Tm52",
+  "category": "all-machines",
+  "cost": 100000,
+  "fling_power": null,
+  "effect": "Teaches Focus Blast to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Focus Blast to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

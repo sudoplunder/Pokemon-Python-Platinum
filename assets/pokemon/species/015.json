@@ -1,0 +1,117 @@
+{
+  "id": 15,
+  "name": "beedrill",
+  "generation": "1",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 40,
+    "sp_atk": 45,
+    "sp_def": 80,
+    "speed": 75
+  },
+  "base_experience": 178,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swarm",
+    "secondary": null,
+    "hidden": "sniper"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fury-attack"
+      },
+      {
+        "level": 13,
+        "name": "focus-energy"
+      },
+      {
+        "level": 16,
+        "name": "twineedle"
+      },
+      {
+        "level": 19,
+        "name": "rage"
+      },
+      {
+        "level": 22,
+        "name": "pursuit"
+      },
+      {
+        "level": 25,
+        "name": "toxic-spikes"
+      },
+      {
+        "level": 28,
+        "name": "pin-missile"
+      },
+      {
+        "level": 31,
+        "name": "agility"
+      },
+      {
+        "level": 34,
+        "name": "assurance"
+      },
+      {
+        "level": 37,
+        "name": "poison-jab"
+      },
+      {
+        "level": 40,
+        "name": "endeavor"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "u-turn",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 14,
+    "next": [],
+    "root": 13,
+    "next_details": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tm62",
+  "display_name": "Tm62",
+  "category": "all-machines",
+  "cost": 30000,
+  "fling_power": null,
+  "effect": "Teaches Silver Wind to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Acrobatics to a compatible Pok\u00e9mon. (Gen IV: Silver Wind)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

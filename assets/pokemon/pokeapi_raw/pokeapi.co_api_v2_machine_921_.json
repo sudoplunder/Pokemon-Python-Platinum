@@ -1,0 +1,15 @@
+{
+  "id": 921,
+  "item": {
+    "name": "tm46",
+    "url": "https://pokeapi.co/api/v2/item/350/"
+  },
+  "move": {
+    "name": "weather-ball",
+    "url": "https://pokeapi.co/api/v2/move/311/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

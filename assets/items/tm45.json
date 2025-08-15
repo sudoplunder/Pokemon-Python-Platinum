@@ -1,0 +1,12 @@
+{
+  "name": "tm45",
+  "display_name": "Tm45",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Attract to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Attract to a compatible Pok\u00e9mon. (Gen I: Thunder Wave)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,42 @@
+{
+  "name": "beat-up",
+  "display_name": "Beat Up",
+  "type": "dark",
+  "category": "physical",
+  "power": null,
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "generation": 2,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Hits once for every conscious Pok\u00e9mon the trainer has.",
+  "effect": "Inflicts typeless regular damage.  Every Pok\u00e9mon in the user's party, excepting those that have fainted or have a major status effect, attacks the target.  Calculated stats are ignored; the base stats for the target and assorted attackers are used instead.  The random factor in the damage formula is not used.  dark Pok\u00e9mon still get STAB.\n\nThis effect breaks through wonder guard.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": [
+    6,
+    6
+  ],
+  "multi_turn": null,
+  "flinch_chance": 0,
+  "ailment": "none",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "count": 2102,
+  "next": null,
+  "previous": "https://pokeapi.co/api/v2/machine?offset=2098&limit=2",
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/machine/2101/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/2102/"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": 183,
+  "name": "marill",
+  "generation": "2",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 20,
+    "defense": 50,
+    "sp_atk": 20,
+    "sp_def": 50,
+    "speed": 40
+  },
+  "base_experience": 88,
+  "growth_rate": "fast",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "huge-power",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 2,
+        "name": "tail-whip"
+      },
+      {
+        "level": 3,
+        "name": "defense-curl"
+      },
+      {
+        "level": 5,
+        "name": "water-sport"
+      },
+      {
+        "level": 7,
+        "name": "water-gun"
+      },
+      {
+        "level": 10,
+        "name": "rollout"
+      },
+      {
+        "level": 13,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 16,
+        "name": "helping-hand"
+      },
+      {
+        "level": 20,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 23,
+        "name": "double-edge"
+      },
+      {
+        "level": 28,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 31,
+        "name": "rain-dance"
+      },
+      {
+        "level": 37,
+        "name": "superpower"
+      },
+      {
+        "level": 40,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 298,
+    "next": [
+      184
+    ],
+    "root": 298,
+    "next_details": [
+      {
+        "id": 184,
+        "trigger": "level",
+        "conditions": {
+          "level": 18
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": 191,
+  "name": "sunkern",
+  "generation": "2",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 30,
+    "sp_atk": 30,
+    "sp_def": 30,
+    "speed": 30
+  },
+  "base_experience": 36,
+  "growth_rate": "medium-slow",
+  "capture_rate": 235,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": "solar-power",
+    "hidden": "early-bird"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 1,
+        "name": "growth"
+      },
+      {
+        "level": 4,
+        "name": "ingrain"
+      },
+      {
+        "level": 7,
+        "name": "grass-whistle"
+      },
+      {
+        "level": 10,
+        "name": "mega-drain"
+      },
+      {
+        "level": 13,
+        "name": "leech-seed"
+      },
+      {
+        "level": 16,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 19,
+        "name": "worry-seed"
+      },
+      {
+        "level": 22,
+        "name": "giga-drain"
+      },
+      {
+        "level": 25,
+        "name": "endeavor"
+      },
+      {
+        "level": 28,
+        "name": "synthesis"
+      },
+      {
+        "level": 30,
+        "name": "sunny-day"
+      },
+      {
+        "level": 31,
+        "name": "natural-gift"
+      },
+      {
+        "level": 34,
+        "name": "solar-beam"
+      },
+      {
+        "level": 37,
+        "name": "double-edge"
+      },
+      {
+        "level": 43,
+        "name": "seed-bomb"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      192
+    ],
+    "root": 191,
+    "next_details": []
+  }
+}

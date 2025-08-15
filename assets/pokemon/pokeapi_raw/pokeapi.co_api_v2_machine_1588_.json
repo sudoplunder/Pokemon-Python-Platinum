@@ -1,0 +1,15 @@
+{
+  "id": 1588,
+  "item": {
+    "name": "tr07",
+    "url": "https://pokeapi.co/api/v2/item/1195/"
+  },
+  "move": {
+    "name": "low-kick",
+    "url": "https://pokeapi.co/api/v2/move/67/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

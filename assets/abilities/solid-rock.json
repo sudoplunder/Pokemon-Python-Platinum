@@ -1,0 +1,8 @@
+{
+  "name": "solid-rock",
+  "display_name": "Solid Rock",
+  "generation": 4,
+  "short_effect": "Decreases damage taken from super-effective moves by 1/4.",
+  "effect": "This Pok\u00e9mon takes 0.75\u00d7 as much damage from moves that are super effective against it.\n\nThis ability functions identically to filter.",
+  "is_gen4_or_prior": true
+}

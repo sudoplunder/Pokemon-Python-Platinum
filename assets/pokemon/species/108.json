@@ -1,0 +1,143 @@
+{
+  "id": 108,
+  "name": "lickitung",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 55,
+    "defense": 75,
+    "sp_atk": 60,
+    "sp_def": 75,
+    "speed": 30
+  },
+  "base_experience": 77,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "own-tempo",
+    "secondary": "oblivious",
+    "hidden": "cloud-nine"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 5,
+        "name": "supersonic"
+      },
+      {
+        "level": 9,
+        "name": "defense-curl"
+      },
+      {
+        "level": 13,
+        "name": "knock-off"
+      },
+      {
+        "level": 17,
+        "name": "wrap"
+      },
+      {
+        "level": 21,
+        "name": "stomp"
+      },
+      {
+        "level": 25,
+        "name": "disable"
+      },
+      {
+        "level": 29,
+        "name": "slam"
+      },
+      {
+        "level": 33,
+        "name": "rollout"
+      },
+      {
+        "level": 41,
+        "name": "me-first"
+      },
+      {
+        "level": 45,
+        "name": "refresh"
+      },
+      {
+        "level": 45,
+        "name": "screech"
+      },
+      {
+        "level": 53,
+        "name": "power-whip"
+      },
+      {
+        "level": 57,
+        "name": "wring-out"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      463
+    ],
+    "root": 108,
+    "next_details": []
+  }
+}

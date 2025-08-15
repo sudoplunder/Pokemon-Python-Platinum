@@ -1,0 +1,124 @@
+{
+  "id": 100,
+  "name": "voltorb",
+  "generation": "1",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 50,
+    "sp_atk": 55,
+    "sp_def": 55,
+    "speed": 100
+  },
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "soundproof",
+    "secondary": "static",
+    "hidden": "aftermath"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "charge"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 8,
+        "name": "screech"
+      },
+      {
+        "level": 8,
+        "name": "sonic-boom"
+      },
+      {
+        "level": 12,
+        "name": "spark"
+      },
+      {
+        "level": 15,
+        "name": "rollout"
+      },
+      {
+        "level": 22,
+        "name": "charge-beam"
+      },
+      {
+        "level": 26,
+        "name": "light-screen"
+      },
+      {
+        "level": 27,
+        "name": "self-destruct"
+      },
+      {
+        "level": 36,
+        "name": "swift"
+      },
+      {
+        "level": 40,
+        "name": "magnet-rise"
+      },
+      {
+        "level": 43,
+        "name": "gyro-ball"
+      },
+      {
+        "level": 46,
+        "name": "explosion"
+      },
+      {
+        "level": 49,
+        "name": "mirror-coat"
+      }
+    ],
+    "machines": [
+      "charge-beam",
+      "double-team",
+      "explosion",
+      "facade",
+      "flash",
+      "frustration",
+      "gyro-ball",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shock-wave",
+      "substitute",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      101
+    ],
+    "root": 100,
+    "next_details": []
+  }
+}

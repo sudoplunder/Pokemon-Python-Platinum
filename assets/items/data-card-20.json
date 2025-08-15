@@ -1,0 +1,12 @@
+{
+  "name": "data-card-20",
+  "display_name": "Data Card 20",
+  "category": "data-cards",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Records the number of times the trainer has come in last place overall in the Pok\u00e9athlon over wireless.",
+  "short_effect": "Records the number of times the trainer has come in last place overall in the Pok\u00e9athlon over wireless.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

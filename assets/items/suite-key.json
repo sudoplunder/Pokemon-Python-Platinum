@@ -1,0 +1,12 @@
+{
+  "name": "suite-key",
+  "display_name": "Suite Key",
+  "category": "event-items",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Opens the locked building in the lakeside resort.",
+  "short_effect": "Opens a locked building in the Lakeside Resort.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

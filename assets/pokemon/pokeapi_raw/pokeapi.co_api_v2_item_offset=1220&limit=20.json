@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1240&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1200&limit=20",
+  "results": [
+    {
+      "name": "tr84",
+      "url": "https://pokeapi.co/api/v2/item/1272/"
+    },
+    {
+      "name": "tr85",
+      "url": "https://pokeapi.co/api/v2/item/1273/"
+    },
+    {
+      "name": "tr86",
+      "url": "https://pokeapi.co/api/v2/item/1274/"
+    },
+    {
+      "name": "tr87",
+      "url": "https://pokeapi.co/api/v2/item/1275/"
+    },
+    {
+      "name": "tr88",
+      "url": "https://pokeapi.co/api/v2/item/1276/"
+    },
+    {
+      "name": "tr89",
+      "url": "https://pokeapi.co/api/v2/item/1277/"
+    },
+    {
+      "name": "tr90",
+      "url": "https://pokeapi.co/api/v2/item/1278/"
+    },
+    {
+      "name": "tr91",
+      "url": "https://pokeapi.co/api/v2/item/1279/"
+    },
+    {
+      "name": "tr92",
+      "url": "https://pokeapi.co/api/v2/item/1280/"
+    },
+    {
+      "name": "tr93",
+      "url": "https://pokeapi.co/api/v2/item/1281/"
+    },
+    {
+      "name": "tr94",
+      "url": "https://pokeapi.co/api/v2/item/1282/"
+    },
+    {
+      "name": "tr95",
+      "url": "https://pokeapi.co/api/v2/item/1283/"
+    },
+    {
+      "name": "tr96",
+      "url": "https://pokeapi.co/api/v2/item/1284/"
+    },
+    {
+      "name": "tr97",
+      "url": "https://pokeapi.co/api/v2/item/1285/"
+    },
+    {
+      "name": "tr98",
+      "url": "https://pokeapi.co/api/v2/item/1286/"
+    },
+    {
+      "name": "tr99",
+      "url": "https://pokeapi.co/api/v2/item/1287/"
+    },
+    {
+      "name": "tm00",
+      "url": "https://pokeapi.co/api/v2/item/1288/"
+    },
+    {
+      "name": "lonely-mint",
+      "url": "https://pokeapi.co/api/v2/item/1289/"
+    },
+    {
+      "name": "adamant-mint",
+      "url": "https://pokeapi.co/api/v2/item/1290/"
+    },
+    {
+      "name": "naughty-mint",
+      "url": "https://pokeapi.co/api/v2/item/1291/"
+    }
+  ]
+}

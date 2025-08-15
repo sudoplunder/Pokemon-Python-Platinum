@@ -1,0 +1,141 @@
+{
+  "id": 279,
+  "name": "pelipper",
+  "generation": "3",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 100,
+    "sp_atk": 95,
+    "sp_def": 70,
+    "speed": 65
+  },
+  "base_experience": 154,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "flying"
+  ],
+  "abilities": {
+    "primary": "keen-eye",
+    "secondary": "drizzle",
+    "hidden": "rain-dish"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 1,
+        "name": "water-sport"
+      },
+      {
+        "level": 1,
+        "name": "wing-attack"
+      },
+      {
+        "level": 6,
+        "name": "supersonic"
+      },
+      {
+        "level": 14,
+        "name": "mist"
+      },
+      {
+        "level": 17,
+        "name": "water-pulse"
+      },
+      {
+        "level": 22,
+        "name": "payback"
+      },
+      {
+        "level": 25,
+        "name": "protect"
+      },
+      {
+        "level": 28,
+        "name": "roost"
+      },
+      {
+        "level": 33,
+        "name": "stockpile"
+      },
+      {
+        "level": 33,
+        "name": "swallow"
+      },
+      {
+        "level": 34,
+        "name": "brine"
+      },
+      {
+        "level": 39,
+        "name": "spit-up"
+      },
+      {
+        "level": 46,
+        "name": "fling"
+      },
+      {
+        "level": 52,
+        "name": "tailwind"
+      },
+      {
+        "level": 58,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "double-team",
+      "facade",
+      "fling",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shock-wave",
+      "steel-wing",
+      "substitute",
+      "surf",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 278,
+    "next": [],
+    "root": 278,
+    "next_details": []
+  }
+}

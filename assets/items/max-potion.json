@@ -1,0 +1,18 @@
+{
+  "name": "max-potion",
+  "display_name": "Max Potion",
+  "category": "healing",
+  "cost": 2500,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Restores HP to full.",
+  "short_effect": "Restores HP to full.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

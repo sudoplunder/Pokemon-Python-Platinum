@@ -1,0 +1,128 @@
+{
+  "id": 68,
+  "name": "machamp",
+  "generation": "1",
+  "types": [
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 80,
+    "sp_atk": 65,
+    "sp_def": 85,
+    "speed": 55
+  },
+  "base_experience": 227,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 2,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "guts",
+    "secondary": "no-guard",
+    "hidden": "steadfast"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "focus-energy"
+      },
+      {
+        "level": 1,
+        "name": "karate-chop"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "low-kick"
+      },
+      {
+        "level": 19,
+        "name": "foresight"
+      },
+      {
+        "level": 19,
+        "name": "seismic-toss"
+      },
+      {
+        "level": 25,
+        "name": "revenge"
+      },
+      {
+        "level": 32,
+        "name": "vital-throw"
+      },
+      {
+        "level": 36,
+        "name": "submission"
+      },
+      {
+        "level": 40,
+        "name": "wake-up-slap"
+      },
+      {
+        "level": 44,
+        "name": "cross-chop"
+      },
+      {
+        "level": 51,
+        "name": "scary-face"
+      },
+      {
+        "level": 55,
+        "name": "dynamic-punch"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 67,
+    "next": [],
+    "root": 66,
+    "next_details": []
+  }
+}

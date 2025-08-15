@@ -1,0 +1,12 @@
+{
+  "name": "tm59",
+  "display_name": "Tm59",
+  "category": "all-machines",
+  "cost": 100000,
+  "fling_power": null,
+  "effect": "Teaches Dragon Pulse to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Incinerate to a compatible Pok\u00e9mon. (Gen IV: Dragon Pulse)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

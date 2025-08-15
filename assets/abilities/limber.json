@@ -1,0 +1,8 @@
+{
+  "name": "limber",
+  "display_name": "Limber",
+  "generation": 3,
+  "short_effect": "Prevents paralysis.",
+  "effect": "This Pok\u00e9mon cannot be paralyzed.\n\nIf a Pok\u00e9mon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle.",
+  "is_gen4_or_prior": true
+}

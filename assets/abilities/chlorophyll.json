@@ -1,0 +1,8 @@
+{
+  "name": "chlorophyll",
+  "display_name": "Chlorophyll",
+  "generation": 3,
+  "short_effect": "Doubles Speed during strong sunlight.",
+  "effect": "This Pok\u00e9mon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier.",
+  "is_gen4_or_prior": true
+}

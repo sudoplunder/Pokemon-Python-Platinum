@@ -1,0 +1,13 @@
+{
+  "id": "twinleaf_town_outside",
+  "name": "Twinleaf Town",
+  "actions": [
+    { "label": "Enter your house", "type": "move", "target": "twinleaf_town_home_interior" },
+    { "label": "Enter rival's house", "type": "move", "target": "rival_house_interior" },
+    { "label": "Read town sign", "type": "inspect", "text": "TWINLEAF TOWN: 'Fresh and Free!'" },
+    { "label": "Look at pond", "type": "inspect", "text": "Ripples dance across the still surface." },
+    { "label": "North to Route 201", "type": "move", "target": "route_201" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": ["rival_house_interior", "route_201"]
+}

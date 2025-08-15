@@ -1,0 +1,15 @@
+{
+  "name": "sticky-barb",
+  "display_name": "Sticky Barb",
+  "category": "bad-held-items",
+  "cost": 4000,
+  "fling_power": 80,
+  "effect": "Held: Damaged the holder for 1/8 its max HP.  When the holder is struck by a contact move, damages the attacker for 1/8 its max HP; if the attacker is not holding an item, it will take this item.",
+  "short_effect": "Held: Holder takes 1/8 (12.5%) its max HP at the end of each turn. When the holder is hit by a contact move, the attacking Pok\u00e9mon takes 1/8 its max HP in damage and receive the item if not holding one.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

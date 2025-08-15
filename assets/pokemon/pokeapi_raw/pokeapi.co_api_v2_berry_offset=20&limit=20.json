@@ -1,0 +1,87 @@
+{
+  "count": 64,
+  "next": "https://pokeapi.co/api/v2/berry?offset=40&limit=20",
+  "previous": "https://pokeapi.co/api/v2/berry?offset=0&limit=20",
+  "results": [
+    {
+      "name": "pomeg",
+      "url": "https://pokeapi.co/api/v2/berry/21/"
+    },
+    {
+      "name": "kelpsy",
+      "url": "https://pokeapi.co/api/v2/berry/22/"
+    },
+    {
+      "name": "qualot",
+      "url": "https://pokeapi.co/api/v2/berry/23/"
+    },
+    {
+      "name": "hondew",
+      "url": "https://pokeapi.co/api/v2/berry/24/"
+    },
+    {
+      "name": "grepa",
+      "url": "https://pokeapi.co/api/v2/berry/25/"
+    },
+    {
+      "name": "tamato",
+      "url": "https://pokeapi.co/api/v2/berry/26/"
+    },
+    {
+      "name": "cornn",
+      "url": "https://pokeapi.co/api/v2/berry/27/"
+    },
+    {
+      "name": "magost",
+      "url": "https://pokeapi.co/api/v2/berry/28/"
+    },
+    {
+      "name": "rabuta",
+      "url": "https://pokeapi.co/api/v2/berry/29/"
+    },
+    {
+      "name": "nomel",
+      "url": "https://pokeapi.co/api/v2/berry/30/"
+    },
+    {
+      "name": "spelon",
+      "url": "https://pokeapi.co/api/v2/berry/31/"
+    },
+    {
+      "name": "pamtre",
+      "url": "https://pokeapi.co/api/v2/berry/32/"
+    },
+    {
+      "name": "watmel",
+      "url": "https://pokeapi.co/api/v2/berry/33/"
+    },
+    {
+      "name": "durin",
+      "url": "https://pokeapi.co/api/v2/berry/34/"
+    },
+    {
+      "name": "belue",
+      "url": "https://pokeapi.co/api/v2/berry/35/"
+    },
+    {
+      "name": "occa",
+      "url": "https://pokeapi.co/api/v2/berry/36/"
+    },
+    {
+      "name": "passho",
+      "url": "https://pokeapi.co/api/v2/berry/37/"
+    },
+    {
+      "name": "wacan",
+      "url": "https://pokeapi.co/api/v2/berry/38/"
+    },
+    {
+      "name": "rindo",
+      "url": "https://pokeapi.co/api/v2/berry/39/"
+    },
+    {
+      "name": "yache",
+      "url": "https://pokeapi.co/api/v2/berry/40/"
+    }
+  ]
+}

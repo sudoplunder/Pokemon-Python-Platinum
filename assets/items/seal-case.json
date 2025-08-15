@@ -1,0 +1,12 @@
+{
+  "name": "seal-case",
+  "display_name": "Seal Case",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Contains Seals used for decorating Pok\u00e9balls.",
+  "short_effect": "Stores Seals that can be applied to Pok\u00e9 Ball capsules.",
+  "generation": 4,
+  "is_consumable": true,
+  "attributes": []
+}

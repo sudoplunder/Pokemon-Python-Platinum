@@ -1,0 +1,12 @@
+{
+  "name": "nugget",
+  "display_name": "Nugget",
+  "category": "loot",
+  "cost": 10000,
+  "fling_power": 30,
+  "effect": "Vendor trash.",
+  "short_effect": "Sell for 5000 Pok\u00e9dollars, or to Ore Collector for 10000 Pok\u00e9dollars.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

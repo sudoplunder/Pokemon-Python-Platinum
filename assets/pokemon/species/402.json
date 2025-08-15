@@ -1,0 +1,119 @@
+{
+  "id": 402,
+  "name": "kricketune",
+  "generation": "4",
+  "types": [
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 77,
+    "attack": 85,
+    "defense": 51,
+    "sp_atk": 55,
+    "sp_def": 51,
+    "speed": 65
+  },
+  "base_experience": 134,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swarm",
+    "secondary": null,
+    "hidden": "technician"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bide"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 10,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 14,
+        "name": "leech-life"
+      },
+      {
+        "level": 18,
+        "name": "sing"
+      },
+      {
+        "level": 22,
+        "name": "focus-energy"
+      },
+      {
+        "level": 26,
+        "name": "slash"
+      },
+      {
+        "level": 30,
+        "name": "x-scissor"
+      },
+      {
+        "level": 34,
+        "name": "screech"
+      },
+      {
+        "level": 38,
+        "name": "taunt"
+      },
+      {
+        "level": 42,
+        "name": "night-slash"
+      },
+      {
+        "level": 46,
+        "name": "bug-buzz"
+      },
+      {
+        "level": 50,
+        "name": "perish-song"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 401,
+    "next": [],
+    "root": 401,
+    "next_details": []
+  }
+}

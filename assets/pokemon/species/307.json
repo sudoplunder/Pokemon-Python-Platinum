@@ -1,0 +1,138 @@
+{
+  "id": 307,
+  "name": "meditite",
+  "generation": "3",
+  "types": [
+    "fighting",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 40,
+    "defense": 55,
+    "sp_atk": 40,
+    "sp_def": 55,
+    "speed": 60
+  },
+  "base_experience": 56,
+  "growth_rate": "medium",
+  "capture_rate": 180,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "pure-power",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bide"
+      },
+      {
+        "level": 4,
+        "name": "meditate"
+      },
+      {
+        "level": 8,
+        "name": "confusion"
+      },
+      {
+        "level": 11,
+        "name": "detect"
+      },
+      {
+        "level": 15,
+        "name": "hidden-power"
+      },
+      {
+        "level": 18,
+        "name": "mind-reader"
+      },
+      {
+        "level": 22,
+        "name": "feint"
+      },
+      {
+        "level": 25,
+        "name": "calm-mind"
+      },
+      {
+        "level": 29,
+        "name": "force-palm"
+      },
+      {
+        "level": 32,
+        "name": "high-jump-kick"
+      },
+      {
+        "level": 36,
+        "name": "psych-up"
+      },
+      {
+        "level": 39,
+        "name": "acupressure"
+      },
+      {
+        "level": 42,
+        "name": "reversal"
+      },
+      {
+        "level": 43,
+        "name": "power-trick"
+      },
+      {
+        "level": 48,
+        "name": "recover"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "calm-mind",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      308
+    ],
+    "root": 307,
+    "next_details": []
+  }
+}

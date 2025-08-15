@@ -1,0 +1,119 @@
+{
+  "id": 31,
+  "name": "nidoqueen",
+  "generation": "1",
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 92,
+    "defense": 87,
+    "sp_atk": 75,
+    "sp_def": 85,
+    "speed": 76
+  },
+  "base_experience": 227,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 8,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "poison-point",
+    "secondary": "rivalry",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "double-kick"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 23,
+        "name": "body-slam"
+      },
+      {
+        "level": 43,
+        "name": "earth-power"
+      },
+      {
+        "level": 58,
+        "name": "superpower"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "sludge-bomb",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 30,
+    "next": [],
+    "root": 29,
+    "next_details": []
+  }
+}

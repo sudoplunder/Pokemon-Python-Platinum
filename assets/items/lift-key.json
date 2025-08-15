@@ -1,0 +1,12 @@
+{
+  "name": "lift-key",
+  "display_name": "Lift Key",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Operates the elevator in the Celadon Rocket Hideout.",
+  "short_effect": "Operates the elevator in Team Rocket's Celadon Hideout.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

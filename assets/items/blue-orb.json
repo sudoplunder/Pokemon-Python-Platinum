@@ -1,0 +1,12 @@
+{
+  "name": "blue-orb",
+  "display_name": "Blue Orb",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Causes kyogre to appear in the embedded tower.",
+  "short_effect": "Summons Kyogre to the Embedded Tower.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

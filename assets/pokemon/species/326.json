@@ -1,0 +1,139 @@
+{
+  "id": 326,
+  "name": "grumpig",
+  "generation": "3",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 45,
+    "defense": 65,
+    "sp_atk": 90,
+    "sp_def": 110,
+    "speed": 80
+  },
+  "base_experience": 165,
+  "growth_rate": "fast",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "own-tempo",
+    "hidden": "gluttony"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 1,
+        "name": "psybeam"
+      },
+      {
+        "level": 1,
+        "name": "psywave"
+      },
+      {
+        "level": 1,
+        "name": "splash"
+      },
+      {
+        "level": 15,
+        "name": "psych-up"
+      },
+      {
+        "level": 18,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 21,
+        "name": "magic-coat"
+      },
+      {
+        "level": 26,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 29,
+        "name": "rest"
+      },
+      {
+        "level": 29,
+        "name": "snore"
+      },
+      {
+        "level": 35,
+        "name": "power-gem"
+      },
+      {
+        "level": 37,
+        "name": "psychic"
+      },
+      {
+        "level": 46,
+        "name": "payback"
+      },
+      {
+        "level": 55,
+        "name": "bounce"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "light-screen",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder-wave",
+      "torment",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": 325,
+    "next": [],
+    "root": 325,
+    "next_details": []
+  }
+}

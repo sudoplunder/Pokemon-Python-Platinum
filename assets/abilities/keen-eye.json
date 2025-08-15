@@ -1,0 +1,8 @@
+{
+  "name": "keen-eye",
+  "display_name": "Keen Eye",
+  "generation": 3,
+  "short_effect": "Prevents accuracy from being lowered.",
+  "effect": "This Pok\u00e9mon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pok\u00e9mon's evasion from making this Pok\u00e9mon's moves less accurate.  This Pok\u00e9mon can still be passed negative accuracy modifiers through heart swap.\n\nOverworld: If the first Pok\u00e9mon in the party has this ability, any random encounter with a Pok\u00e9mon five or more levels lower than it has a 50% chance of being skipped.",
+  "is_gen4_or_prior": true
+}

@@ -1,0 +1,135 @@
+{
+  "id": 99,
+  "name": "kingler",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 130,
+    "defense": 115,
+    "sp_atk": 50,
+    "sp_def": 50,
+    "speed": 75
+  },
+  "base_experience": 166,
+  "growth_rate": "medium",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "hyper-cutter",
+    "secondary": "shell-armor",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "mud-sport"
+      },
+      {
+        "level": 1,
+        "name": "vice-grip"
+      },
+      {
+        "level": 11,
+        "name": "harden"
+      },
+      {
+        "level": 15,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 19,
+        "name": "mud-shot"
+      },
+      {
+        "level": 21,
+        "name": "metal-claw"
+      },
+      {
+        "level": 25,
+        "name": "stomp"
+      },
+      {
+        "level": 32,
+        "name": "protect"
+      },
+      {
+        "level": 37,
+        "name": "guillotine"
+      },
+      {
+        "level": 44,
+        "name": "slam"
+      },
+      {
+        "level": 51,
+        "name": "brine"
+      },
+      {
+        "level": 56,
+        "name": "crabhammer"
+      },
+      {
+        "level": 63,
+        "name": "flail"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 98,
+    "next": [],
+    "root": 98,
+    "next_details": []
+  }
+}

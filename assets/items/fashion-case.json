@@ -1,0 +1,12 @@
+{
+  "name": "fashion-case",
+  "display_name": "Fashion Case",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Contains Pok\u00e9mon Accessories.",
+  "short_effect": "Holds Pok\u00e9mon Accessories for use in Contests.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

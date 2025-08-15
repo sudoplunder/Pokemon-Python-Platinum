@@ -1,0 +1,15 @@
+{
+  "id": 1821,
+  "item": {
+    "name": "tm116",
+    "url": "https://pokeapi.co/api/v2/item/1959/"
+  },
+  "move": {
+    "name": "stealth-rock",
+    "url": "https://pokeapi.co/api/v2/move/446/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

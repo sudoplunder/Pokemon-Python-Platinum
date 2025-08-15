@@ -1,0 +1,127 @@
+{
+  "id": 170,
+  "name": "chinchou",
+  "generation": "2",
+  "types": [
+    "water",
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 38,
+    "defense": 38,
+    "sp_atk": 56,
+    "sp_def": 56,
+    "speed": 67
+  },
+  "base_experience": 66,
+  "growth_rate": "slow",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "volt-absorb",
+    "secondary": "illuminate",
+    "hidden": "water-absorb"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "supersonic"
+      },
+      {
+        "level": 1,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 9,
+        "name": "flail"
+      },
+      {
+        "level": 12,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 17,
+        "name": "water-gun"
+      },
+      {
+        "level": 20,
+        "name": "spark"
+      },
+      {
+        "level": 23,
+        "name": "take-down"
+      },
+      {
+        "level": 31,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 34,
+        "name": "signal-beam"
+      },
+      {
+        "level": 39,
+        "name": "discharge"
+      },
+      {
+        "level": 41,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 42,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 49,
+        "name": "charge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "charge-beam",
+      "dive",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shock-wave",
+      "substitute",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      171
+    ],
+    "root": 170,
+    "next_details": []
+  }
+}

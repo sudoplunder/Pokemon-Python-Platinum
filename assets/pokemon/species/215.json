@@ -1,0 +1,148 @@
+{
+  "id": 215,
+  "name": "sneasel",
+  "generation": "2",
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 95,
+    "defense": 55,
+    "sp_atk": 35,
+    "sp_def": 75,
+    "speed": 115
+  },
+  "base_experience": 86,
+  "growth_rate": "medium-slow",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "inner-focus",
+    "secondary": "keen-eye",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "taunt"
+      },
+      {
+        "level": 8,
+        "name": "quick-attack"
+      },
+      {
+        "level": 10,
+        "name": "feint-attack"
+      },
+      {
+        "level": 14,
+        "name": "icy-wind"
+      },
+      {
+        "level": 15,
+        "name": "screech"
+      },
+      {
+        "level": 16,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 20,
+        "name": "agility"
+      },
+      {
+        "level": 22,
+        "name": "metal-claw"
+      },
+      {
+        "level": 28,
+        "name": "beat-up"
+      },
+      {
+        "level": 35,
+        "name": "slash"
+      },
+      {
+        "level": 40,
+        "name": "snatch"
+      },
+      {
+        "level": 44,
+        "name": "punishment"
+      },
+      {
+        "level": 47,
+        "name": "ice-shard"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "cut",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "false-swipe",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "payback",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "snatch",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      461
+    ],
+    "root": 215,
+    "next_details": []
+  }
+}

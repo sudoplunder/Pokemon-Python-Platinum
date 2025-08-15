@@ -1,0 +1,15 @@
+{
+  "id": 2057,
+  "item": {
+    "name": "tm164",
+    "url": "https://pokeapi.co/api/v2/item/2007/"
+  },
+  "move": {
+    "name": "brave-bird",
+    "url": "https://pokeapi.co/api/v2/move/413/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

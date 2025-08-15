@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1280&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1240&limit=20",
+  "results": [
+    {
+      "name": "chipped-pot",
+      "url": "https://pokeapi.co/api/v2/item/1312/"
+    },
+    {
+      "name": "hi-tech-earbuds",
+      "url": "https://pokeapi.co/api/v2/item/1313/"
+    },
+    {
+      "name": "fruit-bunch",
+      "url": "https://pokeapi.co/api/v2/item/1314/"
+    },
+    {
+      "name": "moomoo-cheese",
+      "url": "https://pokeapi.co/api/v2/item/1315/"
+    },
+    {
+      "name": "spice-mix",
+      "url": "https://pokeapi.co/api/v2/item/1316/"
+    },
+    {
+      "name": "fresh-cream",
+      "url": "https://pokeapi.co/api/v2/item/1317/"
+    },
+    {
+      "name": "packaged-curry",
+      "url": "https://pokeapi.co/api/v2/item/1318/"
+    },
+    {
+      "name": "coconut-milk",
+      "url": "https://pokeapi.co/api/v2/item/1319/"
+    },
+    {
+      "name": "instant-noodles",
+      "url": "https://pokeapi.co/api/v2/item/1320/"
+    },
+    {
+      "name": "precooked-burger",
+      "url": "https://pokeapi.co/api/v2/item/1321/"
+    },
+    {
+      "name": "gigantamix",
+      "url": "https://pokeapi.co/api/v2/item/1322/"
+    },
+    {
+      "name": "wishing-chip",
+      "url": "https://pokeapi.co/api/v2/item/1323/"
+    },
+    {
+      "name": "rotom-bike--water-mode",
+      "url": "https://pokeapi.co/api/v2/item/1324/"
+    },
+    {
+      "name": "catching-charm",
+      "url": "https://pokeapi.co/api/v2/item/1325/"
+    },
+    {
+      "name": "old-letter",
+      "url": "https://pokeapi.co/api/v2/item/1326/"
+    },
+    {
+      "name": "band-autograph",
+      "url": "https://pokeapi.co/api/v2/item/1327/"
+    },
+    {
+      "name": "sonias-book",
+      "url": "https://pokeapi.co/api/v2/item/1328/"
+    },
+    {
+      "name": "rotom-catalog",
+      "url": "https://pokeapi.co/api/v2/item/1329/"
+    },
+    {
+      "name": "dynamax-crystal-and458",
+      "url": "https://pokeapi.co/api/v2/item/1330/"
+    },
+    {
+      "name": "dynamax-crystal-and15",
+      "url": "https://pokeapi.co/api/v2/item/1331/"
+    }
+  ]
+}

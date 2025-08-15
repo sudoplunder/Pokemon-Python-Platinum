@@ -1,0 +1,8 @@
+{
+  "name": "speed-boost",
+  "display_name": "Speed Boost",
+  "generation": 3,
+  "short_effect": "Raises Speed one stage after each turn.",
+  "effect": "This Pok\u00e9mon's Speed rises one stage after each turn.",
+  "is_gen4_or_prior": true
+}

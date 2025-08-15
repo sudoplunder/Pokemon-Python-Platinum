@@ -1,0 +1,8 @@
+{
+  "name": "sticky-hold",
+  "display_name": "Sticky Hold",
+  "generation": 3,
+  "short_effect": "Prevents a held item from being removed by other Pok\u00e9mon.",
+  "effect": "This Pok\u00e9mon's hold item cannot be removed by other Pok\u00e9mon.\n\nDamaging moves that would remove this Pok\u00e9mon's item can still inflict damage against this Pok\u00e9mon, e.g. knock off or pluck.  This Pok\u00e9mon can still use moves that involve the loss of its own item, e.g. fling or trick.\n\nOverworld: If the lead Pok\u00e9mon has this ability, the encounter rate while fishing is increased.",
+  "is_gen4_or_prior": true
+}

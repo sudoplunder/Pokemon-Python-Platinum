@@ -1,0 +1,133 @@
+{
+  "id": 51,
+  "name": "dugtrio",
+  "generation": "1",
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 100,
+    "defense": 50,
+    "sp_atk": 50,
+    "sp_def": 70,
+    "speed": 120
+  },
+  "base_experience": 149,
+  "growth_rate": "medium",
+  "capture_rate": 50,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "sand-veil",
+    "secondary": "arena-trap",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "night-slash"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "tri-attack"
+      },
+      {
+        "level": 7,
+        "name": "astonish"
+      },
+      {
+        "level": 9,
+        "name": "magnitude"
+      },
+      {
+        "level": 12,
+        "name": "mud-slap"
+      },
+      {
+        "level": 17,
+        "name": "dig"
+      },
+      {
+        "level": 23,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 26,
+        "name": "sand-tomb"
+      },
+      {
+        "level": 28,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 33,
+        "name": "earth-power"
+      },
+      {
+        "level": 38,
+        "name": "slash"
+      },
+      {
+        "level": 50,
+        "name": "earthquake"
+      },
+      {
+        "level": 57,
+        "name": "fissure"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-claw",
+      "sludge-bomb",
+      "stone-edge",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 50,
+    "next": [],
+    "root": 50,
+    "next_details": []
+  }
+}

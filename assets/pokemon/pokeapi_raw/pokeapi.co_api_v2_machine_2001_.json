@@ -1,0 +1,15 @@
+{
+  "id": 2001,
+  "item": {
+    "name": "tm88",
+    "url": "https://pokeapi.co/api/v2/item/392/"
+  },
+  "move": {
+    "name": "swords-dance",
+    "url": "https://pokeapi.co/api/v2/move/14/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

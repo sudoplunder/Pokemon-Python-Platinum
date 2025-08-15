@@ -1,0 +1,149 @@
+{
+  "id": 386,
+  "name": "deoxys-normal",
+  "generation": "3",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 150,
+    "defense": 50,
+    "sp_atk": 150,
+    "sp_def": 50,
+    "speed": 150
+  },
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 120,
+  "base_friendship": 0,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "wrap"
+      },
+      {
+        "level": 5,
+        "name": "night-shade"
+      },
+      {
+        "level": 10,
+        "name": "teleport"
+      },
+      {
+        "level": 15,
+        "name": "knock-off"
+      },
+      {
+        "level": 20,
+        "name": "pursuit"
+      },
+      {
+        "level": 25,
+        "name": "psychic"
+      },
+      {
+        "level": 30,
+        "name": "snatch"
+      },
+      {
+        "level": 35,
+        "name": "cosmic-power"
+      },
+      {
+        "level": 40,
+        "name": "recover"
+      },
+      {
+        "level": 45,
+        "name": "psycho-boost"
+      },
+      {
+        "level": 50,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 57,
+        "name": "psycho-shift"
+      },
+      {
+        "level": 65,
+        "name": "zen-headbutt"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "cut",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "flash-cannon",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 386,
+    "next_details": []
+  }
+}

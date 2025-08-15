@@ -1,0 +1,12 @@
+{
+  "name": "big-pearl",
+  "display_name": "Big Pearl",
+  "category": "loot",
+  "cost": 8000,
+  "fling_power": 30,
+  "effect": "Vendor trash.",
+  "short_effect": "Sell for 3750 Pok\u00e9dollars, or to Ore Collector for 7500 Pok\u00e9dollars.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

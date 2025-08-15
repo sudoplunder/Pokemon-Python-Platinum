@@ -1,0 +1,131 @@
+{
+  "id": 127,
+  "name": "pinsir",
+  "generation": "1",
+  "types": [
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 125,
+    "defense": 100,
+    "sp_atk": 55,
+    "sp_def": 70,
+    "speed": 85
+  },
+  "base_experience": 175,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "hyper-cutter",
+    "secondary": "mold-breaker",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "focus-energy"
+      },
+      {
+        "level": 1,
+        "name": "vice-grip"
+      },
+      {
+        "level": 4,
+        "name": "bind"
+      },
+      {
+        "level": 8,
+        "name": "seismic-toss"
+      },
+      {
+        "level": 11,
+        "name": "harden"
+      },
+      {
+        "level": 15,
+        "name": "revenge"
+      },
+      {
+        "level": 18,
+        "name": "brick-break"
+      },
+      {
+        "level": 22,
+        "name": "vital-throw"
+      },
+      {
+        "level": 26,
+        "name": "submission"
+      },
+      {
+        "level": 29,
+        "name": "x-scissor"
+      },
+      {
+        "level": 36,
+        "name": "thrash"
+      },
+      {
+        "level": 37,
+        "name": "guillotine"
+      },
+      {
+        "level": 40,
+        "name": "swords-dance"
+      },
+      {
+        "level": 43,
+        "name": "superpower"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "false-swipe",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 127,
+    "next_details": []
+  }
+}

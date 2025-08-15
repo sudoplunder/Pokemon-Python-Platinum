@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=2040&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=2000&limit=20",
+  "results": [
+    {
+      "name": "diamond-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2072/"
+    },
+    {
+      "name": "polka-dot-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2073/"
+    },
+    {
+      "name": "lilac-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2074/"
+    },
+    {
+      "name": "mint-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2075/"
+    },
+    {
+      "name": "peach-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2076/"
+    },
+    {
+      "name": "yellow-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2077/"
+    },
+    {
+      "name": "blue-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2078/"
+    },
+    {
+      "name": "pink-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2079/"
+    },
+    {
+      "name": "gold-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2080/"
+    },
+    {
+      "name": "bronze-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2081/"
+    },
+    {
+      "name": "gold-cup",
+      "url": "https://pokeapi.co/api/v2/item/2082/"
+    },
+    {
+      "name": "bronze-cup",
+      "url": "https://pokeapi.co/api/v2/item/2083/"
+    },
+    {
+      "name": "green-pok\u00e9-ball-pick",
+      "url": "https://pokeapi.co/api/v2/item/2084/"
+    },
+    {
+      "name": "red-pok\u00e9-ball-pick",
+      "url": "https://pokeapi.co/api/v2/item/2085/"
+    },
+    {
+      "name": "party-sparkler-pick",
+      "url": "https://pokeapi.co/api/v2/item/2086/"
+    },
+    {
+      "name": "heroic-sword-pick",
+      "url": "https://pokeapi.co/api/v2/item/2087/"
+    },
+    {
+      "name": "magical-star-pick",
+      "url": "https://pokeapi.co/api/v2/item/2088/"
+    },
+    {
+      "name": "magical-heart-pick",
+      "url": "https://pokeapi.co/api/v2/item/2089/"
+    },
+    {
+      "name": "parasol-pick",
+      "url": "https://pokeapi.co/api/v2/item/2090/"
+    },
+    {
+      "name": "blue-sky-flower-pick",
+      "url": "https://pokeapi.co/api/v2/item/2091/"
+    }
+  ]
+}

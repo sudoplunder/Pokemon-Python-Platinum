@@ -1,0 +1,159 @@
+{
+  "id": 493,
+  "name": "arceus",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 120,
+    "attack": 120,
+    "defense": 120,
+    "sp_atk": 120,
+    "sp_def": 120,
+    "speed": 120
+  },
+  "base_experience": 324,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 120,
+  "base_friendship": 0,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "multitype",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "cosmic-power"
+      },
+      {
+        "level": 1,
+        "name": "natural-gift"
+      },
+      {
+        "level": 1,
+        "name": "punishment"
+      },
+      {
+        "level": 1,
+        "name": "seismic-toss"
+      },
+      {
+        "level": 10,
+        "name": "gravity"
+      },
+      {
+        "level": 20,
+        "name": "earth-power"
+      },
+      {
+        "level": 30,
+        "name": "hyper-voice"
+      },
+      {
+        "level": 40,
+        "name": "extreme-speed"
+      },
+      {
+        "level": 50,
+        "name": "refresh"
+      },
+      {
+        "level": 60,
+        "name": "future-sight"
+      },
+      {
+        "level": 70,
+        "name": "recover"
+      },
+      {
+        "level": 80,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 90,
+        "name": "perish-song"
+      },
+      {
+        "level": 100,
+        "name": "judgment"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "cut",
+      "double-team",
+      "dragon-claw",
+      "dream-eater",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "flash-cannon",
+      "fly",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "overheat",
+      "payback",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "shadow-ball",
+      "shadow-claw",
+      "sludge-bomb",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "trick-room",
+      "waterfall",
+      "will-o-wisp",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 493,
+    "next_details": []
+  }
+}

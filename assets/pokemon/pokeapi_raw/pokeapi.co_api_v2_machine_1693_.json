@@ -1,0 +1,15 @@
+{
+  "id": 1693,
+  "item": {
+    "name": "tm49",
+    "url": "https://pokeapi.co/api/v2/item/353/"
+  },
+  "move": {
+    "name": "scald",
+    "url": "https://pokeapi.co/api/v2/move/503/"
+  },
+  "version_group": {
+    "name": "brilliant-diamond-and-shining-pearl",
+    "url": "https://pokeapi.co/api/v2/version-group/23/"
+  }
+}

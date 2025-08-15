@@ -1,0 +1,8 @@
+{
+  "name": "inner-focus",
+  "display_name": "Inner Focus",
+  "generation": 3,
+  "short_effect": "Prevents flinching.",
+  "effect": "This Pok\u00e9mon cannot flinch.",
+  "is_gen4_or_prior": true
+}

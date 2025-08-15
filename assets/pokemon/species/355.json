@@ -1,0 +1,129 @@
+{
+  "id": 355,
+  "name": "duskull",
+  "generation": "3",
+  "types": [
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 40,
+    "defense": 90,
+    "sp_atk": 30,
+    "sp_def": 90,
+    "speed": 25
+  },
+  "base_experience": 59,
+  "growth_rate": "fast",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 35,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": "frisk"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "night-shade"
+      },
+      {
+        "level": 5,
+        "name": "disable"
+      },
+      {
+        "level": 9,
+        "name": "foresight"
+      },
+      {
+        "level": 14,
+        "name": "astonish"
+      },
+      {
+        "level": 17,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 22,
+        "name": "shadow-sneak"
+      },
+      {
+        "level": 25,
+        "name": "pursuit"
+      },
+      {
+        "level": 30,
+        "name": "curse"
+      },
+      {
+        "level": 33,
+        "name": "will-o-wisp"
+      },
+      {
+        "level": 41,
+        "name": "mean-look"
+      },
+      {
+        "level": 46,
+        "name": "payback"
+      },
+      {
+        "level": 49,
+        "name": "future-sight"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      356
+    ],
+    "root": 355,
+    "next_details": []
+  }
+}

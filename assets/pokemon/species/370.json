@@ -1,0 +1,120 @@
+{
+  "id": 370,
+  "name": "luvdisc",
+  "generation": "3",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 43,
+    "attack": 30,
+    "defense": 55,
+    "sp_atk": 40,
+    "sp_def": 65,
+    "speed": 97
+  },
+  "base_experience": 116,
+  "growth_rate": "fast",
+  "capture_rate": 225,
+  "gender_rate": 6,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": null,
+    "hidden": "hydration"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 4,
+        "name": "charm"
+      },
+      {
+        "level": 7,
+        "name": "water-gun"
+      },
+      {
+        "level": 9,
+        "name": "agility"
+      },
+      {
+        "level": 14,
+        "name": "take-down"
+      },
+      {
+        "level": 17,
+        "name": "lucky-chant"
+      },
+      {
+        "level": 22,
+        "name": "water-pulse"
+      },
+      {
+        "level": 27,
+        "name": "attract"
+      },
+      {
+        "level": 31,
+        "name": "flail"
+      },
+      {
+        "level": 36,
+        "name": "sweet-kiss"
+      },
+      {
+        "level": 40,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 46,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 48,
+        "name": "safeguard"
+      },
+      {
+        "level": 51,
+        "name": "captivate"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 370,
+    "next_details": []
+  }
+}

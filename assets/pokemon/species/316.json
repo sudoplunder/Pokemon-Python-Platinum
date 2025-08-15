@@ -1,0 +1,127 @@
+{
+  "id": 316,
+  "name": "gulpin",
+  "generation": "3",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 43,
+    "defense": 53,
+    "sp_atk": 43,
+    "sp_def": 53,
+    "speed": 40
+  },
+  "base_experience": 60,
+  "growth_rate": "fast-then-very-slow",
+  "capture_rate": 225,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "liquid-ooze",
+    "secondary": "sticky-hold",
+    "hidden": "gluttony"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 6,
+        "name": "yawn"
+      },
+      {
+        "level": 9,
+        "name": "poison-gas"
+      },
+      {
+        "level": 14,
+        "name": "sludge"
+      },
+      {
+        "level": 17,
+        "name": "amnesia"
+      },
+      {
+        "level": 23,
+        "name": "encore"
+      },
+      {
+        "level": 28,
+        "name": "toxic"
+      },
+      {
+        "level": 34,
+        "name": "spit-up"
+      },
+      {
+        "level": 34,
+        "name": "stockpile"
+      },
+      {
+        "level": 34,
+        "name": "swallow"
+      },
+      {
+        "level": 39,
+        "name": "sludge-bomb"
+      },
+      {
+        "level": 49,
+        "name": "gastro-acid"
+      },
+      {
+        "level": 54,
+        "name": "wring-out"
+      },
+      {
+        "level": 59,
+        "name": "gunk-shot"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "double-team",
+      "dream-eater",
+      "explosion",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "sludge-bomb",
+      "snatch",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      317
+    ],
+    "root": 316,
+    "next_details": []
+  }
+}

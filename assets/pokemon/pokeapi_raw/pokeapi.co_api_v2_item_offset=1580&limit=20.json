@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1600&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1560&limit=20",
+  "results": [
+    {
+      "name": "galarica-twig",
+      "url": "https://pokeapi.co/api/v2/item/1632/"
+    },
+    {
+      "name": "galarica-cuff",
+      "url": "https://pokeapi.co/api/v2/item/1633/"
+    },
+    {
+      "name": "style-card",
+      "url": "https://pokeapi.co/api/v2/item/1634/"
+    },
+    {
+      "name": "armor-pass",
+      "url": "https://pokeapi.co/api/v2/item/1635/"
+    },
+    {
+      "name": "rotom-bike--sparkling-white",
+      "url": "https://pokeapi.co/api/v2/item/1636/"
+    },
+    {
+      "name": "rotom-bike--glistening-black",
+      "url": "https://pokeapi.co/api/v2/item/1637/"
+    },
+    {
+      "name": "exp-charm",
+      "url": "https://pokeapi.co/api/v2/item/1638/"
+    },
+    {
+      "name": "armorite-ore",
+      "url": "https://pokeapi.co/api/v2/item/1639/"
+    },
+    {
+      "name": "mark-charm",
+      "url": "https://pokeapi.co/api/v2/item/1640/"
+    },
+    {
+      "name": "reins-of-unity--merge",
+      "url": "https://pokeapi.co/api/v2/item/1641/"
+    },
+    {
+      "name": "reins-of-unity--split",
+      "url": "https://pokeapi.co/api/v2/item/1642/"
+    },
+    {
+      "name": "galarica-wreath",
+      "url": "https://pokeapi.co/api/v2/item/1643/"
+    },
+    {
+      "name": "legendary-clue-1",
+      "url": "https://pokeapi.co/api/v2/item/1644/"
+    },
+    {
+      "name": "legendary-clue-2",
+      "url": "https://pokeapi.co/api/v2/item/1645/"
+    },
+    {
+      "name": "legendary-clue-3",
+      "url": "https://pokeapi.co/api/v2/item/1646/"
+    },
+    {
+      "name": "legendary-clue-question",
+      "url": "https://pokeapi.co/api/v2/item/1647/"
+    },
+    {
+      "name": "crown-pass",
+      "url": "https://pokeapi.co/api/v2/item/1648/"
+    },
+    {
+      "name": "wooden-crown",
+      "url": "https://pokeapi.co/api/v2/item/1649/"
+    },
+    {
+      "name": "radiant-petal",
+      "url": "https://pokeapi.co/api/v2/item/1650/"
+    },
+    {
+      "name": "white-mane-hair",
+      "url": "https://pokeapi.co/api/v2/item/1651/"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tm04",
+  "display_name": "Tm04",
+  "category": "all-machines",
+  "cost": 50000,
+  "fling_power": null,
+  "effect": "Teaches Calm Mind to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Calm Mind to a compatible Pok\u00e9mon. (Gen II: Rollout Gen I: Whirlwind)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

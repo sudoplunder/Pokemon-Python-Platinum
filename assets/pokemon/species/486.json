@@ -1,0 +1,119 @@
+{
+  "id": 486,
+  "name": "regigigas",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 160,
+    "defense": 110,
+    "sp_atk": 80,
+    "sp_def": 110,
+    "speed": 100
+  },
+  "base_experience": 302,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 120,
+  "base_friendship": 0,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "slow-start",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 1,
+        "name": "dizzy-punch"
+      },
+      {
+        "level": 1,
+        "name": "fire-punch"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "ice-punch"
+      },
+      {
+        "level": 1,
+        "name": "knock-off"
+      },
+      {
+        "level": 1,
+        "name": "thunder-punch"
+      },
+      {
+        "level": 25,
+        "name": "revenge"
+      },
+      {
+        "level": 50,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 65,
+        "name": "payback"
+      },
+      {
+        "level": 75,
+        "name": "crush-grip"
+      },
+      {
+        "level": 100,
+        "name": "giga-impact"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "brick-break",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "psych-up",
+      "rain-dance",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 486,
+    "next_details": []
+  }
+}

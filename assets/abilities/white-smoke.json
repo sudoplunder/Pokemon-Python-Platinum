@@ -1,0 +1,8 @@
+{
+  "name": "white-smoke",
+  "display_name": "White Smoke",
+  "generation": 3,
+  "short_effect": "Prevents stats from being lowered by other Pok\u00e9mon.",
+  "effect": "This Pok\u00e9mon cannot have its stats lowered by other Pok\u00e9mon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis; nor self-inflicted stat drops, such as the Special Attack drop from overheat; nor opponent-triggered stat boosts, such as the Attack boost from swagger.  This Pok\u00e9mon can still be passed negative stat modifiers through guard swap, heart swap, or power swap.\n\nThis ability functions identically to clear body in battle.\n\nOverworld: If the lead Pok\u00e9mon has this ability, the wild encounter rate is halved.",
+  "is_gen4_or_prior": true
+}

@@ -1,0 +1,128 @@
+{
+  "id": 478,
+  "name": "froslass",
+  "generation": "4",
+  "types": [
+    "ice",
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 70,
+    "sp_atk": 80,
+    "sp_def": 70,
+    "speed": 110
+  },
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 8,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "fairy",
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "snow-cloak",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "double-team"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "powder-snow"
+      },
+      {
+        "level": 13,
+        "name": "icy-wind"
+      },
+      {
+        "level": 19,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 22,
+        "name": "ominous-wind"
+      },
+      {
+        "level": 28,
+        "name": "wake-up-slap"
+      },
+      {
+        "level": 31,
+        "name": "captivate"
+      },
+      {
+        "level": 37,
+        "name": "ice-shard"
+      },
+      {
+        "level": 40,
+        "name": "hail"
+      },
+      {
+        "level": 51,
+        "name": "blizzard"
+      },
+      {
+        "level": 59,
+        "name": "destiny-bond"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "shadow-ball",
+      "substitute",
+      "swagger",
+      "taunt",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 361,
+    "next": [],
+    "root": 361,
+    "next_details": []
+  }
+}

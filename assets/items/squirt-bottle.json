@@ -1,0 +1,12 @@
+{
+  "name": "squirt-bottle",
+  "display_name": "Squirt Bottle",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Required to water berries within the berry pots.\n\nRequired to battle the sudowoodo on johto route 36.\n\nThis item cannot be directly used from the bag.",
+  "short_effect": "Use on Sudowoodo blocking the path on Route 36. Also waters berries.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

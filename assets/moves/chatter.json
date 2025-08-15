@@ -1,0 +1,42 @@
+{
+  "name": "chatter",
+  "display_name": "Chatter",
+  "type": "flying",
+  "category": "special",
+  "power": 65,
+  "accuracy": 100,
+  "pp": 20,
+  "priority": 0,
+  "generation": 4,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Has a higher chance to confuse the target when the recorded sound is louder.",
+  "effect": "Inflicts regular damage.  Has either a 1%, 11%, or 31% chance to confuse the target, based on the volume of the recording made for this move; louder recordings increase the chance of confusion.  If the user is not a chatot, this move will not cause confusion.\n\nThis move cannot be copied by mimic, mirror move, or sketch, nor selected by assist, metronome, or sleep talk.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    2,
+    5
+  ],
+  "flinch_chance": 0,
+  "ailment": "confusion",
+  "ailment_chance": 100,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

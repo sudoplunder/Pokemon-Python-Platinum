@@ -1,0 +1,12 @@
+{
+  "name": "tm92",
+  "display_name": "Tm92",
+  "category": "all-machines",
+  "cost": 100000,
+  "fling_power": null,
+  "effect": "Teaches Trick Room to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Trick Room to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

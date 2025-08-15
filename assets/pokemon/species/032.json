@@ -1,0 +1,126 @@
+{
+  "id": 32,
+  "name": "nidoran-m",
+  "generation": "1",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 46,
+    "attack": 57,
+    "defense": 40,
+    "sp_atk": 40,
+    "sp_def": 40,
+    "speed": 50
+  },
+  "base_experience": 55,
+  "growth_rate": "medium-slow",
+  "capture_rate": 235,
+  "gender_rate": 0,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "poison-point",
+    "secondary": "rivalry",
+    "hidden": "hustle"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 7,
+        "name": "focus-energy"
+      },
+      {
+        "level": 9,
+        "name": "double-kick"
+      },
+      {
+        "level": 13,
+        "name": "poison-sting"
+      },
+      {
+        "level": 19,
+        "name": "fury-attack"
+      },
+      {
+        "level": 20,
+        "name": "horn-attack"
+      },
+      {
+        "level": 23,
+        "name": "helping-hand"
+      },
+      {
+        "level": 31,
+        "name": "toxic-spikes"
+      },
+      {
+        "level": 33,
+        "name": "flatter"
+      },
+      {
+        "level": 37,
+        "name": "poison-jab"
+      },
+      {
+        "level": 43,
+        "name": "captivate"
+      },
+      {
+        "level": 45,
+        "name": "horn-drill"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-claw",
+      "shock-wave",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      33
+    ],
+    "root": 32,
+    "next_details": []
+  }
+}

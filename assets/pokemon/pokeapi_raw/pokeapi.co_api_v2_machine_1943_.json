@@ -1,0 +1,15 @@
+{
+  "id": 1943,
+  "item": {
+    "name": "tm175",
+    "url": "https://pokeapi.co/api/v2/item/2164/"
+  },
+  "move": {
+    "name": "toxic",
+    "url": "https://pokeapi.co/api/v2/move/92/"
+  },
+  "version_group": {
+    "name": "the-teal-mask",
+    "url": "https://pokeapi.co/api/v2/version-group/26/"
+  }
+}

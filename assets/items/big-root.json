@@ -1,0 +1,15 @@
+{
+  "name": "big-root",
+  "display_name": "Big Root",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 10,
+  "effect": "Held: HP restored from Absorb, Aqua Ring, Drain Punch, Dream Eater, Giga Drain, Ingrain, Leech Life, Leech Seed, and Mega Drain is increased by 30%.  Damage inflicted is not affected.",
+  "short_effect": "Held: Increases HP recovered from draining moves, Ingrain, and Aqua Ring by 3/10 (30%).",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

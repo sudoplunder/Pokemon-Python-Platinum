@@ -1,0 +1,15 @@
+{
+  "name": "choice-scarf",
+  "display_name": "Choice Scarf",
+  "category": "choice",
+  "cost": 4000,
+  "fling_power": 10,
+  "effect": "Held: Increases the holder's Speed by 50%, but restricts it to the first move it uses until it leaves battle or loses this item.  If this item is swapped for another Choice item via Trick or Switcheroo, the holder's restriction is still lifted, but it will again be restricted to the next move it uses.\n(Quirk: If the holder is switched in by U-Turn and it also knows U-Turn, U-Turn becomes its restricted move.)",
+  "short_effect": "Held: Increases Speed by 50%, but restricts the holder to only one move.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

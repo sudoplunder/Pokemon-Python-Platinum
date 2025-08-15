@@ -1,0 +1,12 @@
+{
+  "name": "coupon-3",
+  "display_name": "Coupon 3",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "One of three coupons needed to receive a Pok\u00e9tch.",
+  "short_effect": "The last of three tickets used to obtain a Pok\u00e9tch.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

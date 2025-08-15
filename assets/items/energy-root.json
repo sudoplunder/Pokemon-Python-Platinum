@@ -1,0 +1,18 @@
+{
+  "name": "energy-root",
+  "display_name": "Energy Root",
+  "category": "healing",
+  "cost": 1200,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Restores 200 HP.  Decreases happiness by 10/10/15.",
+  "short_effect": "Restores 200 HP, but lowers happiness.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

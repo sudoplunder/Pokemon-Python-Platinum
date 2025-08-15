@@ -1,0 +1,8 @@
+{
+  "name": "quick-feet",
+  "display_name": "Quick Feet",
+  "generation": 4,
+  "short_effect": "Increases Speed to 1.5\u00d7 with a major status ailment.",
+  "effect": "Whenever this Pok\u00e9mon has a major status ailment, it has 1.5\u00d7 its Speed.  This Pok\u00e9mon is not affected by the usual Speed cut from paralysis.\n\nOverworld: If the lead Pok\u00e9mon has this ability, the wild encounter rate is halved.",
+  "is_gen4_or_prior": true
+}

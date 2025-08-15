@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=760&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=720&limit=20",
+  "results": [
+    {
+      "name": "tmv-pass",
+      "url": "https://pokeapi.co/api/v2/item/744/"
+    },
+    {
+      "name": "tm96",
+      "url": "https://pokeapi.co/api/v2/item/745/"
+    },
+    {
+      "name": "tm97",
+      "url": "https://pokeapi.co/api/v2/item/746/"
+    },
+    {
+      "name": "tm98",
+      "url": "https://pokeapi.co/api/v2/item/747/"
+    },
+    {
+      "name": "tm99",
+      "url": "https://pokeapi.co/api/v2/item/748/"
+    },
+    {
+      "name": "tm100",
+      "url": "https://pokeapi.co/api/v2/item/749/"
+    },
+    {
+      "name": "latiasite",
+      "url": "https://pokeapi.co/api/v2/item/760/"
+    },
+    {
+      "name": "latiosite",
+      "url": "https://pokeapi.co/api/v2/item/761/"
+    },
+    {
+      "name": "common-stone",
+      "url": "https://pokeapi.co/api/v2/item/762/"
+    },
+    {
+      "name": "makeup-bag",
+      "url": "https://pokeapi.co/api/v2/item/763/"
+    },
+    {
+      "name": "travel-trunk",
+      "url": "https://pokeapi.co/api/v2/item/764/"
+    },
+    {
+      "name": "shalour-sable",
+      "url": "https://pokeapi.co/api/v2/item/765/"
+    },
+    {
+      "name": "mega-charm",
+      "url": "https://pokeapi.co/api/v2/item/768/"
+    },
+    {
+      "name": "mega-glove",
+      "url": "https://pokeapi.co/api/v2/item/769/"
+    },
+    {
+      "name": "devon-parts",
+      "url": "https://pokeapi.co/api/v2/item/770/"
+    },
+    {
+      "name": "pokeblock-kit",
+      "url": "https://pokeapi.co/api/v2/item/772/"
+    },
+    {
+      "name": "key-to-room-1",
+      "url": "https://pokeapi.co/api/v2/item/773/"
+    },
+    {
+      "name": "key-to-room-2",
+      "url": "https://pokeapi.co/api/v2/item/774/"
+    },
+    {
+      "name": "key-to-room-4",
+      "url": "https://pokeapi.co/api/v2/item/775/"
+    },
+    {
+      "name": "key-to-room-6",
+      "url": "https://pokeapi.co/api/v2/item/776/"
+    }
+  ]
+}

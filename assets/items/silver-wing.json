@@ -1,0 +1,12 @@
+{
+  "name": "silver-wing",
+  "display_name": "Silver Wing",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Causes lugia to appear in the whirl islands.",
+  "short_effect": "Summons Lugia to the Whirl Islands.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,114 @@
+{
+  "id": 22,
+  "name": "fearow",
+  "generation": "1",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 65,
+    "sp_atk": 61,
+    "sp_def": 61,
+    "speed": 100
+  },
+  "base_experience": 155,
+  "growth_rate": "medium",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "keen-eye",
+    "secondary": null,
+    "hidden": "sniper"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fury-attack"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 1,
+        "name": "pluck"
+      },
+      {
+        "level": 13,
+        "name": "pursuit"
+      },
+      {
+        "level": 17,
+        "name": "aerial-ace"
+      },
+      {
+        "level": 23,
+        "name": "mirror-move"
+      },
+      {
+        "level": 29,
+        "name": "agility"
+      },
+      {
+        "level": 35,
+        "name": "assurance"
+      },
+      {
+        "level": 40,
+        "name": "drill-peck"
+      },
+      {
+        "level": 41,
+        "name": "roost"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 21,
+    "next": [],
+    "root": 21,
+    "next_details": []
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": 70,
+  "name": "weepinbell",
+  "generation": "1",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 50,
+    "sp_atk": 85,
+    "sp_def": 45,
+    "speed": 55
+  },
+  "base_experience": 137,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": null,
+    "hidden": "gluttony"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growth"
+      },
+      {
+        "level": 1,
+        "name": "vine-whip"
+      },
+      {
+        "level": 1,
+        "name": "wrap"
+      },
+      {
+        "level": 13,
+        "name": "sleep-powder"
+      },
+      {
+        "level": 15,
+        "name": "poison-powder"
+      },
+      {
+        "level": 17,
+        "name": "stun-spore"
+      },
+      {
+        "level": 23,
+        "name": "acid"
+      },
+      {
+        "level": 27,
+        "name": "knock-off"
+      },
+      {
+        "level": 29,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 35,
+        "name": "gastro-acid"
+      },
+      {
+        "level": 39,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 41,
+        "name": "slam"
+      },
+      {
+        "level": 47,
+        "name": "wring-out"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 69,
+    "next": [
+      71
+    ],
+    "root": 69,
+    "next_details": []
+  }
+}

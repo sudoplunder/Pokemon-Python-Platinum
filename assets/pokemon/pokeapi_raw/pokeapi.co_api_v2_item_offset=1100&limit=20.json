@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1120&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1080&limit=20",
+  "results": [
+    {
+      "name": "large-leek",
+      "url": "https://pokeapi.co/api/v2/item/1152/"
+    },
+    {
+      "name": "fancy-apple",
+      "url": "https://pokeapi.co/api/v2/item/1153/"
+    },
+    {
+      "name": "brittle-bones",
+      "url": "https://pokeapi.co/api/v2/item/1154/"
+    },
+    {
+      "name": "pack-of-potatoes",
+      "url": "https://pokeapi.co/api/v2/item/1155/"
+    },
+    {
+      "name": "pungent-root",
+      "url": "https://pokeapi.co/api/v2/item/1156/"
+    },
+    {
+      "name": "salad-mix",
+      "url": "https://pokeapi.co/api/v2/item/1157/"
+    },
+    {
+      "name": "fried-food",
+      "url": "https://pokeapi.co/api/v2/item/1158/"
+    },
+    {
+      "name": "boiled-egg",
+      "url": "https://pokeapi.co/api/v2/item/1159/"
+    },
+    {
+      "name": "camping-gear",
+      "url": "https://pokeapi.co/api/v2/item/1160/"
+    },
+    {
+      "name": "rusted-sword",
+      "url": "https://pokeapi.co/api/v2/item/1161/"
+    },
+    {
+      "name": "rusted-shield",
+      "url": "https://pokeapi.co/api/v2/item/1162/"
+    },
+    {
+      "name": "fossilized-bird",
+      "url": "https://pokeapi.co/api/v2/item/1163/"
+    },
+    {
+      "name": "fossilized-fish",
+      "url": "https://pokeapi.co/api/v2/item/1164/"
+    },
+    {
+      "name": "fossilized-drake",
+      "url": "https://pokeapi.co/api/v2/item/1165/"
+    },
+    {
+      "name": "fossilized-dino",
+      "url": "https://pokeapi.co/api/v2/item/1166/"
+    },
+    {
+      "name": "strawberry-sweet",
+      "url": "https://pokeapi.co/api/v2/item/1167/"
+    },
+    {
+      "name": "love-sweet",
+      "url": "https://pokeapi.co/api/v2/item/1168/"
+    },
+    {
+      "name": "berry-sweet",
+      "url": "https://pokeapi.co/api/v2/item/1169/"
+    },
+    {
+      "name": "clover-sweet",
+      "url": "https://pokeapi.co/api/v2/item/1170/"
+    },
+    {
+      "name": "flower-sweet",
+      "url": "https://pokeapi.co/api/v2/item/1171/"
+    }
+  ]
+}

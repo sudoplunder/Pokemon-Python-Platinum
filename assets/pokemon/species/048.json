@@ -1,0 +1,121 @@
+{
+  "id": 48,
+  "name": "venonat",
+  "generation": "1",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 50,
+    "sp_atk": 40,
+    "sp_def": 55,
+    "speed": 45
+  },
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "compound-eyes",
+    "secondary": "tinted-lens",
+    "hidden": "run-away"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "disable"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "supersonic"
+      },
+      {
+        "level": 11,
+        "name": "confusion"
+      },
+      {
+        "level": 13,
+        "name": "poison-powder"
+      },
+      {
+        "level": 17,
+        "name": "leech-life"
+      },
+      {
+        "level": 23,
+        "name": "stun-spore"
+      },
+      {
+        "level": 25,
+        "name": "psybeam"
+      },
+      {
+        "level": 29,
+        "name": "sleep-powder"
+      },
+      {
+        "level": 35,
+        "name": "signal-beam"
+      },
+      {
+        "level": 37,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 41,
+        "name": "poison-fang"
+      },
+      {
+        "level": 41,
+        "name": "psychic"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "protect",
+      "psychic",
+      "rest",
+      "return",
+      "secret-power",
+      "skill-swap",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      49
+    ],
+    "root": 48,
+    "next_details": []
+  }
+}

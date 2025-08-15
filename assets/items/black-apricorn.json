@@ -1,0 +1,12 @@
+{
+  "name": "black-apricorn",
+  "display_name": "Black Apricorn",
+  "category": "apricorn-box",
+  "cost": 200,
+  "fling_power": 10,
+  "effect": "May be given to Kurt in azalea town to produce a heavy ball.",
+  "short_effect": "Used to make a Heavy Ball.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

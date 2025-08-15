@@ -1,0 +1,15 @@
+{
+  "id": 840,
+  "item": {
+    "name": "tm42",
+    "url": "https://pokeapi.co/api/v2/item/346/"
+  },
+  "move": {
+    "name": "self-destruct",
+    "url": "https://pokeapi.co/api/v2/move/120/"
+  },
+  "version_group": {
+    "name": "lets-go-pikachu-lets-go-eevee",
+    "url": "https://pokeapi.co/api/v2/version-group/19/"
+  }
+}

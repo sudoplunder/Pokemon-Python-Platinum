@@ -1,0 +1,8 @@
+{
+  "name": "illuminate",
+  "display_name": "Illuminate",
+  "generation": 3,
+  "short_effect": "Doubles the wild encounter rate.",
+  "effect": "Overworld: If the lead Pok\u00e9mon has this ability, the wild encounter rate is doubled.\n\nThis ability has no effect in battle.",
+  "is_gen4_or_prior": true
+}

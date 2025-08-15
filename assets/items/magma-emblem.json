@@ -1,0 +1,12 @@
+{
+  "name": "magma-emblem",
+  "display_name": "Magma Emblem",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Provides access to the magma hideout in the jagged pass.",
+  "short_effect": "Provides access to the Team Magma Hideout in the Jagged Pass.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

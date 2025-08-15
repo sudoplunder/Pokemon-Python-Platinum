@@ -1,0 +1,15 @@
+{
+  "id": 1794,
+  "item": {
+    "name": "tm89",
+    "url": "https://pokeapi.co/api/v2/item/393/"
+  },
+  "move": {
+    "name": "body-press",
+    "url": "https://pokeapi.co/api/v2/move/776/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

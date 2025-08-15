@@ -1,0 +1,12 @@
+{
+  "name": "gooey-mulch",
+  "display_name": "Gooey Mulch",
+  "category": "mulch",
+  "cost": 200,
+  "fling_power": 30,
+  "effect": "Used on a path of soil\n:   Plant will regrow after dying 25% more times.",
+  "short_effect": "Berries regrow from dead plants an increased number of times.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tm61",
+  "display_name": "Tm61",
+  "category": "all-machines",
+  "cost": 30000,
+  "fling_power": null,
+  "effect": "Teaches Will-O-Wisp to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Will-O-Wisp to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

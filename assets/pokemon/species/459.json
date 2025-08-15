@@ -1,0 +1,117 @@
+{
+  "id": 459,
+  "name": "snover",
+  "generation": "4",
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 62,
+    "defense": 50,
+    "sp_atk": 62,
+    "sp_def": 60,
+    "speed": 40
+  },
+  "base_experience": 67,
+  "growth_rate": "slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "snow-warning",
+    "secondary": null,
+    "hidden": "soundproof"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "powder-snow"
+      },
+      {
+        "level": 5,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 9,
+        "name": "icy-wind"
+      },
+      {
+        "level": 13,
+        "name": "grass-whistle"
+      },
+      {
+        "level": 17,
+        "name": "swagger"
+      },
+      {
+        "level": 21,
+        "name": "mist"
+      },
+      {
+        "level": 26,
+        "name": "ice-shard"
+      },
+      {
+        "level": 31,
+        "name": "ingrain"
+      },
+      {
+        "level": 36,
+        "name": "wood-hammer"
+      },
+      {
+        "level": 41,
+        "name": "blizzard"
+      },
+      {
+        "level": 46,
+        "name": "sheer-cold"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      460
+    ],
+    "root": 459,
+    "next_details": []
+  }
+}

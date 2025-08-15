@@ -1,0 +1,15 @@
+{
+  "name": "metal-coat",
+  "display_name": "Metal Coat",
+  "category": "type-enhancement",
+  "cost": 2000,
+  "fling_power": 30,
+  "effect": "Held: Increases the power of the holder's Steel moves by 20%.\nHeld by Onix or Scyther: Evolves the holder into Steelix or Scizor when traded, respectively.",
+  "short_effect": "Held: Steel-Type moves from holder do 20% more damage.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=300&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=260&limit=20",
+  "results": [
+    {
+      "name": "toxic-plate",
+      "url": "https://pokeapi.co/api/v2/item/281/"
+    },
+    {
+      "name": "earth-plate",
+      "url": "https://pokeapi.co/api/v2/item/282/"
+    },
+    {
+      "name": "sky-plate",
+      "url": "https://pokeapi.co/api/v2/item/283/"
+    },
+    {
+      "name": "mind-plate",
+      "url": "https://pokeapi.co/api/v2/item/284/"
+    },
+    {
+      "name": "insect-plate",
+      "url": "https://pokeapi.co/api/v2/item/285/"
+    },
+    {
+      "name": "stone-plate",
+      "url": "https://pokeapi.co/api/v2/item/286/"
+    },
+    {
+      "name": "spooky-plate",
+      "url": "https://pokeapi.co/api/v2/item/287/"
+    },
+    {
+      "name": "draco-plate",
+      "url": "https://pokeapi.co/api/v2/item/288/"
+    },
+    {
+      "name": "dread-plate",
+      "url": "https://pokeapi.co/api/v2/item/289/"
+    },
+    {
+      "name": "iron-plate",
+      "url": "https://pokeapi.co/api/v2/item/290/"
+    },
+    {
+      "name": "odd-incense",
+      "url": "https://pokeapi.co/api/v2/item/291/"
+    },
+    {
+      "name": "rock-incense",
+      "url": "https://pokeapi.co/api/v2/item/292/"
+    },
+    {
+      "name": "full-incense",
+      "url": "https://pokeapi.co/api/v2/item/293/"
+    },
+    {
+      "name": "wave-incense",
+      "url": "https://pokeapi.co/api/v2/item/294/"
+    },
+    {
+      "name": "rose-incense",
+      "url": "https://pokeapi.co/api/v2/item/295/"
+    },
+    {
+      "name": "luck-incense",
+      "url": "https://pokeapi.co/api/v2/item/296/"
+    },
+    {
+      "name": "pure-incense",
+      "url": "https://pokeapi.co/api/v2/item/297/"
+    },
+    {
+      "name": "protector",
+      "url": "https://pokeapi.co/api/v2/item/298/"
+    },
+    {
+      "name": "electirizer",
+      "url": "https://pokeapi.co/api/v2/item/299/"
+    },
+    {
+      "name": "magmarizer",
+      "url": "https://pokeapi.co/api/v2/item/300/"
+    }
+  ]
+}

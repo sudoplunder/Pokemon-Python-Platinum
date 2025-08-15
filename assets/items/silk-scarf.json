@@ -1,0 +1,15 @@
+{
+  "name": "silk-scarf",
+  "display_name": "Silk Scarf",
+  "category": "type-enhancement",
+  "cost": 1000,
+  "fling_power": 10,
+  "effect": "Held: Increases the power of the holder's Normal moves by 20%.",
+  "short_effect": "Held: Normal-Type moves from holder do 20% more damage.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

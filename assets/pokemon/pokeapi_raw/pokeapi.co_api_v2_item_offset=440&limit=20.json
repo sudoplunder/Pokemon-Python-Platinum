@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=460&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=420&limit=20",
+  "results": [
+    {
+      "name": "secret-potion",
+      "url": "https://pokeapi.co/api/v2/item/441/"
+    },
+    {
+      "name": "griseous-orb",
+      "url": "https://pokeapi.co/api/v2/item/442/"
+    },
+    {
+      "name": "vs-recorder",
+      "url": "https://pokeapi.co/api/v2/item/443/"
+    },
+    {
+      "name": "gracidea",
+      "url": "https://pokeapi.co/api/v2/item/444/"
+    },
+    {
+      "name": "secret-key",
+      "url": "https://pokeapi.co/api/v2/item/445/"
+    },
+    {
+      "name": "apricorn-box",
+      "url": "https://pokeapi.co/api/v2/item/446/"
+    },
+    {
+      "name": "berry-pots",
+      "url": "https://pokeapi.co/api/v2/item/447/"
+    },
+    {
+      "name": "squirt-bottle",
+      "url": "https://pokeapi.co/api/v2/item/448/"
+    },
+    {
+      "name": "lure-ball",
+      "url": "https://pokeapi.co/api/v2/item/449/"
+    },
+    {
+      "name": "level-ball",
+      "url": "https://pokeapi.co/api/v2/item/450/"
+    },
+    {
+      "name": "moon-ball",
+      "url": "https://pokeapi.co/api/v2/item/451/"
+    },
+    {
+      "name": "heavy-ball",
+      "url": "https://pokeapi.co/api/v2/item/452/"
+    },
+    {
+      "name": "fast-ball",
+      "url": "https://pokeapi.co/api/v2/item/453/"
+    },
+    {
+      "name": "friend-ball",
+      "url": "https://pokeapi.co/api/v2/item/454/"
+    },
+    {
+      "name": "love-ball",
+      "url": "https://pokeapi.co/api/v2/item/455/"
+    },
+    {
+      "name": "park-ball",
+      "url": "https://pokeapi.co/api/v2/item/456/"
+    },
+    {
+      "name": "sport-ball",
+      "url": "https://pokeapi.co/api/v2/item/457/"
+    },
+    {
+      "name": "red-apricorn",
+      "url": "https://pokeapi.co/api/v2/item/458/"
+    },
+    {
+      "name": "blue-apricorn",
+      "url": "https://pokeapi.co/api/v2/item/459/"
+    },
+    {
+      "name": "yellow-apricorn",
+      "url": "https://pokeapi.co/api/v2/item/460/"
+    }
+  ]
+}

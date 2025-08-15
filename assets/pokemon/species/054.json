@@ -1,0 +1,135 @@
+{
+  "id": 54,
+  "name": "psyduck",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 52,
+    "defense": 48,
+    "sp_atk": 65,
+    "sp_def": 50,
+    "speed": 55
+  },
+  "base_experience": 64,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "damp",
+    "secondary": "cloud-nine",
+    "hidden": "swift-swim"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "water-sport"
+      },
+      {
+        "level": 4,
+        "name": "tail-whip"
+      },
+      {
+        "level": 8,
+        "name": "water-gun"
+      },
+      {
+        "level": 10,
+        "name": "disable"
+      },
+      {
+        "level": 15,
+        "name": "confusion"
+      },
+      {
+        "level": 18,
+        "name": "water-pulse"
+      },
+      {
+        "level": 22,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 23,
+        "name": "screech"
+      },
+      {
+        "level": 29,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 31,
+        "name": "psych-up"
+      },
+      {
+        "level": 32,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 43,
+        "name": "amnesia"
+      },
+      {
+        "level": 46,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      55
+    ],
+    "root": 54,
+    "next_details": []
+  }
+}

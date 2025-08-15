@@ -1,0 +1,12 @@
+{
+  "name": "tm78",
+  "display_name": "Tm78",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Captivate to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Bulldoze to a compatible Pok\u00e9mon. (Gen IV: Captivate)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

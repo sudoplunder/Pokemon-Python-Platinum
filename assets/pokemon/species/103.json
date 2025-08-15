@@ -1,0 +1,108 @@
+{
+  "id": 103,
+  "name": "exeggutor",
+  "generation": "1",
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 85,
+    "sp_atk": 125,
+    "sp_def": 75,
+    "speed": 55
+  },
+  "base_experience": 186,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "barrage"
+      },
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "seed-bomb"
+      },
+      {
+        "level": 1,
+        "name": "stomp"
+      },
+      {
+        "level": 27,
+        "name": "egg-bomb"
+      },
+      {
+        "level": 37,
+        "name": "wood-hammer"
+      },
+      {
+        "level": 47,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "explosion",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "skill-swap",
+      "sludge-bomb",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": 102,
+    "next": [],
+    "root": 102,
+    "next_details": []
+  }
+}

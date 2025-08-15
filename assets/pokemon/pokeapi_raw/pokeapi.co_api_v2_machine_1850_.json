@@ -1,0 +1,15 @@
+{
+  "id": 1850,
+  "item": {
+    "name": "tm145",
+    "url": "https://pokeapi.co/api/v2/item/1988/"
+  },
+  "move": {
+    "name": "water-pledge",
+    "url": "https://pokeapi.co/api/v2/move/518/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

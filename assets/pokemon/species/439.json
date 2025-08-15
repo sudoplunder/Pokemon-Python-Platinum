@@ -1,0 +1,150 @@
+{
+  "id": 439,
+  "name": "mime-jr",
+  "generation": "4",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 25,
+    "defense": 45,
+    "sp_atk": 70,
+    "sp_def": 90,
+    "speed": 60
+  },
+  "base_experience": 62,
+  "growth_rate": "medium",
+  "capture_rate": 145,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "soundproof",
+    "secondary": "filter",
+    "hidden": "technician"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "barrier"
+      },
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "tickle"
+      },
+      {
+        "level": 4,
+        "name": "copycat"
+      },
+      {
+        "level": 8,
+        "name": "meditate"
+      },
+      {
+        "level": 11,
+        "name": "double-slap"
+      },
+      {
+        "level": 15,
+        "name": "mimic"
+      },
+      {
+        "level": 18,
+        "name": "encore"
+      },
+      {
+        "level": 22,
+        "name": "light-screen"
+      },
+      {
+        "level": 22,
+        "name": "reflect"
+      },
+      {
+        "level": 25,
+        "name": "psybeam"
+      },
+      {
+        "level": 29,
+        "name": "substitute"
+      },
+      {
+        "level": 32,
+        "name": "recycle"
+      },
+      {
+        "level": 36,
+        "name": "trick"
+      },
+      {
+        "level": 39,
+        "name": "psychic"
+      },
+      {
+        "level": 43,
+        "name": "role-play"
+      },
+      {
+        "level": 46,
+        "name": "baton-pass"
+      },
+      {
+        "level": 50,
+        "name": "safeguard"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      122
+    ],
+    "root": 439,
+    "next_details": []
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": 71,
+  "name": "victreebel",
+  "generation": "1",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "sp_atk": 100,
+    "sp_def": 70,
+    "speed": 70
+  },
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": null,
+    "hidden": "gluttony"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 1,
+        "name": "sleep-powder"
+      },
+      {
+        "level": 1,
+        "name": "spit-up"
+      },
+      {
+        "level": 1,
+        "name": "stockpile"
+      },
+      {
+        "level": 1,
+        "name": "swallow"
+      },
+      {
+        "level": 1,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 1,
+        "name": "vine-whip"
+      },
+      {
+        "level": 47,
+        "name": "leaf-blade"
+      },
+      {
+        "level": 47,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 70,
+    "next": [],
+    "root": 69,
+    "next_details": []
+  }
+}

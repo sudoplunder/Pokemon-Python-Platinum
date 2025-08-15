@@ -1,0 +1,15 @@
+{
+  "id": 1716,
+  "item": {
+    "name": "tm11",
+    "url": "https://pokeapi.co/api/v2/item/315/"
+  },
+  "move": {
+    "name": "water-pulse",
+    "url": "https://pokeapi.co/api/v2/move/352/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

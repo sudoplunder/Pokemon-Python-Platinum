@@ -1,0 +1,130 @@
+{
+  "id": 320,
+  "name": "wailmer",
+  "generation": "3",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 130,
+    "attack": 70,
+    "defense": 35,
+    "sp_atk": 70,
+    "sp_def": 35,
+    "speed": 60
+  },
+  "base_experience": 80,
+  "growth_rate": "fast-then-very-slow",
+  "capture_rate": 125,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "water2"
+  ],
+  "abilities": {
+    "primary": "water-veil",
+    "secondary": "oblivious",
+    "hidden": "pressure"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "splash"
+      },
+      {
+        "level": 4,
+        "name": "growl"
+      },
+      {
+        "level": 7,
+        "name": "water-gun"
+      },
+      {
+        "level": 11,
+        "name": "rollout"
+      },
+      {
+        "level": 14,
+        "name": "whirlpool"
+      },
+      {
+        "level": 17,
+        "name": "astonish"
+      },
+      {
+        "level": 21,
+        "name": "water-pulse"
+      },
+      {
+        "level": 24,
+        "name": "mist"
+      },
+      {
+        "level": 27,
+        "name": "rest"
+      },
+      {
+        "level": 31,
+        "name": "brine"
+      },
+      {
+        "level": 34,
+        "name": "water-spout"
+      },
+      {
+        "level": 37,
+        "name": "amnesia"
+      },
+      {
+        "level": 41,
+        "name": "dive"
+      },
+      {
+        "level": 44,
+        "name": "bounce"
+      },
+      {
+        "level": 47,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      321
+    ],
+    "root": 320,
+    "next_details": []
+  }
+}

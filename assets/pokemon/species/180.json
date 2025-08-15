@@ -1,0 +1,124 @@
+{
+  "id": 180,
+  "name": "flaaffy",
+  "generation": "2",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 55,
+    "defense": 55,
+    "sp_atk": 80,
+    "sp_def": 60,
+    "speed": 45
+  },
+  "base_experience": 128,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "static",
+    "secondary": null,
+    "hidden": "plus"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 1,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 11,
+        "name": "cotton-spore"
+      },
+      {
+        "level": 16,
+        "name": "charge"
+      },
+      {
+        "level": 20,
+        "name": "take-down"
+      },
+      {
+        "level": 29,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 34,
+        "name": "power-gem"
+      },
+      {
+        "level": 36,
+        "name": "light-screen"
+      },
+      {
+        "level": 38,
+        "name": "discharge"
+      },
+      {
+        "level": 45,
+        "name": "thunder"
+      },
+      {
+        "level": 47,
+        "name": "signal-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "shock-wave",
+      "strength",
+      "substitute",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 179,
+    "next": [
+      181
+    ],
+    "root": 179,
+    "next_details": []
+  }
+}

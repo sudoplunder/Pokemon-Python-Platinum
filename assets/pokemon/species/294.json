@@ -1,0 +1,126 @@
+{
+  "id": 294,
+  "name": "loudred",
+  "generation": "3",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 84,
+    "attack": 71,
+    "defense": 43,
+    "sp_atk": 71,
+    "sp_def": 43,
+    "speed": 48
+  },
+  "base_experience": 126,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "soundproof",
+    "secondary": null,
+    "hidden": "scrappy"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "howl"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "uproar"
+      },
+      {
+        "level": 20,
+        "name": "bite"
+      },
+      {
+        "level": 23,
+        "name": "supersonic"
+      },
+      {
+        "level": 29,
+        "name": "stomp"
+      },
+      {
+        "level": 37,
+        "name": "screech"
+      },
+      {
+        "level": 43,
+        "name": "roar"
+      },
+      {
+        "level": 51,
+        "name": "rest"
+      },
+      {
+        "level": 51,
+        "name": "sleep-talk"
+      },
+      {
+        "level": 57,
+        "name": "hyper-voice"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "overheat",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "torment",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 293,
+    "next": [
+      295
+    ],
+    "root": 293,
+    "next_details": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "blue-scarf",
+  "display_name": "Blue Scarf",
+  "category": "scarves",
+  "cost": 100,
+  "fling_power": 10,
+  "effect": "Held: Increases the holder's Beauty during a Super Contest's Visual Competition.",
+  "short_effect": "Raises the holder's Beauty while in a contest.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable-active"
+  ]
+}

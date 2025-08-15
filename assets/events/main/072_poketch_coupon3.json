@@ -1,0 +1,12 @@
+{
+  "id": "poketch.coupon3",
+  "trigger": { "type": "npc_interact", "value": "clown_3" },
+  "once": true,
+  "prerequisites": { "none": ["poketch_coupon3"] },
+  "actions": [
+  { "command": "SET_LOCATION", "location": "jubilife_city_plaza" },
+    { "command": "SHOW_TEXT", "dialogue_key": "poketch.clown3.quiz" },
+    { "command": "SET_FLAG", "flag": "poketch_coupon3" }
+  ],
+  "set_flags": ["poketch_coupon3"]
+}

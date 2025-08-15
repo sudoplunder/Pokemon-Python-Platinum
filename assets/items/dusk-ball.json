@@ -1,0 +1,17 @@
+{
+  "name": "dusk-ball",
+  "display_name": "Dusk Ball",
+  "category": "special-balls",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If it's currently nighttime or the wild Pok\u00e9mon was encountered while walking in a cave, this ball has a catch rate of 3.5\u00d7.  Otherwise, it has a catch rate of 1\u00d7.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+  "short_effect": "Tries to catch a wild Pok\u00e9mon.  Success rate is 3.5\u00d7 at night and in caves.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

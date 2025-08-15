@@ -1,0 +1,122 @@
+{
+  "id": 239,
+  "name": "elekid",
+  "generation": "2",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 63,
+    "defense": 37,
+    "sp_atk": 65,
+    "sp_def": 55,
+    "speed": 95
+  },
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 2,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "static",
+    "secondary": null,
+    "hidden": "vital-spirit"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 5,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 8,
+        "name": "low-kick"
+      },
+      {
+        "level": 9,
+        "name": "thunder-punch"
+      },
+      {
+        "level": 12,
+        "name": "swift"
+      },
+      {
+        "level": 15,
+        "name": "shock-wave"
+      },
+      {
+        "level": 17,
+        "name": "light-screen"
+      },
+      {
+        "level": 19,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 33,
+        "name": "discharge"
+      },
+      {
+        "level": 33,
+        "name": "screech"
+      },
+      {
+        "level": 40,
+        "name": "thunderbolt"
+      },
+      {
+        "level": 43,
+        "name": "thunder"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shock-wave",
+      "substitute",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      125
+    ],
+    "root": 239,
+    "next_details": []
+  }
+}

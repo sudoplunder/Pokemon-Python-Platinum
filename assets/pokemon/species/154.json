@@ -1,0 +1,133 @@
+{
+  "id": 154,
+  "name": "meganium",
+  "generation": "2",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 100,
+    "sp_atk": 83,
+    "sp_def": 100,
+    "speed": 80
+  },
+  "base_experience": 236,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "overgrow",
+    "secondary": null,
+    "hidden": "leaf-guard"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "poison-powder"
+      },
+      {
+        "level": 1,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 1,
+        "name": "reflect"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 12,
+        "name": "synthesis"
+      },
+      {
+        "level": 22,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 26,
+        "name": "natural-gift"
+      },
+      {
+        "level": 31,
+        "name": "body-slam"
+      },
+      {
+        "level": 32,
+        "name": "petal-dance"
+      },
+      {
+        "level": 34,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 40,
+        "name": "light-screen"
+      },
+      {
+        "level": 51,
+        "name": "safeguard"
+      },
+      {
+        "level": 60,
+        "name": "aromatherapy"
+      },
+      {
+        "level": 61,
+        "name": "solar-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 153,
+    "next": [],
+    "root": 152,
+    "next_details": []
+  }
+}

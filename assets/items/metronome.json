@@ -1,0 +1,15 @@
+{
+  "name": "metronome",
+  "display_name": "Metronome",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 30,
+  "effect": "Held: Each time the holder uses the same move consecutively, its power is increased by another 10% of its original, to a maximum of 100%.",
+  "short_effect": "Held: Consectutive uses of the same attack have a cumulative damage boost of 10%. Maximum 100% boost.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

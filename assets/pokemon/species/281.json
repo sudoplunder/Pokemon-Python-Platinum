@@ -1,0 +1,150 @@
+{
+  "id": 281,
+  "name": "kirlia",
+  "generation": "3",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 35,
+    "defense": 35,
+    "sp_atk": 65,
+    "sp_def": 55,
+    "speed": 50
+  },
+  "base_experience": 97,
+  "growth_rate": "slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "humanshape",
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "synchronize",
+    "secondary": "trace",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "double-team"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "teleport"
+      },
+      {
+        "level": 17,
+        "name": "lucky-chant"
+      },
+      {
+        "level": 21,
+        "name": "calm-mind"
+      },
+      {
+        "level": 22,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 26,
+        "name": "psychic"
+      },
+      {
+        "level": 33,
+        "name": "imprison"
+      },
+      {
+        "level": 40,
+        "name": "future-sight"
+      },
+      {
+        "level": 47,
+        "name": "hypnosis"
+      },
+      {
+        "level": 50,
+        "name": "charm"
+      },
+      {
+        "level": 54,
+        "name": "dream-eater"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 280,
+    "next": [
+      282,
+      475
+    ],
+    "root": 280,
+    "next_details": [
+      {
+        "id": 282,
+        "trigger": "level",
+        "conditions": {
+          "level": 30
+        }
+      },
+      {
+        "id": 475,
+        "trigger": "item_gender",
+        "conditions": {
+          "item": "dawn-stone",
+          "gender": "male"
+        }
+      }
+    ]
+  }
+}

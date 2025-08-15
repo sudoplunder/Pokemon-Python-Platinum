@@ -1,0 +1,125 @@
+{
+  "id": 470,
+  "name": "leafeon",
+  "generation": "4",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 110,
+    "defense": 130,
+    "sp_atk": 60,
+    "sp_def": 65,
+    "speed": 95
+  },
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 35,
+  "base_friendship": 35,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "leaf-guard",
+    "secondary": null,
+    "hidden": "chlorophyll"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "helping-hand"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 5,
+        "name": "sand-attack"
+      },
+      {
+        "level": 9,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 13,
+        "name": "quick-attack"
+      },
+      {
+        "level": 17,
+        "name": "grass-whistle"
+      },
+      {
+        "level": 21,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 25,
+        "name": "giga-drain"
+      },
+      {
+        "level": 29,
+        "name": "swords-dance"
+      },
+      {
+        "level": 33,
+        "name": "synthesis"
+      },
+      {
+        "level": 37,
+        "name": "sunny-day"
+      },
+      {
+        "level": 41,
+        "name": "last-resort"
+      },
+      {
+        "level": 45,
+        "name": "leaf-blade"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "dig",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "shadow-ball",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 133,
+    "next": [],
+    "root": 133,
+    "next_details": []
+  }
+}

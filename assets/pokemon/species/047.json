@@ -1,0 +1,124 @@
+{
+  "id": 47,
+  "name": "parasect",
+  "generation": "1",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "sp_atk": 60,
+    "sp_def": 80,
+    "speed": 30
+  },
+  "base_experience": 142,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "effect-spore",
+    "secondary": "dry-skin",
+    "hidden": "damp"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "cross-poison"
+      },
+      {
+        "level": 1,
+        "name": "leech-life"
+      },
+      {
+        "level": 1,
+        "name": "poison-powder"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "stun-spore"
+      },
+      {
+        "level": 17,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 22,
+        "name": "spore"
+      },
+      {
+        "level": 29,
+        "name": "slash"
+      },
+      {
+        "level": 37,
+        "name": "growth"
+      },
+      {
+        "level": 44,
+        "name": "giga-drain"
+      },
+      {
+        "level": 51,
+        "name": "aromatherapy"
+      },
+      {
+        "level": 66,
+        "name": "x-scissor"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bullet-seed",
+      "cut",
+      "dig",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "false-swipe",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 46,
+    "next": [],
+    "root": 46,
+    "next_details": []
+  }
+}

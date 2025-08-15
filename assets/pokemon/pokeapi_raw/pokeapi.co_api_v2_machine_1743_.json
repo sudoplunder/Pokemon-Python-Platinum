@@ -1,0 +1,15 @@
+{
+  "id": 1743,
+  "item": {
+    "name": "tm38",
+    "url": "https://pokeapi.co/api/v2/item/342/"
+  },
+  "move": {
+    "name": "flame-charge",
+    "url": "https://pokeapi.co/api/v2/move/488/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

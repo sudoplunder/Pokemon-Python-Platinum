@@ -1,0 +1,42 @@
+{
+  "name": "yawn",
+  "display_name": "Yawn",
+  "type": "normal",
+  "category": "status",
+  "power": null,
+  "accuracy": null,
+  "pp": 10,
+  "priority": 0,
+  "generation": 3,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Target sleeps at the end of the next turn.",
+  "effect": "Puts the target to sleep at the end of the next turn.  Ignores accuracy and evasion modifiers.  If the target leaves the field, this effect is canceled.  If the target has a status effect when this move is used, this move will fail.\n\nIf the target is protected by safeguard when this move is used, this move will fail.\n\ninsomnia and vital spirit prevent the sleep if the target has either at the end of the next turn, but will not cause this move to fail on use.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    2,
+    2
+  ],
+  "flinch_chance": 0,
+  "ailment": "yawn",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

@@ -9,6 +9,9 @@ def main_menu() -> str:
         "MAIN MENU",
         [
             ("New Game", "new"),
+            ("Continue", "continue"),
+            ("Overworld (Active Session)", "overworld"),
+            ("Save (In-Session)", "save"),
             ("Options", "options"),
             ("View Flags (Debug)", "flags"),
             ("Quit", "quit")
@@ -22,7 +25,6 @@ def options_submenu(settings) -> None:
         choice = select_menu(
             "OPTIONS",
             [
-                (f"Dialogue Mode [{settings.data.dialogue_mode}]", "dialogue_mode"),
                 (f"Text Speed [{settings.data.text_speed}]", "text_speed"),
                 (f"Log Level [{settings.data.log_level}]", "log_level"),
                 ("Return", "return")
@@ -31,28 +33,10 @@ def options_submenu(settings) -> None:
         )
         if choice in (None, "return"):
             return
-        if choice == "dialogue_mode":
-            _edit_dialogue_mode(settings)
-        elif choice == "text_speed":
+        if choice == "text_speed":
             _edit_text_speed(settings)
         elif choice == "log_level":
             _edit_log_level(settings)
-
-def _edit_dialogue_mode(settings):
-    choice = select_menu(
-        "DIALOGUE MODE",
-        [
-            ("Concise", "concise"),
-            ("Base", "base"),
-            ("Expanded", "expanded"),
-            ("Alt (random variant)", "alt"),
-            ("Cancel", "cancel")
-        ]
-    )
-    if choice and choice != "cancel":
-        settings.data.dialogue_mode = choice
-        settings.data.normalize()
-        settings.save()
 
 def _edit_text_speed(settings):
     choice = select_menu(
@@ -84,5 +68,7 @@ def _edit_log_level(settings):
         from platinum.core.logging import logger
         settings.data.log_level = choice
         settings.data.normalize()
-        logger.set_level(settings.data.log_level)
+        lvl: str = settings.data.log_level
+        if lvl in {"DEBUG","INFO","WARN","ERROR"}:
+            logger.set_level(lvl)  # type: ignore[arg-type]
         settings.save()

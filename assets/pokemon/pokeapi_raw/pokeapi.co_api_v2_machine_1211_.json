@@ -1,0 +1,15 @@
+{
+  "id": 1211,
+  "item": {
+    "name": "tm70",
+    "url": "https://pokeapi.co/api/v2/item/374/"
+  },
+  "move": {
+    "name": "trick-room",
+    "url": "https://pokeapi.co/api/v2/move/433/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

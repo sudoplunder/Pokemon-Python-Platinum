@@ -1,0 +1,14 @@
+{
+  "name": "enigma-berry",
+  "display_name": "Enigma Berry",
+  "category": "other",
+  "cost": 80,
+  "fling_power": 10,
+  "effect": "Held in battle\n:   When the holder takes super-effective damage, it consumes this item to restore 1/4 its max HP.",
+  "short_effect": "Held: Consumed when struck by a super-effective attack to restore 1/4 max HP.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "holdable-active"
+  ]
+}

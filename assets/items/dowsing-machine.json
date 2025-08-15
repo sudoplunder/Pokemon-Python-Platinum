@@ -1,0 +1,12 @@
+{
+  "name": "dowsing-machine",
+  "display_name": "Dowsing Machine",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by trainer outside of battle\n:   Searches for hidden items.",
+  "short_effect": "Use to find hidden items on the field. AKA Itemfinder.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

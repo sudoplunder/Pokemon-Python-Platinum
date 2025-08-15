@@ -1,0 +1,122 @@
+{
+  "id": 351,
+  "name": "castform",
+  "generation": "3",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 70,
+    "sp_atk": 70,
+    "sp_def": 70,
+    "speed": 70
+  },
+  "base_experience": 147,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "fairy",
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "forecast",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 10,
+        "name": "ember"
+      },
+      {
+        "level": 10,
+        "name": "powder-snow"
+      },
+      {
+        "level": 10,
+        "name": "water-gun"
+      },
+      {
+        "level": 15,
+        "name": "headbutt"
+      },
+      {
+        "level": 20,
+        "name": "hail"
+      },
+      {
+        "level": 20,
+        "name": "rain-dance"
+      },
+      {
+        "level": 20,
+        "name": "sunny-day"
+      },
+      {
+        "level": 30,
+        "name": "weather-ball"
+      },
+      {
+        "level": 40,
+        "name": "blizzard"
+      },
+      {
+        "level": 40,
+        "name": "fire-blast"
+      },
+      {
+        "level": 40,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 351,
+    "next_details": []
+  }
+}

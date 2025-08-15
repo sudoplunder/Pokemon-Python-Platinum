@@ -1,0 +1,15 @@
+{
+  "id": 1905,
+  "item": {
+    "name": "tm200",
+    "url": "https://pokeapi.co/api/v2/item/2189/"
+  },
+  "move": {
+    "name": "scale-shot",
+    "url": "https://pokeapi.co/api/v2/move/799/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "overgrow",
+  "display_name": "Overgrow",
+  "generation": 3,
+  "short_effect": "Strengthens grass moves to inflict 1.5\u00d7 damage at 1/3 max HP or less.",
+  "effect": "When this Pok\u00e9mon has 1/3 or less of its HP remaining, its grass-type moves inflict 1.5\u00d7 as much regular damage.",
+  "is_gen4_or_prior": true
+}

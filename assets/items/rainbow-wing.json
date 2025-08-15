@@ -1,0 +1,12 @@
+{
+  "name": "rainbow-wing",
+  "display_name": "Rainbow Wing",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Causes ho oh to appear at the top of bell tower.",
+  "short_effect": "Summons Ho-Oh at the top of the Bell Tower.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "silph-scope",
+  "display_name": "Silph Scope",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Identifies ghosts in pokemon tower.",
+  "short_effect": "Used to identify the true forms of ghosts in Pok\u00e9mon Tower.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

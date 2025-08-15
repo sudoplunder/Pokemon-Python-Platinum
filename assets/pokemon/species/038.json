@@ -1,0 +1,95 @@
+{
+  "id": 38,
+  "name": "ninetales",
+  "generation": "1",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "sp_atk": 81,
+    "sp_def": 100,
+    "speed": 100
+  },
+  "base_experience": 177,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 6,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "flash-fire",
+    "secondary": null,
+    "hidden": "drought"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "safeguard"
+      },
+      {
+        "level": 45,
+        "name": "fire-spin"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "overheat",
+      "payback",
+      "protect",
+      "psych-up",
+      "rest",
+      "return",
+      "roar",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 37,
+    "next": [],
+    "root": 37,
+    "next_details": []
+  }
+}

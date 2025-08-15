@@ -1,0 +1,42 @@
+{
+  "name": "uproar",
+  "display_name": "Uproar",
+  "type": "normal",
+  "category": "special",
+  "power": 90,
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "generation": 3,
+  "crit_rate_stage": 0,
+  "targets": "random-opponent",
+  "short_effect": "Forced to use this move for several turns.  Pok\u00e9mon cannot fall asleep in that time.",
+  "effect": "Inflicts regular damage.  User is forced to use this move for 2\u20135 turns, selected at random.  All Pok\u00e9mon on the field wake up, and none can fall to sleep until the lock-in ends.\n\nPok\u00e9mon cannot use rest during this effect.\n\nThis move cannot be selected by sleep talk.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    3,
+    3
+  ],
+  "flinch_chance": 0,
+  "ailment": "none",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

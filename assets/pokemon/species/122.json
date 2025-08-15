@@ -1,0 +1,171 @@
+{
+  "id": 122,
+  "name": "mr-mime",
+  "generation": "1",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 65,
+    "sp_atk": 100,
+    "sp_def": 120,
+    "speed": 90
+  },
+  "base_experience": 161,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "soundproof",
+    "secondary": "filter",
+    "hidden": "technician"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "barrier"
+      },
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "guard-swap"
+      },
+      {
+        "level": 1,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 1,
+        "name": "power-swap"
+      },
+      {
+        "level": 4,
+        "name": "copycat"
+      },
+      {
+        "level": 8,
+        "name": "meditate"
+      },
+      {
+        "level": 9,
+        "name": "substitute"
+      },
+      {
+        "level": 11,
+        "name": "double-slap"
+      },
+      {
+        "level": 15,
+        "name": "mimic"
+      },
+      {
+        "level": 15,
+        "name": "psywave"
+      },
+      {
+        "level": 18,
+        "name": "encore"
+      },
+      {
+        "level": 21,
+        "name": "light-screen"
+      },
+      {
+        "level": 21,
+        "name": "reflect"
+      },
+      {
+        "level": 25,
+        "name": "psybeam"
+      },
+      {
+        "level": 32,
+        "name": "recycle"
+      },
+      {
+        "level": 36,
+        "name": "trick"
+      },
+      {
+        "level": 39,
+        "name": "psychic"
+      },
+      {
+        "level": 41,
+        "name": "role-play"
+      },
+      {
+        "level": 46,
+        "name": "baton-pass"
+      },
+      {
+        "level": 50,
+        "name": "safeguard"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": 439,
+    "next": [],
+    "root": 439,
+    "next_details": []
+  }
+}

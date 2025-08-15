@@ -1,0 +1,14 @@
+{
+  "name": "light-ball",
+  "display_name": "Light Ball",
+  "category": "species-specific",
+  "cost": 1000,
+  "fling_power": 30,
+  "effect": "Held by Pikachu: Doubles the holder's initial Attack and Special Attack.",
+  "short_effect": "Doubles Pikachu's Attack and Special Attack. Breed on Pikachu or Raichu: Pichu Egg will have Volt Tackle.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable"
+  ]
+}

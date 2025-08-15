@@ -1,0 +1,12 @@
+{
+  "name": "tm02",
+  "display_name": "Tm02",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Dragon Claw to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Dragon Claw to a compatible Pok\u00e9mon. (Gen II: Headbutt Gen I: Razor Wind)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

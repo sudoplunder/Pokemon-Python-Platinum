@@ -1,0 +1,129 @@
+{
+  "id": 256,
+  "name": "combusken",
+  "generation": "3",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 60,
+    "sp_atk": 85,
+    "sp_def": 60,
+    "speed": 55
+  },
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "blaze",
+    "secondary": null,
+    "hidden": "speed-boost"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "focus-energy"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 16,
+        "name": "double-kick"
+      },
+      {
+        "level": 17,
+        "name": "peck"
+      },
+      {
+        "level": 21,
+        "name": "sand-attack"
+      },
+      {
+        "level": 28,
+        "name": "bulk-up"
+      },
+      {
+        "level": 32,
+        "name": "quick-attack"
+      },
+      {
+        "level": 39,
+        "name": "slash"
+      },
+      {
+        "level": 43,
+        "name": "mirror-move"
+      },
+      {
+        "level": 50,
+        "name": "sky-uppercut"
+      },
+      {
+        "level": 54,
+        "name": "flare-blitz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "overheat",
+      "poison-jab",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 255,
+    "next": [
+      257
+    ],
+    "root": 255,
+    "next_details": []
+  }
+}

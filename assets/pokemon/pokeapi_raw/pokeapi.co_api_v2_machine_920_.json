@@ -1,0 +1,15 @@
+{
+  "id": 920,
+  "item": {
+    "name": "tm46",
+    "url": "https://pokeapi.co/api/v2/item/350/"
+  },
+  "move": {
+    "name": "fire-blast",
+    "url": "https://pokeapi.co/api/v2/move/126/"
+  },
+  "version_group": {
+    "name": "lets-go-pikachu-lets-go-eevee",
+    "url": "https://pokeapi.co/api/v2/version-group/19/"
+  }
+}

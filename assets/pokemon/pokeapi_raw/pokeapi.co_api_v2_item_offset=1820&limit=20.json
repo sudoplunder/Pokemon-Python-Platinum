@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1840&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1800&limit=20",
+  "results": [
+    {
+      "name": "yungoos-fur",
+      "url": "https://pokeapi.co/api/v2/item/1872/"
+    },
+    {
+      "name": "crabrawler-shell",
+      "url": "https://pokeapi.co/api/v2/item/1873/"
+    },
+    {
+      "name": "oricorio-feather",
+      "url": "https://pokeapi.co/api/v2/item/1874/"
+    },
+    {
+      "name": "rockruff-rock",
+      "url": "https://pokeapi.co/api/v2/item/1875/"
+    },
+    {
+      "name": "mareanie-spike",
+      "url": "https://pokeapi.co/api/v2/item/1876/"
+    },
+    {
+      "name": "mudbray-mud",
+      "url": "https://pokeapi.co/api/v2/item/1877/"
+    },
+    {
+      "name": "fomantis-leaf",
+      "url": "https://pokeapi.co/api/v2/item/1878/"
+    },
+    {
+      "name": "salandit-gas",
+      "url": "https://pokeapi.co/api/v2/item/1879/"
+    },
+    {
+      "name": "bounsweet-sweat",
+      "url": "https://pokeapi.co/api/v2/item/1880/"
+    },
+    {
+      "name": "oranguru-fur",
+      "url": "https://pokeapi.co/api/v2/item/1881/"
+    },
+    {
+      "name": "passimian-fur",
+      "url": "https://pokeapi.co/api/v2/item/1882/"
+    },
+    {
+      "name": "sandygast-sand",
+      "url": "https://pokeapi.co/api/v2/item/1883/"
+    },
+    {
+      "name": "komala-claw",
+      "url": "https://pokeapi.co/api/v2/item/1884/"
+    },
+    {
+      "name": "mimikyu-scrap",
+      "url": "https://pokeapi.co/api/v2/item/1885/"
+    },
+    {
+      "name": "bruxish-tooth",
+      "url": "https://pokeapi.co/api/v2/item/1886/"
+    },
+    {
+      "name": "chewtle-claw",
+      "url": "https://pokeapi.co/api/v2/item/1887/"
+    },
+    {
+      "name": "skwovet-fur",
+      "url": "https://pokeapi.co/api/v2/item/1888/"
+    },
+    {
+      "name": "arrokuda-scales",
+      "url": "https://pokeapi.co/api/v2/item/1889/"
+    },
+    {
+      "name": "rookidee-feather",
+      "url": "https://pokeapi.co/api/v2/item/1890/"
+    },
+    {
+      "name": "toxel-sparks",
+      "url": "https://pokeapi.co/api/v2/item/1891/"
+    }
+  ]
+}

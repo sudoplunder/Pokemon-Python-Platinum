@@ -1,0 +1,141 @@
+{
+  "id": 330,
+  "name": "flygon",
+  "generation": "3",
+  "types": [
+    "ground",
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 80,
+    "sp_atk": 80,
+    "sp_def": 80,
+    "speed": 100
+  },
+  "base_experience": 234,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "feint-attack"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "sand-tomb"
+      },
+      {
+        "level": 1,
+        "name": "sonic-boom"
+      },
+      {
+        "level": 13,
+        "name": "mud-slap"
+      },
+      {
+        "level": 17,
+        "name": "bide"
+      },
+      {
+        "level": 25,
+        "name": "rock-slide"
+      },
+      {
+        "level": 29,
+        "name": "supersonic"
+      },
+      {
+        "level": 33,
+        "name": "crunch"
+      },
+      {
+        "level": 34,
+        "name": "screech"
+      },
+      {
+        "level": 35,
+        "name": "dragon-breath"
+      },
+      {
+        "level": 39,
+        "name": "earth-power"
+      },
+      {
+        "level": 44,
+        "name": "sandstorm"
+      },
+      {
+        "level": 49,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 55,
+        "name": "dragon-claw"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "dig",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fly",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "solar-beam",
+      "steel-wing",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 329,
+    "next": [],
+    "root": 328,
+    "next_details": []
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": 195,
+  "name": "quagsire",
+  "generation": "2",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 85,
+    "defense": 85,
+    "sp_atk": 65,
+    "sp_def": 65,
+    "speed": 35
+  },
+  "base_experience": 151,
+  "growth_rate": "medium",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "damp",
+    "secondary": "water-absorb",
+    "hidden": "unaware"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "mud-sport"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 9,
+        "name": "mud-shot"
+      },
+      {
+        "level": 11,
+        "name": "slam"
+      },
+      {
+        "level": 19,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 23,
+        "name": "amnesia"
+      },
+      {
+        "level": 31,
+        "name": "yawn"
+      },
+      {
+        "level": 36,
+        "name": "earthquake"
+      },
+      {
+        "level": 41,
+        "name": "rain-dance"
+      },
+      {
+        "level": 48,
+        "name": "haze"
+      },
+      {
+        "level": 48,
+        "name": "mist"
+      },
+      {
+        "level": 53,
+        "name": "muddy-water"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "sludge-bomb",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 194,
+    "next": [],
+    "root": 194,
+    "next_details": []
+  }
+}

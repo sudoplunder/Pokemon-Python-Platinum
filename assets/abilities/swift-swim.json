@@ -1,0 +1,8 @@
+{
+  "name": "swift-swim",
+  "display_name": "Swift Swim",
+  "generation": 3,
+  "short_effect": "Doubles Speed during rain.",
+  "effect": "This Pok\u00e9mon's Speed is doubled during rain.\n\nThis bonus does not count as a stat modifier.",
+  "is_gen4_or_prior": true
+}

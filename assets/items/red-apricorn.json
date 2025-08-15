@@ -1,0 +1,12 @@
+{
+  "name": "red-apricorn",
+  "display_name": "Red Apricorn",
+  "category": "apricorn-box",
+  "cost": 200,
+  "fling_power": 10,
+  "effect": "May be given to Kurt in azalea town to produce a level ball.",
+  "short_effect": "Used to make a Level Ball.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

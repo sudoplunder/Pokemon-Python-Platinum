@@ -1,0 +1,18 @@
+{
+  "name": "full-heal",
+  "display_name": "Full Heal",
+  "category": "status-cures",
+  "cost": 400,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Cures any status ailment and confusion.",
+  "short_effect": "Cures any status ailment and confusion.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

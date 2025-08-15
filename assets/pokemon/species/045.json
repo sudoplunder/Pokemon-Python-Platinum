@@ -1,0 +1,96 @@
+{
+  "id": 45,
+  "name": "vileplume",
+  "generation": "1",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 85,
+    "sp_atk": 110,
+    "sp_def": 90,
+    "speed": 50
+  },
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": null,
+    "hidden": "effect-spore"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 1,
+        "name": "aromatherapy"
+      },
+      {
+        "level": 1,
+        "name": "mega-drain"
+      },
+      {
+        "level": 1,
+        "name": "poison-powder"
+      },
+      {
+        "level": 1,
+        "name": "stun-spore"
+      },
+      {
+        "level": 44,
+        "name": "petal-dance"
+      },
+      {
+        "level": 65,
+        "name": "solar-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 44,
+    "next": [],
+    "root": 43,
+    "next_details": []
+  }
+}

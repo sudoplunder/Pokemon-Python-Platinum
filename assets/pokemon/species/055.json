@@ -1,0 +1,140 @@
+{
+  "id": 55,
+  "name": "golduck",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "sp_atk": 95,
+    "sp_def": 80,
+    "speed": 85
+  },
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "damp",
+    "secondary": "cloud-nine",
+    "hidden": "swift-swim"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "aqua-jet"
+      },
+      {
+        "level": 1,
+        "name": "disable"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 1,
+        "name": "water-sport"
+      },
+      {
+        "level": 15,
+        "name": "confusion"
+      },
+      {
+        "level": 18,
+        "name": "water-pulse"
+      },
+      {
+        "level": 22,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 23,
+        "name": "screech"
+      },
+      {
+        "level": 29,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 31,
+        "name": "psych-up"
+      },
+      {
+        "level": 32,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 49,
+        "name": "amnesia"
+      },
+      {
+        "level": 54,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 54,
+    "next": [],
+    "root": 54,
+    "next_details": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": 447,
+  "name": "riolu",
+  "generation": "4",
+  "types": [
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 70,
+    "defense": 40,
+    "sp_atk": 35,
+    "sp_def": 40,
+    "speed": 60
+  },
+  "base_experience": 57,
+  "growth_rate": "medium-slow",
+  "capture_rate": 75,
+  "gender_rate": 1,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "steadfast",
+    "secondary": "inner-focus",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "endure"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 6,
+        "name": "counter"
+      },
+      {
+        "level": 11,
+        "name": "feint"
+      },
+      {
+        "level": 15,
+        "name": "force-palm"
+      },
+      {
+        "level": 19,
+        "name": "copycat"
+      },
+      {
+        "level": 24,
+        "name": "screech"
+      },
+      {
+        "level": 29,
+        "name": "reversal"
+      },
+      {
+        "level": 47,
+        "name": "nasty-plot"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "hidden-power",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      448
+    ],
+    "root": 447,
+    "next_details": []
+  }
+}

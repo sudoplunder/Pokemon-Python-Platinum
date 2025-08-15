@@ -1,0 +1,131 @@
+{
+  "id": 358,
+  "name": "chimecho",
+  "generation": "3",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 50,
+    "defense": 80,
+    "sp_atk": 95,
+    "sp_def": 90,
+    "speed": 65
+  },
+  "base_experience": 159,
+  "growth_rate": "fast",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "wrap"
+      },
+      {
+        "level": 6,
+        "name": "growl"
+      },
+      {
+        "level": 9,
+        "name": "astonish"
+      },
+      {
+        "level": 14,
+        "name": "confusion"
+      },
+      {
+        "level": 17,
+        "name": "take-down"
+      },
+      {
+        "level": 17,
+        "name": "uproar"
+      },
+      {
+        "level": 25,
+        "name": "yawn"
+      },
+      {
+        "level": 30,
+        "name": "psywave"
+      },
+      {
+        "level": 33,
+        "name": "double-edge"
+      },
+      {
+        "level": 38,
+        "name": "heal-bell"
+      },
+      {
+        "level": 41,
+        "name": "safeguard"
+      },
+      {
+        "level": 46,
+        "name": "extrasensory"
+      },
+      {
+        "level": 46,
+        "name": "psychic"
+      },
+      {
+        "level": 57,
+        "name": "healing-wish"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thunder-wave",
+      "torment",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": 433,
+    "next": [],
+    "root": 433,
+    "next_details": []
+  }
+}

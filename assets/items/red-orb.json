@@ -1,0 +1,12 @@
+{
+  "name": "red-orb",
+  "display_name": "Red Orb",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Causes groudon to appear in the embedded tower.",
+  "short_effect": "Summons Groudon to the Embedded Tower.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

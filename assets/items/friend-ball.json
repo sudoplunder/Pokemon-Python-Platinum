@@ -1,0 +1,12 @@
+{
+  "name": "friend-ball",
+  "display_name": "Friend Ball",
+  "category": "apricorn-balls",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If caught, the wild Pok\u00e9mon's happiness starts at 200.",
+  "short_effect": "Caught Pok\u00e9mon start with 200 happiness. Made from Grn Apricorn.",
+  "generation": 4,
+  "is_consumable": true,
+  "attributes": []
+}

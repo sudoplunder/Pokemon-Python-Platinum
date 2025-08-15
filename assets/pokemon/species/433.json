@@ -1,0 +1,96 @@
+{
+  "id": 433,
+  "name": "chingling",
+  "generation": "4",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 50,
+    "sp_atk": 65,
+    "sp_def": 50,
+    "speed": 45
+  },
+  "base_experience": 57,
+  "growth_rate": "fast",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "wrap"
+      },
+      {
+        "level": 6,
+        "name": "growl"
+      },
+      {
+        "level": 9,
+        "name": "astonish"
+      },
+      {
+        "level": 14,
+        "name": "confusion"
+      },
+      {
+        "level": 17,
+        "name": "uproar"
+      },
+      {
+        "level": 22,
+        "name": "last-resort"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "shadow-ball",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thunder-wave",
+      "torment",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      358
+    ],
+    "root": 433,
+    "next_details": []
+  }
+}

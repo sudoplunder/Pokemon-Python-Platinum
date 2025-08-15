@@ -1,0 +1,15 @@
+{
+  "name": "shell-bell",
+  "display_name": "Shell Bell",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 30,
+  "effect": "Held: Heals the holder by 1/8 of any damage it inflicts.",
+  "short_effect": "Held: Holder receives 1/8 of the damage it deals when attacking.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

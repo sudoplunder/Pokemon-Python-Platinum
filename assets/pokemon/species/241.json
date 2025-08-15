@@ -1,0 +1,133 @@
+{
+  "id": 241,
+  "name": "miltank",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 80,
+    "defense": 105,
+    "sp_atk": 40,
+    "sp_def": 70,
+    "speed": 100
+  },
+  "base_experience": 172,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 8,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "scrappy",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 3,
+        "name": "growl"
+      },
+      {
+        "level": 5,
+        "name": "defense-curl"
+      },
+      {
+        "level": 8,
+        "name": "stomp"
+      },
+      {
+        "level": 11,
+        "name": "milk-drink"
+      },
+      {
+        "level": 15,
+        "name": "bide"
+      },
+      {
+        "level": 19,
+        "name": "rollout"
+      },
+      {
+        "level": 24,
+        "name": "body-slam"
+      },
+      {
+        "level": 29,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 35,
+        "name": "captivate"
+      },
+      {
+        "level": 41,
+        "name": "gyro-ball"
+      },
+      {
+        "level": 48,
+        "name": "heal-bell"
+      },
+      {
+        "level": 55,
+        "name": "wake-up-slap"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 241,
+    "next_details": []
+  }
+}

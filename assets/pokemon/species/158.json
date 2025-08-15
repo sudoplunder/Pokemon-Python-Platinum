@@ -1,0 +1,137 @@
+{
+  "id": 158,
+  "name": "totodile",
+  "generation": "2",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 64,
+    "sp_atk": 44,
+    "sp_def": 48,
+    "speed": 43
+  },
+  "base_experience": 63,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "abilities": {
+    "primary": "torrent",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 6,
+        "name": "water-gun"
+      },
+      {
+        "level": 7,
+        "name": "rage"
+      },
+      {
+        "level": 13,
+        "name": "bite"
+      },
+      {
+        "level": 15,
+        "name": "scary-face"
+      },
+      {
+        "level": 20,
+        "name": "ice-fang"
+      },
+      {
+        "level": 22,
+        "name": "flail"
+      },
+      {
+        "level": 27,
+        "name": "crunch"
+      },
+      {
+        "level": 34,
+        "name": "slash"
+      },
+      {
+        "level": 36,
+        "name": "screech"
+      },
+      {
+        "level": 41,
+        "name": "thrash"
+      },
+      {
+        "level": 43,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 48,
+        "name": "superpower"
+      },
+      {
+        "level": 50,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "dive",
+      "double-team",
+      "dragon-claw",
+      "facade",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "substitute",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      159
+    ],
+    "root": 158,
+    "next_details": []
+  }
+}

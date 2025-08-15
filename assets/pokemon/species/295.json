@@ -1,0 +1,148 @@
+{
+  "id": 295,
+  "name": "exploud",
+  "generation": "3",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 104,
+    "attack": 91,
+    "defense": 63,
+    "sp_atk": 91,
+    "sp_def": 73,
+    "speed": 68
+  },
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "soundproof",
+    "secondary": null,
+    "hidden": "scrappy"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "howl"
+      },
+      {
+        "level": 1,
+        "name": "ice-fang"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 1,
+        "name": "uproar"
+      },
+      {
+        "level": 20,
+        "name": "bite"
+      },
+      {
+        "level": 23,
+        "name": "supersonic"
+      },
+      {
+        "level": 29,
+        "name": "stomp"
+      },
+      {
+        "level": 37,
+        "name": "screech"
+      },
+      {
+        "level": 40,
+        "name": "crunch"
+      },
+      {
+        "level": 40,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 45,
+        "name": "roar"
+      },
+      {
+        "level": 55,
+        "name": "rest"
+      },
+      {
+        "level": 55,
+        "name": "sleep-talk"
+      },
+      {
+        "level": 63,
+        "name": "hyper-voice"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "overheat",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "taunt",
+      "torment",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 294,
+    "next": [],
+    "root": 293,
+    "next_details": []
+  }
+}

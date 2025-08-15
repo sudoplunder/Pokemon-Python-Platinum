@@ -1,0 +1,107 @@
+{
+  "id": 397,
+  "name": "staravia",
+  "generation": "4",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 75,
+    "defense": 50,
+    "sp_atk": 40,
+    "sp_def": 40,
+    "speed": 80
+  },
+  "base_experience": 119,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": null,
+    "hidden": "reckless"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 9,
+        "name": "wing-attack"
+      },
+      {
+        "level": 13,
+        "name": "double-team"
+      },
+      {
+        "level": 18,
+        "name": "endeavor"
+      },
+      {
+        "level": 23,
+        "name": "whirlwind"
+      },
+      {
+        "level": 28,
+        "name": "aerial-ace"
+      },
+      {
+        "level": 33,
+        "name": "take-down"
+      },
+      {
+        "level": 38,
+        "name": "agility"
+      },
+      {
+        "level": 43,
+        "name": "brave-bird"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 396,
+    "next": [
+      398
+    ],
+    "root": 396,
+    "next_details": []
+  }
+}

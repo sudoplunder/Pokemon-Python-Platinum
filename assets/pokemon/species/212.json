@@ -1,0 +1,151 @@
+{
+  "id": 212,
+  "name": "scizor",
+  "generation": "2",
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 130,
+    "defense": 100,
+    "sp_atk": 55,
+    "sp_def": 80,
+    "speed": 65
+  },
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "capture_rate": 25,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swarm",
+    "secondary": "technician",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bullet-punch"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 5,
+        "name": "focus-energy"
+      },
+      {
+        "level": 9,
+        "name": "pursuit"
+      },
+      {
+        "level": 13,
+        "name": "false-swipe"
+      },
+      {
+        "level": 17,
+        "name": "agility"
+      },
+      {
+        "level": 21,
+        "name": "metal-claw"
+      },
+      {
+        "level": 25,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 29,
+        "name": "slash"
+      },
+      {
+        "level": 33,
+        "name": "razor-wind"
+      },
+      {
+        "level": 36,
+        "name": "swords-dance"
+      },
+      {
+        "level": 37,
+        "name": "iron-defense"
+      },
+      {
+        "level": 41,
+        "name": "double-team"
+      },
+      {
+        "level": 41,
+        "name": "x-scissor"
+      },
+      {
+        "level": 45,
+        "name": "night-slash"
+      },
+      {
+        "level": 49,
+        "name": "double-hit"
+      },
+      {
+        "level": 53,
+        "name": "iron-head"
+      },
+      {
+        "level": 61,
+        "name": "feint"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "flash-cannon",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "steel-wing",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "u-turn",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 123,
+    "next": [],
+    "root": 123,
+    "next_details": []
+  }
+}

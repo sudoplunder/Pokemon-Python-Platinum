@@ -1,0 +1,12 @@
+{
+  "name": "poke-radar",
+  "display_name": "Poke Radar",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Designates several nearby patches of grass as containing Pok\u00e9mon, some of which may be special radar-only Pok\u00e9mon.  Successive uses in a certain way create chains of encounters with the same species; longer chains increase the chance that a shiny Pok\u00e9mon of that species will appear.",
+  "short_effect": "Use to track down rare or shiny Pok\u00e9mon. 50 steps to recharge.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

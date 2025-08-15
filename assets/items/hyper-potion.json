@@ -1,0 +1,18 @@
+{
+  "name": "hyper-potion",
+  "display_name": "Hyper Potion",
+  "category": "healing",
+  "cost": 1500,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Restores 200 HP.",
+  "short_effect": "Restores 200 HP.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

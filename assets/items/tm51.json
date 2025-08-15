@@ -1,0 +1,12 @@
+{
+  "name": "tm51",
+  "display_name": "Tm51",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Roost to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Ally Switch to a compatible Pok\u00e9mon. (Gen IV: Roost)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bike-voucher",
+  "display_name": "Bike Voucher",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "May be traded for a bicycle.",
+  "short_effect": "Trade in Cerulean bike shop for a Bicycle.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

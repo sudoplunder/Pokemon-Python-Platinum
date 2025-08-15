@@ -1,0 +1,12 @@
+{
+  "name": "lock-capsule",
+  "display_name": "Lock Capsule",
+  "category": "unused",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Does nothing.",
+  "short_effect": "Contains TM95 (Snarl).",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

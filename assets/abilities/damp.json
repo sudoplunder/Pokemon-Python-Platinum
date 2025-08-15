@@ -1,0 +1,8 @@
+{
+  "name": "damp",
+  "display_name": "Damp",
+  "generation": 3,
+  "short_effect": "Prevents self destruct, explosion, and aftermath from working while the Pok\u00e9mon is in battle.",
+  "effect": "While this Pok\u00e9mon is in battle, self destruct and explosion will fail and aftermath will not take effect.",
+  "is_gen4_or_prior": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tea",
+  "display_name": "Tea",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used to bribe the saffron city guards for entry to the city.",
+  "short_effect": "Grants access to Saffron City.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

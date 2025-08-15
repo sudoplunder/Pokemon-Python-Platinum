@@ -1,0 +1,152 @@
+{
+  "id": 344,
+  "name": "claydol",
+  "generation": "3",
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 105,
+    "sp_atk": 70,
+    "sp_def": 120,
+    "speed": 75
+  },
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "capture_rate": 90,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 1,
+        "name": "teleport"
+      },
+      {
+        "level": 7,
+        "name": "mud-slap"
+      },
+      {
+        "level": 10,
+        "name": "rock-tomb"
+      },
+      {
+        "level": 11,
+        "name": "psybeam"
+      },
+      {
+        "level": 17,
+        "name": "power-trick"
+      },
+      {
+        "level": 19,
+        "name": "self-destruct"
+      },
+      {
+        "level": 21,
+        "name": "ancient-power"
+      },
+      {
+        "level": 28,
+        "name": "extrasensory"
+      },
+      {
+        "level": 31,
+        "name": "cosmic-power"
+      },
+      {
+        "level": 31,
+        "name": "sandstorm"
+      },
+      {
+        "level": 36,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 40,
+        "name": "earth-power"
+      },
+      {
+        "level": 54,
+        "name": "heal-block"
+      },
+      {
+        "level": 55,
+        "name": "explosion"
+      }
+    ],
+    "machines": [
+      "calm-mind",
+      "charge-beam",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "explosion",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": 343,
+    "next": [],
+    "root": 343,
+    "next_details": []
+  }
+}

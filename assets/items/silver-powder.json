@@ -1,0 +1,15 @@
+{
+  "name": "silver-powder",
+  "display_name": "Silver Powder",
+  "category": "type-enhancement",
+  "cost": 1000,
+  "fling_power": 10,
+  "effect": "Held in battle\n:   Holder's bug-type moves have 1.2\u00d7 their power.",
+  "short_effect": "Held: Bug-Type moves from holder do 20% more damage.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

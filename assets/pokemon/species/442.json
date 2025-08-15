@@ -1,0 +1,122 @@
+{
+  "id": 442,
+  "name": "spiritomb",
+  "generation": "4",
+  "types": [
+    "ghost",
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 92,
+    "defense": 108,
+    "sp_atk": 92,
+    "sp_def": 108,
+    "speed": 35
+  },
+  "base_experience": 170,
+  "growth_rate": "medium",
+  "capture_rate": 100,
+  "gender_rate": 4,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 1,
+        "name": "curse"
+      },
+      {
+        "level": 1,
+        "name": "pursuit"
+      },
+      {
+        "level": 1,
+        "name": "shadow-sneak"
+      },
+      {
+        "level": 1,
+        "name": "spite"
+      },
+      {
+        "level": 7,
+        "name": "feint-attack"
+      },
+      {
+        "level": 13,
+        "name": "hypnosis"
+      },
+      {
+        "level": 19,
+        "name": "dream-eater"
+      },
+      {
+        "level": 25,
+        "name": "ominous-wind"
+      },
+      {
+        "level": 31,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 37,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 43,
+        "name": "memento"
+      },
+      {
+        "level": 49,
+        "name": "dark-pulse"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-tomb",
+      "shadow-ball",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 442,
+    "next_details": []
+  }
+}

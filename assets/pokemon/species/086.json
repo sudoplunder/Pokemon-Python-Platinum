@@ -1,0 +1,136 @@
+{
+  "id": 86,
+  "name": "seel",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "sp_atk": 45,
+    "sp_def": 70,
+    "speed": 45
+  },
+  "base_experience": 65,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "hydration",
+    "hidden": "ice-body"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "headbutt"
+      },
+      {
+        "level": 3,
+        "name": "growl"
+      },
+      {
+        "level": 7,
+        "name": "water-sport"
+      },
+      {
+        "level": 11,
+        "name": "icy-wind"
+      },
+      {
+        "level": 13,
+        "name": "encore"
+      },
+      {
+        "level": 17,
+        "name": "ice-shard"
+      },
+      {
+        "level": 21,
+        "name": "aurora-beam"
+      },
+      {
+        "level": 21,
+        "name": "rest"
+      },
+      {
+        "level": 23,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 31,
+        "name": "aqua-jet"
+      },
+      {
+        "level": 33,
+        "name": "brine"
+      },
+      {
+        "level": 37,
+        "name": "take-down"
+      },
+      {
+        "level": 41,
+        "name": "dive"
+      },
+      {
+        "level": 41,
+        "name": "ice-beam"
+      },
+      {
+        "level": 43,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 49,
+        "name": "safeguard"
+      },
+      {
+        "level": 53,
+        "name": "hail"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "fling",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      87
+    ],
+    "root": 86,
+    "next_details": []
+  }
+}

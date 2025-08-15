@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1360&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1320&limit=20",
+  "results": [
+    {
+      "name": "dynamax-crystal-cma2294",
+      "url": "https://pokeapi.co/api/v2/item/1392/"
+    },
+    {
+      "name": "dynamax-crystal-cma2827",
+      "url": "https://pokeapi.co/api/v2/item/1393/"
+    },
+    {
+      "name": "dynamax-crystal-cma2282",
+      "url": "https://pokeapi.co/api/v2/item/1394/"
+    },
+    {
+      "name": "dynamax-crystal-cma2618",
+      "url": "https://pokeapi.co/api/v2/item/1395/"
+    },
+    {
+      "name": "dynamax-crystal-cma2657",
+      "url": "https://pokeapi.co/api/v2/item/1396/"
+    },
+    {
+      "name": "dynamax-crystal-cma2646",
+      "url": "https://pokeapi.co/api/v2/item/1397/"
+    },
+    {
+      "name": "dynamax-crystal-uma4905",
+      "url": "https://pokeapi.co/api/v2/item/1398/"
+    },
+    {
+      "name": "dynamax-crystal-uma4301",
+      "url": "https://pokeapi.co/api/v2/item/1399/"
+    },
+    {
+      "name": "dynamax-crystal-uma5191",
+      "url": "https://pokeapi.co/api/v2/item/1400/"
+    },
+    {
+      "name": "dynamax-crystal-uma5054",
+      "url": "https://pokeapi.co/api/v2/item/1401/"
+    },
+    {
+      "name": "dynamax-crystal-uma4295",
+      "url": "https://pokeapi.co/api/v2/item/1402/"
+    },
+    {
+      "name": "dynamax-crystal-uma4660",
+      "url": "https://pokeapi.co/api/v2/item/1403/"
+    },
+    {
+      "name": "dynamax-crystal-uma4554",
+      "url": "https://pokeapi.co/api/v2/item/1404/"
+    },
+    {
+      "name": "dynamax-crystal-uma4069",
+      "url": "https://pokeapi.co/api/v2/item/1405/"
+    },
+    {
+      "name": "dynamax-crystal-uma3569",
+      "url": "https://pokeapi.co/api/v2/item/1406/"
+    },
+    {
+      "name": "dynamax-crystal-uma3323",
+      "url": "https://pokeapi.co/api/v2/item/1407/"
+    },
+    {
+      "name": "dynamax-crystal-uma4033",
+      "url": "https://pokeapi.co/api/v2/item/1408/"
+    },
+    {
+      "name": "dynamax-crystal-uma4377",
+      "url": "https://pokeapi.co/api/v2/item/1409/"
+    },
+    {
+      "name": "dynamax-crystal-uma4375",
+      "url": "https://pokeapi.co/api/v2/item/1410/"
+    },
+    {
+      "name": "dynamax-crystal-uma4518",
+      "url": "https://pokeapi.co/api/v2/item/1411/"
+    }
+  ]
+}

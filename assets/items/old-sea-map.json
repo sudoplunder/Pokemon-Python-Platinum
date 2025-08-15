@@ -1,0 +1,12 @@
+{
+  "name": "old-sea-map",
+  "display_name": "Old Sea Map",
+  "category": "event-items",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Provides access to Faraway Island and mew.",
+  "short_effect": "Allows access to Faraway Island and Mew. Unreleased outside of Japan.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

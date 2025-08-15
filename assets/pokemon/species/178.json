@@ -1,0 +1,143 @@
+{
+  "id": 178,
+  "name": "xatu",
+  "generation": "2",
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 75,
+    "defense": 70,
+    "sp_atk": 95,
+    "sp_def": 70,
+    "speed": 95
+  },
+  "base_experience": 165,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "synchronize",
+    "secondary": "early-bird",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 6,
+        "name": "night-shade"
+      },
+      {
+        "level": 9,
+        "name": "teleport"
+      },
+      {
+        "level": 12,
+        "name": "lucky-chant"
+      },
+      {
+        "level": 17,
+        "name": "miracle-eye"
+      },
+      {
+        "level": 20,
+        "name": "me-first"
+      },
+      {
+        "level": 23,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 27,
+        "name": "tailwind"
+      },
+      {
+        "level": 30,
+        "name": "wish"
+      },
+      {
+        "level": 35,
+        "name": "future-sight"
+      },
+      {
+        "level": 37,
+        "name": "psycho-shift"
+      },
+      {
+        "level": 54,
+        "name": "ominous-wind"
+      },
+      {
+        "level": 54,
+        "name": "power-swap"
+      },
+      {
+        "level": 59,
+        "name": "guard-swap"
+      },
+      {
+        "level": 65,
+        "name": "psychic"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "calm-mind",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fly",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "pluck",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "solar-beam",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder-wave",
+      "toxic",
+      "trick-room",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 177,
+    "next": [],
+    "root": 177,
+    "next_details": []
+  }
+}

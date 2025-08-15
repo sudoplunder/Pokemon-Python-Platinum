@@ -1,0 +1,12 @@
+{
+  "name": "tm08",
+  "display_name": "Tm08",
+  "category": "all-machines",
+  "cost": 50000,
+  "fling_power": null,
+  "effect": "Teaches Bulk Up to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Bulk Up to a compatible Pok\u00e9mon. (Gen II: Rock Smash Gen I: Body Slam)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

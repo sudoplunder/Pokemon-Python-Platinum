@@ -1,0 +1,8 @@
+{
+  "name": "hydration",
+  "display_name": "Hydration",
+  "generation": 4,
+  "short_effect": "Cures any major status ailment after each turn during rain.",
+  "effect": "This Pok\u00e9mon is cured of any major status ailment after each turn during rain.",
+  "is_gen4_or_prior": true
+}

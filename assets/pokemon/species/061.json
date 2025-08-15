@@ -1,0 +1,126 @@
+{
+  "id": 61,
+  "name": "poliwhirl",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 65,
+    "sp_atk": 50,
+    "sp_def": 50,
+    "speed": 90
+  },
+  "base_experience": 135,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1"
+  ],
+  "abilities": {
+    "primary": "water-absorb",
+    "secondary": "damp",
+    "hidden": "swift-swim"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 1,
+        "name": "water-sport"
+      },
+      {
+        "level": 15,
+        "name": "double-slap"
+      },
+      {
+        "level": 18,
+        "name": "rain-dance"
+      },
+      {
+        "level": 21,
+        "name": "body-slam"
+      },
+      {
+        "level": 27,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 32,
+        "name": "mud-shot"
+      },
+      {
+        "level": 37,
+        "name": "belly-drum"
+      },
+      {
+        "level": 43,
+        "name": "wake-up-slap"
+      },
+      {
+        "level": 48,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 53,
+        "name": "mud-bomb"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 60,
+    "next": [
+      62,
+      186
+    ],
+    "root": 60,
+    "next_details": []
+  }
+}

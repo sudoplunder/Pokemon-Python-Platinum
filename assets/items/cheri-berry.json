@@ -1,0 +1,14 @@
+{
+  "name": "cheri-berry",
+  "display_name": "Cheri Berry",
+  "category": "medicine",
+  "cost": 80,
+  "fling_power": 10,
+  "effect": "Held in battle\n:   When the holder is paralyzed, it consumes this item to cure the paralysis.\n\nUsed on a party Pok\u00e9mon\n:   Cures paralysis.",
+  "short_effect": "Held: Consumed when paralyzed to cure paralysis.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "holdable-active"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": 9,
+  "name": "blastoise",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 79,
+    "attack": 83,
+    "defense": 100,
+    "sp_atk": 85,
+    "sp_def": 105,
+    "speed": 78
+  },
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "abilities": {
+    "primary": "torrent",
+    "secondary": null,
+    "hidden": "rain-dish"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "flash-cannon"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 1,
+        "name": "withdraw"
+      },
+      {
+        "level": 13,
+        "name": "water-gun"
+      },
+      {
+        "level": 16,
+        "name": "bite"
+      },
+      {
+        "level": 20,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 24,
+        "name": "protect"
+      },
+      {
+        "level": 28,
+        "name": "water-pulse"
+      },
+      {
+        "level": 32,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 39,
+        "name": "skull-bash"
+      },
+      {
+        "level": 42,
+        "name": "rain-dance"
+      },
+      {
+        "level": 46,
+        "name": "iron-defense"
+      },
+      {
+        "level": 60,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "flash-cannon",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 8,
+    "next": [],
+    "root": 7,
+    "next_details": []
+  }
+}

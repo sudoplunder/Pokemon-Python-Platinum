@@ -1,0 +1,15 @@
+{
+  "id": 1371,
+  "item": {
+    "name": "tm86",
+    "url": "https://pokeapi.co/api/v2/item/390/"
+  },
+  "move": {
+    "name": "phantom-force",
+    "url": "https://pokeapi.co/api/v2/move/566/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

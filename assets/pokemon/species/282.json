@@ -1,0 +1,139 @@
+{
+  "id": 282,
+  "name": "gardevoir",
+  "generation": "3",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 65,
+    "defense": 65,
+    "sp_atk": 125,
+    "sp_def": 115,
+    "speed": 80
+  },
+  "base_experience": 233,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "humanshape",
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "synchronize",
+    "secondary": "trace",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "double-team"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "healing-wish"
+      },
+      {
+        "level": 1,
+        "name": "teleport"
+      },
+      {
+        "level": 17,
+        "name": "wish"
+      },
+      {
+        "level": 21,
+        "name": "calm-mind"
+      },
+      {
+        "level": 22,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 26,
+        "name": "psychic"
+      },
+      {
+        "level": 33,
+        "name": "imprison"
+      },
+      {
+        "level": 42,
+        "name": "future-sight"
+      },
+      {
+        "level": 51,
+        "name": "hypnosis"
+      },
+      {
+        "level": 60,
+        "name": "captivate"
+      },
+      {
+        "level": 60,
+        "name": "dream-eater"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 281,
+    "next": [],
+    "root": 280,
+    "next_details": []
+  }
+}

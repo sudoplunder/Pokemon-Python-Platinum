@@ -1,0 +1,12 @@
+{
+  "name": "level-ball",
+  "display_name": "Level Ball",
+  "category": "apricorn-balls",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the trainer's Pok\u00e9mon's level is higher than:\n\n    * four times the wild Pok\u00e9mon's, the wild Pok\u00e9mon's catch rate is 8\u00d7 normal.\n    * than twice the wild Pok\u00e9mon's, the wild Pok\u00e9mon's catch rate is 4\u00d7 normal.\n    * the wild Pok\u00e9mon's, the wild Pok\u00e9mon's catch rate is 2\u00d7 normal.",
+  "short_effect": "Success rate based off of fraction target Pok\u00e9mon is of user's Pok\u00e9mon. Made from Red Apricorn.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

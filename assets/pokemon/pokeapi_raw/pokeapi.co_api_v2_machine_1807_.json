@@ -1,0 +1,15 @@
+{
+  "id": 1807,
+  "item": {
+    "name": "tm102",
+    "url": "https://pokeapi.co/api/v2/item/1945/"
+  },
+  "move": {
+    "name": "gunk-shot",
+    "url": "https://pokeapi.co/api/v2/move/441/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

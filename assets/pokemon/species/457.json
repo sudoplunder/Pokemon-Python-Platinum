@@ -1,0 +1,119 @@
+{
+  "id": 457,
+  "name": "lumineon",
+  "generation": "4",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 69,
+    "attack": 69,
+    "defense": 76,
+    "sp_atk": 69,
+    "sp_def": 86,
+    "speed": 91
+  },
+  "base_experience": 161,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "storm-drain",
+    "hidden": "water-veil"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "attract"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 13,
+        "name": "rain-dance"
+      },
+      {
+        "level": 17,
+        "name": "gust"
+      },
+      {
+        "level": 22,
+        "name": "water-pulse"
+      },
+      {
+        "level": 26,
+        "name": "captivate"
+      },
+      {
+        "level": 29,
+        "name": "safeguard"
+      },
+      {
+        "level": 35,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 42,
+        "name": "whirlpool"
+      },
+      {
+        "level": 48,
+        "name": "u-turn"
+      },
+      {
+        "level": 53,
+        "name": "bounce"
+      },
+      {
+        "level": 59,
+        "name": "silver-wind"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "u-turn",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 456,
+    "next": [],
+    "root": 456,
+    "next_details": []
+  }
+}

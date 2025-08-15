@@ -1,0 +1,14 @@
+{
+  "name": "deep-sea-scale",
+  "display_name": "Deep Sea Scale",
+  "category": "species-specific",
+  "cost": 2000,
+  "fling_power": 30,
+  "effect": "Held by Clamperl: Doubles the holder's Special Defense.  Evolves the holder into Gorebyss when traded.",
+  "short_effect": "Doubles Clamperl's Special Defense. Traded on a Clamperl: Holder evolves into Gorebyss.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable"
+  ]
+}

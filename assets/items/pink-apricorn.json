@@ -1,0 +1,12 @@
+{
+  "name": "pink-apricorn",
+  "display_name": "Pink Apricorn",
+  "category": "apricorn-box",
+  "cost": 200,
+  "fling_power": 10,
+  "effect": "May be given to Kurt in azalea town to produce a love ball.",
+  "short_effect": "Used to make a Love Ball.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

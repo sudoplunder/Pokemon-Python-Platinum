@@ -1,0 +1,12 @@
+{
+  "name": "works-key",
+  "display_name": "Works Key",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Opens the front door of the Valley Windworks.  Reusable.",
+  "short_effect": "Grants access to Valley Windworks.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

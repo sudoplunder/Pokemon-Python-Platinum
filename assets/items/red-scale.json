@@ -1,0 +1,12 @@
+{
+  "name": "red-scale",
+  "display_name": "Red Scale",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "May be traded to Mr. Pok\u00e9mon for an exp share.",
+  "short_effect": "Trade to Mr. Pok\u00e9mon for an Exp. Share.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

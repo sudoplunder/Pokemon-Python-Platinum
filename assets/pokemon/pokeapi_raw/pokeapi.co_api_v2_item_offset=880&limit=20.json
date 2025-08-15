@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=900&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=860&limit=20",
+  "results": [
+    {
+      "name": "storage-key--sea-mauville",
+      "url": "https://pokeapi.co/api/v2/item/932/"
+    },
+    {
+      "name": "ss-ticket--hoenn",
+      "url": "https://pokeapi.co/api/v2/item/933/"
+    },
+    {
+      "name": "contest-costume--dress",
+      "url": "https://pokeapi.co/api/v2/item/934/"
+    },
+    {
+      "name": "meteorite--2",
+      "url": "https://pokeapi.co/api/v2/item/935/"
+    },
+    {
+      "name": "meteorite--3",
+      "url": "https://pokeapi.co/api/v2/item/936/"
+    },
+    {
+      "name": "meteorite--4",
+      "url": "https://pokeapi.co/api/v2/item/937/"
+    },
+    {
+      "name": "normalium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/938/"
+    },
+    {
+      "name": "firium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/939/"
+    },
+    {
+      "name": "waterium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/940/"
+    },
+    {
+      "name": "electrium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/941/"
+    },
+    {
+      "name": "grassium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/942/"
+    },
+    {
+      "name": "icium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/943/"
+    },
+    {
+      "name": "fightinium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/944/"
+    },
+    {
+      "name": "poisonium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/945/"
+    },
+    {
+      "name": "groundium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/946/"
+    },
+    {
+      "name": "flyinium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/947/"
+    },
+    {
+      "name": "psychium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/948/"
+    },
+    {
+      "name": "buginium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/949/"
+    },
+    {
+      "name": "rockium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/950/"
+    },
+    {
+      "name": "ghostium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/951/"
+    }
+  ]
+}

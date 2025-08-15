@@ -1,0 +1,15 @@
+{
+  "id": 1730,
+  "item": {
+    "name": "tm25",
+    "url": "https://pokeapi.co/api/v2/item/329/"
+  },
+  "move": {
+    "name": "facade",
+    "url": "https://pokeapi.co/api/v2/move/263/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

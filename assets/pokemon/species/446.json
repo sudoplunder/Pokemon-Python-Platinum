@@ -1,0 +1,139 @@
+{
+  "id": 446,
+  "name": "munchlax",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 135,
+    "attack": 85,
+    "defense": 40,
+    "sp_atk": 40,
+    "sp_def": 85,
+    "speed": 5
+  },
+  "base_experience": 78,
+  "growth_rate": "slow",
+  "capture_rate": 50,
+  "gender_rate": 1,
+  "hatch_cycles": 40,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "pickup",
+    "secondary": "thick-fat",
+    "hidden": "gluttony"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "metronome"
+      },
+      {
+        "level": 1,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 4,
+        "name": "defense-curl"
+      },
+      {
+        "level": 9,
+        "name": "amnesia"
+      },
+      {
+        "level": 12,
+        "name": "lick"
+      },
+      {
+        "level": 17,
+        "name": "recycle"
+      },
+      {
+        "level": 20,
+        "name": "screech"
+      },
+      {
+        "level": 28,
+        "name": "stockpile"
+      },
+      {
+        "level": 33,
+        "name": "swallow"
+      },
+      {
+        "level": 36,
+        "name": "body-slam"
+      },
+      {
+        "level": 41,
+        "name": "fling"
+      },
+      {
+        "level": 44,
+        "name": "rollout"
+      },
+      {
+        "level": 49,
+        "name": "natural-gift"
+      },
+      {
+        "level": 52,
+        "name": "snatch"
+      },
+      {
+        "level": 57,
+        "name": "last-resort"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "shadow-ball",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      143
+    ],
+    "root": 446,
+    "next_details": []
+  }
+}

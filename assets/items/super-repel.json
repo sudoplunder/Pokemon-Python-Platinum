@@ -1,0 +1,12 @@
+{
+  "name": "super-repel",
+  "display_name": "Super Repel",
+  "category": "spelunking",
+  "cost": 700,
+  "fling_power": 30,
+  "effect": "Used outside of battle\n:   Trainer will skip encounters with wild Pok\u00e9mon of a lower level than the lead party Pok\u00e9mon.  This effect wears off after the trainer takes 200 steps.",
+  "short_effect": "For 200 steps, prevents wild encounters of level lower than your party's lead Pok\u00e9mon.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

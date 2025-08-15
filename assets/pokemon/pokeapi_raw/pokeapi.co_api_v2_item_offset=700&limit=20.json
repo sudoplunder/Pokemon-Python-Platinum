@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=720&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=680&limit=20",
+  "results": [
+    {
+      "name": "medichamite",
+      "url": "https://pokeapi.co/api/v2/item/704/"
+    },
+    {
+      "name": "houndoominite",
+      "url": "https://pokeapi.co/api/v2/item/705/"
+    },
+    {
+      "name": "aggronite",
+      "url": "https://pokeapi.co/api/v2/item/706/"
+    },
+    {
+      "name": "banettite",
+      "url": "https://pokeapi.co/api/v2/item/707/"
+    },
+    {
+      "name": "tyranitarite",
+      "url": "https://pokeapi.co/api/v2/item/708/"
+    },
+    {
+      "name": "scizorite",
+      "url": "https://pokeapi.co/api/v2/item/709/"
+    },
+    {
+      "name": "pinsirite",
+      "url": "https://pokeapi.co/api/v2/item/710/"
+    },
+    {
+      "name": "aerodactylite",
+      "url": "https://pokeapi.co/api/v2/item/711/"
+    },
+    {
+      "name": "lucarionite",
+      "url": "https://pokeapi.co/api/v2/item/712/"
+    },
+    {
+      "name": "abomasite",
+      "url": "https://pokeapi.co/api/v2/item/713/"
+    },
+    {
+      "name": "kangaskhanite",
+      "url": "https://pokeapi.co/api/v2/item/714/"
+    },
+    {
+      "name": "gyaradosite",
+      "url": "https://pokeapi.co/api/v2/item/715/"
+    },
+    {
+      "name": "absolite",
+      "url": "https://pokeapi.co/api/v2/item/716/"
+    },
+    {
+      "name": "charizardite-y",
+      "url": "https://pokeapi.co/api/v2/item/717/"
+    },
+    {
+      "name": "alakazite",
+      "url": "https://pokeapi.co/api/v2/item/718/"
+    },
+    {
+      "name": "heracronite",
+      "url": "https://pokeapi.co/api/v2/item/719/"
+    },
+    {
+      "name": "mawilite",
+      "url": "https://pokeapi.co/api/v2/item/720/"
+    },
+    {
+      "name": "manectite",
+      "url": "https://pokeapi.co/api/v2/item/721/"
+    },
+    {
+      "name": "garchompite",
+      "url": "https://pokeapi.co/api/v2/item/722/"
+    },
+    {
+      "name": "roseli-berry",
+      "url": "https://pokeapi.co/api/v2/item/723/"
+    }
+  ]
+}

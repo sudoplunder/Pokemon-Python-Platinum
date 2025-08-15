@@ -1,0 +1,12 @@
+{
+  "name": "tm07",
+  "display_name": "Tm07",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Hail to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Hail to a compatible Pok\u00e9mon. (Gen II: Zap Cannon Gen I: Horn Drill)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

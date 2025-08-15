@@ -1,0 +1,132 @@
+{
+  "id": 389,
+  "name": "torterra",
+  "generation": "4",
+  "types": [
+    "grass",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 109,
+    "defense": 105,
+    "sp_atk": 75,
+    "sp_def": 85,
+    "speed": 56
+  },
+  "base_experience": 236,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "overgrow",
+    "secondary": null,
+    "hidden": "shell-armor"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 1,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "withdraw"
+      },
+      {
+        "level": 1,
+        "name": "wood-hammer"
+      },
+      {
+        "level": 17,
+        "name": "curse"
+      },
+      {
+        "level": 22,
+        "name": "bite"
+      },
+      {
+        "level": 27,
+        "name": "mega-drain"
+      },
+      {
+        "level": 32,
+        "name": "earthquake"
+      },
+      {
+        "level": 33,
+        "name": "leech-seed"
+      },
+      {
+        "level": 39,
+        "name": "synthesis"
+      },
+      {
+        "level": 45,
+        "name": "crunch"
+      },
+      {
+        "level": 51,
+        "name": "giga-drain"
+      },
+      {
+        "level": 57,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "attract",
+      "cut",
+      "double-team",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 388,
+    "next": [],
+    "root": 387,
+    "next_details": []
+  }
+}

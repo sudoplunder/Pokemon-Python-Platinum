@@ -1,0 +1,130 @@
+{
+  "id": 378,
+  "name": "regice",
+  "generation": "3",
+  "types": [
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 50,
+    "defense": 100,
+    "sp_atk": 100,
+    "sp_def": 200,
+    "speed": 50
+  },
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 80,
+  "base_friendship": 35,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "clear-body",
+    "secondary": null,
+    "hidden": "ice-body"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "explosion"
+      },
+      {
+        "level": 1,
+        "name": "stomp"
+      },
+      {
+        "level": 9,
+        "name": "icy-wind"
+      },
+      {
+        "level": 17,
+        "name": "curse"
+      },
+      {
+        "level": 25,
+        "name": "superpower"
+      },
+      {
+        "level": 33,
+        "name": "ancient-power"
+      },
+      {
+        "level": 41,
+        "name": "amnesia"
+      },
+      {
+        "level": 49,
+        "name": "charge-beam"
+      },
+      {
+        "level": 49,
+        "name": "zap-cannon"
+      },
+      {
+        "level": 57,
+        "name": "lock-on"
+      },
+      {
+        "level": 65,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 73,
+        "name": "ice-beam"
+      },
+      {
+        "level": 81,
+        "name": "hammer-arm"
+      }
+    ],
+    "machines": [
+      "blizzard",
+      "brick-break",
+      "charge-beam",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "flash-cannon",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "secret-power",
+      "shock-wave",
+      "strength",
+      "substitute",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 378,
+    "next_details": []
+  }
+}

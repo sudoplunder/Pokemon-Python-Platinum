@@ -1,0 +1,107 @@
+{
+  "id": 420,
+  "name": "cherubi",
+  "generation": "4",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 35,
+    "defense": 45,
+    "sp_atk": 62,
+    "sp_def": 53,
+    "speed": 35
+  },
+  "base_experience": 55,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "fairy",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "morning-sun"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 7,
+        "name": "growth"
+      },
+      {
+        "level": 10,
+        "name": "leech-seed"
+      },
+      {
+        "level": 13,
+        "name": "helping-hand"
+      },
+      {
+        "level": 19,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 22,
+        "name": "sunny-day"
+      },
+      {
+        "level": 28,
+        "name": "worry-seed"
+      },
+      {
+        "level": 31,
+        "name": "take-down"
+      },
+      {
+        "level": 37,
+        "name": "solar-beam"
+      },
+      {
+        "level": 40,
+        "name": "lucky-chant"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "protect",
+      "rest",
+      "return",
+      "safeguard",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      421
+    ],
+    "root": 420,
+    "next_details": []
+  }
+}

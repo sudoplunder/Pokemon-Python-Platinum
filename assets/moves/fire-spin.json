@@ -1,0 +1,42 @@
+{
+  "name": "fire-spin",
+  "display_name": "Fire Spin",
+  "type": "fire",
+  "category": "special",
+  "power": 35,
+  "accuracy": 85,
+  "pp": 15,
+  "priority": 0,
+  "generation": 1,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+  "effect": "Inflicts regular damage.  For the next 2\u20135 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    5,
+    6
+  ],
+  "flinch_chance": 0,
+  "ailment": "trap",
+  "ailment_chance": 100,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

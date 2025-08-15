@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1020&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=980&limit=20",
+  "results": [
+    {
+      "name": "health-candy-xl",
+      "url": "https://pokeapi.co/api/v2/item/1052/"
+    },
+    {
+      "name": "mighty-candy-xl",
+      "url": "https://pokeapi.co/api/v2/item/1053/"
+    },
+    {
+      "name": "tough-candy-xl",
+      "url": "https://pokeapi.co/api/v2/item/1054/"
+    },
+    {
+      "name": "smart-candy-xl",
+      "url": "https://pokeapi.co/api/v2/item/1055/"
+    },
+    {
+      "name": "courage-candy-xl",
+      "url": "https://pokeapi.co/api/v2/item/1056/"
+    },
+    {
+      "name": "quick-candy-xl",
+      "url": "https://pokeapi.co/api/v2/item/1057/"
+    },
+    {
+      "name": "bulbasaur-candy",
+      "url": "https://pokeapi.co/api/v2/item/1058/"
+    },
+    {
+      "name": "charmander-candy",
+      "url": "https://pokeapi.co/api/v2/item/1059/"
+    },
+    {
+      "name": "squirtle-candy",
+      "url": "https://pokeapi.co/api/v2/item/1060/"
+    },
+    {
+      "name": "caterpie-candy",
+      "url": "https://pokeapi.co/api/v2/item/1061/"
+    },
+    {
+      "name": "weedle-candy",
+      "url": "https://pokeapi.co/api/v2/item/1062/"
+    },
+    {
+      "name": "pidgey-candy",
+      "url": "https://pokeapi.co/api/v2/item/1063/"
+    },
+    {
+      "name": "rattata-candy",
+      "url": "https://pokeapi.co/api/v2/item/1064/"
+    },
+    {
+      "name": "spearow-candy",
+      "url": "https://pokeapi.co/api/v2/item/1065/"
+    },
+    {
+      "name": "ekans-candy",
+      "url": "https://pokeapi.co/api/v2/item/1066/"
+    },
+    {
+      "name": "pikachu-candy",
+      "url": "https://pokeapi.co/api/v2/item/1067/"
+    },
+    {
+      "name": "sandshrew-candy",
+      "url": "https://pokeapi.co/api/v2/item/1068/"
+    },
+    {
+      "name": "nidoran-f-candy",
+      "url": "https://pokeapi.co/api/v2/item/1069/"
+    },
+    {
+      "name": "nidoran-m-candy",
+      "url": "https://pokeapi.co/api/v2/item/1070/"
+    },
+    {
+      "name": "clefairy-candy",
+      "url": "https://pokeapi.co/api/v2/item/1071/"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "route201.tall_grass.intercept",
+  "trigger": { "type": "attempt_grass_entry", "value": "route_201" },
+  "once": true,
+  "prerequisites": {
+    "none": ["starter_chosen"],
+    "all": ["cyrus_lake_seen"]
+  },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.rowan.intervene" },
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.assistant.approach" },
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.rowan.present" },
+    { "command": "WAIT_INPUT", "prompt": "(Open the briefcase?) Press Enter to view starters" },
+    { "command": "CHOOSE_STARTER" },
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.after.battle" },
+    { "command": "SET_FLAG", "flag": "starter_chosen" }
+  ],
+  "set_flags": ["starter_chosen"]
+}

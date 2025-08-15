@@ -1,0 +1,72 @@
+{
+  "id": 225,
+  "name": "delibird",
+  "generation": "2",
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 55,
+    "defense": 45,
+    "sp_atk": 65,
+    "sp_def": 45,
+    "speed": 75
+  },
+  "base_experience": 116,
+  "growth_rate": "fast",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "vital-spirit",
+    "secondary": "hustle",
+    "hidden": "insomnia"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "present"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "double-team",
+      "facade",
+      "fling",
+      "fly",
+      "focus-punch",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 225,
+    "next_details": []
+  }
+}

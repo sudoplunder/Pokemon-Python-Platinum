@@ -1,0 +1,9 @@
+{
+  "id": "route_201_path",
+  "name": "Route 201 (Edge)",
+  "actions": [
+    { "label": "Return to Twinleaf Town", "type": "move", "target": "twinleaf_town_outside" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": []
+}

@@ -1,0 +1,109 @@
+{
+  "id": 269,
+  "name": "dustox",
+  "generation": "3",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "sp_atk": 50,
+    "sp_def": 90,
+    "speed": 65
+  },
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "shield-dust",
+    "secondary": null,
+    "hidden": "compound-eyes"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 13,
+        "name": "gust"
+      },
+      {
+        "level": 17,
+        "name": "protect"
+      },
+      {
+        "level": 20,
+        "name": "moonlight"
+      },
+      {
+        "level": 24,
+        "name": "psybeam"
+      },
+      {
+        "level": 27,
+        "name": "whirlwind"
+      },
+      {
+        "level": 31,
+        "name": "light-screen"
+      },
+      {
+        "level": 34,
+        "name": "silver-wind"
+      },
+      {
+        "level": 38,
+        "name": "toxic"
+      },
+      {
+        "level": 41,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "psychic",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 268,
+    "next": [],
+    "root": 265,
+    "next_details": []
+  }
+}

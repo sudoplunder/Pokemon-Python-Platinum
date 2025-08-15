@@ -1,0 +1,134 @@
+{
+  "id": 164,
+  "name": "noctowl",
+  "generation": "2",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 50,
+    "defense": 50,
+    "sp_atk": 86,
+    "sp_def": 96,
+    "speed": 70
+  },
+  "base_experience": 158,
+  "growth_rate": "medium",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "insomnia",
+    "secondary": "keen-eye",
+    "hidden": "tinted-lens"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 1,
+        "name": "sky-attack"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 13,
+        "name": "uproar"
+      },
+      {
+        "level": 17,
+        "name": "reflect"
+      },
+      {
+        "level": 22,
+        "name": "confusion"
+      },
+      {
+        "level": 32,
+        "name": "take-down"
+      },
+      {
+        "level": 37,
+        "name": "air-slash"
+      },
+      {
+        "level": 42,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 52,
+        "name": "extrasensory"
+      },
+      {
+        "level": 57,
+        "name": "dream-eater"
+      },
+      {
+        "level": 57,
+        "name": "psycho-shift"
+      },
+      {
+        "level": 62,
+        "name": "roost"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "pluck",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 163,
+    "next": [],
+    "root": 163,
+    "next_details": []
+  }
+}

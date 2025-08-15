@@ -1,0 +1,124 @@
+{
+  "id": 480,
+  "name": "uxie",
+  "generation": "4",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 75,
+    "defense": 130,
+    "sp_atk": 75,
+    "sp_def": 130,
+    "speed": 95
+  },
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 80,
+  "base_friendship": 140,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "rest"
+      },
+      {
+        "level": 6,
+        "name": "imprison"
+      },
+      {
+        "level": 16,
+        "name": "endure"
+      },
+      {
+        "level": 21,
+        "name": "swift"
+      },
+      {
+        "level": 31,
+        "name": "yawn"
+      },
+      {
+        "level": 36,
+        "name": "future-sight"
+      },
+      {
+        "level": 46,
+        "name": "amnesia"
+      },
+      {
+        "level": 51,
+        "name": "extrasensory"
+      },
+      {
+        "level": 61,
+        "name": "flail"
+      },
+      {
+        "level": 66,
+        "name": "natural-gift"
+      },
+      {
+        "level": 76,
+        "name": "memento"
+      }
+    ],
+    "machines": [
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "sandstorm",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "trick-room",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 480,
+    "next_details": []
+  }
+}

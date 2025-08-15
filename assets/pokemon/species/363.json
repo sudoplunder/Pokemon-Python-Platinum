@@ -1,0 +1,124 @@
+{
+  "id": 363,
+  "name": "spheal",
+  "generation": "3",
+  "types": [
+    "ice",
+    "water"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 40,
+    "defense": 50,
+    "sp_atk": 55,
+    "sp_def": 50,
+    "speed": 25
+  },
+  "base_experience": 58,
+  "growth_rate": "medium-slow",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "ice-body",
+    "hidden": "oblivious"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "powder-snow"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 7,
+        "name": "encore"
+      },
+      {
+        "level": 13,
+        "name": "ice-ball"
+      },
+      {
+        "level": 19,
+        "name": "body-slam"
+      },
+      {
+        "level": 25,
+        "name": "aurora-beam"
+      },
+      {
+        "level": 31,
+        "name": "hail"
+      },
+      {
+        "level": 37,
+        "name": "rest"
+      },
+      {
+        "level": 37,
+        "name": "snore"
+      },
+      {
+        "level": 43,
+        "name": "blizzard"
+      },
+      {
+        "level": 49,
+        "name": "sheer-cold"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      364
+    ],
+    "root": 363,
+    "next_details": []
+  }
+}

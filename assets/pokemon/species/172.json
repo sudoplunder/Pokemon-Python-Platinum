@@ -1,0 +1,97 @@
+{
+  "id": 172,
+  "name": "pichu",
+  "generation": "2",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 40,
+    "defense": 15,
+    "sp_atk": 35,
+    "sp_def": 35,
+    "speed": 60
+  },
+  "base_experience": 41,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "static",
+    "secondary": null,
+    "hidden": "lightning-rod"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "charm"
+      },
+      {
+        "level": 1,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 5,
+        "name": "tail-whip"
+      },
+      {
+        "level": 8,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 11,
+        "name": "sweet-kiss"
+      },
+      {
+        "level": 18,
+        "name": "nasty-plot"
+      }
+    ],
+    "machines": [
+      "attract",
+      "charge-beam",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shock-wave",
+      "substitute",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      25
+    ],
+    "root": 172,
+    "next_details": [
+      {
+        "id": 25,
+        "trigger": "friendship",
+        "conditions": {}
+      }
+    ]
+  }
+}

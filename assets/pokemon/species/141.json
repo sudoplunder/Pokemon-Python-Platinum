@@ -1,0 +1,140 @@
+{
+  "id": 141,
+  "name": "kabutops",
+  "generation": "1",
+  "types": [
+    "rock",
+    "water"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 115,
+    "defense": 105,
+    "sp_atk": 65,
+    "sp_def": 70,
+    "speed": 80
+  },
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "battle-armor",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 1,
+        "name": "feint"
+      },
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 16,
+        "name": "mud-shot"
+      },
+      {
+        "level": 21,
+        "name": "sand-attack"
+      },
+      {
+        "level": 26,
+        "name": "endure"
+      },
+      {
+        "level": 31,
+        "name": "aqua-jet"
+      },
+      {
+        "level": 36,
+        "name": "mega-drain"
+      },
+      {
+        "level": 40,
+        "name": "slash"
+      },
+      {
+        "level": 45,
+        "name": "metal-sound"
+      },
+      {
+        "level": 54,
+        "name": "ancient-power"
+      },
+      {
+        "level": 63,
+        "name": "wring-out"
+      },
+      {
+        "level": 72,
+        "name": "night-slash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "substitute",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 140,
+    "next": [],
+    "root": 140,
+    "next_details": []
+  }
+}

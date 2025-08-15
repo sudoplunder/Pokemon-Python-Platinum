@@ -1,0 +1,125 @@
+{
+  "id": 418,
+  "name": "buizel",
+  "generation": "4",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 65,
+    "defense": 35,
+    "sp_atk": 60,
+    "sp_def": 30,
+    "speed": 85
+  },
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": null,
+    "hidden": "water-veil"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "sonic-boom"
+      },
+      {
+        "level": 4,
+        "name": "growl"
+      },
+      {
+        "level": 7,
+        "name": "water-sport"
+      },
+      {
+        "level": 11,
+        "name": "quick-attack"
+      },
+      {
+        "level": 15,
+        "name": "water-gun"
+      },
+      {
+        "level": 18,
+        "name": "pursuit"
+      },
+      {
+        "level": 21,
+        "name": "swift"
+      },
+      {
+        "level": 24,
+        "name": "aqua-jet"
+      },
+      {
+        "level": 27,
+        "name": "double-hit"
+      },
+      {
+        "level": 31,
+        "name": "whirlpool"
+      },
+      {
+        "level": 35,
+        "name": "razor-wind"
+      },
+      {
+        "level": 38,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 41,
+        "name": "agility"
+      },
+      {
+        "level": 45,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "rock-tomb",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      419
+    ],
+    "root": 418,
+    "next_details": []
+  }
+}

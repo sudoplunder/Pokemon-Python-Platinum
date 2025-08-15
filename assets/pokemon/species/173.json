@@ -1,0 +1,110 @@
+{
+  "id": 173,
+  "name": "cleffa",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 25,
+    "defense": 28,
+    "sp_atk": 45,
+    "sp_def": 55,
+    "speed": 15
+  },
+  "base_experience": 44,
+  "growth_rate": "fast",
+  "capture_rate": 150,
+  "gender_rate": 6,
+  "hatch_cycles": 10,
+  "base_friendship": 140,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "cute-charm",
+    "secondary": "magic-guard",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "charm"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 4,
+        "name": "encore"
+      },
+      {
+        "level": 7,
+        "name": "sing"
+      },
+      {
+        "level": 10,
+        "name": "sweet-kiss"
+      },
+      {
+        "level": 13,
+        "name": "copycat"
+      },
+      {
+        "level": 16,
+        "name": "magical-leaf"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder-wave",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      35
+    ],
+    "root": 173,
+    "next_details": [
+      {
+        "id": 35,
+        "trigger": "friendship",
+        "conditions": {}
+      }
+    ]
+  }
+}

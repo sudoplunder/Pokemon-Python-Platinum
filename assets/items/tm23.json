@@ -1,0 +1,12 @@
+{
+  "name": "tm23",
+  "display_name": "Tm23",
+  "category": "all-machines",
+  "cost": 10000,
+  "fling_power": null,
+  "effect": "Teaches Iron Tail to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Smack Down to a compatible Pok\u00e9mon. (Gen IV & III & II: Iron Tail Gen I: Dragon Rage)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "great-ball",
+  "display_name": "Great Ball",
+  "category": "standard-balls",
+  "cost": 600,
+  "fling_power": null,
+  "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon, using a catch rate of 1.5\u00d7.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+  "short_effect": "Tries to catch a wild Pok\u00e9mon.  Success rate is 1.5\u00d7.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

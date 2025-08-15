@@ -1,0 +1,141 @@
+{
+  "id": 334,
+  "name": "altaria",
+  "generation": "3",
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 70,
+    "defense": 90,
+    "sp_atk": 70,
+    "sp_def": 105,
+    "speed": 80
+  },
+  "base_experience": 172,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "natural-cure",
+    "secondary": null,
+    "hidden": "cloud-nine"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 1,
+        "name": "pluck"
+      },
+      {
+        "level": 1,
+        "name": "sing"
+      },
+      {
+        "level": 10,
+        "name": "fury-attack"
+      },
+      {
+        "level": 13,
+        "name": "safeguard"
+      },
+      {
+        "level": 15,
+        "name": "mist"
+      },
+      {
+        "level": 21,
+        "name": "natural-gift"
+      },
+      {
+        "level": 25,
+        "name": "take-down"
+      },
+      {
+        "level": 29,
+        "name": "refresh"
+      },
+      {
+        "level": 34,
+        "name": "dragon-dance"
+      },
+      {
+        "level": 35,
+        "name": "dragon-breath"
+      },
+      {
+        "level": 48,
+        "name": "dragon-pulse"
+      },
+      {
+        "level": 54,
+        "name": "perish-song"
+      },
+      {
+        "level": 59,
+        "name": "sky-attack"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "dragon-claw",
+      "dream-eater",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "pluck",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 333,
+    "next": [],
+    "root": 333,
+    "next_details": []
+  }
+}

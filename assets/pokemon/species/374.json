@@ -1,0 +1,48 @@
+{
+  "id": 374,
+  "name": "beldum",
+  "generation": "3",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 55,
+    "defense": 80,
+    "sp_atk": 35,
+    "sp_def": 60,
+    "speed": 30
+  },
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 40,
+  "base_friendship": 35,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "clear-body",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "take-down"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      375
+    ],
+    "root": 374,
+    "next_details": []
+  }
+}

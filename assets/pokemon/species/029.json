@@ -1,0 +1,127 @@
+{
+  "id": 29,
+  "name": "nidoran-f",
+  "generation": "1",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 47,
+    "defense": 52,
+    "sp_atk": 40,
+    "sp_def": 40,
+    "speed": 41
+  },
+  "base_experience": 55,
+  "growth_rate": "medium-slow",
+  "capture_rate": 235,
+  "gender_rate": 8,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "poison-point",
+    "secondary": "rivalry",
+    "hidden": "hustle"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 7,
+        "name": "tail-whip"
+      },
+      {
+        "level": 9,
+        "name": "double-kick"
+      },
+      {
+        "level": 13,
+        "name": "poison-sting"
+      },
+      {
+        "level": 19,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 20,
+        "name": "bite"
+      },
+      {
+        "level": 23,
+        "name": "helping-hand"
+      },
+      {
+        "level": 31,
+        "name": "toxic-spikes"
+      },
+      {
+        "level": 33,
+        "name": "flatter"
+      },
+      {
+        "level": 37,
+        "name": "crunch"
+      },
+      {
+        "level": 43,
+        "name": "captivate"
+      },
+      {
+        "level": 45,
+        "name": "poison-fang"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-claw",
+      "shock-wave",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      30
+    ],
+    "root": 29,
+    "next_details": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "poffin-case",
+  "display_name": "Poffin Case",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Contains up to 100 Poffins.",
+  "short_effect": "Holds Poffins.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

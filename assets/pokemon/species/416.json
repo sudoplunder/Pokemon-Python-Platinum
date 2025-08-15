@@ -1,0 +1,134 @@
+{
+  "id": 416,
+  "name": "vespiquen",
+  "generation": "4",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 102,
+    "sp_atk": 80,
+    "sp_def": 102,
+    "speed": 40
+  },
+  "base_experience": 166,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 8,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 1,
+        "name": "gust"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 5,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 9,
+        "name": "pursuit"
+      },
+      {
+        "level": 13,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 17,
+        "name": "defend-order"
+      },
+      {
+        "level": 21,
+        "name": "slash"
+      },
+      {
+        "level": 25,
+        "name": "power-gem"
+      },
+      {
+        "level": 29,
+        "name": "heal-order"
+      },
+      {
+        "level": 33,
+        "name": "toxic"
+      },
+      {
+        "level": 37,
+        "name": "air-slash"
+      },
+      {
+        "level": 41,
+        "name": "captivate"
+      },
+      {
+        "level": 45,
+        "name": "attack-order"
+      },
+      {
+        "level": 49,
+        "name": "swagger"
+      },
+      {
+        "level": 53,
+        "name": "destiny-bond"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "cut",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "sludge-bomb",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 415,
+    "next": [],
+    "root": 415,
+    "next_details": []
+  }
+}

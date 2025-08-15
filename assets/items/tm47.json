@@ -1,0 +1,12 @@
+{
+  "name": "tm47",
+  "display_name": "Tm47",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Steel Wing to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Low Sweep to a compatible Pok\u00e9mon. (Gen IV & III & II: Steel Wing Gen I: Explosion)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

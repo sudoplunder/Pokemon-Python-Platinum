@@ -1,0 +1,153 @@
+{
+  "id": 465,
+  "name": "tangrowth",
+  "generation": "4",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 125,
+    "sp_atk": 110,
+    "sp_def": 50,
+    "speed": 50
+  },
+  "base_experience": 187,
+  "growth_rate": "medium",
+  "capture_rate": 30,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": "leaf-guard",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "constrict"
+      },
+      {
+        "level": 1,
+        "name": "ingrain"
+      },
+      {
+        "level": 4,
+        "name": "sleep-powder"
+      },
+      {
+        "level": 7,
+        "name": "vine-whip"
+      },
+      {
+        "level": 10,
+        "name": "absorb"
+      },
+      {
+        "level": 14,
+        "name": "poison-powder"
+      },
+      {
+        "level": 17,
+        "name": "bind"
+      },
+      {
+        "level": 20,
+        "name": "growth"
+      },
+      {
+        "level": 23,
+        "name": "mega-drain"
+      },
+      {
+        "level": 27,
+        "name": "knock-off"
+      },
+      {
+        "level": 30,
+        "name": "stun-spore"
+      },
+      {
+        "level": 33,
+        "name": "natural-gift"
+      },
+      {
+        "level": 36,
+        "name": "giga-drain"
+      },
+      {
+        "level": 40,
+        "name": "ancient-power"
+      },
+      {
+        "level": 43,
+        "name": "slam"
+      },
+      {
+        "level": 46,
+        "name": "tickle"
+      },
+      {
+        "level": 49,
+        "name": "wring-out"
+      },
+      {
+        "level": 53,
+        "name": "power-whip"
+      },
+      {
+        "level": 56,
+        "name": "block"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "double-team",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "reflect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sludge-bomb",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 114,
+    "next": [],
+    "root": 114,
+    "next_details": []
+  }
+}

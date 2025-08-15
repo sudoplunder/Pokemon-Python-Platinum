@@ -12,6 +12,10 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["mypy", "pytest", "rich"]
 
+[project.scripts]
+platinum = "platinum.cli:main"
+validate-dialogue = "scripts.validate_dialogue:main"
+build-pokemon = "scripts.build_pokemon:build_all"
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"

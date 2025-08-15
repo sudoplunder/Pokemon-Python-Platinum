@@ -1,0 +1,91 @@
+{
+  "id": 26,
+  "name": "raichu",
+  "generation": "1",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 55,
+    "sp_atk": 90,
+    "sp_def": 80,
+    "speed": 110
+  },
+  "base_experience": 218,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "static",
+    "secondary": null,
+    "hidden": "lightning-rod"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 1,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 1,
+        "name": "thunderbolt"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "dig",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shock-wave",
+      "strength",
+      "substitute",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 25,
+    "next": [],
+    "root": 172,
+    "next_details": []
+  }
+}

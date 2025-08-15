@@ -1,0 +1,12 @@
+{
+  "id": "route_201",
+  "name": "Route 201",
+  "actions": [
+  { "label": "Step into tall grass (east)", "type": "tall_grass_attempt", "zone": "route_201" },
+  { "label": "Search tall grass (after starter)", "type": "encounter", "method": "grass", "zone": "route_201" },
+    { "label": "Head east toward Lake Path", "type": "move", "target": "lake_verity_path" },
+    { "label": "Return to Twinleaf Town", "type": "move", "target": "twinleaf_town_outside" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": ["lake_verity_path"]
+}

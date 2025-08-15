@@ -1,0 +1,143 @@
+{
+  "id": 142,
+  "name": "aerodactyl",
+  "generation": "1",
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "sp_atk": 60,
+    "sp_def": 75,
+    "speed": 130
+  },
+  "base_experience": 180,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 35,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "rock-head",
+    "secondary": "pressure",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "ice-fang"
+      },
+      {
+        "level": 1,
+        "name": "scary-face"
+      },
+      {
+        "level": 1,
+        "name": "supersonic"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 1,
+        "name": "wing-attack"
+      },
+      {
+        "level": 8,
+        "name": "agility"
+      },
+      {
+        "level": 9,
+        "name": "roar"
+      },
+      {
+        "level": 25,
+        "name": "ancient-power"
+      },
+      {
+        "level": 33,
+        "name": "crunch"
+      },
+      {
+        "level": 41,
+        "name": "take-down"
+      },
+      {
+        "level": 50,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 57,
+        "name": "iron-head"
+      },
+      {
+        "level": 73,
+        "name": "rock-slide"
+      },
+      {
+        "level": 81,
+        "name": "giga-impact"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "steel-wing",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 142,
+    "next_details": []
+  }
+}

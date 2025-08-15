@@ -1,0 +1,14 @@
+{
+  "name": "pink-scarf",
+  "display_name": "Pink Scarf",
+  "category": "scarves",
+  "cost": 100,
+  "fling_power": 10,
+  "effect": "Held: Increases the holder's Cuteness during a Super Contest's Visual Competition.",
+  "short_effect": "Raises the holder's Cuteness while in a contest.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable-active"
+  ]
+}

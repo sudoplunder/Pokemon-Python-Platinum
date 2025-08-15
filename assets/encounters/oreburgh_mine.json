@@ -1,0 +1,13 @@
+{
+  "zone": "oreburgh_mine",
+  "methods": {
+    "cave": {
+      "base_rate": 18,
+      "slots": [
+        {"species": 74,  "min": 5, "max": 8, "weight": 50},
+        {"species": 41,  "min": 5, "max": 7, "weight": 30},
+        {"species": 95,  "min": 6, "max": 8, "weight": 20}
+      ]
+    }
+  }
+}

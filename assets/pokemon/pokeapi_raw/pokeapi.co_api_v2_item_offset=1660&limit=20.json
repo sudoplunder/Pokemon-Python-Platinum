@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1680&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1640&limit=20",
+  "results": [
+    {
+      "name": "yogurt",
+      "url": "https://pokeapi.co/api/v2/item/1712/"
+    },
+    {
+      "name": "whipped-cream",
+      "url": "https://pokeapi.co/api/v2/item/1713/"
+    },
+    {
+      "name": "cream-cheese",
+      "url": "https://pokeapi.co/api/v2/item/1714/"
+    },
+    {
+      "name": "jam",
+      "url": "https://pokeapi.co/api/v2/item/1715/"
+    },
+    {
+      "name": "marmalade",
+      "url": "https://pokeapi.co/api/v2/item/1716/"
+    },
+    {
+      "name": "olive-oil",
+      "url": "https://pokeapi.co/api/v2/item/1717/"
+    },
+    {
+      "name": "vinegar",
+      "url": "https://pokeapi.co/api/v2/item/1718/"
+    },
+    {
+      "name": "sweet-herba-mystica",
+      "url": "https://pokeapi.co/api/v2/item/1719/"
+    },
+    {
+      "name": "salty-herba-mystica",
+      "url": "https://pokeapi.co/api/v2/item/1720/"
+    },
+    {
+      "name": "sour-herba-mystica",
+      "url": "https://pokeapi.co/api/v2/item/1721/"
+    },
+    {
+      "name": "bitter-herba-mystica",
+      "url": "https://pokeapi.co/api/v2/item/1722/"
+    },
+    {
+      "name": "spicy-herba-mystica",
+      "url": "https://pokeapi.co/api/v2/item/1723/"
+    },
+    {
+      "name": "lettuce",
+      "url": "https://pokeapi.co/api/v2/item/1724/"
+    },
+    {
+      "name": "tomato",
+      "url": "https://pokeapi.co/api/v2/item/1725/"
+    },
+    {
+      "name": "cherry-tomatoes",
+      "url": "https://pokeapi.co/api/v2/item/1726/"
+    },
+    {
+      "name": "cucumber",
+      "url": "https://pokeapi.co/api/v2/item/1727/"
+    },
+    {
+      "name": "pickle",
+      "url": "https://pokeapi.co/api/v2/item/1728/"
+    },
+    {
+      "name": "onion",
+      "url": "https://pokeapi.co/api/v2/item/1729/"
+    },
+    {
+      "name": "red-onion",
+      "url": "https://pokeapi.co/api/v2/item/1730/"
+    },
+    {
+      "name": "green-bell-pepper",
+      "url": "https://pokeapi.co/api/v2/item/1731/"
+    }
+  ]
+}

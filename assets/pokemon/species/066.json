@@ -1,0 +1,127 @@
+{
+  "id": 66,
+  "name": "machop",
+  "generation": "1",
+  "types": [
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 50,
+    "sp_atk": 35,
+    "sp_def": 35,
+    "speed": 35
+  },
+  "base_experience": 61,
+  "growth_rate": "medium-slow",
+  "capture_rate": 180,
+  "gender_rate": 2,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "guts",
+    "secondary": "no-guard",
+    "hidden": "steadfast"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "low-kick"
+      },
+      {
+        "level": 7,
+        "name": "focus-energy"
+      },
+      {
+        "level": 10,
+        "name": "karate-chop"
+      },
+      {
+        "level": 19,
+        "name": "foresight"
+      },
+      {
+        "level": 19,
+        "name": "seismic-toss"
+      },
+      {
+        "level": 25,
+        "name": "revenge"
+      },
+      {
+        "level": 31,
+        "name": "vital-throw"
+      },
+      {
+        "level": 34,
+        "name": "submission"
+      },
+      {
+        "level": 37,
+        "name": "wake-up-slap"
+      },
+      {
+        "level": 40,
+        "name": "cross-chop"
+      },
+      {
+        "level": 43,
+        "name": "scary-face"
+      },
+      {
+        "level": 49,
+        "name": "dynamic-punch"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "light-screen",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      67
+    ],
+    "root": 66,
+    "next_details": []
+  }
+}

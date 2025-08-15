@@ -1,0 +1,139 @@
+{
+  "id": 112,
+  "name": "rhydon",
+  "generation": "1",
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 105,
+    "attack": 130,
+    "defense": 120,
+    "sp_atk": 45,
+    "sp_def": 45,
+    "speed": 40
+  },
+  "base_experience": 170,
+  "growth_rate": "slow",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "lightning-rod",
+    "secondary": "rock-head",
+    "hidden": "reckless"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fury-attack"
+      },
+      {
+        "level": 1,
+        "name": "horn-attack"
+      },
+      {
+        "level": 1,
+        "name": "stomp"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 19,
+        "name": "scary-face"
+      },
+      {
+        "level": 23,
+        "name": "rock-blast"
+      },
+      {
+        "level": 38,
+        "name": "horn-drill"
+      },
+      {
+        "level": 41,
+        "name": "take-down"
+      },
+      {
+        "level": 42,
+        "name": "hammer-arm"
+      },
+      {
+        "level": 56,
+        "name": "stone-edge"
+      },
+      {
+        "level": 58,
+        "name": "earthquake"
+      },
+      {
+        "level": 66,
+        "name": "megahorn"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-claw",
+      "shock-wave",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 111,
+    "next": [
+      464
+    ],
+    "root": 111,
+    "next_details": []
+  }
+}

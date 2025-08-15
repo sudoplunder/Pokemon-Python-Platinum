@@ -1,0 +1,15 @@
+{
+  "id": 1817,
+  "item": {
+    "name": "tm112",
+    "url": "https://pokeapi.co/api/v2/item/1955/"
+  },
+  "move": {
+    "name": "aura-sphere",
+    "url": "https://pokeapi.co/api/v2/move/396/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

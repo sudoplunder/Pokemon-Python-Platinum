@@ -1,0 +1,12 @@
+{
+  "name": "dragon-scale",
+  "display_name": "Dragon Scale",
+  "category": "evolution",
+  "cost": 2000,
+  "fling_power": 30,
+  "effect": "Held by Seadra: Evolves the holder into Kingdra when traded.",
+  "short_effect": "Traded on a Seadra: Holder evolves into Kingdra.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

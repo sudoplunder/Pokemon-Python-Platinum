@@ -1,0 +1,141 @@
+{
+  "id": 280,
+  "name": "ralts",
+  "generation": "3",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 28,
+    "attack": 25,
+    "defense": 25,
+    "sp_atk": 45,
+    "sp_def": 35,
+    "speed": 40
+  },
+  "base_experience": 40,
+  "growth_rate": "slow",
+  "capture_rate": 235,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "humanshape",
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "synchronize",
+    "secondary": "trace",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 6,
+        "name": "confusion"
+      },
+      {
+        "level": 10,
+        "name": "double-team"
+      },
+      {
+        "level": 12,
+        "name": "teleport"
+      },
+      {
+        "level": 17,
+        "name": "lucky-chant"
+      },
+      {
+        "level": 21,
+        "name": "calm-mind"
+      },
+      {
+        "level": 21,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 26,
+        "name": "psychic"
+      },
+      {
+        "level": 31,
+        "name": "imprison"
+      },
+      {
+        "level": 36,
+        "name": "future-sight"
+      },
+      {
+        "level": 41,
+        "name": "hypnosis"
+      },
+      {
+        "level": 43,
+        "name": "charm"
+      },
+      {
+        "level": 46,
+        "name": "dream-eater"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      281
+    ],
+    "root": 280,
+    "next_details": [
+      {
+        "id": 281,
+        "trigger": "level",
+        "conditions": {
+          "level": 20
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": 254,
+  "name": "sceptile",
+  "generation": "3",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 65,
+    "sp_atk": 105,
+    "sp_def": 85,
+    "speed": 120
+  },
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "overgrow",
+    "secondary": null,
+    "hidden": "unburden"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "night-slash"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 16,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 16,
+        "name": "x-scissor"
+      },
+      {
+        "level": 17,
+        "name": "pursuit"
+      },
+      {
+        "level": 23,
+        "name": "screech"
+      },
+      {
+        "level": 29,
+        "name": "leaf-blade"
+      },
+      {
+        "level": 35,
+        "name": "agility"
+      },
+      {
+        "level": 43,
+        "name": "slam"
+      },
+      {
+        "level": 51,
+        "name": "detect"
+      },
+      {
+        "level": 59,
+        "name": "false-swipe"
+      },
+      {
+        "level": 67,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bullet-seed",
+      "cut",
+      "dig",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "false-swipe",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 253,
+    "next": [],
+    "root": 252,
+    "next_details": []
+  }
+}

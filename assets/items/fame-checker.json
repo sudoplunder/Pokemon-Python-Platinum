@@ -1,0 +1,12 @@
+{
+  "name": "fame-checker",
+  "display_name": "Fame Checker",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Records information on various famous people.",
+  "short_effect": "Records information about NPCs.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

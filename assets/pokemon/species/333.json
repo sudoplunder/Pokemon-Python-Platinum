@@ -1,0 +1,122 @@
+{
+  "id": 333,
+  "name": "swablu",
+  "generation": "3",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 40,
+    "defense": 60,
+    "sp_atk": 40,
+    "sp_def": 75,
+    "speed": 50
+  },
+  "base_experience": 62,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "natural-cure",
+    "secondary": null,
+    "hidden": "cloud-nine"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 4,
+        "name": "astonish"
+      },
+      {
+        "level": 8,
+        "name": "sing"
+      },
+      {
+        "level": 10,
+        "name": "fury-attack"
+      },
+      {
+        "level": 13,
+        "name": "safeguard"
+      },
+      {
+        "level": 15,
+        "name": "mist"
+      },
+      {
+        "level": 21,
+        "name": "natural-gift"
+      },
+      {
+        "level": 25,
+        "name": "take-down"
+      },
+      {
+        "level": 29,
+        "name": "refresh"
+      },
+      {
+        "level": 34,
+        "name": "mirror-move"
+      },
+      {
+        "level": 42,
+        "name": "dragon-pulse"
+      },
+      {
+        "level": 48,
+        "name": "perish-song"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "pluck",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      334
+    ],
+    "root": 333,
+    "next_details": []
+  }
+}

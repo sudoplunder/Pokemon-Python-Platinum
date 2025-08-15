@@ -1,0 +1,12 @@
+{
+  "name": "slowpoke-tail",
+  "display_name": "Slowpoke Tail",
+  "category": "unused",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Does nothing.",
+  "short_effect": "A tasty tail that sells for a high price.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

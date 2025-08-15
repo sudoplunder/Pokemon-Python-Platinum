@@ -1,0 +1,12 @@
+{
+  "name": "gb-sounds",
+  "display_name": "Gb Sounds",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by trainer outside of battle\n:   Changes the background music to the equivalent 8-bit music.",
+  "short_effect": "Use to listen to GameBoy era audio.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

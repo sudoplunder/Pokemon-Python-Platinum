@@ -1,0 +1,133 @@
+{
+  "id": 181,
+  "name": "ampharos",
+  "generation": "2",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 75,
+    "defense": 85,
+    "sp_atk": 115,
+    "sp_def": 90,
+    "speed": 55
+  },
+  "base_experience": 230,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "static",
+    "secondary": null,
+    "hidden": "plus"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fire-punch"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 1,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 11,
+        "name": "cotton-spore"
+      },
+      {
+        "level": 16,
+        "name": "charge"
+      },
+      {
+        "level": 20,
+        "name": "take-down"
+      },
+      {
+        "level": 29,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 30,
+        "name": "thunder-punch"
+      },
+      {
+        "level": 35,
+        "name": "power-gem"
+      },
+      {
+        "level": 40,
+        "name": "discharge"
+      },
+      {
+        "level": 42,
+        "name": "light-screen"
+      },
+      {
+        "level": 51,
+        "name": "signal-beam"
+      },
+      {
+        "level": 57,
+        "name": "thunder"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "shock-wave",
+      "strength",
+      "substitute",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 180,
+    "next": [],
+    "root": 179,
+    "next_details": []
+  }
+}

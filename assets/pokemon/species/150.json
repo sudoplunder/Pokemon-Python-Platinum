@@ -1,0 +1,170 @@
+{
+  "id": 150,
+  "name": "mewtwo",
+  "generation": "1",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 106,
+    "attack": 110,
+    "defense": 90,
+    "sp_atk": 154,
+    "sp_def": 90,
+    "speed": 130
+  },
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 120,
+  "base_friendship": 0,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "barrier"
+      },
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "disable"
+      },
+      {
+        "level": 8,
+        "name": "swift"
+      },
+      {
+        "level": 15,
+        "name": "future-sight"
+      },
+      {
+        "level": 22,
+        "name": "psych-up"
+      },
+      {
+        "level": 29,
+        "name": "miracle-eye"
+      },
+      {
+        "level": 36,
+        "name": "mist"
+      },
+      {
+        "level": 43,
+        "name": "psycho-cut"
+      },
+      {
+        "level": 50,
+        "name": "amnesia"
+      },
+      {
+        "level": 57,
+        "name": "guard-swap"
+      },
+      {
+        "level": 57,
+        "name": "power-swap"
+      },
+      {
+        "level": 64,
+        "name": "psychic"
+      },
+      {
+        "level": 71,
+        "name": "me-first"
+      },
+      {
+        "level": 79,
+        "name": "recover"
+      },
+      {
+        "level": 86,
+        "name": "safeguard"
+      },
+      {
+        "level": 93,
+        "name": "aura-sphere"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "blizzard",
+      "brick-break",
+      "bulk-up",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "embargo",
+      "energy-ball",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "water-pulse",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 150,
+    "next_details": []
+  }
+}

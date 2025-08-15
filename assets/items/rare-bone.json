@@ -1,0 +1,14 @@
+{
+  "name": "rare-bone",
+  "display_name": "Rare Bone",
+  "category": "loot",
+  "cost": 5000,
+  "fling_power": 100,
+  "effect": "Vendor trash.",
+  "short_effect": "Sell for 5000 Pok\u00e9dollars, or to Bone Man for 10000 Pok\u00e9dollars.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "underground"
+  ]
+}

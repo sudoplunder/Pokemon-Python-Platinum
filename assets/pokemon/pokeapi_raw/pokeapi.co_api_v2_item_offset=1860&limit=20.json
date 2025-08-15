@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1880&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1840&limit=20",
+  "results": [
+    {
+      "name": "wiglett-sand",
+      "url": "https://pokeapi.co/api/v2/item/1912/"
+    },
+    {
+      "name": "dondozo-whisker",
+      "url": "https://pokeapi.co/api/v2/item/1913/"
+    },
+    {
+      "name": "veluza-fillet",
+      "url": "https://pokeapi.co/api/v2/item/1914/"
+    },
+    {
+      "name": "finizen-mucus",
+      "url": "https://pokeapi.co/api/v2/item/1915/"
+    },
+    {
+      "name": "smoliv-oil",
+      "url": "https://pokeapi.co/api/v2/item/1916/"
+    },
+    {
+      "name": "capsakid-seed",
+      "url": "https://pokeapi.co/api/v2/item/1917/"
+    },
+    {
+      "name": "tadbulb-mucus",
+      "url": "https://pokeapi.co/api/v2/item/1918/"
+    },
+    {
+      "name": "varoom-fume",
+      "url": "https://pokeapi.co/api/v2/item/1919/"
+    },
+    {
+      "name": "orthworm-tarnish",
+      "url": "https://pokeapi.co/api/v2/item/1920/"
+    },
+    {
+      "name": "tandemaus-fur",
+      "url": "https://pokeapi.co/api/v2/item/1921/"
+    },
+    {
+      "name": "cetoddle-grease",
+      "url": "https://pokeapi.co/api/v2/item/1922/"
+    },
+    {
+      "name": "frigibax-scales",
+      "url": "https://pokeapi.co/api/v2/item/1923/"
+    },
+    {
+      "name": "tatsugiri-scales",
+      "url": "https://pokeapi.co/api/v2/item/1924/"
+    },
+    {
+      "name": "cyclizar-scales",
+      "url": "https://pokeapi.co/api/v2/item/1925/"
+    },
+    {
+      "name": "pawmi-fur",
+      "url": "https://pokeapi.co/api/v2/item/1926/"
+    },
+    {
+      "name": "wattrel-feather",
+      "url": "https://pokeapi.co/api/v2/item/1927/"
+    },
+    {
+      "name": "bombirdier-feather",
+      "url": "https://pokeapi.co/api/v2/item/1928/"
+    },
+    {
+      "name": "squawkabilly-feather",
+      "url": "https://pokeapi.co/api/v2/item/1929/"
+    },
+    {
+      "name": "flamigo-down",
+      "url": "https://pokeapi.co/api/v2/item/1930/"
+    },
+    {
+      "name": "klawf-claw",
+      "url": "https://pokeapi.co/api/v2/item/1931/"
+    }
+  ]
+}

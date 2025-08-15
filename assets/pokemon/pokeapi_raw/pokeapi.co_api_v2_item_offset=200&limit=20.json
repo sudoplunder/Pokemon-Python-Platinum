@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=220&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=180&limit=20",
+  "results": [
+    {
+      "name": "cleanse-tag",
+      "url": "https://pokeapi.co/api/v2/item/201/"
+    },
+    {
+      "name": "soul-dew",
+      "url": "https://pokeapi.co/api/v2/item/202/"
+    },
+    {
+      "name": "deep-sea-tooth",
+      "url": "https://pokeapi.co/api/v2/item/203/"
+    },
+    {
+      "name": "deep-sea-scale",
+      "url": "https://pokeapi.co/api/v2/item/204/"
+    },
+    {
+      "name": "smoke-ball",
+      "url": "https://pokeapi.co/api/v2/item/205/"
+    },
+    {
+      "name": "everstone",
+      "url": "https://pokeapi.co/api/v2/item/206/"
+    },
+    {
+      "name": "focus-band",
+      "url": "https://pokeapi.co/api/v2/item/207/"
+    },
+    {
+      "name": "lucky-egg",
+      "url": "https://pokeapi.co/api/v2/item/208/"
+    },
+    {
+      "name": "scope-lens",
+      "url": "https://pokeapi.co/api/v2/item/209/"
+    },
+    {
+      "name": "metal-coat",
+      "url": "https://pokeapi.co/api/v2/item/210/"
+    },
+    {
+      "name": "leftovers",
+      "url": "https://pokeapi.co/api/v2/item/211/"
+    },
+    {
+      "name": "dragon-scale",
+      "url": "https://pokeapi.co/api/v2/item/212/"
+    },
+    {
+      "name": "light-ball",
+      "url": "https://pokeapi.co/api/v2/item/213/"
+    },
+    {
+      "name": "soft-sand",
+      "url": "https://pokeapi.co/api/v2/item/214/"
+    },
+    {
+      "name": "hard-stone",
+      "url": "https://pokeapi.co/api/v2/item/215/"
+    },
+    {
+      "name": "miracle-seed",
+      "url": "https://pokeapi.co/api/v2/item/216/"
+    },
+    {
+      "name": "black-glasses",
+      "url": "https://pokeapi.co/api/v2/item/217/"
+    },
+    {
+      "name": "black-belt",
+      "url": "https://pokeapi.co/api/v2/item/218/"
+    },
+    {
+      "name": "magnet",
+      "url": "https://pokeapi.co/api/v2/item/219/"
+    },
+    {
+      "name": "mystic-water",
+      "url": "https://pokeapi.co/api/v2/item/220/"
+    }
+  ]
+}

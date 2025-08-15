@@ -1,0 +1,122 @@
+{
+  "id": 278,
+  "name": "wingull",
+  "generation": "3",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 30,
+    "sp_atk": 55,
+    "sp_def": 30,
+    "speed": 85
+  },
+  "base_experience": 54,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "flying"
+  ],
+  "abilities": {
+    "primary": "keen-eye",
+    "secondary": "hydration",
+    "hidden": "rain-dish"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 6,
+        "name": "supersonic"
+      },
+      {
+        "level": 9,
+        "name": "wing-attack"
+      },
+      {
+        "level": 14,
+        "name": "mist"
+      },
+      {
+        "level": 17,
+        "name": "water-pulse"
+      },
+      {
+        "level": 22,
+        "name": "quick-attack"
+      },
+      {
+        "level": 26,
+        "name": "roost"
+      },
+      {
+        "level": 30,
+        "name": "pursuit"
+      },
+      {
+        "level": 33,
+        "name": "air-cutter"
+      },
+      {
+        "level": 38,
+        "name": "agility"
+      },
+      {
+        "level": 42,
+        "name": "aerial-ace"
+      },
+      {
+        "level": 46,
+        "name": "air-slash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shock-wave",
+      "steel-wing",
+      "substitute",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      279
+    ],
+    "root": 278,
+    "next_details": []
+  }
+}

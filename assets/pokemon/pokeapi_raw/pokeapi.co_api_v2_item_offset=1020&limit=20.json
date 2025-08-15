@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1040&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1000&limit=20",
+  "results": [
+    {
+      "name": "vulpix-candy",
+      "url": "https://pokeapi.co/api/v2/item/1072/"
+    },
+    {
+      "name": "jigglypuff-candy",
+      "url": "https://pokeapi.co/api/v2/item/1073/"
+    },
+    {
+      "name": "zubat-candy",
+      "url": "https://pokeapi.co/api/v2/item/1074/"
+    },
+    {
+      "name": "oddish-candy",
+      "url": "https://pokeapi.co/api/v2/item/1075/"
+    },
+    {
+      "name": "paras-candy",
+      "url": "https://pokeapi.co/api/v2/item/1076/"
+    },
+    {
+      "name": "venonat-candy",
+      "url": "https://pokeapi.co/api/v2/item/1077/"
+    },
+    {
+      "name": "diglett-candy",
+      "url": "https://pokeapi.co/api/v2/item/1078/"
+    },
+    {
+      "name": "meowth-candy",
+      "url": "https://pokeapi.co/api/v2/item/1079/"
+    },
+    {
+      "name": "psyduck-candy",
+      "url": "https://pokeapi.co/api/v2/item/1080/"
+    },
+    {
+      "name": "mankey-candy",
+      "url": "https://pokeapi.co/api/v2/item/1081/"
+    },
+    {
+      "name": "growlithe-candy",
+      "url": "https://pokeapi.co/api/v2/item/1082/"
+    },
+    {
+      "name": "poliwag-candy",
+      "url": "https://pokeapi.co/api/v2/item/1083/"
+    },
+    {
+      "name": "abra-candy",
+      "url": "https://pokeapi.co/api/v2/item/1084/"
+    },
+    {
+      "name": "machop-candy",
+      "url": "https://pokeapi.co/api/v2/item/1085/"
+    },
+    {
+      "name": "bellsprout-candy",
+      "url": "https://pokeapi.co/api/v2/item/1086/"
+    },
+    {
+      "name": "tentacool-candy",
+      "url": "https://pokeapi.co/api/v2/item/1087/"
+    },
+    {
+      "name": "geodude-candy",
+      "url": "https://pokeapi.co/api/v2/item/1088/"
+    },
+    {
+      "name": "ponyta-candy",
+      "url": "https://pokeapi.co/api/v2/item/1089/"
+    },
+    {
+      "name": "slowpoke-candy",
+      "url": "https://pokeapi.co/api/v2/item/1090/"
+    },
+    {
+      "name": "magnemite-candy",
+      "url": "https://pokeapi.co/api/v2/item/1091/"
+    }
+  ]
+}

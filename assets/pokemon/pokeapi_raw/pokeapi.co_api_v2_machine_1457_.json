@@ -1,0 +1,15 @@
+{
+  "id": 1457,
+  "item": {
+    "name": "tm96",
+    "url": "https://pokeapi.co/api/v2/item/745/"
+  },
+  "move": {
+    "name": "smart-strike",
+    "url": "https://pokeapi.co/api/v2/move/684/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

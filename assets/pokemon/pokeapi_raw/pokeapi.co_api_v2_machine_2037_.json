@@ -1,0 +1,15 @@
+{
+  "id": 2037,
+  "item": {
+    "name": "tm141",
+    "url": "https://pokeapi.co/api/v2/item/1984/"
+  },
+  "move": {
+    "name": "fire-blast",
+    "url": "https://pokeapi.co/api/v2/move/126/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

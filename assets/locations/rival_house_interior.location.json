@@ -1,0 +1,11 @@
+{
+  "id": "rival_house_interior",
+  "name": "Rival's House",
+  "actions": [
+    { "label": "Talk to Rival's Mom", "type": "inspect", "text": "RIVAL MOM: He rushed out again—full of energy as always." },
+    { "label": "Go upstairs (Rival's Room)", "type": "move", "target": "rival_room" },
+    { "label": "Leave to Twinleaf Town", "type": "move", "target": "twinleaf_town_outside" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": ["rival_room"]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 415,
+  "name": "combee",
+  "generation": "4",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 42,
+    "sp_atk": 30,
+    "sp_def": 42,
+    "speed": 70
+  },
+  "base_experience": 49,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 1,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "honey-gather",
+    "secondary": null,
+    "hidden": "hustle"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "gust"
+      },
+      {
+        "level": 1,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 13,
+        "name": "bug-bite"
+      },
+      {
+        "level": 29,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      416
+    ],
+    "root": 415,
+    "next_details": []
+  }
+}

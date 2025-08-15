@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=100&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=60&limit=20",
+  "results": [
+    {
+      "name": "moon-stone",
+      "url": "https://pokeapi.co/api/v2/item/81/"
+    },
+    {
+      "name": "fire-stone",
+      "url": "https://pokeapi.co/api/v2/item/82/"
+    },
+    {
+      "name": "thunder-stone",
+      "url": "https://pokeapi.co/api/v2/item/83/"
+    },
+    {
+      "name": "water-stone",
+      "url": "https://pokeapi.co/api/v2/item/84/"
+    },
+    {
+      "name": "leaf-stone",
+      "url": "https://pokeapi.co/api/v2/item/85/"
+    },
+    {
+      "name": "tiny-mushroom",
+      "url": "https://pokeapi.co/api/v2/item/86/"
+    },
+    {
+      "name": "big-mushroom",
+      "url": "https://pokeapi.co/api/v2/item/87/"
+    },
+    {
+      "name": "pearl",
+      "url": "https://pokeapi.co/api/v2/item/88/"
+    },
+    {
+      "name": "big-pearl",
+      "url": "https://pokeapi.co/api/v2/item/89/"
+    },
+    {
+      "name": "stardust",
+      "url": "https://pokeapi.co/api/v2/item/90/"
+    },
+    {
+      "name": "star-piece",
+      "url": "https://pokeapi.co/api/v2/item/91/"
+    },
+    {
+      "name": "nugget",
+      "url": "https://pokeapi.co/api/v2/item/92/"
+    },
+    {
+      "name": "heart-scale",
+      "url": "https://pokeapi.co/api/v2/item/93/"
+    },
+    {
+      "name": "honey",
+      "url": "https://pokeapi.co/api/v2/item/94/"
+    },
+    {
+      "name": "growth-mulch",
+      "url": "https://pokeapi.co/api/v2/item/95/"
+    },
+    {
+      "name": "damp-mulch",
+      "url": "https://pokeapi.co/api/v2/item/96/"
+    },
+    {
+      "name": "stable-mulch",
+      "url": "https://pokeapi.co/api/v2/item/97/"
+    },
+    {
+      "name": "gooey-mulch",
+      "url": "https://pokeapi.co/api/v2/item/98/"
+    },
+    {
+      "name": "root-fossil",
+      "url": "https://pokeapi.co/api/v2/item/99/"
+    },
+    {
+      "name": "claw-fossil",
+      "url": "https://pokeapi.co/api/v2/item/100/"
+    }
+  ]
+}

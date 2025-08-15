@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1700&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1660&limit=20",
+  "results": [
+    {
+      "name": "red-bell-pepper",
+      "url": "https://pokeapi.co/api/v2/item/1732/"
+    },
+    {
+      "name": "yellow-bell-pepper",
+      "url": "https://pokeapi.co/api/v2/item/1733/"
+    },
+    {
+      "name": "avocado",
+      "url": "https://pokeapi.co/api/v2/item/1734/"
+    },
+    {
+      "name": "bacon",
+      "url": "https://pokeapi.co/api/v2/item/1735/"
+    },
+    {
+      "name": "ham",
+      "url": "https://pokeapi.co/api/v2/item/1736/"
+    },
+    {
+      "name": "prosciutto",
+      "url": "https://pokeapi.co/api/v2/item/1737/"
+    },
+    {
+      "name": "chorizo",
+      "url": "https://pokeapi.co/api/v2/item/1738/"
+    },
+    {
+      "name": "herbed-sausage",
+      "url": "https://pokeapi.co/api/v2/item/1739/"
+    },
+    {
+      "name": "hamburger",
+      "url": "https://pokeapi.co/api/v2/item/1740/"
+    },
+    {
+      "name": "klawf-stick",
+      "url": "https://pokeapi.co/api/v2/item/1741/"
+    },
+    {
+      "name": "smoked-fillet",
+      "url": "https://pokeapi.co/api/v2/item/1742/"
+    },
+    {
+      "name": "fried-fillet",
+      "url": "https://pokeapi.co/api/v2/item/1743/"
+    },
+    {
+      "name": "egg",
+      "url": "https://pokeapi.co/api/v2/item/1744/"
+    },
+    {
+      "name": "potato-tortilla",
+      "url": "https://pokeapi.co/api/v2/item/1745/"
+    },
+    {
+      "name": "tofu",
+      "url": "https://pokeapi.co/api/v2/item/1746/"
+    },
+    {
+      "name": "rice",
+      "url": "https://pokeapi.co/api/v2/item/1747/"
+    },
+    {
+      "name": "noodles",
+      "url": "https://pokeapi.co/api/v2/item/1748/"
+    },
+    {
+      "name": "potato-salad",
+      "url": "https://pokeapi.co/api/v2/item/1749/"
+    },
+    {
+      "name": "cheese",
+      "url": "https://pokeapi.co/api/v2/item/1750/"
+    },
+    {
+      "name": "banana",
+      "url": "https://pokeapi.co/api/v2/item/1751/"
+    }
+  ]
+}

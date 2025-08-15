@@ -1,0 +1,141 @@
+{
+  "id": 343,
+  "name": "baltoy",
+  "generation": "3",
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 55,
+    "sp_atk": 40,
+    "sp_def": 70,
+    "speed": 55
+  },
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 4,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 7,
+        "name": "mud-slap"
+      },
+      {
+        "level": 10,
+        "name": "rock-tomb"
+      },
+      {
+        "level": 11,
+        "name": "psybeam"
+      },
+      {
+        "level": 17,
+        "name": "power-trick"
+      },
+      {
+        "level": 19,
+        "name": "self-destruct"
+      },
+      {
+        "level": 21,
+        "name": "ancient-power"
+      },
+      {
+        "level": 28,
+        "name": "extrasensory"
+      },
+      {
+        "level": 31,
+        "name": "cosmic-power"
+      },
+      {
+        "level": 31,
+        "name": "sandstorm"
+      },
+      {
+        "level": 37,
+        "name": "earth-power"
+      },
+      {
+        "level": 45,
+        "name": "explosion"
+      },
+      {
+        "level": 45,
+        "name": "heal-block"
+      }
+    ],
+    "machines": [
+      "calm-mind",
+      "charge-beam",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "explosion",
+      "facade",
+      "flash",
+      "frustration",
+      "grass-knot",
+      "gyro-ball",
+      "hidden-power",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      344
+    ],
+    "root": 343,
+    "next_details": []
+  }
+}

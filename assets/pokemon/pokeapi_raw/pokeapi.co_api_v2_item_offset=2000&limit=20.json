@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=2020&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1980&limit=20",
+  "results": [
+    {
+      "name": "steel-bottle-(b)",
+      "url": "https://pokeapi.co/api/v2/item/2052/"
+    },
+    {
+      "name": "silver-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2053/"
+    },
+    {
+      "name": "barred-cup",
+      "url": "https://pokeapi.co/api/v2/item/2054/"
+    },
+    {
+      "name": "diamond-pattern-cup",
+      "url": "https://pokeapi.co/api/v2/item/2055/"
+    },
+    {
+      "name": "fire-pattern-cup",
+      "url": "https://pokeapi.co/api/v2/item/2056/"
+    },
+    {
+      "name": "pink-cup",
+      "url": "https://pokeapi.co/api/v2/item/2057/"
+    },
+    {
+      "name": "blue-cup",
+      "url": "https://pokeapi.co/api/v2/item/2058/"
+    },
+    {
+      "name": "yellow-cup",
+      "url": "https://pokeapi.co/api/v2/item/2059/"
+    },
+    {
+      "name": "pikachu-cup",
+      "url": "https://pokeapi.co/api/v2/item/2060/"
+    },
+    {
+      "name": "eevee-cup",
+      "url": "https://pokeapi.co/api/v2/item/2061/"
+    },
+    {
+      "name": "slowpoke-cup",
+      "url": "https://pokeapi.co/api/v2/item/2062/"
+    },
+    {
+      "name": "silver-cup",
+      "url": "https://pokeapi.co/api/v2/item/2063/"
+    },
+    {
+      "name": "exercise-ball",
+      "url": "https://pokeapi.co/api/v2/item/2064/"
+    },
+    {
+      "name": "plaid-tablecloth-(y)",
+      "url": "https://pokeapi.co/api/v2/item/2065/"
+    },
+    {
+      "name": "plaid-tablecloth-(b)",
+      "url": "https://pokeapi.co/api/v2/item/2066/"
+    },
+    {
+      "name": "plaid-tablecloth-(r)",
+      "url": "https://pokeapi.co/api/v2/item/2067/"
+    },
+    {
+      "name": "b&w-grass-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2068/"
+    },
+    {
+      "name": "battle-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2069/"
+    },
+    {
+      "name": "monstrous-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2070/"
+    },
+    {
+      "name": "striped-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2071/"
+    }
+  ]
+}

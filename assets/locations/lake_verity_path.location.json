@@ -1,0 +1,10 @@
+{
+  "id": "lake_verity_path",
+  "name": "Lake Verity Path",
+  "actions": [
+    { "label": "Enter Lake Verity", "type": "move", "target": "lake_verity_shore" },
+  { "label": "Return to Route 201", "type": "move", "target": "route_201" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": ["lake_verity_shore"]
+}

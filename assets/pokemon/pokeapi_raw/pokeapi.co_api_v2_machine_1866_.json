@@ -1,0 +1,15 @@
+{
+  "id": 1866,
+  "item": {
+    "name": "tm161",
+    "url": "https://pokeapi.co/api/v2/item/2004/"
+  },
+  "move": {
+    "name": "trick-room",
+    "url": "https://pokeapi.co/api/v2/move/433/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": 460,
+  "name": "abomasnow",
+  "generation": "4",
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 92,
+    "defense": 75,
+    "sp_atk": 92,
+    "sp_def": 85,
+    "speed": 60
+  },
+  "base_experience": 173,
+  "growth_rate": "slow",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "snow-warning",
+    "secondary": null,
+    "hidden": "soundproof"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ice-punch"
+      },
+      {
+        "level": 1,
+        "name": "icy-wind"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "powder-snow"
+      },
+      {
+        "level": 1,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 13,
+        "name": "grass-whistle"
+      },
+      {
+        "level": 17,
+        "name": "swagger"
+      },
+      {
+        "level": 21,
+        "name": "mist"
+      },
+      {
+        "level": 26,
+        "name": "ice-shard"
+      },
+      {
+        "level": 31,
+        "name": "ingrain"
+      },
+      {
+        "level": 36,
+        "name": "wood-hammer"
+      },
+      {
+        "level": 47,
+        "name": "blizzard"
+      },
+      {
+        "level": 58,
+        "name": "sheer-cold"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "double-team",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "shadow-ball",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 459,
+    "next": [],
+    "root": 459,
+    "next_details": []
+  }
+}

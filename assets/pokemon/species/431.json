@@ -1,0 +1,120 @@
+{
+  "id": 431,
+  "name": "glameow",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 49,
+    "attack": 55,
+    "defense": 42,
+    "sp_atk": 42,
+    "sp_def": 37,
+    "speed": 85
+  },
+  "base_experience": 62,
+  "growth_rate": "fast",
+  "capture_rate": 190,
+  "gender_rate": 6,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "limber",
+    "secondary": "own-tempo",
+    "hidden": "keen-eye"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fake-out"
+      },
+      {
+        "level": 5,
+        "name": "scratch"
+      },
+      {
+        "level": 8,
+        "name": "growl"
+      },
+      {
+        "level": 13,
+        "name": "hypnosis"
+      },
+      {
+        "level": 17,
+        "name": "feint-attack"
+      },
+      {
+        "level": 20,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 25,
+        "name": "charm"
+      },
+      {
+        "level": 29,
+        "name": "assist"
+      },
+      {
+        "level": 32,
+        "name": "captivate"
+      },
+      {
+        "level": 37,
+        "name": "slash"
+      },
+      {
+        "level": 41,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 44,
+        "name": "attract"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "cut",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "frustration",
+      "hidden-power",
+      "payback",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "shadow-ball",
+      "shadow-claw",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      432
+    ],
+    "root": 431,
+    "next_details": []
+  }
+}

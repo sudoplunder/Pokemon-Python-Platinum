@@ -1,0 +1,12 @@
+{
+  "name": "tm49",
+  "display_name": "Tm49",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Snatch to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Echoed Voice to a compatible Pok\u00e9mon. (Gen IV & III: Snatch Gen II: Fury Cutter Gen I: Tri Attack)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

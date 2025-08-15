@@ -1,0 +1,149 @@
+{
+  "id": 384,
+  "name": "rayquaza",
+  "generation": "3",
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 105,
+    "attack": 150,
+    "defense": 90,
+    "sp_atk": 150,
+    "sp_def": 90,
+    "speed": 95
+  },
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": -1,
+  "hatch_cycles": 120,
+  "base_friendship": 0,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "air-lock",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "twister"
+      },
+      {
+        "level": 5,
+        "name": "scary-face"
+      },
+      {
+        "level": 15,
+        "name": "ancient-power"
+      },
+      {
+        "level": 15,
+        "name": "crunch"
+      },
+      {
+        "level": 20,
+        "name": "dragon-claw"
+      },
+      {
+        "level": 20,
+        "name": "hyper-voice"
+      },
+      {
+        "level": 30,
+        "name": "dragon-dance"
+      },
+      {
+        "level": 30,
+        "name": "rest"
+      },
+      {
+        "level": 35,
+        "name": "air-slash"
+      },
+      {
+        "level": 45,
+        "name": "fly"
+      },
+      {
+        "level": 50,
+        "name": "outrage"
+      },
+      {
+        "level": 60,
+        "name": "extreme-speed"
+      },
+      {
+        "level": 75,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 90,
+        "name": "dragon-pulse"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "blizzard",
+      "brick-break",
+      "bulk-up",
+      "dive",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "fly",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "overheat",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-claw",
+      "shock-wave",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 384,
+    "next_details": []
+  }
+}

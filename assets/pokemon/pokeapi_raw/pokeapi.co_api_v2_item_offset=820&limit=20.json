@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=840&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=800&limit=20",
+  "results": [
+    {
+      "name": "marshadium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/843/"
+    },
+    {
+      "name": "aloraichium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/844/"
+    },
+    {
+      "name": "snorlium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/845/"
+    },
+    {
+      "name": "eevium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/846/"
+    },
+    {
+      "name": "mewnium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/847/"
+    },
+    {
+      "name": "pikashunium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/877/"
+    },
+    {
+      "name": "forage-bag",
+      "url": "https://pokeapi.co/api/v2/item/878/"
+    },
+    {
+      "name": "fishing-rod",
+      "url": "https://pokeapi.co/api/v2/item/879/"
+    },
+    {
+      "name": "professors-mask",
+      "url": "https://pokeapi.co/api/v2/item/880/"
+    },
+    {
+      "name": "festival-ticket",
+      "url": "https://pokeapi.co/api/v2/item/881/"
+    },
+    {
+      "name": "sparkling-stone",
+      "url": "https://pokeapi.co/api/v2/item/882/"
+    },
+    {
+      "name": "adrenaline-orb",
+      "url": "https://pokeapi.co/api/v2/item/883/"
+    },
+    {
+      "name": "zygarde-cube",
+      "url": "https://pokeapi.co/api/v2/item/884/"
+    },
+    {
+      "name": "ice-stone",
+      "url": "https://pokeapi.co/api/v2/item/885/"
+    },
+    {
+      "name": "ride-pager",
+      "url": "https://pokeapi.co/api/v2/item/886/"
+    },
+    {
+      "name": "beast-ball",
+      "url": "https://pokeapi.co/api/v2/item/887/"
+    },
+    {
+      "name": "big-malasada",
+      "url": "https://pokeapi.co/api/v2/item/888/"
+    },
+    {
+      "name": "red-nectar",
+      "url": "https://pokeapi.co/api/v2/item/889/"
+    },
+    {
+      "name": "yellow-nectar",
+      "url": "https://pokeapi.co/api/v2/item/890/"
+    },
+    {
+      "name": "pink-nectar",
+      "url": "https://pokeapi.co/api/v2/item/891/"
+    }
+  ]
+}

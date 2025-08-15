@@ -1,0 +1,8 @@
+{
+  "name": "poison-heal",
+  "display_name": "Poison Heal",
+  "generation": 4,
+  "short_effect": "Heals for 1/8 max HP after each turn when poisoned in place of damage.",
+  "effect": "If this Pok\u00e9mon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage.  This includes bad poison.",
+  "is_gen4_or_prior": true
+}

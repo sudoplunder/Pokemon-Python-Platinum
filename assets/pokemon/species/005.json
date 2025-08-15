@@ -1,0 +1,120 @@
+{
+  "id": 5,
+  "name": "charmeleon",
+  "generation": "1",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "sp_atk": 80,
+    "sp_def": 65,
+    "speed": 80
+  },
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "blaze",
+    "secondary": null,
+    "hidden": "solar-power"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 10,
+        "name": "smokescreen"
+      },
+      {
+        "level": 17,
+        "name": "dragon-rage"
+      },
+      {
+        "level": 20,
+        "name": "rage"
+      },
+      {
+        "level": 21,
+        "name": "scary-face"
+      },
+      {
+        "level": 28,
+        "name": "fire-fang"
+      },
+      {
+        "level": 34,
+        "name": "flamethrower"
+      },
+      {
+        "level": 39,
+        "name": "slash"
+      },
+      {
+        "level": 50,
+        "name": "fire-spin"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "dragon-claw",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "iron-tail",
+      "overheat",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 4,
+    "next": [
+      6
+    ],
+    "root": 4,
+    "next_details": []
+  }
+}

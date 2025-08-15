@@ -1,0 +1,18 @@
+{
+  "name": "soda-pop",
+  "display_name": "Soda Pop",
+  "category": "healing",
+  "cost": 300,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Restores 60 HP.",
+  "short_effect": "Restores 60 HP.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

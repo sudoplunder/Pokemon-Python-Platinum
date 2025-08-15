@@ -1,0 +1,121 @@
+{
+  "id": 488,
+  "name": "cresselia",
+  "generation": "4",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 120,
+    "attack": 70,
+    "defense": 110,
+    "sp_atk": 75,
+    "sp_def": 120,
+    "speed": 85
+  },
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": 8,
+  "hatch_cycles": 120,
+  "base_friendship": 100,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "double-team"
+      },
+      {
+        "level": 11,
+        "name": "safeguard"
+      },
+      {
+        "level": 20,
+        "name": "mist"
+      },
+      {
+        "level": 29,
+        "name": "aurora-beam"
+      },
+      {
+        "level": 38,
+        "name": "future-sight"
+      },
+      {
+        "level": 47,
+        "name": "slash"
+      },
+      {
+        "level": 57,
+        "name": "moonlight"
+      },
+      {
+        "level": 66,
+        "name": "psycho-cut"
+      },
+      {
+        "level": 75,
+        "name": "psycho-shift"
+      },
+      {
+        "level": 84,
+        "name": "lunar-dance"
+      },
+      {
+        "level": 93,
+        "name": "psychic"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder-wave",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 488,
+    "next_details": []
+  }
+}

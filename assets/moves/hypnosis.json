@@ -1,0 +1,42 @@
+{
+  "name": "hypnosis",
+  "display_name": "Hypnosis",
+  "type": "psychic",
+  "category": "status",
+  "power": null,
+  "accuracy": 60,
+  "pp": 20,
+  "priority": 0,
+  "generation": 1,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Puts the target to sleep.",
+  "effect": "Puts the target to sleep.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    2,
+    4
+  ],
+  "flinch_chance": 0,
+  "ailment": "sleep",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

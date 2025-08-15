@@ -1,0 +1,12 @@
+{
+  "name": "sport-ball",
+  "display_name": "Sport Ball",
+  "category": "standard-balls",
+  "cost": 300,
+  "fling_power": null,
+  "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.\n\n    The wild Pok\u00e9mon's catch rate is 1.5\u00d7 normal.",
+  "short_effect": "Tries to catch a Pok\u00e9mon in the Bug-Catching contest in National Park. (Gen II: Park Ball)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

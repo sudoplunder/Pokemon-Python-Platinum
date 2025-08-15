@@ -1,0 +1,8 @@
+{
+  "name": "water-veil",
+  "display_name": "Water Veil",
+  "generation": 3,
+  "short_effect": "Prevents burns.",
+  "effect": "This Pok\u00e9mon cannot be burned.\n\nIf a Pok\u00e9mon is burned and acquires this ability, its burn is healed; this includes when regaining a lost ability upon leaving battle.",
+  "is_gen4_or_prior": true
+}

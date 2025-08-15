@@ -1,0 +1,122 @@
+{
+  "id": 458,
+  "name": "mantyke",
+  "generation": "4",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 20,
+    "defense": 50,
+    "sp_atk": 60,
+    "sp_def": 120,
+    "speed": 50
+  },
+  "base_experience": 69,
+  "growth_rate": "slow",
+  "capture_rate": 25,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "water-absorb",
+    "hidden": "water-veil"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 3,
+        "name": "supersonic"
+      },
+      {
+        "level": 7,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 11,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 14,
+        "name": "wing-attack"
+      },
+      {
+        "level": 16,
+        "name": "headbutt"
+      },
+      {
+        "level": 19,
+        "name": "water-pulse"
+      },
+      {
+        "level": 27,
+        "name": "take-down"
+      },
+      {
+        "level": 32,
+        "name": "agility"
+      },
+      {
+        "level": 36,
+        "name": "air-slash"
+      },
+      {
+        "level": 39,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 46,
+        "name": "bounce"
+      },
+      {
+        "level": 49,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      226
+    ],
+    "root": 458,
+    "next_details": []
+  }
+}

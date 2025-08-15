@@ -1,0 +1,8 @@
+{
+  "name": "solar-power",
+  "display_name": "Solar Power",
+  "generation": 4,
+  "short_effect": "Increases Special Attack to 1.5\u00d7 but costs 1/8 max HP after each turn during strong sunlight.",
+  "effect": "During strong sunlight, this Pok\u00e9mon has 1.5\u00d7 its Special Attack but takes 1/8 of its maximum HP in damage after each turn.",
+  "is_gen4_or_prior": true
+}

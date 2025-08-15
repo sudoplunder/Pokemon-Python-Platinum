@@ -1,0 +1,12 @@
+{
+  "name": "gold-teeth",
+  "display_name": "Gold Teeth",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "The Safari Zone warden's teeth, to be returned to him for hm04.",
+  "short_effect": "The Safari Zone Warden's dentures. Trade for HM04 (Strength).",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

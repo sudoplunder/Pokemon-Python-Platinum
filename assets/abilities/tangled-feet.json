@@ -1,0 +1,8 @@
+{
+  "name": "tangled-feet",
+  "display_name": "Tangled Feet",
+  "generation": 4,
+  "short_effect": "Doubles evasion when confused.",
+  "effect": "When this Pok\u00e9mon is confused, it has twice its evasion.",
+  "is_gen4_or_prior": true
+}

@@ -1,0 +1,8 @@
+{
+  "name": "rain-dish",
+  "display_name": "Rain Dish",
+  "generation": 3,
+  "short_effect": "Heals for 1/16 max HP after each turn during rain.",
+  "effect": "This Pok\u00e9mon heals for 1/16 of its maximum HP after each turn during rain.",
+  "is_gen4_or_prior": true
+}

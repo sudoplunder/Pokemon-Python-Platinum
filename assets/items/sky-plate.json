@@ -1,0 +1,16 @@
+{
+  "name": "sky-plate",
+  "display_name": "Sky Plate",
+  "category": "plates",
+  "cost": 1000,
+  "fling_power": 90,
+  "effect": "Held: Increases the power of the holder's Flying moves by 20%.\nHeld by a Multitype Pok\u00e9mon: Holder's type becomes Flying.",
+  "short_effect": "Held: Flying-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Flying.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active",
+    "underground"
+  ]
+}

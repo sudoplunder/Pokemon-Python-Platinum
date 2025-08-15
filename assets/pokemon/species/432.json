@@ -1,0 +1,125 @@
+{
+  "id": 432,
+  "name": "purugly",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 71,
+    "attack": 82,
+    "defense": 64,
+    "sp_atk": 64,
+    "sp_def": 59,
+    "speed": 112
+  },
+  "base_experience": 158,
+  "growth_rate": "fast",
+  "capture_rate": 75,
+  "gender_rate": 6,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "own-tempo",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fake-out"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 13,
+        "name": "hypnosis"
+      },
+      {
+        "level": 17,
+        "name": "feint-attack"
+      },
+      {
+        "level": 20,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 25,
+        "name": "charm"
+      },
+      {
+        "level": 29,
+        "name": "assist"
+      },
+      {
+        "level": 32,
+        "name": "captivate"
+      },
+      {
+        "level": 37,
+        "name": "slash"
+      },
+      {
+        "level": 38,
+        "name": "swagger"
+      },
+      {
+        "level": 45,
+        "name": "body-slam"
+      },
+      {
+        "level": 52,
+        "name": "attract"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "cut",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "shadow-ball",
+      "shadow-claw",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 431,
+    "next": [],
+    "root": 431,
+    "next_details": []
+  }
+}

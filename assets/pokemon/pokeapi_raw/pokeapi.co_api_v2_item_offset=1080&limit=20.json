@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1100&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1060&limit=20",
+  "results": [
+    {
+      "name": "moltres-candy",
+      "url": "https://pokeapi.co/api/v2/item/1132/"
+    },
+    {
+      "name": "dratini-candy",
+      "url": "https://pokeapi.co/api/v2/item/1133/"
+    },
+    {
+      "name": "mewtwo-candy",
+      "url": "https://pokeapi.co/api/v2/item/1134/"
+    },
+    {
+      "name": "mew-candy",
+      "url": "https://pokeapi.co/api/v2/item/1135/"
+    },
+    {
+      "name": "meltan-candy",
+      "url": "https://pokeapi.co/api/v2/item/1136/"
+    },
+    {
+      "name": "magmar-candy",
+      "url": "https://pokeapi.co/api/v2/item/1137/"
+    },
+    {
+      "name": "endorsement",
+      "url": "https://pokeapi.co/api/v2/item/1138/"
+    },
+    {
+      "name": "pokemon-box-link",
+      "url": "https://pokeapi.co/api/v2/item/1139/"
+    },
+    {
+      "name": "wishing-star",
+      "url": "https://pokeapi.co/api/v2/item/1140/"
+    },
+    {
+      "name": "dynamax-band",
+      "url": "https://pokeapi.co/api/v2/item/1141/"
+    },
+    {
+      "name": "fishing-rod--galar",
+      "url": "https://pokeapi.co/api/v2/item/1142/"
+    },
+    {
+      "name": "rotom-bike",
+      "url": "https://pokeapi.co/api/v2/item/1143/"
+    },
+    {
+      "name": "sausages",
+      "url": "https://pokeapi.co/api/v2/item/1144/"
+    },
+    {
+      "name": "bobs-food-tin",
+      "url": "https://pokeapi.co/api/v2/item/1145/"
+    },
+    {
+      "name": "bachs-food-tin",
+      "url": "https://pokeapi.co/api/v2/item/1146/"
+    },
+    {
+      "name": "tin-of-beans",
+      "url": "https://pokeapi.co/api/v2/item/1147/"
+    },
+    {
+      "name": "bread",
+      "url": "https://pokeapi.co/api/v2/item/1148/"
+    },
+    {
+      "name": "pasta",
+      "url": "https://pokeapi.co/api/v2/item/1149/"
+    },
+    {
+      "name": "mixed-mushrooms",
+      "url": "https://pokeapi.co/api/v2/item/1150/"
+    },
+    {
+      "name": "smoke-poke-tail",
+      "url": "https://pokeapi.co/api/v2/item/1151/"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "green-scarf",
+  "display_name": "Green Scarf",
+  "category": "scarves",
+  "cost": 100,
+  "fling_power": 10,
+  "effect": "Held: Increases the holder's Smartness during a Super Contest's Visual Competition.",
+  "short_effect": "Raises the holder's Smartness while in a contest.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable-active"
+  ]
+}

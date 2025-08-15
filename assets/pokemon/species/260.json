@@ -1,0 +1,139 @@
+{
+  "id": 260,
+  "name": "swampert",
+  "generation": "3",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 110,
+    "defense": 90,
+    "sp_atk": 85,
+    "sp_def": 90,
+    "speed": 60
+  },
+  "base_experience": 241,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "abilities": {
+    "primary": "torrent",
+    "secondary": null,
+    "hidden": "damp"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "mud-slap"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 15,
+        "name": "bide"
+      },
+      {
+        "level": 16,
+        "name": "mud-shot"
+      },
+      {
+        "level": 20,
+        "name": "foresight"
+      },
+      {
+        "level": 25,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 25,
+        "name": "mud-sport"
+      },
+      {
+        "level": 31,
+        "name": "take-down"
+      },
+      {
+        "level": 39,
+        "name": "muddy-water"
+      },
+      {
+        "level": 46,
+        "name": "protect"
+      },
+      {
+        "level": 52,
+        "name": "earthquake"
+      },
+      {
+        "level": 61,
+        "name": "endeavor"
+      },
+      {
+        "level": 69,
+        "name": "hammer-arm"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 259,
+    "next": [],
+    "root": 258,
+    "next_details": []
+  }
+}

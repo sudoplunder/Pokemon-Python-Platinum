@@ -1,0 +1,8 @@
+{
+  "name": "air-lock",
+  "display_name": "Air Lock",
+  "generation": 3,
+  "short_effect": "Negates all effects of weather, but does not prevent the weather itself.",
+  "effect": "While this Pok\u00e9mon is in battle, weather can still be in play, but will not have any of its effects.\n\nThis ability functions identically to cloud nine.",
+  "is_gen4_or_prior": true
+}

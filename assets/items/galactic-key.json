@@ -1,0 +1,12 @@
+{
+  "name": "galactic-key",
+  "display_name": "Galactic Key",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Grants access to Galactic HQ in Veilstone City.",
+  "short_effect": "Grants access to Galactic HQ in Veilstone City.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

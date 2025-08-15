@@ -1,0 +1,133 @@
+{
+  "id": 157,
+  "name": "typhlosion",
+  "generation": "2",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "sp_atk": 109,
+    "sp_def": 85,
+    "speed": 100
+  },
+  "base_experience": 240,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "blaze",
+    "secondary": null,
+    "hidden": "flash-fire"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "gyro-ball"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "smokescreen"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 13,
+        "name": "quick-attack"
+      },
+      {
+        "level": 20,
+        "name": "flame-wheel"
+      },
+      {
+        "level": 24,
+        "name": "defense-curl"
+      },
+      {
+        "level": 31,
+        "name": "swift"
+      },
+      {
+        "level": 43,
+        "name": "lava-plume"
+      },
+      {
+        "level": 48,
+        "name": "flamethrower"
+      },
+      {
+        "level": 61,
+        "name": "rollout"
+      },
+      {
+        "level": 69,
+        "name": "double-edge"
+      },
+      {
+        "level": 74,
+        "name": "eruption"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "overheat",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 156,
+    "next": [],
+    "root": 155,
+    "next_details": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "azure-flute",
+  "display_name": "Azure Flute",
+  "category": "event-items",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "",
+  "short_effect": "Allows entry into the Hall of Origin. Unreleased.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

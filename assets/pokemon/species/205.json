@@ -1,0 +1,146 @@
+{
+  "id": 205,
+  "name": "forretress",
+  "generation": "2",
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 90,
+    "defense": 140,
+    "sp_atk": 60,
+    "sp_def": 60,
+    "speed": 40
+  },
+  "base_experience": 163,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "sturdy",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bug-bite"
+      },
+      {
+        "level": 1,
+        "name": "protect"
+      },
+      {
+        "level": 1,
+        "name": "self-destruct"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "toxic-spikes"
+      },
+      {
+        "level": 12,
+        "name": "take-down"
+      },
+      {
+        "level": 17,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 20,
+        "name": "bide"
+      },
+      {
+        "level": 23,
+        "name": "natural-gift"
+      },
+      {
+        "level": 28,
+        "name": "spikes"
+      },
+      {
+        "level": 31,
+        "name": "mirror-shot"
+      },
+      {
+        "level": 36,
+        "name": "payback"
+      },
+      {
+        "level": 39,
+        "name": "explosion"
+      },
+      {
+        "level": 46,
+        "name": "iron-defense"
+      },
+      {
+        "level": 50,
+        "name": "gyro-ball"
+      },
+      {
+        "level": 56,
+        "name": "double-edge"
+      },
+      {
+        "level": 60,
+        "name": "magnet-rise"
+      },
+      {
+        "level": 64,
+        "name": "zap-cannon"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "flash-cannon",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "payback",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 204,
+    "next": [],
+    "root": 204,
+    "next_details": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1034,
+  "item": {
+    "name": "tm53",
+    "url": "https://pokeapi.co/api/v2/item/357/"
+  },
+  "move": {
+    "name": "mud-shot",
+    "url": "https://pokeapi.co/api/v2/move/341/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

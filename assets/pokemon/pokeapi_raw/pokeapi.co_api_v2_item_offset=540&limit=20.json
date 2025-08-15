@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=560&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=520&limit=20",
+  "results": [
+    {
+      "name": "rm-6-key",
+      "url": "https://pokeapi.co/api/v2/item/541/"
+    },
+    {
+      "name": "devon-scope",
+      "url": "https://pokeapi.co/api/v2/item/542/"
+    },
+    {
+      "name": "oaks-parcel",
+      "url": "https://pokeapi.co/api/v2/item/543/"
+    },
+    {
+      "name": "poke-flute",
+      "url": "https://pokeapi.co/api/v2/item/544/"
+    },
+    {
+      "name": "bike-voucher",
+      "url": "https://pokeapi.co/api/v2/item/545/"
+    },
+    {
+      "name": "gold-teeth",
+      "url": "https://pokeapi.co/api/v2/item/546/"
+    },
+    {
+      "name": "lift-key",
+      "url": "https://pokeapi.co/api/v2/item/547/"
+    },
+    {
+      "name": "silph-scope",
+      "url": "https://pokeapi.co/api/v2/item/548/"
+    },
+    {
+      "name": "fame-checker",
+      "url": "https://pokeapi.co/api/v2/item/549/"
+    },
+    {
+      "name": "tm-case",
+      "url": "https://pokeapi.co/api/v2/item/550/"
+    },
+    {
+      "name": "berry-pouch",
+      "url": "https://pokeapi.co/api/v2/item/551/"
+    },
+    {
+      "name": "teachy-tv",
+      "url": "https://pokeapi.co/api/v2/item/552/"
+    },
+    {
+      "name": "tri-pass",
+      "url": "https://pokeapi.co/api/v2/item/553/"
+    },
+    {
+      "name": "rainbow-pass",
+      "url": "https://pokeapi.co/api/v2/item/554/"
+    },
+    {
+      "name": "tea",
+      "url": "https://pokeapi.co/api/v2/item/555/"
+    },
+    {
+      "name": "mysticticket",
+      "url": "https://pokeapi.co/api/v2/item/556/"
+    },
+    {
+      "name": "auroraticket",
+      "url": "https://pokeapi.co/api/v2/item/557/"
+    },
+    {
+      "name": "powder-jar",
+      "url": "https://pokeapi.co/api/v2/item/558/"
+    },
+    {
+      "name": "ruby",
+      "url": "https://pokeapi.co/api/v2/item/559/"
+    },
+    {
+      "name": "sapphire",
+      "url": "https://pokeapi.co/api/v2/item/560/"
+    }
+  ]
+}

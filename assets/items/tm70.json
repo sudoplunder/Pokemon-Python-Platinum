@@ -1,0 +1,12 @@
+{
+  "name": "tm70",
+  "display_name": "Tm70",
+  "category": "all-machines",
+  "cost": 50000,
+  "fling_power": null,
+  "effect": "Teaches Flash to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Flash to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

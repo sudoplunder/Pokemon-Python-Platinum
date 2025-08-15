@@ -1,0 +1,15 @@
+{
+  "id": 1722,
+  "item": {
+    "name": "tm17",
+    "url": "https://pokeapi.co/api/v2/item/321/"
+  },
+  "move": {
+    "name": "confuse-ray",
+    "url": "https://pokeapi.co/api/v2/move/109/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

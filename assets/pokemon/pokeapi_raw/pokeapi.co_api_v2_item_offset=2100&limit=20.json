@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=2120&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=2080&limit=20",
+  "results": [
+    {
+      "name": "carbink-jewel",
+      "url": "https://pokeapi.co/api/v2/item/2152/"
+    },
+    {
+      "name": "phantump-twig",
+      "url": "https://pokeapi.co/api/v2/item/2153/"
+    },
+    {
+      "name": "grubbin-thread",
+      "url": "https://pokeapi.co/api/v2/item/2154/"
+    },
+    {
+      "name": "cutiefly-powder",
+      "url": "https://pokeapi.co/api/v2/item/2155/"
+    },
+    {
+      "name": "jangmo-o-scales",
+      "url": "https://pokeapi.co/api/v2/item/2156/"
+    },
+    {
+      "name": "cramorant-down",
+      "url": "https://pokeapi.co/api/v2/item/2157/"
+    },
+    {
+      "name": "morpeko-snack",
+      "url": "https://pokeapi.co/api/v2/item/2158/"
+    },
+    {
+      "name": "poltchageist-powder",
+      "url": "https://pokeapi.co/api/v2/item/2159/"
+    },
+    {
+      "name": "linking-cord",
+      "url": "https://pokeapi.co/api/v2/item/2160/"
+    },
+    {
+      "name": "tm172",
+      "url": "https://pokeapi.co/api/v2/item/2161/"
+    },
+    {
+      "name": "tm173",
+      "url": "https://pokeapi.co/api/v2/item/2162/"
+    },
+    {
+      "name": "tm174",
+      "url": "https://pokeapi.co/api/v2/item/2163/"
+    },
+    {
+      "name": "tm175",
+      "url": "https://pokeapi.co/api/v2/item/2164/"
+    },
+    {
+      "name": "tm176",
+      "url": "https://pokeapi.co/api/v2/item/2165/"
+    },
+    {
+      "name": "tm177",
+      "url": "https://pokeapi.co/api/v2/item/2166/"
+    },
+    {
+      "name": "tm178",
+      "url": "https://pokeapi.co/api/v2/item/2167/"
+    },
+    {
+      "name": "tm179",
+      "url": "https://pokeapi.co/api/v2/item/2168/"
+    },
+    {
+      "name": "tm180",
+      "url": "https://pokeapi.co/api/v2/item/2169/"
+    },
+    {
+      "name": "tm181",
+      "url": "https://pokeapi.co/api/v2/item/2170/"
+    },
+    {
+      "name": "tm182",
+      "url": "https://pokeapi.co/api/v2/item/2171/"
+    }
+  ]
+}

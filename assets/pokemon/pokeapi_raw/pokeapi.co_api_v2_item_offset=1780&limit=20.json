@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1800&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1760&limit=20",
+  "results": [
+    {
+      "name": "bronzor-fragment",
+      "url": "https://pokeapi.co/api/v2/item/1832/"
+    },
+    {
+      "name": "bonsly-tears",
+      "url": "https://pokeapi.co/api/v2/item/1833/"
+    },
+    {
+      "name": "happiny-dust",
+      "url": "https://pokeapi.co/api/v2/item/1834/"
+    },
+    {
+      "name": "spiritomb-fragment",
+      "url": "https://pokeapi.co/api/v2/item/1835/"
+    },
+    {
+      "name": "gible-scales",
+      "url": "https://pokeapi.co/api/v2/item/1836/"
+    },
+    {
+      "name": "riolu-fur",
+      "url": "https://pokeapi.co/api/v2/item/1837/"
+    },
+    {
+      "name": "hippopotas-sand",
+      "url": "https://pokeapi.co/api/v2/item/1838/"
+    },
+    {
+      "name": "croagunk-poison",
+      "url": "https://pokeapi.co/api/v2/item/1839/"
+    },
+    {
+      "name": "finneon-scales",
+      "url": "https://pokeapi.co/api/v2/item/1840/"
+    },
+    {
+      "name": "snover-berries",
+      "url": "https://pokeapi.co/api/v2/item/1841/"
+    },
+    {
+      "name": "rotom-sparks",
+      "url": "https://pokeapi.co/api/v2/item/1842/"
+    },
+    {
+      "name": "petilil-leaf",
+      "url": "https://pokeapi.co/api/v2/item/1843/"
+    },
+    {
+      "name": "basculin-fang",
+      "url": "https://pokeapi.co/api/v2/item/1844/"
+    },
+    {
+      "name": "sandile-claw",
+      "url": "https://pokeapi.co/api/v2/item/1845/"
+    },
+    {
+      "name": "zorua-fur",
+      "url": "https://pokeapi.co/api/v2/item/1846/"
+    },
+    {
+      "name": "gothita-eyelash",
+      "url": "https://pokeapi.co/api/v2/item/1847/"
+    },
+    {
+      "name": "deerling-hair",
+      "url": "https://pokeapi.co/api/v2/item/1848/"
+    },
+    {
+      "name": "foongus-spores",
+      "url": "https://pokeapi.co/api/v2/item/1849/"
+    },
+    {
+      "name": "alomomola-mucus",
+      "url": "https://pokeapi.co/api/v2/item/1850/"
+    },
+    {
+      "name": "tynamo-slime",
+      "url": "https://pokeapi.co/api/v2/item/1851/"
+    }
+  ]
+}

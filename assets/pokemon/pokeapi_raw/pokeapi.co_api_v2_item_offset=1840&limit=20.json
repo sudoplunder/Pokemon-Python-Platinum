@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1860&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1820&limit=20",
+  "results": [
+    {
+      "name": "falinks-sweat",
+      "url": "https://pokeapi.co/api/v2/item/1892/"
+    },
+    {
+      "name": "cufant-tarnish",
+      "url": "https://pokeapi.co/api/v2/item/1893/"
+    },
+    {
+      "name": "rolycoly-coal",
+      "url": "https://pokeapi.co/api/v2/item/1894/"
+    },
+    {
+      "name": "silicobra-sand",
+      "url": "https://pokeapi.co/api/v2/item/1895/"
+    },
+    {
+      "name": "indeedee-fur",
+      "url": "https://pokeapi.co/api/v2/item/1896/"
+    },
+    {
+      "name": "pincurchin-spines",
+      "url": "https://pokeapi.co/api/v2/item/1897/"
+    },
+    {
+      "name": "snom-thread",
+      "url": "https://pokeapi.co/api/v2/item/1898/"
+    },
+    {
+      "name": "impidimp-hair",
+      "url": "https://pokeapi.co/api/v2/item/1899/"
+    },
+    {
+      "name": "applin-juice",
+      "url": "https://pokeapi.co/api/v2/item/1900/"
+    },
+    {
+      "name": "sinistea-chip",
+      "url": "https://pokeapi.co/api/v2/item/1901/"
+    },
+    {
+      "name": "hatenna-dust",
+      "url": "https://pokeapi.co/api/v2/item/1902/"
+    },
+    {
+      "name": "stonjourner-stone",
+      "url": "https://pokeapi.co/api/v2/item/1903/"
+    },
+    {
+      "name": "eiscue-down",
+      "url": "https://pokeapi.co/api/v2/item/1904/"
+    },
+    {
+      "name": "dreepy-powder",
+      "url": "https://pokeapi.co/api/v2/item/1905/"
+    },
+    {
+      "name": "lechonk-hair",
+      "url": "https://pokeapi.co/api/v2/item/1906/"
+    },
+    {
+      "name": "tarountula-thread",
+      "url": "https://pokeapi.co/api/v2/item/1907/"
+    },
+    {
+      "name": "nymble-claw",
+      "url": "https://pokeapi.co/api/v2/item/1908/"
+    },
+    {
+      "name": "rellor-mud",
+      "url": "https://pokeapi.co/api/v2/item/1909/"
+    },
+    {
+      "name": "greavard-wax",
+      "url": "https://pokeapi.co/api/v2/item/1910/"
+    },
+    {
+      "name": "flittle-down",
+      "url": "https://pokeapi.co/api/v2/item/1911/"
+    }
+  ]
+}

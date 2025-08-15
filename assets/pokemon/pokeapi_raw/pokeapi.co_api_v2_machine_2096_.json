@@ -1,0 +1,15 @@
+{
+  "id": 2096,
+  "item": {
+    "name": "tm223",
+    "url": "https://pokeapi.co/api/v2/item/2212/"
+  },
+  "move": {
+    "name": "metal-sound",
+    "url": "https://pokeapi.co/api/v2/move/319/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": 76,
+  "name": "golem",
+  "generation": "1",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 130,
+    "sp_atk": 55,
+    "sp_def": 65,
+    "speed": 45
+  },
+  "base_experience": 223,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "rock-head",
+    "secondary": "sturdy",
+    "hidden": "sand-veil"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "mud-sport"
+      },
+      {
+        "level": 1,
+        "name": "rock-polish"
+      },
+      {
+        "level": 1,
+        "name": "rock-throw"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 15,
+        "name": "magnitude"
+      },
+      {
+        "level": 21,
+        "name": "self-destruct"
+      },
+      {
+        "level": 22,
+        "name": "rock-blast"
+      },
+      {
+        "level": 29,
+        "name": "rollout"
+      },
+      {
+        "level": 42,
+        "name": "stealth-rock"
+      },
+      {
+        "level": 45,
+        "name": "earthquake"
+      },
+      {
+        "level": 53,
+        "name": "explosion"
+      },
+      {
+        "level": 58,
+        "name": "double-edge"
+      },
+      {
+        "level": 64,
+        "name": "stone-edge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "dig",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 75,
+    "next": [],
+    "root": 74,
+    "next_details": []
+  }
+}

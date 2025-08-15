@@ -1,0 +1,133 @@
+{
+  "id": 216,
+  "name": "teddiursa",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 50,
+    "sp_atk": 50,
+    "sp_def": 50,
+    "speed": 40
+  },
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "pickup",
+    "secondary": "quick-feet",
+    "hidden": "honey-gather"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "covet"
+      },
+      {
+        "level": 1,
+        "name": "fake-tears"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 8,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 15,
+        "name": "feint-attack"
+      },
+      {
+        "level": 22,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 29,
+        "name": "slash"
+      },
+      {
+        "level": 31,
+        "name": "rest"
+      },
+      {
+        "level": 36,
+        "name": "charm"
+      },
+      {
+        "level": 43,
+        "name": "snore"
+      },
+      {
+        "level": 49,
+        "name": "thrash"
+      },
+      {
+        "level": 57,
+        "name": "fling"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      217
+    ],
+    "root": 216,
+    "next_details": []
+  }
+}

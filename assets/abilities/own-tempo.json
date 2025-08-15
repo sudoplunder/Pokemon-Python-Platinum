@@ -1,0 +1,8 @@
+{
+  "name": "own-tempo",
+  "display_name": "Own Tempo",
+  "generation": 3,
+  "short_effect": "Prevents confusion.",
+  "effect": "This Pok\u00e9mon cannot be confused.\n\nIf a Pok\u00e9mon is confused and acquires this ability, its confusion will immediately be healed.",
+  "is_gen4_or_prior": true
+}

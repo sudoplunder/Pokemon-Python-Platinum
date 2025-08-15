@@ -1,0 +1,17 @@
+{
+  "name": "heal-ball",
+  "display_name": "Heal Ball",
+  "category": "special-balls",
+  "cost": 300,
+  "fling_power": null,
+  "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon, using a catch rate of 1\u00d7.  The caught Pok\u00e9mon's HP is immediately restored, PP for all its moves is restored, and any status ailment is cured.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+  "short_effect": "Tries to catch a wild Pok\u00e9mon.  Caught Pok\u00e9mon are immediately healed.",
+  "generation": 4,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

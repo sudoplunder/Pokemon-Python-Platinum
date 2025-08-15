@@ -1,0 +1,141 @@
+{
+  "id": 87,
+  "name": "dewgong",
+  "generation": "1",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "sp_atk": 70,
+    "sp_def": 95,
+    "speed": 70
+  },
+  "base_experience": 166,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "hydration",
+    "hidden": "ice-body"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "aurora-beam"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "headbutt"
+      },
+      {
+        "level": 1,
+        "name": "icy-wind"
+      },
+      {
+        "level": 1,
+        "name": "signal-beam"
+      },
+      {
+        "level": 13,
+        "name": "encore"
+      },
+      {
+        "level": 17,
+        "name": "ice-shard"
+      },
+      {
+        "level": 21,
+        "name": "rest"
+      },
+      {
+        "level": 23,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 31,
+        "name": "aqua-jet"
+      },
+      {
+        "level": 33,
+        "name": "brine"
+      },
+      {
+        "level": 34,
+        "name": "sheer-cold"
+      },
+      {
+        "level": 39,
+        "name": "take-down"
+      },
+      {
+        "level": 45,
+        "name": "dive"
+      },
+      {
+        "level": 49,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 51,
+        "name": "ice-beam"
+      },
+      {
+        "level": 61,
+        "name": "safeguard"
+      },
+      {
+        "level": 65,
+        "name": "hail"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 86,
+    "next": [],
+    "root": 86,
+    "next_details": []
+  }
+}

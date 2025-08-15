@@ -1,0 +1,15 @@
+{
+  "id": 1635,
+  "item": {
+    "name": "tr46",
+    "url": "https://pokeapi.co/api/v2/item/1234/"
+  },
+  "move": {
+    "name": "iron-defense",
+    "url": "https://pokeapi.co/api/v2/move/334/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

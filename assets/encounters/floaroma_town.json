@@ -1,0 +1,13 @@
+{
+  "zone": "floaroma_town",
+  "methods": {
+    "grass": {
+      "base_rate": 15,
+      "slots": [
+        {"species": 406, "min": 5, "max": 7, "weight": 50},
+        {"species": 265, "min": 4, "max": 6, "weight": 30},
+        {"species": 401, "min": 4, "max": 6, "weight": 20}
+      ]
+    }
+  }
+}

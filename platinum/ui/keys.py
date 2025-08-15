@@ -5,6 +5,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from enum import Enum, auto
 import sys
+import os
+import select
 
 class Key(Enum):
     UP = auto()
@@ -50,9 +52,9 @@ def _win_read() -> KeyEvent:
 def _unix_read() -> KeyEvent:
     import termios, tty
     fd = sys.stdin.fileno()
-    old = termios.tcgetattr(fd)
+    old = termios.tcgetattr(fd)  # type: ignore[attr-defined]
     try:
-        tty.setraw(fd)
+        tty.setraw(fd)  # type: ignore[attr-defined]
         ch = sys.stdin.read(1)
         if ch == "\r" or ch == "\n":
             return KeyEvent(Key.ENTER, ch)
@@ -78,7 +80,7 @@ def _unix_read() -> KeyEvent:
             return KeyEvent(Key.RIGHT, ch)
         return KeyEvent(Key.OTHER, ch)
     finally:
-        termios.tcsetattr(fd, termios.TCSADRAIN, old)
+        termios.tcsetattr(fd, termios.TCSADRAIN, old)  # type: ignore[attr-defined]
 
 def read_key() -> KeyEvent:
     if sys.platform.startswith("win"):
@@ -96,3 +98,33 @@ def read_key() -> KeyEvent:
             "d": Key.RIGHT, "D": Key.RIGHT,
             "q": Key.ESC, "Q": Key.ESC
         }.get(line, Key.OTHER), line)
+
+def flush_input():
+    """Best-effort flush of pending keyboard buffer for debounce.
+
+    Use after consuming a key that triggers a skip so that extra rapid
+    Enter presses don't remain queued and auto-trigger later stages.
+    """
+    # Windows: drain msvcrt buffer
+    if sys.platform.startswith("win"):
+        try:
+            import msvcrt  # type: ignore
+            while msvcrt.kbhit():
+                msvcrt.getch()
+        except Exception:
+            return
+        return
+    # POSIX: use select to non-blockingly read & discard
+    try:
+        fd = sys.stdin.fileno()
+        # Non-blocking select loop
+        while True:
+            r, _, _ = select.select([sys.stdin], [], [], 0)
+            if not r:
+                break
+            try:
+                os.read(fd, 1024)
+            except OSError:
+                break
+    except Exception:
+        pass

@@ -1,0 +1,12 @@
+{
+  "name": "tm57",
+  "display_name": "Tm57",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Charge Beam to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Charge Beam to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

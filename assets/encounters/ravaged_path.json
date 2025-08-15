@@ -1,0 +1,13 @@
+{
+  "zone": "ravaged_path",
+  "methods": {
+    "cave": {
+      "base_rate": 15,
+      "slots": [
+        {"species": 41,  "min": 5, "max": 6, "weight": 55},
+        {"species": 74,  "min": 5, "max": 6, "weight": 40},
+        {"species": 129, "min": 5, "max": 5, "weight": 5}
+      ]
+    }
+  }
+}

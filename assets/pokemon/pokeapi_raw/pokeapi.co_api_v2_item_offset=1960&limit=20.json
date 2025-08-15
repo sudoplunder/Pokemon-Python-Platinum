@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1980&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1940&limit=20",
+  "results": [
+    {
+      "name": "tm169",
+      "url": "https://pokeapi.co/api/v2/item/2012/"
+    },
+    {
+      "name": "tm170",
+      "url": "https://pokeapi.co/api/v2/item/2013/"
+    },
+    {
+      "name": "tm171",
+      "url": "https://pokeapi.co/api/v2/item/2014/"
+    },
+    {
+      "name": "picnic-set",
+      "url": "https://pokeapi.co/api/v2/item/2015/"
+    },
+    {
+      "name": "academy-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2016/"
+    },
+    {
+      "name": "academy-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2017/"
+    },
+    {
+      "name": "polka-dot-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2018/"
+    },
+    {
+      "name": "striped-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2019/"
+    },
+    {
+      "name": "diamond-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2020/"
+    },
+    {
+      "name": "academy-cup",
+      "url": "https://pokeapi.co/api/v2/item/2021/"
+    },
+    {
+      "name": "academy-cup",
+      "url": "https://pokeapi.co/api/v2/item/2022/"
+    },
+    {
+      "name": "striped-cup",
+      "url": "https://pokeapi.co/api/v2/item/2023/"
+    },
+    {
+      "name": "polka-dot-cup",
+      "url": "https://pokeapi.co/api/v2/item/2024/"
+    },
+    {
+      "name": "flower-pattern-cup",
+      "url": "https://pokeapi.co/api/v2/item/2025/"
+    },
+    {
+      "name": "academy-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2026/"
+    },
+    {
+      "name": "academy-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2027/"
+    },
+    {
+      "name": "whimsical-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2028/"
+    },
+    {
+      "name": "leafy-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2029/"
+    },
+    {
+      "name": "spooky-tablecloth",
+      "url": "https://pokeapi.co/api/v2/item/2030/"
+    },
+    {
+      "name": "academy-ball",
+      "url": "https://pokeapi.co/api/v2/item/2031/"
+    }
+  ]
+}

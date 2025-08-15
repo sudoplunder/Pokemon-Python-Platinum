@@ -1,0 +1,15 @@
+{
+  "name": "shed-shell",
+  "display_name": "Shed Shell",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 10,
+  "effect": "Held: The holder is unaffected by any moves or abilities that would prevent it from actively leaving battle.",
+  "short_effect": "Held: Holder can bypass all trapping effects and switch out. Multi-turn moves still cannot be switched out of.",
+  "generation": 4,
+  "is_consumable": true,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

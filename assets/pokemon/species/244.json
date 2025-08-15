@@ -1,0 +1,131 @@
+{
+  "id": 244,
+  "name": "entei",
+  "generation": "2",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 115,
+    "attack": 115,
+    "defense": 85,
+    "sp_atk": 90,
+    "sp_def": 75,
+    "speed": 100
+  },
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 80,
+  "base_friendship": 35,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": "inner-focus"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 8,
+        "name": "ember"
+      },
+      {
+        "level": 15,
+        "name": "roar"
+      },
+      {
+        "level": 22,
+        "name": "fire-spin"
+      },
+      {
+        "level": 29,
+        "name": "stomp"
+      },
+      {
+        "level": 36,
+        "name": "flamethrower"
+      },
+      {
+        "level": 43,
+        "name": "swagger"
+      },
+      {
+        "level": 50,
+        "name": "fire-fang"
+      },
+      {
+        "level": 57,
+        "name": "lava-plume"
+      },
+      {
+        "level": 64,
+        "name": "extrasensory"
+      },
+      {
+        "level": 71,
+        "name": "fire-blast"
+      },
+      {
+        "level": 78,
+        "name": "calm-mind"
+      },
+      {
+        "level": 85,
+        "name": "eruption"
+      }
+    ],
+    "machines": [
+      "calm-mind",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "overheat",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 244,
+    "next_details": []
+  }
+}

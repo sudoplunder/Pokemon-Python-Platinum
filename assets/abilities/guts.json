@@ -1,0 +1,8 @@
+{
+  "name": "guts",
+  "display_name": "Guts",
+  "generation": 3,
+  "short_effect": "Increases Attack to 1.5\u00d7 with a major status ailment.",
+  "effect": "Whenever this Pok\u00e9mon is asleep, burned, paralyzed, or poisoned, it has 1.5\u00d7 its Attack.  This Pok\u00e9mon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier.",
+  "is_gen4_or_prior": true
+}

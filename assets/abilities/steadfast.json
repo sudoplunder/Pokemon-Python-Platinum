@@ -1,0 +1,8 @@
+{
+  "name": "steadfast",
+  "display_name": "Steadfast",
+  "generation": 4,
+  "short_effect": "Raises Speed one stage upon flinching.",
+  "effect": "Whenever this Pok\u00e9mon flinches, its Speed rises one stage.",
+  "is_gen4_or_prior": true
+}

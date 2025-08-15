@@ -1,0 +1,124 @@
+{
+  "id": 130,
+  "name": "gyarados",
+  "generation": "1",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 125,
+    "defense": 79,
+    "sp_atk": 60,
+    "sp_def": 100,
+    "speed": 81
+  },
+  "base_experience": 189,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 5,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "thrash"
+      },
+      {
+        "level": 20,
+        "name": "bite"
+      },
+      {
+        "level": 23,
+        "name": "dragon-rage"
+      },
+      {
+        "level": 26,
+        "name": "leer"
+      },
+      {
+        "level": 29,
+        "name": "twister"
+      },
+      {
+        "level": 32,
+        "name": "ice-fang"
+      },
+      {
+        "level": 35,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 38,
+        "name": "rain-dance"
+      },
+      {
+        "level": 40,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 44,
+        "name": "dragon-dance"
+      },
+      {
+        "level": 47,
+        "name": "hyper-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "taunt",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 129,
+    "next": [],
+    "root": 129,
+    "next_details": []
+  }
+}

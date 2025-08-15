@@ -1,0 +1,14 @@
+{
+  "name": "thick-club",
+  "display_name": "Thick Club",
+  "category": "species-specific",
+  "cost": 1000,
+  "fling_power": 90,
+  "effect": "Held by Cubone or Marowak: Doubles the holder's Attack.",
+  "short_effect": "Doubles Cubone or Marowak's Attack.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable"
+  ]
+}

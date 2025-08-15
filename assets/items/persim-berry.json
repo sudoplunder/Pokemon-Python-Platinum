@@ -1,0 +1,14 @@
+{
+  "name": "persim-berry",
+  "display_name": "Persim Berry",
+  "category": "medicine",
+  "cost": 80,
+  "fling_power": 10,
+  "effect": "Held in battle\n:   When the holder is confused, it consumes this item to cure the confusion.\n\nUsed on a party Pok\u00e9mon\n:   Cures confusion.",
+  "short_effect": "Held: Consumed when confused to cure confusion.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "holdable-active"
+  ]
+}

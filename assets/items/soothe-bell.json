@@ -1,0 +1,15 @@
+{
+  "name": "soothe-bell",
+  "display_name": "Soothe Bell",
+  "category": "training",
+  "cost": 4000,
+  "fling_power": 10,
+  "effect": "Held\n:   When the holder would earn happiness for any reason, it earns twice that amount instead.",
+  "short_effect": "Held: Doubles the happiness earned by the holder.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

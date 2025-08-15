@@ -1,0 +1,17 @@
+{
+  "name": "master-ball",
+  "display_name": "Master Ball",
+  "category": "standard-balls",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used in battle\n:   Catches a wild Pok\u00e9mon without fail.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+  "short_effect": "Catches a wild Pok\u00e9mon every time.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

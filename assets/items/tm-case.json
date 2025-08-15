@@ -1,0 +1,12 @@
+{
+  "name": "tm-case",
+  "display_name": "Tm Case",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Stores TMs and HMs.",
+  "short_effect": "Holds TMs.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

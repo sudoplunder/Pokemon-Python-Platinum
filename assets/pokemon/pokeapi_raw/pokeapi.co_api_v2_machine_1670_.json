@@ -1,0 +1,15 @@
+{
+  "id": 1670,
+  "item": {
+    "name": "tr81",
+    "url": "https://pokeapi.co/api/v2/item/1269/"
+  },
+  "move": {
+    "name": "foul-play",
+    "url": "https://pokeapi.co/api/v2/move/492/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

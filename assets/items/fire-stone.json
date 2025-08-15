@@ -1,0 +1,14 @@
+{
+  "name": "fire-stone",
+  "display_name": "Fire Stone",
+  "category": "evolution",
+  "cost": 3000,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Evolves an eevee into flareon, a growlithe into arcanine, a pansear into simisear, or a vulpix into ninetales.",
+  "short_effect": "Evolves an Eevee into Flareon, a Growlithe into Arcanine, a Pansear into Simisear, or a Vulpix into Ninetales.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "underground"
+  ]
+}

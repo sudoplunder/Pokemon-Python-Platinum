@@ -1,0 +1,126 @@
+{
+  "id": 194,
+  "name": "wooper",
+  "generation": "2",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 45,
+    "defense": 45,
+    "sp_atk": 25,
+    "sp_def": 25,
+    "speed": 15
+  },
+  "base_experience": 42,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "damp",
+    "secondary": "water-absorb",
+    "hidden": "unaware"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 5,
+        "name": "mud-sport"
+      },
+      {
+        "level": 9,
+        "name": "mud-shot"
+      },
+      {
+        "level": 11,
+        "name": "slam"
+      },
+      {
+        "level": 19,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 21,
+        "name": "amnesia"
+      },
+      {
+        "level": 29,
+        "name": "yawn"
+      },
+      {
+        "level": 33,
+        "name": "earthquake"
+      },
+      {
+        "level": 37,
+        "name": "rain-dance"
+      },
+      {
+        "level": 43,
+        "name": "haze"
+      },
+      {
+        "level": 43,
+        "name": "mist"
+      },
+      {
+        "level": 47,
+        "name": "muddy-water"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "flash",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "sludge-bomb",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      195
+    ],
+    "root": 194,
+    "next_details": []
+  }
+}

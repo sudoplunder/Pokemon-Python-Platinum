@@ -1,0 +1,12 @@
+{
+  "name": "tm90",
+  "display_name": "Tm90",
+  "category": "all-machines",
+  "cost": 20000,
+  "fling_power": null,
+  "effect": "Teaches Substitute to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Substitute to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

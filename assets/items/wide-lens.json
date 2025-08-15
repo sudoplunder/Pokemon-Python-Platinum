@@ -1,0 +1,15 @@
+{
+  "name": "wide-lens",
+  "display_name": "Wide Lens",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 10,
+  "effect": "Held: Increases the accuracy of any move the holder uses by 10% (multiplied; i.e. 70% accuracy is increased to 77%).",
+  "short_effect": "Held: Provides a 1/10 (10%) boost in accuracy to the holder.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

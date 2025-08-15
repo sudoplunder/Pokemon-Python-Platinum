@@ -1,0 +1,12 @@
+{
+  "name": "stardust",
+  "display_name": "Stardust",
+  "category": "loot",
+  "cost": 3000,
+  "fling_power": 30,
+  "effect": "Vendor trash.",
+  "short_effect": "Sell for 1000 Pok\u00e9dollars, or to Ore Collector for 2000 Pok\u00e9dollars.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

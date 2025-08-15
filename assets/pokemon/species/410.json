@@ -1,0 +1,121 @@
+{
+  "id": 410,
+  "name": "shieldon",
+  "generation": "4",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 42,
+    "defense": 118,
+    "sp_atk": 42,
+    "sp_def": 88,
+    "speed": 30
+  },
+  "base_experience": 70,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "sturdy",
+    "secondary": null,
+    "hidden": "soundproof"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "protect"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 6,
+        "name": "taunt"
+      },
+      {
+        "level": 10,
+        "name": "metal-sound"
+      },
+      {
+        "level": 15,
+        "name": "take-down"
+      },
+      {
+        "level": 19,
+        "name": "iron-defense"
+      },
+      {
+        "level": 24,
+        "name": "swagger"
+      },
+      {
+        "level": 28,
+        "name": "ancient-power"
+      },
+      {
+        "level": 33,
+        "name": "endure"
+      },
+      {
+        "level": 37,
+        "name": "metal-burst"
+      },
+      {
+        "level": 42,
+        "name": "iron-head"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash-cannon",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thunder",
+      "thunderbolt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      411
+    ],
+    "root": 410,
+    "next_details": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "simple",
+  "display_name": "Simple",
+  "generation": 4,
+  "short_effect": "Doubles the Pok\u00e9mon's stat modifiers.  These doubled modifiers are still capped at -6 or 6 stages.",
+  "effect": "Each stage of this Pok\u00e9mon's stat modifiers acts as two stages.  These doubled stages are still limited to a minimum of -6 and a maximum of 6.\n\nThis Pok\u00e9mon can still accumulate less than -3 or more than 3 stages of stat modifiers, even though the extra ones have no effect after doubling.",
+  "is_gen4_or_prior": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tm12",
+  "display_name": "Tm12",
+  "category": "all-machines",
+  "cost": 50000,
+  "fling_power": null,
+  "effect": "Teaches Taunt to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Taunt to a compatible Pok\u00e9mon. (Gen II: Sweet Scent Gen I: Water Gun)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

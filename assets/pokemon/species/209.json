@@ -1,0 +1,144 @@
+{
+  "id": 209,
+  "name": "snubbull",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 50,
+    "sp_atk": 40,
+    "sp_def": 40,
+    "speed": 30
+  },
+  "base_experience": 60,
+  "growth_rate": "fast",
+  "capture_rate": 190,
+  "gender_rate": 6,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": "run-away",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "charm"
+      },
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "ice-fang"
+      },
+      {
+        "level": 1,
+        "name": "scary-face"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 7,
+        "name": "bite"
+      },
+      {
+        "level": 13,
+        "name": "lick"
+      },
+      {
+        "level": 19,
+        "name": "headbutt"
+      },
+      {
+        "level": 25,
+        "name": "roar"
+      },
+      {
+        "level": 31,
+        "name": "rage"
+      },
+      {
+        "level": 37,
+        "name": "take-down"
+      },
+      {
+        "level": 43,
+        "name": "payback"
+      },
+      {
+        "level": 49,
+        "name": "crunch"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "overheat",
+      "payback",
+      "protect",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "sludge-bomb",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      210
+    ],
+    "root": 209,
+    "next_details": []
+  }
+}

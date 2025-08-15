@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1140&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1100&limit=20",
+  "results": [
+    {
+      "name": "star-sweet",
+      "url": "https://pokeapi.co/api/v2/item/1172/"
+    },
+    {
+      "name": "ribbon-sweet",
+      "url": "https://pokeapi.co/api/v2/item/1173/"
+    },
+    {
+      "name": "sweet-apple",
+      "url": "https://pokeapi.co/api/v2/item/1174/"
+    },
+    {
+      "name": "tart-apple",
+      "url": "https://pokeapi.co/api/v2/item/1175/"
+    },
+    {
+      "name": "throat-spray",
+      "url": "https://pokeapi.co/api/v2/item/1176/"
+    },
+    {
+      "name": "eject-pack",
+      "url": "https://pokeapi.co/api/v2/item/1177/"
+    },
+    {
+      "name": "heavy-duty-boots",
+      "url": "https://pokeapi.co/api/v2/item/1178/"
+    },
+    {
+      "name": "blunder-policy",
+      "url": "https://pokeapi.co/api/v2/item/1179/"
+    },
+    {
+      "name": "room-service",
+      "url": "https://pokeapi.co/api/v2/item/1180/"
+    },
+    {
+      "name": "utility-umbrella",
+      "url": "https://pokeapi.co/api/v2/item/1181/"
+    },
+    {
+      "name": "exp-candy-xs",
+      "url": "https://pokeapi.co/api/v2/item/1182/"
+    },
+    {
+      "name": "exp-candy-s",
+      "url": "https://pokeapi.co/api/v2/item/1183/"
+    },
+    {
+      "name": "exp-candy-m",
+      "url": "https://pokeapi.co/api/v2/item/1184/"
+    },
+    {
+      "name": "exp-candy-l",
+      "url": "https://pokeapi.co/api/v2/item/1185/"
+    },
+    {
+      "name": "exp-candy-xl",
+      "url": "https://pokeapi.co/api/v2/item/1186/"
+    },
+    {
+      "name": "dynamax-candy",
+      "url": "https://pokeapi.co/api/v2/item/1187/"
+    },
+    {
+      "name": "tr00",
+      "url": "https://pokeapi.co/api/v2/item/1188/"
+    },
+    {
+      "name": "tr01",
+      "url": "https://pokeapi.co/api/v2/item/1189/"
+    },
+    {
+      "name": "tr02",
+      "url": "https://pokeapi.co/api/v2/item/1190/"
+    },
+    {
+      "name": "tr03",
+      "url": "https://pokeapi.co/api/v2/item/1191/"
+    }
+  ]
+}

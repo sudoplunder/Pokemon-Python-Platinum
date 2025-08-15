@@ -1,0 +1,127 @@
+{
+  "id": 175,
+  "name": "togepi",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 20,
+    "defense": 65,
+    "sp_atk": 40,
+    "sp_def": 65,
+    "speed": 20
+  },
+  "base_experience": 49,
+  "growth_rate": "fast",
+  "capture_rate": 190,
+  "gender_rate": 1,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "hustle",
+    "secondary": "serene-grace",
+    "hidden": "super-luck"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "charm"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 5,
+        "name": "metronome"
+      },
+      {
+        "level": 9,
+        "name": "sweet-kiss"
+      },
+      {
+        "level": 13,
+        "name": "yawn"
+      },
+      {
+        "level": 17,
+        "name": "encore"
+      },
+      {
+        "level": 21,
+        "name": "follow-me"
+      },
+      {
+        "level": 29,
+        "name": "wish"
+      },
+      {
+        "level": 33,
+        "name": "ancient-power"
+      },
+      {
+        "level": 36,
+        "name": "safeguard"
+      },
+      {
+        "level": 41,
+        "name": "baton-pass"
+      },
+      {
+        "level": 41,
+        "name": "double-edge"
+      },
+      {
+        "level": 49,
+        "name": "last-resort"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder-wave",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      176
+    ],
+    "root": 175,
+    "next_details": []
+  }
+}

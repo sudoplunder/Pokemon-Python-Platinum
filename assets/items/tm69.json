@@ -1,0 +1,12 @@
+{
+  "name": "tm69",
+  "display_name": "Tm69",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Rock Polish to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Rock Polish to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

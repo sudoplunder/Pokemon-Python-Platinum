@@ -1,0 +1,12 @@
+{
+  "name": "enigma-stone",
+  "display_name": "Enigma Stone",
+  "category": "event-items",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "When taken to the pewter city museum, causes latias or latios to attack the trainer.\n\nThe Pok\u00e9mon to appear will be whicher can't be encountered roaming in the wild.",
+  "short_effect": "S: Summons Latias H: Summons Latios.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

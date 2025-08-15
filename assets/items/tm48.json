@@ -1,0 +1,12 @@
+{
+  "name": "tm48",
+  "display_name": "Tm48",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Skill Swap to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Round to a compatible Pok\u00e9mon. (Gen IV & III: Skill Swap Gen II: Fire Punch Gen I: Rock Slide)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

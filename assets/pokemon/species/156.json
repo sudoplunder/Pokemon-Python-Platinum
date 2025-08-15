@@ -1,0 +1,121 @@
+{
+  "id": 156,
+  "name": "quilava",
+  "generation": "2",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "sp_atk": 80,
+    "sp_def": 65,
+    "speed": 80
+  },
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "blaze",
+    "secondary": null,
+    "hidden": "flash-fire"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "smokescreen"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 10,
+        "name": "ember"
+      },
+      {
+        "level": 13,
+        "name": "quick-attack"
+      },
+      {
+        "level": 20,
+        "name": "flame-wheel"
+      },
+      {
+        "level": 24,
+        "name": "defense-curl"
+      },
+      {
+        "level": 31,
+        "name": "swift"
+      },
+      {
+        "level": 42,
+        "name": "lava-plume"
+      },
+      {
+        "level": 46,
+        "name": "flamethrower"
+      },
+      {
+        "level": 57,
+        "name": "rollout"
+      },
+      {
+        "level": 64,
+        "name": "double-edge"
+      },
+      {
+        "level": 68,
+        "name": "eruption"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "overheat",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "secret-power",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 155,
+    "next": [
+      157
+    ],
+    "root": 155,
+    "next_details": []
+  }
+}

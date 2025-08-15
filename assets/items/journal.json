@@ -1,0 +1,12 @@
+{
+  "name": "journal",
+  "display_name": "Journal",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Records some of the trainer's activities for the day.",
+  "short_effect": "Records prior significant activities the player took.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

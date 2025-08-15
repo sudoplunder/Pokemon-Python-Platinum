@@ -1,0 +1,144 @@
+{
+  "id": 115,
+  "name": "kangaskhan",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 105,
+    "attack": 95,
+    "defense": 80,
+    "sp_atk": 40,
+    "sp_def": 80,
+    "speed": 90
+  },
+  "base_experience": 172,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 8,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "early-bird",
+    "secondary": "scrappy",
+    "hidden": "inner-focus"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "comet-punch"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 7,
+        "name": "bite"
+      },
+      {
+        "level": 7,
+        "name": "fake-out"
+      },
+      {
+        "level": 10,
+        "name": "tail-whip"
+      },
+      {
+        "level": 19,
+        "name": "double-hit"
+      },
+      {
+        "level": 22,
+        "name": "rage"
+      },
+      {
+        "level": 25,
+        "name": "mega-punch"
+      },
+      {
+        "level": 34,
+        "name": "dizzy-punch"
+      },
+      {
+        "level": 37,
+        "name": "crunch"
+      },
+      {
+        "level": 37,
+        "name": "endure"
+      },
+      {
+        "level": 46,
+        "name": "outrage"
+      },
+      {
+        "level": 49,
+        "name": "reversal"
+      },
+      {
+        "level": 49,
+        "name": "sucker-punch"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 115,
+    "next_details": []
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": 453,
+  "name": "croagunk",
+  "generation": "4",
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 61,
+    "defense": 40,
+    "sp_atk": 61,
+    "sp_def": 40,
+    "speed": 50
+  },
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "capture_rate": 140,
+  "gender_rate": 4,
+  "hatch_cycles": 10,
+  "base_friendship": 100,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "anticipation",
+    "secondary": "dry-skin",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 3,
+        "name": "mud-slap"
+      },
+      {
+        "level": 8,
+        "name": "poison-sting"
+      },
+      {
+        "level": 10,
+        "name": "taunt"
+      },
+      {
+        "level": 15,
+        "name": "pursuit"
+      },
+      {
+        "level": 17,
+        "name": "feint-attack"
+      },
+      {
+        "level": 22,
+        "name": "revenge"
+      },
+      {
+        "level": 24,
+        "name": "swagger"
+      },
+      {
+        "level": 29,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 31,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 38,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 43,
+        "name": "poison-jab"
+      },
+      {
+        "level": 45,
+        "name": "sludge-bomb"
+      },
+      {
+        "level": 50,
+        "name": "flatter"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "double-team",
+      "earthquake",
+      "embargo",
+      "facade",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "hidden-power",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "shadow-ball",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      454
+    ],
+    "root": 453,
+    "next_details": []
+  }
+}

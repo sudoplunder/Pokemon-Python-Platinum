@@ -1,0 +1,119 @@
+{
+  "id": 347,
+  "name": "anorith",
+  "generation": "3",
+  "types": [
+    "rock",
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 95,
+    "defense": 50,
+    "sp_atk": 40,
+    "sp_def": 50,
+    "speed": 75
+  },
+  "base_experience": 71,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "battle-armor",
+    "secondary": null,
+    "hidden": "swift-swim"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 7,
+        "name": "mud-sport"
+      },
+      {
+        "level": 13,
+        "name": "water-gun"
+      },
+      {
+        "level": 19,
+        "name": "metal-claw"
+      },
+      {
+        "level": 25,
+        "name": "protect"
+      },
+      {
+        "level": 31,
+        "name": "ancient-power"
+      },
+      {
+        "level": 37,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 43,
+        "name": "slash"
+      },
+      {
+        "level": 49,
+        "name": "rock-blast"
+      },
+      {
+        "level": 55,
+        "name": "crush-claw"
+      },
+      {
+        "level": 61,
+        "name": "x-scissor"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "frustration",
+      "hidden-power",
+      "protect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "water-pulse",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      348
+    ],
+    "root": 347,
+    "next_details": []
+  }
+}

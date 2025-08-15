@@ -1,0 +1,125 @@
+{
+  "id": 72,
+  "name": "tentacool",
+  "generation": "1",
+  "types": [
+    "water",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "sp_atk": 50,
+    "sp_def": 100,
+    "speed": 70
+  },
+  "base_experience": 67,
+  "growth_rate": "slow",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "clear-body",
+    "secondary": "liquid-ooze",
+    "hidden": "rain-dish"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 5,
+        "name": "supersonic"
+      },
+      {
+        "level": 8,
+        "name": "constrict"
+      },
+      {
+        "level": 12,
+        "name": "acid"
+      },
+      {
+        "level": 15,
+        "name": "toxic-spikes"
+      },
+      {
+        "level": 19,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 22,
+        "name": "wrap"
+      },
+      {
+        "level": 29,
+        "name": "barrier"
+      },
+      {
+        "level": 33,
+        "name": "water-pulse"
+      },
+      {
+        "level": 36,
+        "name": "poison-jab"
+      },
+      {
+        "level": 40,
+        "name": "screech"
+      },
+      {
+        "level": 47,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 54,
+        "name": "wring-out"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "cut",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "sludge-bomb",
+      "substitute",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      73
+    ],
+    "root": 72,
+    "next_details": []
+  }
+}

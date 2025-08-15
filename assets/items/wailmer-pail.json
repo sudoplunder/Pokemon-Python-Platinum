@@ -1,0 +1,12 @@
+{
+  "name": "wailmer-pail",
+  "display_name": "Wailmer Pail",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Waters Berry plants.",
+  "short_effect": "Used to water berries.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

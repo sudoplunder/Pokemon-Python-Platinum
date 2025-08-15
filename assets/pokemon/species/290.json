@@ -1,0 +1,108 @@
+{
+  "id": 290,
+  "name": "nincada",
+  "generation": "3",
+  "types": [
+    "bug",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 31,
+    "attack": 45,
+    "defense": 90,
+    "sp_atk": 30,
+    "sp_def": 30,
+    "speed": 40
+  },
+  "base_experience": 53,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "compound-eyes",
+    "secondary": null,
+    "hidden": "run-away"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 5,
+        "name": "leech-life"
+      },
+      {
+        "level": 9,
+        "name": "sand-attack"
+      },
+      {
+        "level": 14,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 19,
+        "name": "mind-reader"
+      },
+      {
+        "level": 25,
+        "name": "false-swipe"
+      },
+      {
+        "level": 31,
+        "name": "mud-slap"
+      },
+      {
+        "level": 38,
+        "name": "metal-claw"
+      },
+      {
+        "level": 45,
+        "name": "dig"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "protect",
+      "rest",
+      "return",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      291,
+      292
+    ],
+    "root": 290,
+    "next_details": []
+  }
+}

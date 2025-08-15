@@ -1,0 +1,133 @@
+{
+  "id": 120,
+  "name": "staryu",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 55,
+    "sp_atk": 70,
+    "sp_def": 55,
+    "speed": 85
+  },
+  "base_experience": 68,
+  "growth_rate": "slow",
+  "capture_rate": 225,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "illuminate",
+    "secondary": "natural-cure",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 6,
+        "name": "water-gun"
+      },
+      {
+        "level": 10,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 12,
+        "name": "recover"
+      },
+      {
+        "level": 15,
+        "name": "camouflage"
+      },
+      {
+        "level": 18,
+        "name": "swift"
+      },
+      {
+        "level": 22,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 25,
+        "name": "minimize"
+      },
+      {
+        "level": 30,
+        "name": "gyro-ball"
+      },
+      {
+        "level": 33,
+        "name": "light-screen"
+      },
+      {
+        "level": 36,
+        "name": "brine"
+      },
+      {
+        "level": 42,
+        "name": "cosmic-power"
+      },
+      {
+        "level": 43,
+        "name": "power-gem"
+      },
+      {
+        "level": 46,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "flash",
+      "flash-cannon",
+      "frustration",
+      "gyro-ball",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      121
+    ],
+    "root": 120,
+    "next_details": []
+  }
+}

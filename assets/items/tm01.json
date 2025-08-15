@@ -1,0 +1,12 @@
+{
+  "name": "tm01",
+  "display_name": "Tm01",
+  "category": "all-machines",
+  "cost": 40000,
+  "fling_power": null,
+  "effect": "Teaches Focus Punch to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Hone Claws to a compatible Pok\u00e9mon. (Gen IV & III: Focus Punch Gen II: DynamicPunch Gen I: Mega Punch)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,136 @@
+{
+  "id": 491,
+  "name": "darkrai",
+  "generation": "4",
+  "types": [
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 90,
+    "defense": 90,
+    "sp_atk": 135,
+    "sp_def": 90,
+    "speed": 125
+  },
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 120,
+  "base_friendship": 0,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "bad-dreams",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "disable"
+      },
+      {
+        "level": 1,
+        "name": "ominous-wind"
+      },
+      {
+        "level": 11,
+        "name": "quick-attack"
+      },
+      {
+        "level": 20,
+        "name": "hypnosis"
+      },
+      {
+        "level": 29,
+        "name": "feint-attack"
+      },
+      {
+        "level": 38,
+        "name": "nightmare"
+      },
+      {
+        "level": 47,
+        "name": "double-team"
+      },
+      {
+        "level": 57,
+        "name": "haze"
+      },
+      {
+        "level": 66,
+        "name": "dark-void"
+      },
+      {
+        "level": 75,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 84,
+        "name": "dream-eater"
+      },
+      {
+        "level": 93,
+        "name": "dark-pulse"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "cut",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "shadow-ball",
+      "shadow-claw",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "will-o-wisp",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 491,
+    "next_details": []
+  }
+}

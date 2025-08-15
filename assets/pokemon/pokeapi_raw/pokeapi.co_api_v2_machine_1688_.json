@@ -1,0 +1,15 @@
+{
+  "id": 1688,
+  "item": {
+    "name": "tr99",
+    "url": "https://pokeapi.co/api/v2/item/1287/"
+  },
+  "move": {
+    "name": "body-press",
+    "url": "https://pokeapi.co/api/v2/move/776/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

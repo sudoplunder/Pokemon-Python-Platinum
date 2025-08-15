@@ -1,0 +1,15 @@
+{
+  "id": 2013,
+  "item": {
+    "name": "tm110",
+    "url": "https://pokeapi.co/api/v2/item/1953/"
+  },
+  "move": {
+    "name": "liquidation",
+    "url": "https://pokeapi.co/api/v2/move/710/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

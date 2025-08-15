@@ -1,0 +1,12 @@
+{
+  "name": "protector",
+  "display_name": "Protector",
+  "category": "evolution",
+  "cost": 2000,
+  "fling_power": 80,
+  "effect": "Held by Rhydon: Evolves the holder into Rhyperior when traded.",
+  "short_effect": "Traded on a Rhydon: Holder evolves into Rhyperior.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "sniper",
+  "display_name": "Sniper",
+  "generation": 4,
+  "short_effect": "Strengthens critical hits to inflict 3\u00d7 damage rather than 2\u00d7.",
+  "effect": "This Pok\u00e9mon inflicts triple damage with critical hits, rather than the usual double damage.",
+  "is_gen4_or_prior": true
+}

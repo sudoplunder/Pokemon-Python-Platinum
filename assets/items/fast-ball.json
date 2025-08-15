@@ -1,0 +1,12 @@
+{
+  "name": "fast-ball",
+  "display_name": "Fast Ball",
+  "category": "apricorn-balls",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n:   If the wild Pok\u00e9mon's base speed is 100 or more, its catch rate is 4\u00d7 normal.",
+  "short_effect": "4\u00d7 effectiveness on Pok\u00e9mon with 100 or greater base speed. (Gen II: Roaming or Fleeing Pok\u00e9mon). Made from Wht Apricorn.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "quest.parcel.delivery",
+  "trigger": { "type": "enter_map", "value": "jubilife_city" },
+  "once": true,
+  "prerequisites": {
+    "all": ["starter_chosen"],
+    "none": ["parcel_delivered"]
+  },
+  "actions": [
+  { "command": "SET_LOCATION", "location": "jubilife_city_central" },
+    { "command": "SHOW_TEXT", "dialogue_key": "quest.parcel.find_rival" },
+    { "command": "SHOW_TEXT", "dialogue_key": "quest.parcel.delivery" },
+    { "command": "GIVE_ITEM", "value": { "item": "town_map", "quantity": 1 } },
+    { "command": "SET_FLAG", "flag": "parcel_delivered" }
+  ],
+  "set_flags": ["parcel_delivered"]
+}

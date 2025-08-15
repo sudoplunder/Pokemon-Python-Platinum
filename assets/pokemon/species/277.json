@@ -1,0 +1,109 @@
+{
+  "id": 277,
+  "name": "swellow",
+  "generation": "3",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 60,
+    "sp_atk": 75,
+    "sp_def": 50,
+    "speed": 125
+  },
+  "base_experience": 159,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "guts",
+    "secondary": null,
+    "hidden": "scrappy"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "focus-energy"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 1,
+        "name": "pluck"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 13,
+        "name": "wing-attack"
+      },
+      {
+        "level": 19,
+        "name": "double-team"
+      },
+      {
+        "level": 28,
+        "name": "endeavor"
+      },
+      {
+        "level": 38,
+        "name": "aerial-ace"
+      },
+      {
+        "level": 49,
+        "name": "agility"
+      },
+      {
+        "level": 61,
+        "name": "air-slash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 276,
+    "next": [],
+    "root": 276,
+    "next_details": []
+  }
+}

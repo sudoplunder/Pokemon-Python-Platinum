@@ -1,0 +1,141 @@
+{
+  "id": 303,
+  "name": "mawile",
+  "generation": "3",
+  "types": [
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 85,
+    "defense": 85,
+    "sp_atk": 55,
+    "sp_def": 55,
+    "speed": 50
+  },
+  "base_experience": 133,
+  "growth_rate": "fast",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "hyper-cutter",
+    "secondary": "intimidate",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 6,
+        "name": "fake-tears"
+      },
+      {
+        "level": 11,
+        "name": "bite"
+      },
+      {
+        "level": 16,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 21,
+        "name": "vice-grip"
+      },
+      {
+        "level": 26,
+        "name": "feint-attack"
+      },
+      {
+        "level": 31,
+        "name": "baton-pass"
+      },
+      {
+        "level": 36,
+        "name": "crunch"
+      },
+      {
+        "level": 41,
+        "name": "iron-defense"
+      },
+      {
+        "level": 46,
+        "name": "spit-up"
+      },
+      {
+        "level": 46,
+        "name": "stockpile"
+      },
+      {
+        "level": 46,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 46,
+        "name": "swallow"
+      },
+      {
+        "level": 56,
+        "name": "iron-head"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "double-team",
+      "embargo",
+      "facade",
+      "false-swipe",
+      "fire-blast",
+      "flamethrower",
+      "flash-cannon",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "sludge-bomb",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 303,
+    "next_details": []
+  }
+}

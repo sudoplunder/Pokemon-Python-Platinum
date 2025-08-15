@@ -1,0 +1,15 @@
+{
+  "id": 801,
+  "item": {
+    "name": "tm40",
+    "url": "https://pokeapi.co/api/v2/item/344/"
+  },
+  "move": {
+    "name": "swift",
+    "url": "https://pokeapi.co/api/v2/move/129/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

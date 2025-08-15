@@ -1,0 +1,104 @@
+{
+  "id": 36,
+  "name": "clefable",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 70,
+    "defense": 73,
+    "sp_atk": 95,
+    "sp_def": 90,
+    "speed": 60
+  },
+  "base_experience": 217,
+  "growth_rate": "fast",
+  "capture_rate": 25,
+  "gender_rate": 6,
+  "hatch_cycles": 10,
+  "base_friendship": 140,
+  "egg_groups": [
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "cute-charm",
+    "secondary": "magic-guard",
+    "hidden": "unaware"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "double-slap"
+      },
+      {
+        "level": 1,
+        "name": "metronome"
+      },
+      {
+        "level": 1,
+        "name": "minimize"
+      },
+      {
+        "level": 1,
+        "name": "sing"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "snatch",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 35,
+    "next": [],
+    "root": 173,
+    "next_details": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "clear-body",
+  "display_name": "Clear Body",
+  "generation": 3,
+  "short_effect": "Prevents stats from being lowered by other Pok\u00e9mon.",
+  "effect": "This Pok\u00e9mon cannot have its stats lowered by other Pok\u00e9mon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis.  This Pok\u00e9mon can still be passed negative stat modifiers through guard swap, heart swap, or power swap.\n\nThis ability functions identically to white smoke in battle.",
+  "is_gen4_or_prior": true
+}

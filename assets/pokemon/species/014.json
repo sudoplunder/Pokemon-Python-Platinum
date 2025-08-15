@@ -1,0 +1,48 @@
+{
+  "id": 14,
+  "name": "kakuna",
+  "generation": "1",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 25,
+    "defense": 50,
+    "sp_atk": 25,
+    "sp_def": 25,
+    "speed": 35
+  },
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "shed-skin",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": 13,
+    "next": [
+      15
+    ],
+    "root": 13,
+    "next_details": []
+  }
+}

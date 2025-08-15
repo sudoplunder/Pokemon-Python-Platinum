@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=620&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=580&limit=20",
+  "results": [
+    {
+      "name": "bug-gem",
+      "url": "https://pokeapi.co/api/v2/item/601/"
+    },
+    {
+      "name": "rock-gem",
+      "url": "https://pokeapi.co/api/v2/item/602/"
+    },
+    {
+      "name": "ghost-gem",
+      "url": "https://pokeapi.co/api/v2/item/603/"
+    },
+    {
+      "name": "dark-gem",
+      "url": "https://pokeapi.co/api/v2/item/604/"
+    },
+    {
+      "name": "steel-gem",
+      "url": "https://pokeapi.co/api/v2/item/605/"
+    },
+    {
+      "name": "health-wing",
+      "url": "https://pokeapi.co/api/v2/item/606/"
+    },
+    {
+      "name": "muscle-wing",
+      "url": "https://pokeapi.co/api/v2/item/607/"
+    },
+    {
+      "name": "resist-wing",
+      "url": "https://pokeapi.co/api/v2/item/608/"
+    },
+    {
+      "name": "genius-wing",
+      "url": "https://pokeapi.co/api/v2/item/609/"
+    },
+    {
+      "name": "clever-wing",
+      "url": "https://pokeapi.co/api/v2/item/610/"
+    },
+    {
+      "name": "swift-wing",
+      "url": "https://pokeapi.co/api/v2/item/611/"
+    },
+    {
+      "name": "pretty-wing",
+      "url": "https://pokeapi.co/api/v2/item/612/"
+    },
+    {
+      "name": "cover-fossil",
+      "url": "https://pokeapi.co/api/v2/item/613/"
+    },
+    {
+      "name": "plume-fossil",
+      "url": "https://pokeapi.co/api/v2/item/614/"
+    },
+    {
+      "name": "liberty-pass",
+      "url": "https://pokeapi.co/api/v2/item/615/"
+    },
+    {
+      "name": "pass-orb",
+      "url": "https://pokeapi.co/api/v2/item/616/"
+    },
+    {
+      "name": "dream-ball",
+      "url": "https://pokeapi.co/api/v2/item/617/"
+    },
+    {
+      "name": "poke-toy",
+      "url": "https://pokeapi.co/api/v2/item/618/"
+    },
+    {
+      "name": "prop-case",
+      "url": "https://pokeapi.co/api/v2/item/619/"
+    },
+    {
+      "name": "dragon-skull",
+      "url": "https://pokeapi.co/api/v2/item/620/"
+    }
+  ]
+}

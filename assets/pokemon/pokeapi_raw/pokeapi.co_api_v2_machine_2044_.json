@@ -1,0 +1,15 @@
+{
+  "id": 2044,
+  "item": {
+    "name": "tm149",
+    "url": "https://pokeapi.co/api/v2/item/1992/"
+  },
+  "move": {
+    "name": "earthquake",
+    "url": "https://pokeapi.co/api/v2/move/89/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

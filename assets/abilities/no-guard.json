@@ -1,0 +1,8 @@
+{
+  "name": "no-guard",
+  "display_name": "No Guard",
+  "generation": 4,
+  "short_effect": "Ensures all moves used by and against the Pok\u00e9mon hit.",
+  "effect": "Moves used by or against this Pok\u00e9mon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pok\u00e9mon during the preparation turn of moves like dig or fly.\n\nOverworld: If the lead Pok\u00e9mon has this ability, the wild encounter rate is doubled.",
+  "is_gen4_or_prior": true
+}

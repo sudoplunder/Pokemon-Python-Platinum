@@ -1,0 +1,127 @@
+{
+  "id": 144,
+  "name": "articuno",
+  "generation": "1",
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 100,
+    "sp_atk": 95,
+    "sp_def": 125,
+    "speed": 85
+  },
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 80,
+  "base_friendship": 35,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": "snow-cloak"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "gust"
+      },
+      {
+        "level": 1,
+        "name": "powder-snow"
+      },
+      {
+        "level": 8,
+        "name": "mist"
+      },
+      {
+        "level": 15,
+        "name": "ice-shard"
+      },
+      {
+        "level": 22,
+        "name": "mind-reader"
+      },
+      {
+        "level": 25,
+        "name": "agility"
+      },
+      {
+        "level": 29,
+        "name": "ancient-power"
+      },
+      {
+        "level": 43,
+        "name": "ice-beam"
+      },
+      {
+        "level": 50,
+        "name": "reflect"
+      },
+      {
+        "level": 57,
+        "name": "roost"
+      },
+      {
+        "level": 64,
+        "name": "tailwind"
+      },
+      {
+        "level": 71,
+        "name": "blizzard"
+      },
+      {
+        "level": 78,
+        "name": "sheer-cold"
+      },
+      {
+        "level": 85,
+        "name": "hail"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "blizzard",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "sandstorm",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "u-turn",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 144,
+    "next_details": []
+  }
+}

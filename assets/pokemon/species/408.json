@@ -1,0 +1,121 @@
+{
+  "id": 408,
+  "name": "cranidos",
+  "generation": "4",
+  "types": [
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 67,
+    "attack": 125,
+    "defense": 40,
+    "sp_atk": 30,
+    "sp_def": 30,
+    "speed": 58
+  },
+  "base_experience": 70,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "mold-breaker",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "headbutt"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 6,
+        "name": "focus-energy"
+      },
+      {
+        "level": 10,
+        "name": "pursuit"
+      },
+      {
+        "level": 15,
+        "name": "take-down"
+      },
+      {
+        "level": 19,
+        "name": "scary-face"
+      },
+      {
+        "level": 24,
+        "name": "assurance"
+      },
+      {
+        "level": 33,
+        "name": "ancient-power"
+      },
+      {
+        "level": 37,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 42,
+        "name": "screech"
+      },
+      {
+        "level": 46,
+        "name": "head-smash"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      409
+    ],
+    "root": 408,
+    "next_details": []
+  }
+}

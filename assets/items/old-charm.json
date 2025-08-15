@@ -1,0 +1,12 @@
+{
+  "name": "old-charm",
+  "display_name": "Old Charm",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Given to Cynthia's grandmother to get the Surf HM.",
+  "short_effect": "Trade to Cynthia's grandmother in Celestic Town for HM04 (Surf).",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

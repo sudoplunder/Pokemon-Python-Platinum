@@ -1,0 +1,129 @@
+{
+  "id": 169,
+  "name": "crobat",
+  "generation": "2",
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 90,
+    "defense": 80,
+    "sp_atk": 70,
+    "sp_def": 80,
+    "speed": 130
+  },
+  "base_experience": 241,
+  "growth_rate": "medium",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "inner-focus",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "cross-poison"
+      },
+      {
+        "level": 1,
+        "name": "leech-life"
+      },
+      {
+        "level": 1,
+        "name": "screech"
+      },
+      {
+        "level": 1,
+        "name": "supersonic"
+      },
+      {
+        "level": 12,
+        "name": "bite"
+      },
+      {
+        "level": 15,
+        "name": "wing-attack"
+      },
+      {
+        "level": 19,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 24,
+        "name": "swift"
+      },
+      {
+        "level": 28,
+        "name": "air-cutter"
+      },
+      {
+        "level": 38,
+        "name": "mean-look"
+      },
+      {
+        "level": 42,
+        "name": "poison-fang"
+      },
+      {
+        "level": 47,
+        "name": "haze"
+      },
+      {
+        "level": 52,
+        "name": "air-slash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "sludge-bomb",
+      "snatch",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "u-turn",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 42,
+    "next": [],
+    "root": 41,
+    "next_details": []
+  }
+}

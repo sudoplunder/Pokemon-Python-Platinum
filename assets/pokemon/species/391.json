@@ -1,0 +1,140 @@
+{
+  "id": 391,
+  "name": "monferno",
+  "generation": "4",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 64,
+    "attack": 78,
+    "defense": 52,
+    "sp_atk": 78,
+    "sp_def": 52,
+    "speed": 81
+  },
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "blaze",
+    "secondary": null,
+    "hidden": "iron-fist"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 9,
+        "name": "taunt"
+      },
+      {
+        "level": 14,
+        "name": "mach-punch"
+      },
+      {
+        "level": 16,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 19,
+        "name": "flame-wheel"
+      },
+      {
+        "level": 26,
+        "name": "feint"
+      },
+      {
+        "level": 29,
+        "name": "torment"
+      },
+      {
+        "level": 36,
+        "name": "close-combat"
+      },
+      {
+        "level": 39,
+        "name": "fire-spin"
+      },
+      {
+        "level": 49,
+        "name": "slack-off"
+      },
+      {
+        "level": 56,
+        "name": "flare-blitz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "overheat",
+      "poison-jab",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "torment",
+      "toxic",
+      "u-turn",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 390,
+    "next": [
+      392
+    ],
+    "root": 390,
+    "next_details": [
+      {
+        "id": 392,
+        "trigger": "level",
+        "conditions": {
+          "level": 36
+        }
+      }
+    ]
+  }
+}

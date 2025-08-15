@@ -1,0 +1,15 @@
+{
+  "name": "wave-incense",
+  "display_name": "Wave Incense",
+  "category": "type-enhancement",
+  "cost": 2000,
+  "fling_power": 10,
+  "effect": "Held: Increases the power of the holder's Water moves by 20%.",
+  "short_effect": "Held: Water-Type moves from holder do 20% more damage. Breeding: Mantine begets a Mantyke Egg.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

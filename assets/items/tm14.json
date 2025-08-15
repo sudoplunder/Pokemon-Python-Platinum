@@ -1,0 +1,12 @@
+{
+  "name": "tm14",
+  "display_name": "Tm14",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Blizzard to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Blizzard to a compatible Pok\u00e9mon.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,132 @@
+{
+  "id": 193,
+  "name": "yanma",
+  "generation": "2",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 45,
+    "sp_atk": 75,
+    "sp_def": 45,
+    "speed": 95
+  },
+  "base_experience": 78,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "speed-boost",
+    "secondary": "compound-eyes",
+    "hidden": "frisk"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 6,
+        "name": "quick-attack"
+      },
+      {
+        "level": 11,
+        "name": "double-team"
+      },
+      {
+        "level": 14,
+        "name": "sonic-boom"
+      },
+      {
+        "level": 17,
+        "name": "detect"
+      },
+      {
+        "level": 22,
+        "name": "supersonic"
+      },
+      {
+        "level": 27,
+        "name": "uproar"
+      },
+      {
+        "level": 30,
+        "name": "pursuit"
+      },
+      {
+        "level": 33,
+        "name": "ancient-power"
+      },
+      {
+        "level": 38,
+        "name": "hypnosis"
+      },
+      {
+        "level": 43,
+        "name": "wing-attack"
+      },
+      {
+        "level": 46,
+        "name": "screech"
+      },
+      {
+        "level": 49,
+        "name": "u-turn"
+      },
+      {
+        "level": 54,
+        "name": "air-slash"
+      },
+      {
+        "level": 57,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "protect",
+      "psychic",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "solar-beam",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      469
+    ],
+    "root": 193,
+    "next_details": []
+  }
+}

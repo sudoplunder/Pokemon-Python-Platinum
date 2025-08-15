@@ -1,0 +1,147 @@
+{
+  "id": 222,
+  "name": "corsola",
+  "generation": "2",
+  "types": [
+    "water",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 95,
+    "sp_atk": 65,
+    "sp_def": 95,
+    "speed": 35
+  },
+  "base_experience": 144,
+  "growth_rate": "fast",
+  "capture_rate": 60,
+  "gender_rate": 6,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "abilities": {
+    "primary": "hustle",
+    "secondary": "natural-cure",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 4,
+        "name": "harden"
+      },
+      {
+        "level": 8,
+        "name": "bubble"
+      },
+      {
+        "level": 10,
+        "name": "recover"
+      },
+      {
+        "level": 13,
+        "name": "refresh"
+      },
+      {
+        "level": 17,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 20,
+        "name": "ancient-power"
+      },
+      {
+        "level": 23,
+        "name": "lucky-chant"
+      },
+      {
+        "level": 27,
+        "name": "spike-cannon"
+      },
+      {
+        "level": 29,
+        "name": "iron-defense"
+      },
+      {
+        "level": 31,
+        "name": "rock-blast"
+      },
+      {
+        "level": 35,
+        "name": "endure"
+      },
+      {
+        "level": 38,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 39,
+        "name": "mirror-coat"
+      },
+      {
+        "level": 41,
+        "name": "power-gem"
+      },
+      {
+        "level": 47,
+        "name": "earth-power"
+      },
+      {
+        "level": 52,
+        "name": "flail"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "calm-mind",
+      "dig",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 222,
+    "next_details": []
+  }
+}

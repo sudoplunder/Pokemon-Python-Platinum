@@ -1,0 +1,98 @@
+{
+  "id": 59,
+  "name": "arcanine",
+  "generation": "1",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "sp_atk": 100,
+    "sp_def": 80,
+    "speed": 95
+  },
+  "base_experience": 194,
+  "growth_rate": "slow",
+  "capture_rate": 75,
+  "gender_rate": 2,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": "flash-fire",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 1,
+        "name": "roar"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 34,
+        "name": "extreme-speed"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "dig",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "overheat",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 58,
+    "next": [],
+    "root": 58,
+    "next_details": []
+  }
+}

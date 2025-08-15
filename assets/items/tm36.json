@@ -1,0 +1,12 @@
+{
+  "name": "tm36",
+  "display_name": "Tm36",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Sludge Bomb to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Sludge Bomb to a compatible Pok\u00e9mon. (Gen I: Selfdestruct)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

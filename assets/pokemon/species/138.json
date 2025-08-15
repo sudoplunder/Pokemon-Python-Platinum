@@ -1,0 +1,125 @@
+{
+  "id": 138,
+  "name": "omanyte",
+  "generation": "1",
+  "types": [
+    "rock",
+    "water"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 40,
+    "defense": 100,
+    "sp_atk": 90,
+    "sp_def": 55,
+    "speed": 35
+  },
+  "base_experience": 71,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "shell-armor",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "constrict"
+      },
+      {
+        "level": 1,
+        "name": "withdraw"
+      },
+      {
+        "level": 7,
+        "name": "bite"
+      },
+      {
+        "level": 10,
+        "name": "water-gun"
+      },
+      {
+        "level": 16,
+        "name": "rollout"
+      },
+      {
+        "level": 19,
+        "name": "leer"
+      },
+      {
+        "level": 25,
+        "name": "mud-shot"
+      },
+      {
+        "level": 28,
+        "name": "brine"
+      },
+      {
+        "level": 34,
+        "name": "protect"
+      },
+      {
+        "level": 37,
+        "name": "ancient-power"
+      },
+      {
+        "level": 43,
+        "name": "tickle"
+      },
+      {
+        "level": 46,
+        "name": "rock-blast"
+      },
+      {
+        "level": 55,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "gyro-ball",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      139
+    ],
+    "root": 138,
+    "next_details": []
+  }
+}

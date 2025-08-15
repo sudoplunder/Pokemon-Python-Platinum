@@ -1,0 +1,111 @@
+{
+  "id": 398,
+  "name": "staraptor",
+  "generation": "4",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 120,
+    "defense": 70,
+    "sp_atk": 50,
+    "sp_def": 60,
+    "speed": 100
+  },
+  "base_experience": 218,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": null,
+    "hidden": "reckless"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "wing-attack"
+      },
+      {
+        "level": 13,
+        "name": "double-team"
+      },
+      {
+        "level": 18,
+        "name": "endeavor"
+      },
+      {
+        "level": 23,
+        "name": "whirlwind"
+      },
+      {
+        "level": 28,
+        "name": "aerial-ace"
+      },
+      {
+        "level": 33,
+        "name": "take-down"
+      },
+      {
+        "level": 34,
+        "name": "close-combat"
+      },
+      {
+        "level": 41,
+        "name": "agility"
+      },
+      {
+        "level": 49,
+        "name": "brave-bird"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 397,
+    "next": [],
+    "root": 396,
+    "next_details": []
+  }
+}

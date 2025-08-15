@@ -1,0 +1,134 @@
+{
+  "id": 451,
+  "name": "skorupi",
+  "generation": "4",
+  "types": [
+    "poison",
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 90,
+    "sp_atk": 30,
+    "sp_def": 55,
+    "speed": 65
+  },
+  "base_experience": 66,
+  "growth_rate": "slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug",
+    "water3"
+  ],
+  "abilities": {
+    "primary": "battle-armor",
+    "secondary": "sniper",
+    "hidden": "keen-eye"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 5,
+        "name": "knock-off"
+      },
+      {
+        "level": 9,
+        "name": "pin-missile"
+      },
+      {
+        "level": 13,
+        "name": "acupressure"
+      },
+      {
+        "level": 16,
+        "name": "pursuit"
+      },
+      {
+        "level": 20,
+        "name": "bug-bite"
+      },
+      {
+        "level": 23,
+        "name": "poison-fang"
+      },
+      {
+        "level": 34,
+        "name": "toxic-spikes"
+      },
+      {
+        "level": 38,
+        "name": "night-slash"
+      },
+      {
+        "level": 41,
+        "name": "scary-face"
+      },
+      {
+        "level": 45,
+        "name": "crunch"
+      },
+      {
+        "level": 49,
+        "name": "cross-poison"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "flash",
+      "fling",
+      "frustration",
+      "hidden-power",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "rock-tomb",
+      "shadow-ball",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      452
+    ],
+    "root": 451,
+    "next_details": []
+  }
+}

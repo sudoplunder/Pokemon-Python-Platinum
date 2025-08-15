@@ -1,0 +1,14 @@
+{
+  "name": "jaboca-berry",
+  "display_name": "Jaboca Berry",
+  "category": "other",
+  "cost": 80,
+  "fling_power": 10,
+  "effect": "Held in battle\n:   When the holder takes physical damage, it consumes this item to damage the attacking Pok\u00e9mon for 1/8 its max HP.",
+  "short_effect": "Held: Consumed to deal 1/8 attacker's max HP when holder is struck by a physical attack.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable-active"
+  ]
+}

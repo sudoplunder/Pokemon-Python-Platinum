@@ -1,0 +1,14 @@
+{
+  "name": "lum-berry",
+  "display_name": "Lum Berry",
+  "category": "medicine",
+  "cost": 80,
+  "fling_power": 10,
+  "effect": "Held in battle\n:   When the holder is afflicted with a major status ailment, it consumes this item to cure the ailment.\n\nUsed on a party Pok\u00e9mon\n:   Cures any major status ailment.",
+  "short_effect": "Held: Consumed to cure any status condition or confusion.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "holdable-active"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "fluffy-tail",
+  "display_name": "Fluffy Tail",
+  "category": "spelunking",
+  "cost": 100,
+  "fling_power": 30,
+  "effect": "Used in battle\n:   Ends a wild battle.  Cannot be used in trainer battles.",
+  "short_effect": "Ends a wild battle.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

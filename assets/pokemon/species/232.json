@@ -1,0 +1,137 @@
+{
+  "id": 232,
+  "name": "donphan",
+  "generation": "2",
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 120,
+    "defense": 120,
+    "sp_atk": 60,
+    "sp_def": 60,
+    "speed": 50
+  },
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "sturdy",
+    "secondary": null,
+    "hidden": "sand-veil"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "horn-attack"
+      },
+      {
+        "level": 1,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 6,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 10,
+        "name": "knock-off"
+      },
+      {
+        "level": 15,
+        "name": "rollout"
+      },
+      {
+        "level": 17,
+        "name": "flail"
+      },
+      {
+        "level": 19,
+        "name": "magnitude"
+      },
+      {
+        "level": 24,
+        "name": "slam"
+      },
+      {
+        "level": 25,
+        "name": "fury-attack"
+      },
+      {
+        "level": 31,
+        "name": "assurance"
+      },
+      {
+        "level": 39,
+        "name": "scary-face"
+      },
+      {
+        "level": 46,
+        "name": "earthquake"
+      },
+      {
+        "level": 54,
+        "name": "giga-impact"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "poison-jab",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 231,
+    "next": [],
+    "root": 231,
+    "next_details": []
+  }
+}

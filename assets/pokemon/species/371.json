@@ -1,0 +1,118 @@
+{
+  "id": 371,
+  "name": "bagon",
+  "generation": "3",
+  "types": [
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 75,
+    "defense": 60,
+    "sp_atk": 40,
+    "sp_def": 30,
+    "speed": 50
+  },
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 35,
+  "egg_groups": [
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "rock-head",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "rage"
+      },
+      {
+        "level": 5,
+        "name": "bite"
+      },
+      {
+        "level": 9,
+        "name": "leer"
+      },
+      {
+        "level": 16,
+        "name": "headbutt"
+      },
+      {
+        "level": 20,
+        "name": "focus-energy"
+      },
+      {
+        "level": 25,
+        "name": "ember"
+      },
+      {
+        "level": 31,
+        "name": "dragon-breath"
+      },
+      {
+        "level": 35,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 37,
+        "name": "scary-face"
+      },
+      {
+        "level": 41,
+        "name": "crunch"
+      },
+      {
+        "level": 49,
+        "name": "dragon-claw"
+      },
+      {
+        "level": 53,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "double-team",
+      "dragon-claw",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "hidden-power",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      372
+    ],
+    "root": 371,
+    "next_details": []
+  }
+}

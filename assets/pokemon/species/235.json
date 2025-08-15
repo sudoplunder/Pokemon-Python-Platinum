@@ -1,0 +1,45 @@
+{
+  "id": 235,
+  "name": "smeargle",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 20,
+    "defense": 35,
+    "sp_atk": 20,
+    "sp_def": 45,
+    "speed": 75
+  },
+  "base_experience": 88,
+  "growth_rate": "fast",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "own-tempo",
+    "secondary": "technician",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "sketch"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 235,
+    "next_details": []
+  }
+}

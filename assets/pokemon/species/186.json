@@ -1,0 +1,107 @@
+{
+  "id": 186,
+  "name": "politoed",
+  "generation": "2",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 75,
+    "defense": 75,
+    "sp_atk": 90,
+    "sp_def": 100,
+    "speed": 70
+  },
+  "base_experience": 225,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1"
+  ],
+  "abilities": {
+    "primary": "water-absorb",
+    "secondary": "damp",
+    "hidden": "drizzle"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 1,
+        "name": "double-slap"
+      },
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "perish-song"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 27,
+        "name": "swagger"
+      },
+      {
+        "level": 37,
+        "name": "bounce"
+      },
+      {
+        "level": 48,
+        "name": "hyper-voice"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 61,
+    "next": [],
+    "root": 60,
+    "next_details": []
+  }
+}

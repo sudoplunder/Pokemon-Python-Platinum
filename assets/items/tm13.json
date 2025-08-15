@@ -1,0 +1,12 @@
+{
+  "name": "tm13",
+  "display_name": "Tm13",
+  "category": "all-machines",
+  "cost": 10000,
+  "fling_power": null,
+  "effect": "Teaches Ice Beam to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Ice Beam to a compatible Pok\u00e9mon. (Gen II: Snore)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

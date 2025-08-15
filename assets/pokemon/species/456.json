@@ -1,0 +1,119 @@
+{
+  "id": 456,
+  "name": "finneon",
+  "generation": "4",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 49,
+    "attack": 49,
+    "defense": 56,
+    "sp_atk": 49,
+    "sp_def": 61,
+    "speed": 66
+  },
+  "base_experience": 66,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "storm-drain",
+    "hidden": "water-veil"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 6,
+        "name": "water-gun"
+      },
+      {
+        "level": 10,
+        "name": "attract"
+      },
+      {
+        "level": 13,
+        "name": "rain-dance"
+      },
+      {
+        "level": 17,
+        "name": "gust"
+      },
+      {
+        "level": 22,
+        "name": "water-pulse"
+      },
+      {
+        "level": 26,
+        "name": "captivate"
+      },
+      {
+        "level": 29,
+        "name": "safeguard"
+      },
+      {
+        "level": 33,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 38,
+        "name": "whirlpool"
+      },
+      {
+        "level": 42,
+        "name": "u-turn"
+      },
+      {
+        "level": 45,
+        "name": "bounce"
+      },
+      {
+        "level": 49,
+        "name": "silver-wind"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "u-turn",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      457
+    ],
+    "root": 456,
+    "next_details": []
+  }
+}

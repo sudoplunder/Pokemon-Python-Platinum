@@ -1,0 +1,15 @@
+{
+  "id": "gym1.start",
+  "trigger": { "type": "enter_map", "value": "oreburgh_gym" },
+  "once": true,
+  "prerequisites": {
+    "all": ["roark_found"],
+    "none": ["gym1_started"]
+  },
+  "actions": [
+  { "command": "SET_LOCATION", "location": "oreburgh_gym" },
+    { "command": "SHOW_TEXT", "dialogue_key": "gym1.intro" },
+    { "command": "SET_FLAG", "flag": "gym1_started" }
+  ],
+  "set_flags": ["gym1_started"]
+}

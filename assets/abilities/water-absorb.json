@@ -1,0 +1,8 @@
+{
+  "name": "water-absorb",
+  "display_name": "Water Absorb",
+  "generation": 3,
+  "short_effect": "Absorbs water moves, healing for 1/4 max HP.",
+  "effect": "Whenever a water-type move hits this Pok\u00e9mon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pok\u00e9mon's substitute.",
+  "is_gen4_or_prior": true
+}

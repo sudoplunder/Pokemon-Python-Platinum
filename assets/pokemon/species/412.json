@@ -1,0 +1,60 @@
+{
+  "id": 412,
+  "name": "burmy",
+  "generation": "4",
+  "types": [
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 29,
+    "defense": 45,
+    "sp_atk": 29,
+    "sp_def": 45,
+    "speed": 36
+  },
+  "base_experience": 45,
+  "growth_rate": "medium",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "shed-skin",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "protect"
+      },
+      {
+        "level": 10,
+        "name": "tackle"
+      },
+      {
+        "level": 15,
+        "name": "bug-bite"
+      },
+      {
+        "level": 20,
+        "name": "hidden-power"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      413,
+      414
+    ],
+    "root": 412,
+    "next_details": []
+  }
+}

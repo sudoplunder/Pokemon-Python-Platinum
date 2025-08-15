@@ -1,0 +1,127 @@
+{
+  "id": 274,
+  "name": "nuzleaf",
+  "generation": "3",
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 40,
+    "sp_atk": 60,
+    "sp_def": 40,
+    "speed": 60
+  },
+  "base_experience": 119,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": "early-bird",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 3,
+        "name": "harden"
+      },
+      {
+        "level": 7,
+        "name": "growth"
+      },
+      {
+        "level": 13,
+        "name": "nature-power"
+      },
+      {
+        "level": 19,
+        "name": "fake-out"
+      },
+      {
+        "level": 25,
+        "name": "torment"
+      },
+      {
+        "level": 31,
+        "name": "feint-attack"
+      },
+      {
+        "level": 37,
+        "name": "razor-wind"
+      },
+      {
+        "level": 43,
+        "name": "swagger"
+      },
+      {
+        "level": 49,
+        "name": "extrasensory"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bullet-seed",
+      "cut",
+      "dig",
+      "double-team",
+      "embargo",
+      "energy-ball",
+      "explosion",
+      "facade",
+      "false-swipe",
+      "flash",
+      "fling",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 273,
+    "next": [
+      275
+    ],
+    "root": 273,
+    "next_details": []
+  }
+}

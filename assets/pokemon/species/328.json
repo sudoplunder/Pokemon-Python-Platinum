@@ -1,0 +1,132 @@
+{
+  "id": 328,
+  "name": "trapinch",
+  "generation": "3",
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 100,
+    "defense": 45,
+    "sp_atk": 45,
+    "sp_def": 45,
+    "speed": 10
+  },
+  "base_experience": 58,
+  "growth_rate": "medium-slow",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "hyper-cutter",
+    "secondary": "arena-trap",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 4,
+        "name": "sand-attack"
+      },
+      {
+        "level": 7,
+        "name": "feint-attack"
+      },
+      {
+        "level": 10,
+        "name": "sand-tomb"
+      },
+      {
+        "level": 13,
+        "name": "mud-slap"
+      },
+      {
+        "level": 17,
+        "name": "bide"
+      },
+      {
+        "level": 25,
+        "name": "rock-slide"
+      },
+      {
+        "level": 29,
+        "name": "dig"
+      },
+      {
+        "level": 33,
+        "name": "crunch"
+      },
+      {
+        "level": 39,
+        "name": "earth-power"
+      },
+      {
+        "level": 44,
+        "name": "sandstorm"
+      },
+      {
+        "level": 49,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 55,
+        "name": "earthquake"
+      },
+      {
+        "level": 61,
+        "name": "feint"
+      },
+      {
+        "level": 67,
+        "name": "superpower"
+      },
+      {
+        "level": 73,
+        "name": "fissure"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      329
+    ],
+    "root": 328,
+    "next_details": []
+  }
+}

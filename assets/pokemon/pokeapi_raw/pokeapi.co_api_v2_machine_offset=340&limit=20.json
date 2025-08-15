@@ -1,0 +1,67 @@
+{
+  "count": 2102,
+  "next": "https://pokeapi.co/api/v2/machine?offset=360&limit=20",
+  "previous": "https://pokeapi.co/api/v2/machine?offset=320&limit=20",
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/machine/341/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/342/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/343/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/344/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/345/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/346/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/347/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/348/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/349/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/350/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/351/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/352/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/353/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/354/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/355/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/356/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/357/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/358/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/359/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/machine/360/"
+    }
+  ]
+}

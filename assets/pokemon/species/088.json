@@ -1,0 +1,133 @@
+{
+  "id": 88,
+  "name": "grimer",
+  "generation": "1",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 50,
+    "sp_atk": 40,
+    "sp_def": 50,
+    "speed": 25
+  },
+  "base_experience": 65,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "stench",
+    "secondary": "sticky-hold",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "poison-gas"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 4,
+        "name": "harden"
+      },
+      {
+        "level": 7,
+        "name": "mud-slap"
+      },
+      {
+        "level": 8,
+        "name": "disable"
+      },
+      {
+        "level": 13,
+        "name": "sludge"
+      },
+      {
+        "level": 18,
+        "name": "minimize"
+      },
+      {
+        "level": 21,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 26,
+        "name": "screech"
+      },
+      {
+        "level": 26,
+        "name": "sludge-bomb"
+      },
+      {
+        "level": 29,
+        "name": "fling"
+      },
+      {
+        "level": 34,
+        "name": "acid-armor"
+      },
+      {
+        "level": 43,
+        "name": "gunk-shot"
+      },
+      {
+        "level": 48,
+        "name": "memento"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "explosion",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      89
+    ],
+    "root": 88,
+    "next_details": []
+  }
+}

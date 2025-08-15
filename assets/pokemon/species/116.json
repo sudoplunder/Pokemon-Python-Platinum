@@ -1,0 +1,114 @@
+{
+  "id": 116,
+  "name": "horsea",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 40,
+    "defense": 70,
+    "sp_atk": 70,
+    "sp_def": 25,
+    "speed": 60
+  },
+  "base_experience": 59,
+  "growth_rate": "medium",
+  "capture_rate": 225,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "sniper",
+    "hidden": "damp"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 4,
+        "name": "smokescreen"
+      },
+      {
+        "level": 8,
+        "name": "leer"
+      },
+      {
+        "level": 11,
+        "name": "water-gun"
+      },
+      {
+        "level": 14,
+        "name": "focus-energy"
+      },
+      {
+        "level": 18,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 23,
+        "name": "agility"
+      },
+      {
+        "level": 26,
+        "name": "twister"
+      },
+      {
+        "level": 30,
+        "name": "brine"
+      },
+      {
+        "level": 35,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 38,
+        "name": "dragon-dance"
+      },
+      {
+        "level": 42,
+        "name": "dragon-pulse"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "flash-cannon",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      117
+    ],
+    "root": 116,
+    "next_details": []
+  }
+}

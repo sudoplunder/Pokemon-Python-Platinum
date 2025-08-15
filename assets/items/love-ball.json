@@ -1,0 +1,12 @@
+{
+  "name": "love-ball",
+  "display_name": "Love Ball",
+  "category": "apricorn-balls",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the trainer's Pok\u00e9mon and wild Pok\u00e9mon are of the same species but opposite genders, the wild Pok\u00e9mon's catch rate is 8\u00d7 normal.",
+  "short_effect": "8\u00d7 effectiveness on opposite sex, same species targets of the Active Pok\u00e9mon. Made from Pnk Apricorn.",
+  "generation": 4,
+  "is_consumable": true,
+  "attributes": []
+}

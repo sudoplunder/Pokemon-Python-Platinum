@@ -1,0 +1,12 @@
+{
+  "name": "tm31",
+  "display_name": "Tm31",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Brick Break to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Brick Break to a compatible Pok\u00e9mon. (Gen II: Mud-Slap Gen I: Mimic)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

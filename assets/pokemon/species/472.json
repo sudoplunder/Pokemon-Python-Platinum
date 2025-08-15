@@ -1,0 +1,149 @@
+{
+  "id": 472,
+  "name": "gliscor",
+  "generation": "4",
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 125,
+    "sp_atk": 45,
+    "sp_def": 75,
+    "speed": 95
+  },
+  "base_experience": 179,
+  "growth_rate": "medium-slow",
+  "capture_rate": 30,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "hyper-cutter",
+    "secondary": "sand-veil",
+    "hidden": "poison-heal"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "ice-fang"
+      },
+      {
+        "level": 1,
+        "name": "knock-off"
+      },
+      {
+        "level": 1,
+        "name": "poison-jab"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 13,
+        "name": "quick-attack"
+      },
+      {
+        "level": 16,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 19,
+        "name": "feint-attack"
+      },
+      {
+        "level": 27,
+        "name": "night-slash"
+      },
+      {
+        "level": 30,
+        "name": "u-turn"
+      },
+      {
+        "level": 35,
+        "name": "screech"
+      },
+      {
+        "level": 40,
+        "name": "x-scissor"
+      },
+      {
+        "level": 45,
+        "name": "sky-uppercut"
+      },
+      {
+        "level": 50,
+        "name": "swords-dance"
+      },
+      {
+        "level": 55,
+        "name": "guillotine"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "false-swipe",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "sludge-bomb",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "u-turn",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 207,
+    "next": [],
+    "root": 207,
+    "next_details": []
+  }
+}

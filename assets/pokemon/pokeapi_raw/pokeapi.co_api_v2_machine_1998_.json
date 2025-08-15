@@ -1,0 +1,15 @@
+{
+  "id": 1998,
+  "item": {
+    "name": "tm83",
+    "url": "https://pokeapi.co/api/v2/item/387/"
+  },
+  "move": {
+    "name": "poison-jab",
+    "url": "https://pokeapi.co/api/v2/move/398/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1099,
+  "item": {
+    "name": "tm59",
+    "url": "https://pokeapi.co/api/v2/item/363/"
+  },
+  "move": {
+    "name": "dream-eater",
+    "url": "https://pokeapi.co/api/v2/move/138/"
+  },
+  "version_group": {
+    "name": "lets-go-pikachu-lets-go-eevee",
+    "url": "https://pokeapi.co/api/v2/version-group/19/"
+  }
+}

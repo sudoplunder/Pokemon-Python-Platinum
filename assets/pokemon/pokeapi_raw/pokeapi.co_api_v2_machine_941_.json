@@ -1,0 +1,15 @@
+{
+  "id": 941,
+  "item": {
+    "name": "tm47",
+    "url": "https://pokeapi.co/api/v2/item/351/"
+  },
+  "move": {
+    "name": "fake-tears",
+    "url": "https://pokeapi.co/api/v2/move/313/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

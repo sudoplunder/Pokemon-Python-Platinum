@@ -1,0 +1,56 @@
+{
+  "393": [ {"id": 394, "trigger": "level", "conditions": {"level": 16} } ],
+  "394": [ {"id": 395, "trigger": "level", "conditions": {"level": 36} } ],
+  "387": [ {"id": 388, "trigger": "level", "conditions": {"level": 18}} ],
+  "388": [ {"id": 389, "trigger": "level", "conditions": {"level": 32}} ],
+  "390": [ {"id": 391, "trigger": "level", "conditions": {"level": 14}} ],
+  "391": [ {"id": 392, "trigger": "level", "conditions": {"level": 36}} ],
+  "129": [ {"id": 130, "trigger": "level", "conditions": {"level": 20} } ],
+  "133": [
+    {"id": 134, "trigger": "item", "conditions": {"item": "water-stone"}},
+    {"id": 135, "trigger": "item", "conditions": {"item": "thunder-stone"}},
+    {"id": 136, "trigger": "item", "conditions": {"item": "fire-stone"}},
+    {"id": 196, "trigger": "friendship", "conditions": {"time": "day"}},
+    {"id": 197, "trigger": "friendship", "conditions": {"time": "night"}},
+    {"id": 470, "trigger": "location", "conditions": {"feature": "moss-rock"}},
+    {"id": 471, "trigger": "location", "conditions": {"feature": "ice-rock"}}
+  ],
+  "133:note": "Eevee stones + Espeon/Umbreon via friendship/time, Leafeon/Glaceon via location triggers.",
+
+  "198": [ {"id": 430, "trigger": "item", "conditions": {"item": "dusk-stone"}} ],
+  "430:note": "Murkrow -> Honchkrow (item dusk-stone)",
+  "200": [ {"id": 429, "trigger": "item", "conditions": {"item": "dusk-stone"}} ],
+  "425": [ {"id": 426, "trigger": "level", "conditions": {"level": 28}} ],
+  "133_extra": "Non-canon test key ignored (example).",
+
+  "92":  [ {"id": 93, "trigger": "level", "conditions": {"level": 25}} ],
+  "93":  [ {"id": 94, "trigger": "trade", "conditions": {}} ],
+  "64":  [ {"id": 65, "trigger": "trade", "conditions": {}} ],
+  "67":  [ {"id": 68, "trigger": "trade", "conditions": {}} ],
+  "75":  [ {"id": 76, "trigger": "trade", "conditions": {}} ],
+  "93:note": "Haunter -> Gengar trade evolution.",
+  "123": [ {"id": 212, "trigger": "trade_item", "conditions": {"item": "metal-coat"}} ],
+  "123:note": "Scyther -> Scizor trade holding Metal Coat.",
+  "133_trade_samples": "Trade evolutions compiled.",
+
+  "133_friendship_samples": "Friendship/time evolutions below.",
+  "183": [ {"id": 184, "trigger": "level", "conditions": {"level": 18}} ],
+  "172": [ {"id": 25, "trigger": "friendship", "conditions": {}} ],
+  "25":  [ {"id": 26, "trigger": "item", "conditions": {"item": "thunder-stone"}} ],
+  "174": [ {"id": 39, "trigger": "friendship", "conditions": {}} ],
+  "39":  [ {"id": 40, "trigger": "item", "conditions": {"item": "moon-stone"}} ],
+  "173": [ {"id": 35, "trigger": "friendship", "conditions": {}} ],
+  "35":  [ {"id": 36, "trigger": "item", "conditions": {"item": "moon-stone"}} ],
+
+  "133_gender_location_samples": "Gender/location specific examples.",
+  "315": [ {"id": 407, "trigger": "item", "conditions": {"item": "shiny-stone", "gender": "female"}} ],
+  "265": [ {"id": 266, "trigger": "level", "conditions": {"level": 7}} , {"id": 268, "trigger": "level", "conditions": {"level": 7}} ],
+  "266": [ {"id": 267, "trigger": "level_gender", "conditions": {"level": 10, "gender": "female"}} ],
+  "268": [ {"id": 269, "trigger": "level_gender", "conditions": {"level": 10, "gender": "female"}} ],
+
+  "280": [ {"id": 281, "trigger": "level", "conditions": {"level": 20}} ],
+  "281": [ {"id": 282, "trigger": "level", "conditions": {"level": 30}}, {"id": 475, "trigger": "item_gender", "conditions": {"item": "dawn-stone", "gender": "male"}} ],
+
+  "287": [ {"id": 288, "trigger": "level", "conditions": {"level": 18}} ],
+  "288": [ {"id": 289, "trigger": "level", "conditions": {"level": 36}} ]
+}

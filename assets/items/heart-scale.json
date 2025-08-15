@@ -1,0 +1,14 @@
+{
+  "name": "heart-scale",
+  "display_name": "Heart Scale",
+  "category": "collectibles",
+  "cost": 100,
+  "fling_power": 30,
+  "effect": "Trade one to the Move Relearner near the shore in pastoria city or with the Move Deleter in blackthorn city to teach one party Pok\u00e9mon a prior level-up move.",
+  "short_effect": "No effect. Can be traded for prior Level-up moves.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "underground"
+  ]
+}

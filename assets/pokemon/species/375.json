@@ -1,0 +1,136 @@
+{
+  "id": 375,
+  "name": "metang",
+  "generation": "3",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 100,
+    "sp_atk": 55,
+    "sp_def": 80,
+    "speed": 50
+  },
+  "base_experience": 147,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 40,
+  "base_friendship": 35,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "clear-body",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "magnet-rise"
+      },
+      {
+        "level": 1,
+        "name": "metal-claw"
+      },
+      {
+        "level": 1,
+        "name": "take-down"
+      },
+      {
+        "level": 23,
+        "name": "pursuit"
+      },
+      {
+        "level": 26,
+        "name": "miracle-eye"
+      },
+      {
+        "level": 26,
+        "name": "scary-face"
+      },
+      {
+        "level": 29,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 32,
+        "name": "bullet-punch"
+      },
+      {
+        "level": 38,
+        "name": "agility"
+      },
+      {
+        "level": 38,
+        "name": "psychic"
+      },
+      {
+        "level": 44,
+        "name": "iron-defense"
+      },
+      {
+        "level": 44,
+        "name": "meteor-mash"
+      },
+      {
+        "level": 50,
+        "name": "hyper-beam"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "brick-break",
+      "cut",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "flash",
+      "flash-cannon",
+      "frustration",
+      "grass-knot",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 374,
+    "next": [
+      376
+    ],
+    "root": 374,
+    "next_details": []
+  }
+}

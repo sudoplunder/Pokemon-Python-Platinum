@@ -1,0 +1,16 @@
+{
+  "name": "fist-plate",
+  "display_name": "Fist Plate",
+  "category": "plates",
+  "cost": 1000,
+  "fling_power": 90,
+  "effect": "Held: Increases the power of the holder's Fighting moves by 20%.\nHeld by a Multitype Pok\u00e9mon: Holder's type becomes Fighting.",
+  "short_effect": "Held: Fighting-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Fighting.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active",
+    "underground"
+  ]
+}

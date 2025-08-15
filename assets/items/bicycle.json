@@ -1,0 +1,12 @@
+{
+  "name": "bicycle",
+  "display_name": "Bicycle",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Increases movement speed outside or in caves.  In high gear, allows the trainer to hop over some rocks and ascend muddy slopes.",
+  "short_effect": "Use for fast transit.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

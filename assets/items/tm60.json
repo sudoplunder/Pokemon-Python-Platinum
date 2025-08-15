@@ -1,0 +1,12 @@
+{
+  "name": "tm60",
+  "display_name": "Tm60",
+  "category": "all-machines",
+  "cost": 30000,
+  "fling_power": null,
+  "effect": "Teaches Drain Punch to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Quash to a compatible Pok\u00e9mon. (Gen IV: Drain Punch)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

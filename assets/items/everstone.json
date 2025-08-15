@@ -1,0 +1,16 @@
+{
+  "name": "everstone",
+  "display_name": "Everstone",
+  "category": "training",
+  "cost": 3000,
+  "fling_power": 30,
+  "effect": "Held: Prevents the holder from evolving naturally.  Evolution initiated by the trainer (Stones, etc) will still work.",
+  "short_effect": "Held: Prevents level-based evolution from occuring.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active",
+    "underground"
+  ]
+}

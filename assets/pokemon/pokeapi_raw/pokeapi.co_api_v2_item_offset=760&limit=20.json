@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=780&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=740&limit=20",
+  "results": [
+    {
+      "name": "devon-scuba-gear",
+      "url": "https://pokeapi.co/api/v2/item/779/"
+    },
+    {
+      "name": "contest-costume--jacket",
+      "url": "https://pokeapi.co/api/v2/item/780/"
+    },
+    {
+      "name": "magma-suit",
+      "url": "https://pokeapi.co/api/v2/item/782/"
+    },
+    {
+      "name": "aqua-suit",
+      "url": "https://pokeapi.co/api/v2/item/783/"
+    },
+    {
+      "name": "pair-of-tickets",
+      "url": "https://pokeapi.co/api/v2/item/784/"
+    },
+    {
+      "name": "mega-bracelet",
+      "url": "https://pokeapi.co/api/v2/item/785/"
+    },
+    {
+      "name": "mega-pendant",
+      "url": "https://pokeapi.co/api/v2/item/786/"
+    },
+    {
+      "name": "mega-glasses",
+      "url": "https://pokeapi.co/api/v2/item/787/"
+    },
+    {
+      "name": "mega-anchor",
+      "url": "https://pokeapi.co/api/v2/item/788/"
+    },
+    {
+      "name": "mega-stickpin",
+      "url": "https://pokeapi.co/api/v2/item/789/"
+    },
+    {
+      "name": "mega-tiara",
+      "url": "https://pokeapi.co/api/v2/item/790/"
+    },
+    {
+      "name": "mega-anklet",
+      "url": "https://pokeapi.co/api/v2/item/791/"
+    },
+    {
+      "name": "swampertite",
+      "url": "https://pokeapi.co/api/v2/item/793/"
+    },
+    {
+      "name": "sceptilite",
+      "url": "https://pokeapi.co/api/v2/item/794/"
+    },
+    {
+      "name": "sablenite",
+      "url": "https://pokeapi.co/api/v2/item/795/"
+    },
+    {
+      "name": "altarianite",
+      "url": "https://pokeapi.co/api/v2/item/796/"
+    },
+    {
+      "name": "galladite",
+      "url": "https://pokeapi.co/api/v2/item/797/"
+    },
+    {
+      "name": "audinite",
+      "url": "https://pokeapi.co/api/v2/item/798/"
+    },
+    {
+      "name": "metagrossite",
+      "url": "https://pokeapi.co/api/v2/item/799/"
+    },
+    {
+      "name": "sharpedonite",
+      "url": "https://pokeapi.co/api/v2/item/800/"
+    }
+  ]
+}

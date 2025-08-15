@@ -1,0 +1,133 @@
+{
+  "id": 161,
+  "name": "sentret",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 46,
+    "defense": 34,
+    "sp_atk": 35,
+    "sp_def": 45,
+    "speed": 20
+  },
+  "base_experience": 43,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "run-away",
+    "secondary": "keen-eye",
+    "hidden": "frisk"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 4,
+        "name": "defense-curl"
+      },
+      {
+        "level": 7,
+        "name": "quick-attack"
+      },
+      {
+        "level": 12,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 16,
+        "name": "helping-hand"
+      },
+      {
+        "level": 19,
+        "name": "follow-me"
+      },
+      {
+        "level": 24,
+        "name": "slam"
+      },
+      {
+        "level": 28,
+        "name": "rest"
+      },
+      {
+        "level": 31,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 36,
+        "name": "amnesia"
+      },
+      {
+        "level": 39,
+        "name": "baton-pass"
+      },
+      {
+        "level": 42,
+        "name": "me-first"
+      },
+      {
+        "level": 47,
+        "name": "hyper-voice"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "flamethrower",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thief",
+      "thunderbolt",
+      "toxic",
+      "u-turn",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      162
+    ],
+    "root": 161,
+    "next_details": []
+  }
+}

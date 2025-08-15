@@ -1,0 +1,15 @@
+{
+  "name": "rose-incense",
+  "display_name": "Rose Incense",
+  "category": "type-enhancement",
+  "cost": 2000,
+  "fling_power": 10,
+  "effect": "Held: Increases the power of the holder's Grass moves by 20%.",
+  "short_effect": "Held: Grass-Type moves from holder do 20% more damage. Breeding: Roselia or Roserade beget a Budew Egg.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

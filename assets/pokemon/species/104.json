@@ -1,0 +1,132 @@
+{
+  "id": 104,
+  "name": "cubone",
+  "generation": "1",
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 95,
+    "sp_atk": 40,
+    "sp_def": 50,
+    "speed": 35
+  },
+  "base_experience": 64,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "rock-head",
+    "secondary": "lightning-rod",
+    "hidden": "battle-armor"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 3,
+        "name": "tail-whip"
+      },
+      {
+        "level": 7,
+        "name": "bone-club"
+      },
+      {
+        "level": 11,
+        "name": "headbutt"
+      },
+      {
+        "level": 13,
+        "name": "leer"
+      },
+      {
+        "level": 17,
+        "name": "focus-energy"
+      },
+      {
+        "level": 21,
+        "name": "bonemerang"
+      },
+      {
+        "level": 23,
+        "name": "rage"
+      },
+      {
+        "level": 27,
+        "name": "false-swipe"
+      },
+      {
+        "level": 31,
+        "name": "thrash"
+      },
+      {
+        "level": 33,
+        "name": "fling"
+      },
+      {
+        "level": 37,
+        "name": "bone-rush"
+      },
+      {
+        "level": 41,
+        "name": "endeavor"
+      },
+      {
+        "level": 43,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "false-swipe",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      105
+    ],
+    "root": 104,
+    "next_details": []
+  }
+}

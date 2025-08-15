@@ -1,0 +1,153 @@
+{
+  "id": 475,
+  "name": "gallade",
+  "generation": "4",
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 125,
+    "defense": 65,
+    "sp_atk": 65,
+    "sp_def": 115,
+    "speed": 80
+  },
+  "base_experience": 233,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 0,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "humanshape",
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "steadfast",
+    "secondary": "sharpness",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "double-team"
+      },
+      {
+        "level": 1,
+        "name": "leaf-blade"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "night-slash"
+      },
+      {
+        "level": 1,
+        "name": "teleport"
+      },
+      {
+        "level": 17,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 22,
+        "name": "slash"
+      },
+      {
+        "level": 31,
+        "name": "swords-dance"
+      },
+      {
+        "level": 36,
+        "name": "psycho-cut"
+      },
+      {
+        "level": 39,
+        "name": "helping-hand"
+      },
+      {
+        "level": 45,
+        "name": "feint"
+      },
+      {
+        "level": 50,
+        "name": "false-swipe"
+      },
+      {
+        "level": 53,
+        "name": "protect"
+      },
+      {
+        "level": 59,
+        "name": "close-combat"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "calm-mind",
+      "charge-beam",
+      "cut",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "facade",
+      "false-swipe",
+      "flash",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "shadow-ball",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 281,
+    "next": [],
+    "root": 280,
+    "next_details": []
+  }
+}

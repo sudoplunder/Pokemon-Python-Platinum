@@ -1,0 +1,29 @@
+{
+  "zone": "route204",
+  "methods": {
+    "grass": {
+      "base_rate": 25,
+      "slots": [
+        {"species": 396, "min": 4, "max": 6, "weight": 25},
+        {"species": 399, "min": 3, "max": 5, "weight": 25},
+        {"species": 265, "min": 4, "max": 6, "weight": 20},
+        {"species": 406, "min": 4, "max": 6, "weight": 10},
+        {"species": 41,  "min": 4, "max": 5, "weight": 10},
+        {"species": 401, "min": 4, "max": 5, "weight": 10, "time": ["night"]}
+      ]
+    },
+    "old_rod": {
+      "base_rate": 70,
+      "slots": [
+        {"species": 129, "min": 4, "max": 6, "weight": 100}
+      ]
+    },
+    "water": {
+      "base_rate": 15,
+      "slots": [
+        {"species": 129, "min": 4, "max": 6, "weight": 80},
+        {"species": 54,  "min": 5, "max": 7, "weight": 20}
+      ]
+    }
+  }
+}

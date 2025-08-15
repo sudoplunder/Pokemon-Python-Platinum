@@ -1,0 +1,142 @@
+{
+  "id": 464,
+  "name": "rhyperior",
+  "generation": "4",
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 115,
+    "attack": 140,
+    "defense": 130,
+    "sp_atk": 55,
+    "sp_def": 55,
+    "speed": 40
+  },
+  "base_experience": 241,
+  "growth_rate": "slow",
+  "capture_rate": 30,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "lightning-rod",
+    "secondary": "solid-rock",
+    "hidden": "reckless"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fury-attack"
+      },
+      {
+        "level": 1,
+        "name": "horn-attack"
+      },
+      {
+        "level": 1,
+        "name": "poison-jab"
+      },
+      {
+        "level": 1,
+        "name": "stomp"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 19,
+        "name": "scary-face"
+      },
+      {
+        "level": 23,
+        "name": "rock-blast"
+      },
+      {
+        "level": 41,
+        "name": "take-down"
+      },
+      {
+        "level": 42,
+        "name": "hammer-arm"
+      },
+      {
+        "level": 56,
+        "name": "stone-edge"
+      },
+      {
+        "level": 62,
+        "name": "earthquake"
+      },
+      {
+        "level": 71,
+        "name": "horn-drill"
+      },
+      {
+        "level": 77,
+        "name": "megahorn"
+      },
+      {
+        "level": 86,
+        "name": "rock-wrecker"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash-cannon",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "shadow-claw",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 112,
+    "next": [],
+    "root": 111,
+    "next_details": []
+  }
+}

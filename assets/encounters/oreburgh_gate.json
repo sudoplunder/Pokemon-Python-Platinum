@@ -1,0 +1,13 @@
+{
+  "zone": "oreburgh_gate",
+  "methods": {
+    "cave": {
+      "base_rate": 15,
+      "slots": [
+        {"species": 41,  "min": 5, "max": 7, "weight": 45},
+        {"species": 74,  "min": 5, "max": 7, "weight": 45},
+        {"species": 95,  "min": 6, "max": 7, "weight": 10}
+      ]
+    }
+  }
+}

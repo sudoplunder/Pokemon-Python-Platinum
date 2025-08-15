@@ -1,0 +1,117 @@
+{
+  "id": 231,
+  "name": "phanpy",
+  "generation": "2",
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 60,
+    "sp_atk": 40,
+    "sp_def": 40,
+    "speed": 40
+  },
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "pickup",
+    "secondary": null,
+    "hidden": "sand-veil"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 6,
+        "name": "flail"
+      },
+      {
+        "level": 10,
+        "name": "take-down"
+      },
+      {
+        "level": 15,
+        "name": "rollout"
+      },
+      {
+        "level": 19,
+        "name": "natural-gift"
+      },
+      {
+        "level": 24,
+        "name": "slam"
+      },
+      {
+        "level": 28,
+        "name": "endure"
+      },
+      {
+        "level": 33,
+        "name": "charm"
+      },
+      {
+        "level": 37,
+        "name": "last-resort"
+      },
+      {
+        "level": 42,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "iron-tail",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      232
+    ],
+    "root": 231,
+    "next_details": []
+  }
+}

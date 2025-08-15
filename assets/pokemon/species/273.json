@@ -1,0 +1,98 @@
+{
+  "id": 273,
+  "name": "seedot",
+  "generation": "3",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 50,
+    "sp_atk": 30,
+    "sp_def": 30,
+    "speed": 30
+  },
+  "base_experience": 44,
+  "growth_rate": "medium-slow",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": "early-bird",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bide"
+      },
+      {
+        "level": 3,
+        "name": "harden"
+      },
+      {
+        "level": 7,
+        "name": "growth"
+      },
+      {
+        "level": 13,
+        "name": "nature-power"
+      },
+      {
+        "level": 21,
+        "name": "synthesis"
+      },
+      {
+        "level": 31,
+        "name": "sunny-day"
+      },
+      {
+        "level": 43,
+        "name": "explosion"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "dig",
+      "double-team",
+      "energy-ball",
+      "explosion",
+      "facade",
+      "false-swipe",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "protect",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      274
+    ],
+    "root": 273,
+    "next_details": []
+  }
+}

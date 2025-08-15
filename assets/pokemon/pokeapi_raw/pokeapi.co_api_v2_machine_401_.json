@@ -1,0 +1,15 @@
+{
+  "id": 401,
+  "item": {
+    "name": "tm20",
+    "url": "https://pokeapi.co/api/v2/item/324/"
+  },
+  "move": {
+    "name": "self-destruct",
+    "url": "https://pokeapi.co/api/v2/move/120/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

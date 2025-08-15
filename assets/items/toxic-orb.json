@@ -1,0 +1,15 @@
+{
+  "name": "toxic-orb",
+  "display_name": "Toxic Orb",
+  "category": "bad-held-items",
+  "cost": 4000,
+  "fling_power": 30,
+  "effect": "Held: Badly poisons the holder at the end of each turn.",
+  "short_effect": "Held: Inflicts Toxic on the holder at the end of the turn. Activates after Poison damage would occur.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1720&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1680&limit=20",
+  "results": [
+    {
+      "name": "strawberry",
+      "url": "https://pokeapi.co/api/v2/item/1752/"
+    },
+    {
+      "name": "apple",
+      "url": "https://pokeapi.co/api/v2/item/1753/"
+    },
+    {
+      "name": "kiwi",
+      "url": "https://pokeapi.co/api/v2/item/1754/"
+    },
+    {
+      "name": "pineapple",
+      "url": "https://pokeapi.co/api/v2/item/1755/"
+    },
+    {
+      "name": "jalape\u00f1o",
+      "url": "https://pokeapi.co/api/v2/item/1756/"
+    },
+    {
+      "name": "horseradish",
+      "url": "https://pokeapi.co/api/v2/item/1757/"
+    },
+    {
+      "name": "curry-powder",
+      "url": "https://pokeapi.co/api/v2/item/1758/"
+    },
+    {
+      "name": "wasabi",
+      "url": "https://pokeapi.co/api/v2/item/1759/"
+    },
+    {
+      "name": "watercress",
+      "url": "https://pokeapi.co/api/v2/item/1760/"
+    },
+    {
+      "name": "basil",
+      "url": "https://pokeapi.co/api/v2/item/1761/"
+    },
+    {
+      "name": "venonat-fang",
+      "url": "https://pokeapi.co/api/v2/item/1762/"
+    },
+    {
+      "name": "diglett-dirt",
+      "url": "https://pokeapi.co/api/v2/item/1763/"
+    },
+    {
+      "name": "meowth-fur",
+      "url": "https://pokeapi.co/api/v2/item/1764/"
+    },
+    {
+      "name": "psyduck-down",
+      "url": "https://pokeapi.co/api/v2/item/1765/"
+    },
+    {
+      "name": "mankey-fur",
+      "url": "https://pokeapi.co/api/v2/item/1766/"
+    },
+    {
+      "name": "growlithe-fur",
+      "url": "https://pokeapi.co/api/v2/item/1767/"
+    },
+    {
+      "name": "slowpoke-claw",
+      "url": "https://pokeapi.co/api/v2/item/1768/"
+    },
+    {
+      "name": "magnemite-screw",
+      "url": "https://pokeapi.co/api/v2/item/1769/"
+    },
+    {
+      "name": "grimer-toxin",
+      "url": "https://pokeapi.co/api/v2/item/1770/"
+    },
+    {
+      "name": "shellder-pearl",
+      "url": "https://pokeapi.co/api/v2/item/1771/"
+    }
+  ]
+}

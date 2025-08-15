@@ -1,0 +1,132 @@
+{
+  "id": 317,
+  "name": "swalot",
+  "generation": "3",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 73,
+    "defense": 83,
+    "sp_atk": 73,
+    "sp_def": 83,
+    "speed": 55
+  },
+  "base_experience": 163,
+  "growth_rate": "fast-then-very-slow",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "liquid-ooze",
+    "secondary": "sticky-hold",
+    "hidden": "gluttony"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "poison-gas"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "sludge"
+      },
+      {
+        "level": 1,
+        "name": "yawn"
+      },
+      {
+        "level": 17,
+        "name": "amnesia"
+      },
+      {
+        "level": 23,
+        "name": "encore"
+      },
+      {
+        "level": 26,
+        "name": "body-slam"
+      },
+      {
+        "level": 30,
+        "name": "toxic"
+      },
+      {
+        "level": 40,
+        "name": "spit-up"
+      },
+      {
+        "level": 40,
+        "name": "stockpile"
+      },
+      {
+        "level": 40,
+        "name": "swallow"
+      },
+      {
+        "level": 48,
+        "name": "sludge-bomb"
+      },
+      {
+        "level": 59,
+        "name": "gastro-acid"
+      },
+      {
+        "level": 66,
+        "name": "wring-out"
+      },
+      {
+        "level": 73,
+        "name": "gunk-shot"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "explosion",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "sludge-bomb",
+      "snatch",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 316,
+    "next": [],
+    "root": 316,
+    "next_details": []
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "id": 176,
+  "name": "togetic",
+  "generation": "2",
+  "types": [
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 40,
+    "defense": 85,
+    "sp_atk": 80,
+    "sp_def": 105,
+    "speed": 40
+  },
+  "base_experience": 142,
+  "growth_rate": "fast",
+  "capture_rate": 75,
+  "gender_rate": 1,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "hustle",
+    "secondary": "serene-grace",
+    "hidden": "super-luck"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "charm"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 1,
+        "name": "metronome"
+      },
+      {
+        "level": 1,
+        "name": "sweet-kiss"
+      },
+      {
+        "level": 13,
+        "name": "yawn"
+      },
+      {
+        "level": 17,
+        "name": "encore"
+      },
+      {
+        "level": 21,
+        "name": "follow-me"
+      },
+      {
+        "level": 29,
+        "name": "wish"
+      },
+      {
+        "level": 33,
+        "name": "ancient-power"
+      },
+      {
+        "level": 36,
+        "name": "safeguard"
+      },
+      {
+        "level": 41,
+        "name": "baton-pass"
+      },
+      {
+        "level": 41,
+        "name": "double-edge"
+      },
+      {
+        "level": 49,
+        "name": "last-resort"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "fly",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder-wave",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 175,
+    "next": [
+      468
+    ],
+    "root": 175,
+    "next_details": []
+  }
+}

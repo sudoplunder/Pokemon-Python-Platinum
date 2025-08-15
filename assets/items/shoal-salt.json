@@ -1,0 +1,14 @@
+{
+  "name": "shoal-salt",
+  "display_name": "Shoal Salt",
+  "category": "collectibles",
+  "cost": 20,
+  "fling_power": 30,
+  "effect": "No effect.",
+  "short_effect": "No effect. Gen III: Trade four and four Shoal Shells for a Shell Bell.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "countable"
+  ]
+}

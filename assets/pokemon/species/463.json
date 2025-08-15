@@ -1,0 +1,143 @@
+{
+  "id": 463,
+  "name": "lickilicky",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 85,
+    "defense": 95,
+    "sp_atk": 80,
+    "sp_def": 95,
+    "speed": 50
+  },
+  "base_experience": 180,
+  "growth_rate": "medium",
+  "capture_rate": 30,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "own-tempo",
+    "secondary": "oblivious",
+    "hidden": "cloud-nine"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 5,
+        "name": "supersonic"
+      },
+      {
+        "level": 9,
+        "name": "defense-curl"
+      },
+      {
+        "level": 13,
+        "name": "knock-off"
+      },
+      {
+        "level": 17,
+        "name": "wrap"
+      },
+      {
+        "level": 21,
+        "name": "stomp"
+      },
+      {
+        "level": 25,
+        "name": "disable"
+      },
+      {
+        "level": 29,
+        "name": "slam"
+      },
+      {
+        "level": 33,
+        "name": "rollout"
+      },
+      {
+        "level": 41,
+        "name": "me-first"
+      },
+      {
+        "level": 45,
+        "name": "refresh"
+      },
+      {
+        "level": 49,
+        "name": "screech"
+      },
+      {
+        "level": 53,
+        "name": "power-whip"
+      },
+      {
+        "level": 57,
+        "name": "wring-out"
+      },
+      {
+        "level": 61,
+        "name": "gyro-ball"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "explosion",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "shadow-ball",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 108,
+    "next": [],
+    "root": 108,
+    "next_details": []
+  }
+}

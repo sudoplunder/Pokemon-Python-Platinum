@@ -1,0 +1,15 @@
+{
+  "name": "focus-sash",
+  "display_name": "Focus Sash",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 10,
+  "effect": "Held: If the holder has full HP and is attacked for regular damage that would faint it, this item is consumed and prevents the holder's HP from lowering below 1.  This effect works against multi-hit attacks, but does not work against the effects of Doom Desire or Future Sight.",
+  "short_effect": "Held: Holder survives any single-hit attack at 1 HP if at max HP, then the item is consumed.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

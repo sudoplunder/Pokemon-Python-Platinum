@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1740&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1700&limit=20",
+  "results": [
+    {
+      "name": "gastly-gas",
+      "url": "https://pokeapi.co/api/v2/item/1772/"
+    },
+    {
+      "name": "drowzee-fur",
+      "url": "https://pokeapi.co/api/v2/item/1773/"
+    },
+    {
+      "name": "voltorb-sparks",
+      "url": "https://pokeapi.co/api/v2/item/1774/"
+    },
+    {
+      "name": "scyther-claw",
+      "url": "https://pokeapi.co/api/v2/item/1775/"
+    },
+    {
+      "name": "tauros-hair",
+      "url": "https://pokeapi.co/api/v2/item/1776/"
+    },
+    {
+      "name": "magikarp-scales",
+      "url": "https://pokeapi.co/api/v2/item/1777/"
+    },
+    {
+      "name": "ditto-goo",
+      "url": "https://pokeapi.co/api/v2/item/1778/"
+    },
+    {
+      "name": "eevee-fur",
+      "url": "https://pokeapi.co/api/v2/item/1779/"
+    },
+    {
+      "name": "dratini-scales",
+      "url": "https://pokeapi.co/api/v2/item/1780/"
+    },
+    {
+      "name": "pichu-fur",
+      "url": "https://pokeapi.co/api/v2/item/1781/"
+    },
+    {
+      "name": "igglybuff-fluff",
+      "url": "https://pokeapi.co/api/v2/item/1782/"
+    },
+    {
+      "name": "mareep-wool",
+      "url": "https://pokeapi.co/api/v2/item/1783/"
+    },
+    {
+      "name": "hoppip-leaf",
+      "url": "https://pokeapi.co/api/v2/item/1784/"
+    },
+    {
+      "name": "sunkern-leaf",
+      "url": "https://pokeapi.co/api/v2/item/1785/"
+    },
+    {
+      "name": "murkrow-bauble",
+      "url": "https://pokeapi.co/api/v2/item/1786/"
+    },
+    {
+      "name": "misdreavus-tears",
+      "url": "https://pokeapi.co/api/v2/item/1787/"
+    },
+    {
+      "name": "girafarig-fur",
+      "url": "https://pokeapi.co/api/v2/item/1788/"
+    },
+    {
+      "name": "pineco-husk",
+      "url": "https://pokeapi.co/api/v2/item/1789/"
+    },
+    {
+      "name": "dunsparce-scales",
+      "url": "https://pokeapi.co/api/v2/item/1790/"
+    },
+    {
+      "name": "qwilfish-spines",
+      "url": "https://pokeapi.co/api/v2/item/1791/"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "trace",
+  "display_name": "Trace",
+  "generation": 3,
+  "short_effect": "Copies an opponent's ability upon entering battle.",
+  "effect": "When this Pok\u00e9mon enters battle, it copies a random opponent's ability.\n\nThis ability cannot copy flower gift, forecast, illusion, imposter, multitype, trace, wonder guard, or zen mode.",
+  "is_gen4_or_prior": true
+}

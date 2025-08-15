@@ -1,0 +1,138 @@
+{
+  "id": 162,
+  "name": "furret",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 76,
+    "defense": 64,
+    "sp_atk": 45,
+    "sp_def": 55,
+    "speed": 90
+  },
+  "base_experience": 145,
+  "growth_rate": "medium",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "run-away",
+    "secondary": "keen-eye",
+    "hidden": "frisk"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 12,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 17,
+        "name": "helping-hand"
+      },
+      {
+        "level": 21,
+        "name": "follow-me"
+      },
+      {
+        "level": 28,
+        "name": "slam"
+      },
+      {
+        "level": 32,
+        "name": "rest"
+      },
+      {
+        "level": 36,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 42,
+        "name": "amnesia"
+      },
+      {
+        "level": 46,
+        "name": "baton-pass"
+      },
+      {
+        "level": 50,
+        "name": "me-first"
+      },
+      {
+        "level": 56,
+        "name": "hyper-voice"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "charge-beam",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "u-turn",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 161,
+    "next": [],
+    "root": 161,
+    "next_details": []
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": null,
+  "previous": "https://pokeapi.co/api/v2/item?offset=2140&limit=20",
+  "results": [
+    {
+      "name": "tm223",
+      "url": "https://pokeapi.co/api/v2/item/2212/"
+    },
+    {
+      "name": "tm224",
+      "url": "https://pokeapi.co/api/v2/item/2213/"
+    },
+    {
+      "name": "tm225",
+      "url": "https://pokeapi.co/api/v2/item/2214/"
+    },
+    {
+      "name": "tm226",
+      "url": "https://pokeapi.co/api/v2/item/2215/"
+    },
+    {
+      "name": "tm227",
+      "url": "https://pokeapi.co/api/v2/item/2216/"
+    },
+    {
+      "name": "tm228",
+      "url": "https://pokeapi.co/api/v2/item/2217/"
+    },
+    {
+      "name": "tm229",
+      "url": "https://pokeapi.co/api/v2/item/2218/"
+    },
+    {
+      "name": "lastrange-ball",
+      "url": "https://pokeapi.co/api/v2/item/2219/"
+    },
+    {
+      "name": "lapoke-ball",
+      "url": "https://pokeapi.co/api/v2/item/2220/"
+    },
+    {
+      "name": "lagreat-ball",
+      "url": "https://pokeapi.co/api/v2/item/2221/"
+    },
+    {
+      "name": "laultra-ball",
+      "url": "https://pokeapi.co/api/v2/item/2222/"
+    },
+    {
+      "name": "laheavy-ball",
+      "url": "https://pokeapi.co/api/v2/item/2223/"
+    },
+    {
+      "name": "laleaden-ball",
+      "url": "https://pokeapi.co/api/v2/item/2224/"
+    },
+    {
+      "name": "lagigaton-ball",
+      "url": "https://pokeapi.co/api/v2/item/2225/"
+    },
+    {
+      "name": "lafeather-ball",
+      "url": "https://pokeapi.co/api/v2/item/2226/"
+    },
+    {
+      "name": "lawing-ball",
+      "url": "https://pokeapi.co/api/v2/item/2227/"
+    },
+    {
+      "name": "lajet-ball",
+      "url": "https://pokeapi.co/api/v2/item/2228/"
+    },
+    {
+      "name": "laorigin-ball",
+      "url": "https://pokeapi.co/api/v2/item/2229/"
+    },
+    {
+      "name": "black-augurite",
+      "url": "https://pokeapi.co/api/v2/item/10001/"
+    },
+    {
+      "name": "peat-block",
+      "url": "https://pokeapi.co/api/v2/item/10002/"
+    }
+  ]
+}

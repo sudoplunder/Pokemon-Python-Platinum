@@ -1,0 +1,8 @@
+{
+  "name": "anger-point",
+  "display_name": "Anger Point",
+  "generation": 4,
+  "short_effect": "Raises Attack to the maximum of six stages upon receiving a critical hit.",
+  "effect": "Whenever this Pok\u00e9mon receives a critical hit, its Attack rises to the maximum of 6 stages.\n\nThis ability will still take effect if the critical hit is received by a substitute.",
+  "is_gen4_or_prior": true
+}

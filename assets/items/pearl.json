@@ -1,0 +1,12 @@
+{
+  "name": "pearl",
+  "display_name": "Pearl",
+  "category": "loot",
+  "cost": 2000,
+  "fling_power": 30,
+  "effect": "Vendor trash.",
+  "short_effect": "Sell for 700 Pok\u00e9dollars, or to Ore Collector for 1400 Pok\u00e9dollars.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

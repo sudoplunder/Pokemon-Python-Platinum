@@ -1,0 +1,12 @@
+{
+  "name": "data-card-15",
+  "display_name": "Data Card 15",
+  "category": "data-cards",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Records the number of times the trainer's Pok\u00e9mon have fallen in the Pok\u00e9athlon.",
+  "short_effect": "Records the number of times the trainer's Pok\u00e9mon have fallen in the Pok\u00e9athlon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

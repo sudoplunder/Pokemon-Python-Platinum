@@ -1,0 +1,12 @@
+{
+  "name": "poke-flute",
+  "display_name": "Poke Flute",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Wakes up sleeping Pok\u00e9mon.  Required to wake up sleeping snorlax on the overworld.",
+  "short_effect": "Use to awaken sleeping Pok\u00e9mon, including Snorlax on roads.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

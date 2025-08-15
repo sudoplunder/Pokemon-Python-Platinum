@@ -1,0 +1,12 @@
+{
+  "name": "tm74",
+  "display_name": "Tm74",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Gyro Ball to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Gyro Ball to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

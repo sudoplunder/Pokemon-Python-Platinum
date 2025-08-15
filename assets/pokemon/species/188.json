@@ -1,0 +1,134 @@
+{
+  "id": 188,
+  "name": "skiploom",
+  "generation": "2",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 45,
+    "defense": 50,
+    "sp_atk": 45,
+    "sp_def": 65,
+    "speed": 80
+  },
+  "base_experience": 119,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "fairy",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": "leaf-guard",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "splash"
+      },
+      {
+        "level": 1,
+        "name": "synthesis"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 12,
+        "name": "poison-powder"
+      },
+      {
+        "level": 14,
+        "name": "stun-spore"
+      },
+      {
+        "level": 16,
+        "name": "sleep-powder"
+      },
+      {
+        "level": 20,
+        "name": "bullet-seed"
+      },
+      {
+        "level": 22,
+        "name": "leech-seed"
+      },
+      {
+        "level": 28,
+        "name": "mega-drain"
+      },
+      {
+        "level": 29,
+        "name": "cotton-spore"
+      },
+      {
+        "level": 44,
+        "name": "u-turn"
+      },
+      {
+        "level": 48,
+        "name": "worry-seed"
+      },
+      {
+        "level": 52,
+        "name": "giga-drain"
+      },
+      {
+        "level": 56,
+        "name": "bounce"
+      },
+      {
+        "level": 60,
+        "name": "memento"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "bullet-seed",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "protect",
+      "psych-up",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 187,
+    "next": [
+      189
+    ],
+    "root": 187,
+    "next_details": []
+  }
+}

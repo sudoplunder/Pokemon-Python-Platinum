@@ -1,0 +1,12 @@
+{
+  "name": "scanner",
+  "display_name": "Scanner",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "May be traded to Captain Stern for a deep sea tooth or a deep sea scale.",
+  "short_effect": "Trade to Captain Stern for a DeepSeaTooth or DeepSeaScale.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

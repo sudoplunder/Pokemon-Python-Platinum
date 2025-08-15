@@ -1,0 +1,121 @@
+{
+  "id": 90,
+  "name": "shellder",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 65,
+    "defense": 100,
+    "sp_atk": 45,
+    "sp_def": 25,
+    "speed": 40
+  },
+  "base_experience": 61,
+  "growth_rate": "slow",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "shell-armor",
+    "secondary": "skill-link",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "withdraw"
+      },
+      {
+        "level": 8,
+        "name": "supersonic"
+      },
+      {
+        "level": 13,
+        "name": "icicle-spear"
+      },
+      {
+        "level": 16,
+        "name": "protect"
+      },
+      {
+        "level": 17,
+        "name": "aurora-beam"
+      },
+      {
+        "level": 20,
+        "name": "leer"
+      },
+      {
+        "level": 25,
+        "name": "clamp"
+      },
+      {
+        "level": 28,
+        "name": "ice-shard"
+      },
+      {
+        "level": 40,
+        "name": "whirlpool"
+      },
+      {
+        "level": 44,
+        "name": "brine"
+      },
+      {
+        "level": 49,
+        "name": "ice-beam"
+      },
+      {
+        "level": 49,
+        "name": "iron-defense"
+      },
+      {
+        "level": 61,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "explosion",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      91
+    ],
+    "root": 90,
+    "next_details": []
+  }
+}

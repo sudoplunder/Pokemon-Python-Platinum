@@ -1,0 +1,137 @@
+{
+  "id": 83,
+  "name": "farfetchd",
+  "generation": "1",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 52,
+    "attack": 90,
+    "defense": 55,
+    "sp_atk": 58,
+    "sp_def": 62,
+    "speed": 60
+  },
+  "base_experience": 132,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "keen-eye",
+    "secondary": "inner-focus",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 1,
+        "name": "poison-jab"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 7,
+        "name": "fury-attack"
+      },
+      {
+        "level": 9,
+        "name": "knock-off"
+      },
+      {
+        "level": 13,
+        "name": "aerial-ace"
+      },
+      {
+        "level": 19,
+        "name": "slash"
+      },
+      {
+        "level": 21,
+        "name": "air-cutter"
+      },
+      {
+        "level": 25,
+        "name": "swords-dance"
+      },
+      {
+        "level": 31,
+        "name": "agility"
+      },
+      {
+        "level": 33,
+        "name": "night-slash"
+      },
+      {
+        "level": 43,
+        "name": "feint"
+      },
+      {
+        "level": 45,
+        "name": "false-swipe"
+      },
+      {
+        "level": 49,
+        "name": "air-slash"
+      },
+      {
+        "level": 55,
+        "name": "brave-bird"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "cut",
+      "double-team",
+      "facade",
+      "false-swipe",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "iron-tail",
+      "pluck",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "rest",
+      "return",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 83,
+    "next_details": []
+  }
+}

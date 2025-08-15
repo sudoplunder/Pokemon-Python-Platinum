@@ -1,0 +1,12 @@
+{
+  "name": "tm22",
+  "display_name": "Tm22",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches SolarBeam to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches SolarBeam to a compatible Pok\u00e9mon.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

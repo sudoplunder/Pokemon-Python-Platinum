@@ -1,0 +1,141 @@
+{
+  "id": 92,
+  "name": "gastly",
+  "generation": "1",
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 35,
+    "defense": 30,
+    "sp_atk": 100,
+    "sp_def": 35,
+    "speed": 80
+  },
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 5,
+        "name": "spite"
+      },
+      {
+        "level": 8,
+        "name": "mean-look"
+      },
+      {
+        "level": 12,
+        "name": "curse"
+      },
+      {
+        "level": 15,
+        "name": "night-shade"
+      },
+      {
+        "level": 19,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 22,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 26,
+        "name": "payback"
+      },
+      {
+        "level": 29,
+        "name": "shadow-ball"
+      },
+      {
+        "level": 33,
+        "name": "dream-eater"
+      },
+      {
+        "level": 36,
+        "name": "dark-pulse"
+      },
+      {
+        "level": 36,
+        "name": "destiny-bond"
+      },
+      {
+        "level": 47,
+        "name": "nightmare"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "energy-ball",
+      "explosion",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "sludge-bomb",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      93
+    ],
+    "root": 92,
+    "next_details": [
+      {
+        "id": 93,
+        "trigger": "level",
+        "conditions": {
+          "level": 25
+        }
+      }
+    ]
+  }
+}

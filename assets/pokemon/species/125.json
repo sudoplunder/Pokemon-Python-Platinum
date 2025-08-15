@@ -1,0 +1,127 @@
+{
+  "id": 125,
+  "name": "electabuzz",
+  "generation": "1",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "sp_atk": 95,
+    "sp_def": 85,
+    "speed": 105
+  },
+  "base_experience": 172,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 2,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "static",
+    "secondary": null,
+    "hidden": "vital-spirit"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "thunder-punch"
+      },
+      {
+        "level": 1,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 8,
+        "name": "low-kick"
+      },
+      {
+        "level": 12,
+        "name": "swift"
+      },
+      {
+        "level": 15,
+        "name": "shock-wave"
+      },
+      {
+        "level": 17,
+        "name": "light-screen"
+      },
+      {
+        "level": 19,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 36,
+        "name": "discharge"
+      },
+      {
+        "level": 36,
+        "name": "screech"
+      },
+      {
+        "level": 47,
+        "name": "thunderbolt"
+      },
+      {
+        "level": 55,
+        "name": "thunder"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shock-wave",
+      "strength",
+      "substitute",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 239,
+    "next": [
+      466
+    ],
+    "root": 239,
+    "next_details": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "acro-bike",
+  "display_name": "Acro Bike",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Increases movement speed outside or in caves.  Slower than the mach bike.  Can perform various tricks, allowing the trainer to reach certain special areas.",
+  "short_effect": "More maneuverable than the Mach Bike, and allows hopping along rails.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": []
+}

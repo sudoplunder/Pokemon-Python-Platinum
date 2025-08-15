@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=740&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=700&limit=20",
+  "results": [
+    {
+      "name": "kee-berry",
+      "url": "https://pokeapi.co/api/v2/item/724/"
+    },
+    {
+      "name": "maranga-berry",
+      "url": "https://pokeapi.co/api/v2/item/725/"
+    },
+    {
+      "name": "discount-coupon",
+      "url": "https://pokeapi.co/api/v2/item/726/"
+    },
+    {
+      "name": "strange-souvenir",
+      "url": "https://pokeapi.co/api/v2/item/727/"
+    },
+    {
+      "name": "lumiose-galette",
+      "url": "https://pokeapi.co/api/v2/item/728/"
+    },
+    {
+      "name": "jaw-fossil",
+      "url": "https://pokeapi.co/api/v2/item/729/"
+    },
+    {
+      "name": "sail-fossil",
+      "url": "https://pokeapi.co/api/v2/item/730/"
+    },
+    {
+      "name": "fairy-gem",
+      "url": "https://pokeapi.co/api/v2/item/731/"
+    },
+    {
+      "name": "adventure-rules",
+      "url": "https://pokeapi.co/api/v2/item/732/"
+    },
+    {
+      "name": "elevator-key",
+      "url": "https://pokeapi.co/api/v2/item/733/"
+    },
+    {
+      "name": "holo-caster",
+      "url": "https://pokeapi.co/api/v2/item/734/"
+    },
+    {
+      "name": "honor-of-kalos",
+      "url": "https://pokeapi.co/api/v2/item/735/"
+    },
+    {
+      "name": "intriguing-stone",
+      "url": "https://pokeapi.co/api/v2/item/736/"
+    },
+    {
+      "name": "lens-case",
+      "url": "https://pokeapi.co/api/v2/item/737/"
+    },
+    {
+      "name": "looker-ticket",
+      "url": "https://pokeapi.co/api/v2/item/738/"
+    },
+    {
+      "name": "mega-ring",
+      "url": "https://pokeapi.co/api/v2/item/739/"
+    },
+    {
+      "name": "power-plant-pass",
+      "url": "https://pokeapi.co/api/v2/item/740/"
+    },
+    {
+      "name": "profs-letter",
+      "url": "https://pokeapi.co/api/v2/item/741/"
+    },
+    {
+      "name": "roller-skates",
+      "url": "https://pokeapi.co/api/v2/item/742/"
+    },
+    {
+      "name": "sprinklotad",
+      "url": "https://pokeapi.co/api/v2/item/743/"
+    }
+  ]
+}

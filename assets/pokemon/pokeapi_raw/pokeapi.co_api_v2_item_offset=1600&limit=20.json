@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1620&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1580&limit=20",
+  "results": [
+    {
+      "name": "black-mane-hair",
+      "url": "https://pokeapi.co/api/v2/item/1652/"
+    },
+    {
+      "name": "iceroot-carrot",
+      "url": "https://pokeapi.co/api/v2/item/1653/"
+    },
+    {
+      "name": "shaderoot-carrot",
+      "url": "https://pokeapi.co/api/v2/item/1654/"
+    },
+    {
+      "name": "dynite-ore",
+      "url": "https://pokeapi.co/api/v2/item/1655/"
+    },
+    {
+      "name": "carrot-seeds",
+      "url": "https://pokeapi.co/api/v2/item/1656/"
+    },
+    {
+      "name": "ability-patch",
+      "url": "https://pokeapi.co/api/v2/item/1657/"
+    },
+    {
+      "name": "reins-of-unity",
+      "url": "https://pokeapi.co/api/v2/item/1658/"
+    },
+    {
+      "name": "adamant-crystal",
+      "url": "https://pokeapi.co/api/v2/item/1659/"
+    },
+    {
+      "name": "lustrous-globe",
+      "url": "https://pokeapi.co/api/v2/item/1660/"
+    },
+    {
+      "name": "griseous-core",
+      "url": "https://pokeapi.co/api/v2/item/1661/"
+    },
+    {
+      "name": "blank-plate",
+      "url": "https://pokeapi.co/api/v2/item/1662/"
+    },
+    {
+      "name": "strange-ball",
+      "url": "https://pokeapi.co/api/v2/item/1663/"
+    },
+    {
+      "name": "legend-plate",
+      "url": "https://pokeapi.co/api/v2/item/1664/"
+    },
+    {
+      "name": "rotom-phone",
+      "url": "https://pokeapi.co/api/v2/item/1665/"
+    },
+    {
+      "name": "sandwich",
+      "url": "https://pokeapi.co/api/v2/item/1666/"
+    },
+    {
+      "name": "koraidon\u2019s-pok\u00e9-ball",
+      "url": "https://pokeapi.co/api/v2/item/1667/"
+    },
+    {
+      "name": "miraidon\u2019s-pok\u00e9-ball",
+      "url": "https://pokeapi.co/api/v2/item/1668/"
+    },
+    {
+      "name": "tera-orb",
+      "url": "https://pokeapi.co/api/v2/item/1669/"
+    },
+    {
+      "name": "scarlet-book",
+      "url": "https://pokeapi.co/api/v2/item/1670/"
+    },
+    {
+      "name": "violet-book",
+      "url": "https://pokeapi.co/api/v2/item/1671/"
+    }
+  ]
+}

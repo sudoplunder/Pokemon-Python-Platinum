@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=200&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=160&limit=20",
+  "results": [
+    {
+      "name": "petaya-berry",
+      "url": "https://pokeapi.co/api/v2/item/181/"
+    },
+    {
+      "name": "apicot-berry",
+      "url": "https://pokeapi.co/api/v2/item/182/"
+    },
+    {
+      "name": "lansat-berry",
+      "url": "https://pokeapi.co/api/v2/item/183/"
+    },
+    {
+      "name": "starf-berry",
+      "url": "https://pokeapi.co/api/v2/item/184/"
+    },
+    {
+      "name": "enigma-berry",
+      "url": "https://pokeapi.co/api/v2/item/185/"
+    },
+    {
+      "name": "micle-berry",
+      "url": "https://pokeapi.co/api/v2/item/186/"
+    },
+    {
+      "name": "custap-berry",
+      "url": "https://pokeapi.co/api/v2/item/187/"
+    },
+    {
+      "name": "jaboca-berry",
+      "url": "https://pokeapi.co/api/v2/item/188/"
+    },
+    {
+      "name": "rowap-berry",
+      "url": "https://pokeapi.co/api/v2/item/189/"
+    },
+    {
+      "name": "bright-powder",
+      "url": "https://pokeapi.co/api/v2/item/190/"
+    },
+    {
+      "name": "white-herb",
+      "url": "https://pokeapi.co/api/v2/item/191/"
+    },
+    {
+      "name": "macho-brace",
+      "url": "https://pokeapi.co/api/v2/item/192/"
+    },
+    {
+      "name": "exp-share",
+      "url": "https://pokeapi.co/api/v2/item/193/"
+    },
+    {
+      "name": "quick-claw",
+      "url": "https://pokeapi.co/api/v2/item/194/"
+    },
+    {
+      "name": "soothe-bell",
+      "url": "https://pokeapi.co/api/v2/item/195/"
+    },
+    {
+      "name": "mental-herb",
+      "url": "https://pokeapi.co/api/v2/item/196/"
+    },
+    {
+      "name": "choice-band",
+      "url": "https://pokeapi.co/api/v2/item/197/"
+    },
+    {
+      "name": "kings-rock",
+      "url": "https://pokeapi.co/api/v2/item/198/"
+    },
+    {
+      "name": "silver-powder",
+      "url": "https://pokeapi.co/api/v2/item/199/"
+    },
+    {
+      "name": "amulet-coin",
+      "url": "https://pokeapi.co/api/v2/item/200/"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 202,
+  "name": "wobbuffet",
+  "generation": "2",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 190,
+    "attack": 33,
+    "defense": 58,
+    "sp_atk": 33,
+    "sp_def": 58,
+    "speed": 33
+  },
+  "base_experience": 142,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "shadow-tag",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "counter"
+      },
+      {
+        "level": 1,
+        "name": "destiny-bond"
+      },
+      {
+        "level": 1,
+        "name": "mirror-coat"
+      },
+      {
+        "level": 1,
+        "name": "safeguard"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": 360,
+    "next": [],
+    "root": 360,
+    "next_details": []
+  }
+}

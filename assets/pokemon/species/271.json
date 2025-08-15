@@ -1,0 +1,127 @@
+{
+  "id": 271,
+  "name": "lombre",
+  "generation": "3",
+  "types": [
+    "water",
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 50,
+    "sp_atk": 60,
+    "sp_def": 70,
+    "speed": 50
+  },
+  "base_experience": 119,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "rain-dish",
+    "hidden": "own-tempo"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 3,
+        "name": "growl"
+      },
+      {
+        "level": 5,
+        "name": "absorb"
+      },
+      {
+        "level": 7,
+        "name": "nature-power"
+      },
+      {
+        "level": 11,
+        "name": "fake-out"
+      },
+      {
+        "level": 15,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 19,
+        "name": "water-sport"
+      },
+      {
+        "level": 25,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 31,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 37,
+        "name": "thief"
+      },
+      {
+        "level": 37,
+        "name": "uproar"
+      },
+      {
+        "level": 45,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "bullet-seed",
+      "dive",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 270,
+    "next": [
+      272
+    ],
+    "root": 270,
+    "next_details": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "hm07",
+  "display_name": "Hm07",
+  "category": "all-machines",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Teaches Waterfall to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches a move to a compatible Pok\u00e9mon. (Gen IV & III & II: Waterfall)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

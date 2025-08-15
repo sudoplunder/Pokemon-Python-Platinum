@@ -1,0 +1,15 @@
+{
+  "id": 1836,
+  "item": {
+    "name": "tm131",
+    "url": "https://pokeapi.co/api/v2/item/1974/"
+  },
+  "move": {
+    "name": "pollen-puff",
+    "url": "https://pokeapi.co/api/v2/move/676/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

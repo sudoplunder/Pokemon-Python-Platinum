@@ -20,7 +20,7 @@ from typing import List, Callable
 
 from platinum.ui.logo import colored_logo
 from platinum.audio.player import audio
-from platinum.ui.keys import read_key
+from platinum.ui.keys import read_key, flush_input
 from platinum.core.logging import logger
 
 CONFIG_PATH = Path("assets/config/opening_config.json")
@@ -74,8 +74,10 @@ class SkipListener:
 
     def _listen(self):
         try:
+            # Capture only the first key to request skip, then flush any burst of presses
             read_key()
             self.skip_requested = True
+            flush_input()  # debounce: clear extra buffered keys
         except Exception:
             pass
 
@@ -335,6 +337,15 @@ def _idle_logo_sparkles(space_positions: list[tuple[int,int]],
     eyes_color_for: dict[_IdleSparkle, str] = {}
     last_spawn = 0.0
     spawn_gap = max(0.15, frame_interval * len(seq) * 0.75)
+    # Immediate pre-population so user sees motion instantly (avoid perceived static frame)
+    prepopulate = min(count, max(3, count // 2))
+    now0 = time.monotonic()
+    for _ in range(prepopulate):
+        spot = rng.choice(space_positions)
+        sp = _IdleSparkle(spot[0], spot[1], now0 - rng.random() * frame_interval * (len(seq)-1), len(seq))
+        active.append(sp)
+        if color_codes:
+            color_for[sp] = rng.choice(color_codes)
     try:
         while not stop_event.is_set():
             now = time.monotonic()
@@ -576,7 +587,8 @@ def show_opening(wait_for_key: bool = True):
     # Default palette: white, grey, red, bright red (no yellow per spec)
     # Duplicate reds implicitly for higher spawn likelihood if user doesn't supply custom list.
     idle_colors = logo_idle_cfg.get("color_codes", ["37","90","31","31","91","91"])  # 31=red, 91=bright red
-    if idle_enabled and not skip_listener.skip_requested:
+    # Start idle ambient effects even if an earlier key was pressed to skip to the logo.
+    if idle_enabled:
         stop_idle = threading.Event()
         eyes_cfg = cfg.get("logo_idle_eyes", {})
         idle_thread = threading.Thread(
@@ -590,7 +602,9 @@ def show_opening(wait_for_key: bool = True):
 
     # Keep music playing while the logo + prompt are visible; only fade once user proceeds.
     if wait_for_key:
-        read_key()
+        # Flush any buffered keys from rapid skip presses before waiting
+        flush_input()
+        read_key()  # single decisive Enter to proceed
         if 'stop_idle' in locals() and stop_idle:
             stop_idle.set()
             time.sleep(0.12)
@@ -598,8 +612,9 @@ def show_opening(wait_for_key: bool = True):
         music.fadeout(400)
         audio.play_sfx(giratina_cry, volume=0.7)
     else:
-        # Non-interactive mode (tests) still fade promptly.
-        music.fadeout(600)
+        # Non-interactive or fully auto mode: fade music & play cry then continue
+        music.fadeout(400)
+        audio.play_sfx(giratina_cry, volume=0.7)
 
     sys.stdout.write(SHOW_CURSOR + RESET)
     sys.stdout.flush()

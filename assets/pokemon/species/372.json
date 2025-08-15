@@ -1,0 +1,122 @@
+{
+  "id": 372,
+  "name": "shelgon",
+  "generation": "3",
+  "types": [
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 100,
+    "sp_atk": 60,
+    "sp_def": 50,
+    "speed": 50
+  },
+  "base_experience": 147,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 35,
+  "egg_groups": [
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "rock-head",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "headbutt"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "rage"
+      },
+      {
+        "level": 20,
+        "name": "focus-energy"
+      },
+      {
+        "level": 25,
+        "name": "ember"
+      },
+      {
+        "level": 30,
+        "name": "protect"
+      },
+      {
+        "level": 32,
+        "name": "dragon-breath"
+      },
+      {
+        "level": 37,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 43,
+        "name": "scary-face"
+      },
+      {
+        "level": 50,
+        "name": "crunch"
+      },
+      {
+        "level": 55,
+        "name": "dragon-claw"
+      },
+      {
+        "level": 61,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "double-team",
+      "dragon-claw",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "hidden-power",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 371,
+    "next": [
+      373
+    ],
+    "root": 371,
+    "next_details": []
+  }
+}

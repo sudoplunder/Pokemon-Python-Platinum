@@ -1,0 +1,18 @@
+{
+  "name": "potion",
+  "display_name": "Potion",
+  "category": "healing",
+  "cost": 200,
+  "fling_power": 30,
+  "effect": "Used on a friendly Pok\u00e9mon\n:   Restores 20 HP.",
+  "short_effect": "Restores 20 HP.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

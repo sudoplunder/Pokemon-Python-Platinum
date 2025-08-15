@@ -1,0 +1,15 @@
+{
+  "name": "expert-belt",
+  "display_name": "Expert Belt",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 10,
+  "effect": "Held: When the holder hits with a super-effective move, its power is raised by 20%.",
+  "short_effect": "Held: Holder's Super Effective moves do 20% extra damage.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

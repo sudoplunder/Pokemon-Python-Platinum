@@ -1,0 +1,117 @@
+{
+  "id": 18,
+  "name": "pidgeot",
+  "generation": "1",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 83,
+    "attack": 80,
+    "defense": 75,
+    "sp_atk": 70,
+    "sp_def": 70,
+    "speed": 101
+  },
+  "base_experience": 216,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "keen-eye",
+    "secondary": "tangled-feet",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "gust"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 17,
+        "name": "whirlwind"
+      },
+      {
+        "level": 22,
+        "name": "twister"
+      },
+      {
+        "level": 27,
+        "name": "feather-dance"
+      },
+      {
+        "level": 27,
+        "name": "wing-attack"
+      },
+      {
+        "level": 32,
+        "name": "agility"
+      },
+      {
+        "level": 44,
+        "name": "roost"
+      },
+      {
+        "level": 50,
+        "name": "tailwind"
+      },
+      {
+        "level": 56,
+        "name": "mirror-move"
+      },
+      {
+        "level": 62,
+        "name": "air-slash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 17,
+    "next": [],
+    "root": 16,
+    "next_details": []
+  }
+}

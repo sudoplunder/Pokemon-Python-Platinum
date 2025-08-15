@@ -1,0 +1,12 @@
+{
+  "name": "data-card-05",
+  "display_name": "Data Card 05",
+  "category": "data-cards",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Records the number of times the trainer has come in first in the Pok\u00e9athlon Hurdle Dash.",
+  "short_effect": "Records the number of times the trainer has come in first in the Pok\u00e9athlon Hurdle Dash.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

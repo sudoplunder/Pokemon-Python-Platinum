@@ -1,0 +1,137 @@
+{
+  "id": 89,
+  "name": "muk",
+  "generation": "1",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 105,
+    "attack": 105,
+    "defense": 75,
+    "sp_atk": 65,
+    "sp_def": 100,
+    "speed": 50
+  },
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "stench",
+    "secondary": "sticky-hold",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "mud-slap"
+      },
+      {
+        "level": 1,
+        "name": "poison-gas"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 8,
+        "name": "disable"
+      },
+      {
+        "level": 13,
+        "name": "sludge"
+      },
+      {
+        "level": 18,
+        "name": "minimize"
+      },
+      {
+        "level": 21,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 26,
+        "name": "screech"
+      },
+      {
+        "level": 26,
+        "name": "sludge-bomb"
+      },
+      {
+        "level": 29,
+        "name": "fling"
+      },
+      {
+        "level": 34,
+        "name": "acid-armor"
+      },
+      {
+        "level": 49,
+        "name": "gunk-shot"
+      },
+      {
+        "level": 57,
+        "name": "memento"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "dig",
+      "double-team",
+      "explosion",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 88,
+    "next": [],
+    "root": 88,
+    "next_details": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "zone": "route207",
+  "methods": {
+    "grass": {
+      "base_rate": 25,
+      "slots": [
+        {"species": 66,  "min": 5, "max": 7, "weight": 40},
+        {"species": 74,  "min": 5, "max": 7, "weight": 30},
+        {"species": 77,  "min": 5, "max": 7, "weight": 20},
+        {"species": 401, "min": 4, "max": 6, "weight": 10}
+      ]
+    }
+  }
+}

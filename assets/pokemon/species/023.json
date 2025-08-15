@@ -1,0 +1,128 @@
+{
+  "id": 23,
+  "name": "ekans",
+  "generation": "1",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 60,
+    "defense": 44,
+    "sp_atk": 40,
+    "sp_def": 54,
+    "speed": 55
+  },
+  "base_experience": 58,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": "shed-skin",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "wrap"
+      },
+      {
+        "level": 4,
+        "name": "poison-sting"
+      },
+      {
+        "level": 9,
+        "name": "bite"
+      },
+      {
+        "level": 12,
+        "name": "glare"
+      },
+      {
+        "level": 17,
+        "name": "screech"
+      },
+      {
+        "level": 20,
+        "name": "acid"
+      },
+      {
+        "level": 25,
+        "name": "spit-up"
+      },
+      {
+        "level": 25,
+        "name": "stockpile"
+      },
+      {
+        "level": 25,
+        "name": "swallow"
+      },
+      {
+        "level": 33,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 36,
+        "name": "gastro-acid"
+      },
+      {
+        "level": 41,
+        "name": "haze"
+      },
+      {
+        "level": 49,
+        "name": "gunk-shot"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "iron-tail",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-tomb",
+      "secret-power",
+      "sludge-bomb",
+      "snatch",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      24
+    ],
+    "root": 23,
+    "next_details": []
+  }
+}

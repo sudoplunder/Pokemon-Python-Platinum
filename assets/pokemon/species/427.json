@@ -1,0 +1,125 @@
+{
+  "id": 427,
+  "name": "buneary",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 66,
+    "defense": 44,
+    "sp_atk": 44,
+    "sp_def": 56,
+    "speed": 85
+  },
+  "base_experience": 70,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 0,
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "run-away",
+    "secondary": "klutz",
+    "hidden": "limber"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "splash"
+      },
+      {
+        "level": 6,
+        "name": "endure"
+      },
+      {
+        "level": 13,
+        "name": "frustration"
+      },
+      {
+        "level": 16,
+        "name": "quick-attack"
+      },
+      {
+        "level": 23,
+        "name": "jump-kick"
+      },
+      {
+        "level": 26,
+        "name": "baton-pass"
+      },
+      {
+        "level": 33,
+        "name": "agility"
+      },
+      {
+        "level": 36,
+        "name": "dizzy-punch"
+      },
+      {
+        "level": 46,
+        "name": "charm"
+      },
+      {
+        "level": 56,
+        "name": "bounce"
+      },
+      {
+        "level": 63,
+        "name": "healing-wish"
+      }
+    ],
+    "machines": [
+      "attract",
+      "charge-beam",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      428
+    ],
+    "root": 427,
+    "next_details": []
+  }
+}

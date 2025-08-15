@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=240&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=200&limit=20",
+  "results": [
+    {
+      "name": "sharp-beak",
+      "url": "https://pokeapi.co/api/v2/item/221/"
+    },
+    {
+      "name": "poison-barb",
+      "url": "https://pokeapi.co/api/v2/item/222/"
+    },
+    {
+      "name": "never-melt-ice",
+      "url": "https://pokeapi.co/api/v2/item/223/"
+    },
+    {
+      "name": "spell-tag",
+      "url": "https://pokeapi.co/api/v2/item/224/"
+    },
+    {
+      "name": "twisted-spoon",
+      "url": "https://pokeapi.co/api/v2/item/225/"
+    },
+    {
+      "name": "charcoal",
+      "url": "https://pokeapi.co/api/v2/item/226/"
+    },
+    {
+      "name": "dragon-fang",
+      "url": "https://pokeapi.co/api/v2/item/227/"
+    },
+    {
+      "name": "silk-scarf",
+      "url": "https://pokeapi.co/api/v2/item/228/"
+    },
+    {
+      "name": "up-grade",
+      "url": "https://pokeapi.co/api/v2/item/229/"
+    },
+    {
+      "name": "shell-bell",
+      "url": "https://pokeapi.co/api/v2/item/230/"
+    },
+    {
+      "name": "sea-incense",
+      "url": "https://pokeapi.co/api/v2/item/231/"
+    },
+    {
+      "name": "lax-incense",
+      "url": "https://pokeapi.co/api/v2/item/232/"
+    },
+    {
+      "name": "lucky-punch",
+      "url": "https://pokeapi.co/api/v2/item/233/"
+    },
+    {
+      "name": "metal-powder",
+      "url": "https://pokeapi.co/api/v2/item/234/"
+    },
+    {
+      "name": "thick-club",
+      "url": "https://pokeapi.co/api/v2/item/235/"
+    },
+    {
+      "name": "stick",
+      "url": "https://pokeapi.co/api/v2/item/236/"
+    },
+    {
+      "name": "red-scarf",
+      "url": "https://pokeapi.co/api/v2/item/237/"
+    },
+    {
+      "name": "blue-scarf",
+      "url": "https://pokeapi.co/api/v2/item/238/"
+    },
+    {
+      "name": "pink-scarf",
+      "url": "https://pokeapi.co/api/v2/item/239/"
+    },
+    {
+      "name": "green-scarf",
+      "url": "https://pokeapi.co/api/v2/item/240/"
+    }
+  ]
+}

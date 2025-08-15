@@ -1,0 +1,130 @@
+{
+  "id": 262,
+  "name": "mightyena",
+  "generation": "3",
+  "types": [
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 90,
+    "defense": 70,
+    "sp_atk": 60,
+    "sp_def": 60,
+    "speed": 70
+  },
+  "base_experience": 147,
+  "growth_rate": "medium",
+  "capture_rate": 127,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": "quick-feet",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "howl"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 17,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 22,
+        "name": "roar"
+      },
+      {
+        "level": 27,
+        "name": "swagger"
+      },
+      {
+        "level": 32,
+        "name": "assurance"
+      },
+      {
+        "level": 32,
+        "name": "scary-face"
+      },
+      {
+        "level": 37,
+        "name": "take-down"
+      },
+      {
+        "level": 42,
+        "name": "taunt"
+      },
+      {
+        "level": 47,
+        "name": "crunch"
+      },
+      {
+        "level": 47,
+        "name": "embargo"
+      },
+      {
+        "level": 52,
+        "name": "thief"
+      },
+      {
+        "level": 62,
+        "name": "sucker-punch"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "embargo",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "snatch",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 261,
+    "next": [],
+    "root": 261,
+    "next_details": []
+  }
+}

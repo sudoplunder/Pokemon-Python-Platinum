@@ -1,0 +1,108 @@
+{
+  "id": 267,
+  "name": "beautifly",
+  "generation": "3",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 50,
+    "sp_atk": 100,
+    "sp_def": 50,
+    "speed": 65
+  },
+  "base_experience": 178,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swarm",
+    "secondary": null,
+    "hidden": "rivalry"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 13,
+        "name": "gust"
+      },
+      {
+        "level": 17,
+        "name": "stun-spore"
+      },
+      {
+        "level": 20,
+        "name": "morning-sun"
+      },
+      {
+        "level": 24,
+        "name": "mega-drain"
+      },
+      {
+        "level": 27,
+        "name": "whirlwind"
+      },
+      {
+        "level": 31,
+        "name": "attract"
+      },
+      {
+        "level": 34,
+        "name": "silver-wind"
+      },
+      {
+        "level": 38,
+        "name": "giga-drain"
+      },
+      {
+        "level": 41,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "psychic",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 266,
+    "next": [],
+    "root": 265,
+    "next_details": []
+  }
+}

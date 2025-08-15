@@ -1,0 +1,45 @@
+{
+  "id": 201,
+  "name": "unown",
+  "generation": "2",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 72,
+    "defense": 48,
+    "sp_atk": 72,
+    "sp_def": 48,
+    "speed": 48
+  },
+  "base_experience": 118,
+  "growth_rate": "medium",
+  "capture_rate": 225,
+  "gender_rate": -1,
+  "hatch_cycles": 40,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "hidden-power"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 201,
+    "next_details": []
+  }
+}

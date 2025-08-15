@@ -1,0 +1,139 @@
+{
+  "id": 200,
+  "name": "misdreavus",
+  "generation": "2",
+  "types": [
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "sp_atk": 85,
+    "sp_def": 85,
+    "speed": 85
+  },
+  "base_experience": 87,
+  "growth_rate": "fast",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 35,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "psywave"
+      },
+      {
+        "level": 5,
+        "name": "spite"
+      },
+      {
+        "level": 10,
+        "name": "astonish"
+      },
+      {
+        "level": 14,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 19,
+        "name": "mean-look"
+      },
+      {
+        "level": 28,
+        "name": "psybeam"
+      },
+      {
+        "level": 32,
+        "name": "pain-split"
+      },
+      {
+        "level": 37,
+        "name": "payback"
+      },
+      {
+        "level": 41,
+        "name": "shadow-ball"
+      },
+      {
+        "level": 45,
+        "name": "perish-song"
+      },
+      {
+        "level": 50,
+        "name": "grudge"
+      },
+      {
+        "level": 55,
+        "name": "power-gem"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "flash",
+      "frustration",
+      "hidden-power",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      429
+    ],
+    "root": 200,
+    "next_details": [
+      {
+        "id": 429,
+        "trigger": "item",
+        "conditions": {
+          "item": "dusk-stone"
+        }
+      }
+    ]
+  }
+}

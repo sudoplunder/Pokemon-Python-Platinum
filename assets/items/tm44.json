@@ -1,0 +1,12 @@
+{
+  "name": "tm44",
+  "display_name": "Tm44",
+  "category": "all-machines",
+  "cost": 100000,
+  "fling_power": null,
+  "effect": "Teaches Rest to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Rest to a compatible Pok\u00e9mon.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

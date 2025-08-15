@@ -1,0 +1,121 @@
+{
+  "id": 450,
+  "name": "hippowdon",
+  "generation": "4",
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 108,
+    "attack": 112,
+    "defense": 118,
+    "sp_atk": 68,
+    "sp_def": 72,
+    "speed": 47
+  },
+  "base_experience": 184,
+  "growth_rate": "slow",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "sand-stream",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "ice-fang"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 1,
+        "name": "yawn"
+      },
+      {
+        "level": 19,
+        "name": "dig"
+      },
+      {
+        "level": 19,
+        "name": "take-down"
+      },
+      {
+        "level": 25,
+        "name": "sand-tomb"
+      },
+      {
+        "level": 31,
+        "name": "crunch"
+      },
+      {
+        "level": 40,
+        "name": "earthquake"
+      },
+      {
+        "level": 50,
+        "name": "double-edge"
+      },
+      {
+        "level": 60,
+        "name": "fissure"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 449,
+    "next": [],
+    "root": 449,
+    "next_details": []
+  }
+}

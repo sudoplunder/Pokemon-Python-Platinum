@@ -1,0 +1,125 @@
+{
+  "id": 411,
+  "name": "bastiodon",
+  "generation": "4",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 52,
+    "defense": 168,
+    "sp_atk": 47,
+    "sp_def": 138,
+    "speed": 30
+  },
+  "base_experience": 173,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "sturdy",
+    "secondary": null,
+    "hidden": "soundproof"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "metal-sound"
+      },
+      {
+        "level": 1,
+        "name": "protect"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "taunt"
+      },
+      {
+        "level": 15,
+        "name": "take-down"
+      },
+      {
+        "level": 19,
+        "name": "iron-defense"
+      },
+      {
+        "level": 24,
+        "name": "swagger"
+      },
+      {
+        "level": 28,
+        "name": "ancient-power"
+      },
+      {
+        "level": 30,
+        "name": "block"
+      },
+      {
+        "level": 36,
+        "name": "endure"
+      },
+      {
+        "level": 43,
+        "name": "metal-burst"
+      },
+      {
+        "level": 51,
+        "name": "iron-head"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash-cannon",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thunder",
+      "thunderbolt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 410,
+    "next": [],
+    "root": 410,
+    "next_details": []
+  }
+}

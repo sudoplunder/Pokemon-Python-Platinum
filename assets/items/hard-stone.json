@@ -1,0 +1,16 @@
+{
+  "name": "hard-stone",
+  "display_name": "Hard Stone",
+  "category": "type-enhancement",
+  "cost": 1000,
+  "fling_power": 100,
+  "effect": "Held: Increases the power of the holder's Rock moves by 20%.",
+  "short_effect": "Held: Rock-Type moves from holder do 20% more damage.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active",
+    "underground"
+  ]
+}

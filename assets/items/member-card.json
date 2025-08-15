@@ -1,0 +1,12 @@
+{
+  "name": "member-card",
+  "display_name": "Member Card",
+  "category": "event-items",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Provides access to Newmoon Island and Darkrai.",
+  "short_effect": "Allows access to Newmoon Island and Darkrai.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

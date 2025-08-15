@@ -1,0 +1,128 @@
+{
+  "id": 146,
+  "name": "moltres",
+  "generation": "1",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "sp_atk": 125,
+    "sp_def": 85,
+    "speed": 90
+  },
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 80,
+  "base_friendship": 35,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": "flame-body"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "wing-attack"
+      },
+      {
+        "level": 8,
+        "name": "fire-spin"
+      },
+      {
+        "level": 15,
+        "name": "agility"
+      },
+      {
+        "level": 22,
+        "name": "endure"
+      },
+      {
+        "level": 29,
+        "name": "ancient-power"
+      },
+      {
+        "level": 36,
+        "name": "flamethrower"
+      },
+      {
+        "level": 43,
+        "name": "safeguard"
+      },
+      {
+        "level": 50,
+        "name": "air-slash"
+      },
+      {
+        "level": 57,
+        "name": "roost"
+      },
+      {
+        "level": 64,
+        "name": "heat-wave"
+      },
+      {
+        "level": 71,
+        "name": "solar-beam"
+      },
+      {
+        "level": 78,
+        "name": "sky-attack"
+      },
+      {
+        "level": 85,
+        "name": "sunny-day"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "overheat",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "solar-beam",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "u-turn",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 146,
+    "next_details": []
+  }
+}

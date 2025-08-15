@@ -1,0 +1,127 @@
+{
+  "id": 263,
+  "name": "zigzagoon",
+  "generation": "3",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 30,
+    "defense": 41,
+    "sp_atk": 30,
+    "sp_def": 41,
+    "speed": 60
+  },
+  "base_experience": 56,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "pickup",
+    "secondary": "gluttony",
+    "hidden": "quick-feet"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "tail-whip"
+      },
+      {
+        "level": 9,
+        "name": "headbutt"
+      },
+      {
+        "level": 13,
+        "name": "sand-attack"
+      },
+      {
+        "level": 17,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 21,
+        "name": "mud-sport"
+      },
+      {
+        "level": 25,
+        "name": "pin-missile"
+      },
+      {
+        "level": 29,
+        "name": "covet"
+      },
+      {
+        "level": 33,
+        "name": "flail"
+      },
+      {
+        "level": 37,
+        "name": "rest"
+      },
+      {
+        "level": 41,
+        "name": "belly-drum"
+      },
+      {
+        "level": 49,
+        "name": "fling"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "charge-beam",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      264
+    ],
+    "root": 263,
+    "next_details": []
+  }
+}

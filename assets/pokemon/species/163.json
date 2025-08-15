@@ -1,0 +1,130 @@
+{
+  "id": 163,
+  "name": "hoothoot",
+  "generation": "2",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 30,
+    "defense": 30,
+    "sp_atk": 36,
+    "sp_def": 56,
+    "speed": 50
+  },
+  "base_experience": 52,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "insomnia",
+    "secondary": "keen-eye",
+    "hidden": "tinted-lens"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "hypnosis"
+      },
+      {
+        "level": 9,
+        "name": "peck"
+      },
+      {
+        "level": 13,
+        "name": "uproar"
+      },
+      {
+        "level": 17,
+        "name": "reflect"
+      },
+      {
+        "level": 21,
+        "name": "confusion"
+      },
+      {
+        "level": 28,
+        "name": "take-down"
+      },
+      {
+        "level": 33,
+        "name": "air-slash"
+      },
+      {
+        "level": 37,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 45,
+        "name": "extrasensory"
+      },
+      {
+        "level": 48,
+        "name": "dream-eater"
+      },
+      {
+        "level": 49,
+        "name": "psycho-shift"
+      },
+      {
+        "level": 53,
+        "name": "roost"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "pluck",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      164
+    ],
+    "root": 163,
+    "next_details": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "eon-ticket",
+  "display_name": "Eon Ticket",
+  "category": "event-items",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Provides access to southern island and either latias or latios, whichever is not available roaming around Hoenn.",
+  "short_effect": "Provides access to Southern Island and Latias or Latios.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

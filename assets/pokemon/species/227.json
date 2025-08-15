@@ -1,0 +1,130 @@
+{
+  "id": 227,
+  "name": "skarmory",
+  "generation": "2",
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 80,
+    "defense": 140,
+    "sp_atk": 40,
+    "sp_def": 70,
+    "speed": 70
+  },
+  "base_experience": 163,
+  "growth_rate": "slow",
+  "capture_rate": 25,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "keen-eye",
+    "secondary": "sturdy",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 6,
+        "name": "sand-attack"
+      },
+      {
+        "level": 9,
+        "name": "swift"
+      },
+      {
+        "level": 12,
+        "name": "agility"
+      },
+      {
+        "level": 17,
+        "name": "fury-attack"
+      },
+      {
+        "level": 20,
+        "name": "feint"
+      },
+      {
+        "level": 23,
+        "name": "air-cutter"
+      },
+      {
+        "level": 28,
+        "name": "spikes"
+      },
+      {
+        "level": 31,
+        "name": "metal-sound"
+      },
+      {
+        "level": 32,
+        "name": "steel-wing"
+      },
+      {
+        "level": 42,
+        "name": "air-slash"
+      },
+      {
+        "level": 45,
+        "name": "slash"
+      },
+      {
+        "level": 50,
+        "name": "night-slash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "cut",
+      "double-team",
+      "facade",
+      "flash",
+      "flash-cannon",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "payback",
+      "pluck",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 227,
+    "next_details": []
+  }
+}

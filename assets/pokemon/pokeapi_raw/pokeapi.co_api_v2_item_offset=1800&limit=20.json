@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1820&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1780&limit=20",
+  "results": [
+    {
+      "name": "axew-scales",
+      "url": "https://pokeapi.co/api/v2/item/1852/"
+    },
+    {
+      "name": "cubchoo-fur",
+      "url": "https://pokeapi.co/api/v2/item/1853/"
+    },
+    {
+      "name": "cryogonal-ice",
+      "url": "https://pokeapi.co/api/v2/item/1854/"
+    },
+    {
+      "name": "pawniard-blade",
+      "url": "https://pokeapi.co/api/v2/item/1855/"
+    },
+    {
+      "name": "rufflet-feather",
+      "url": "https://pokeapi.co/api/v2/item/1856/"
+    },
+    {
+      "name": "deino-scales",
+      "url": "https://pokeapi.co/api/v2/item/1857/"
+    },
+    {
+      "name": "larvesta-fuzz",
+      "url": "https://pokeapi.co/api/v2/item/1858/"
+    },
+    {
+      "name": "fletchling-feather",
+      "url": "https://pokeapi.co/api/v2/item/1859/"
+    },
+    {
+      "name": "scatterbug-powder",
+      "url": "https://pokeapi.co/api/v2/item/1860/"
+    },
+    {
+      "name": "litleo-tuft",
+      "url": "https://pokeapi.co/api/v2/item/1861/"
+    },
+    {
+      "name": "flab\u00e9b\u00e9-pollen",
+      "url": "https://pokeapi.co/api/v2/item/1862/"
+    },
+    {
+      "name": "skiddo-leaf",
+      "url": "https://pokeapi.co/api/v2/item/1863/"
+    },
+    {
+      "name": "skrelp-kelp",
+      "url": "https://pokeapi.co/api/v2/item/1864/"
+    },
+    {
+      "name": "clauncher-claw",
+      "url": "https://pokeapi.co/api/v2/item/1865/"
+    },
+    {
+      "name": "hawlucha-down",
+      "url": "https://pokeapi.co/api/v2/item/1866/"
+    },
+    {
+      "name": "dedenne-fur",
+      "url": "https://pokeapi.co/api/v2/item/1867/"
+    },
+    {
+      "name": "goomy-goo",
+      "url": "https://pokeapi.co/api/v2/item/1868/"
+    },
+    {
+      "name": "klefki-key",
+      "url": "https://pokeapi.co/api/v2/item/1869/"
+    },
+    {
+      "name": "bergmite-ice",
+      "url": "https://pokeapi.co/api/v2/item/1870/"
+    },
+    {
+      "name": "noibat-fur",
+      "url": "https://pokeapi.co/api/v2/item/1871/"
+    }
+  ]
+}

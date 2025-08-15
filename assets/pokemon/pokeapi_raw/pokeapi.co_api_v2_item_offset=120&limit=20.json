@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=140&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=100&limit=20",
+  "results": [
+    {
+      "name": "snow-mail",
+      "url": "https://pokeapi.co/api/v2/item/121/"
+    },
+    {
+      "name": "space-mail",
+      "url": "https://pokeapi.co/api/v2/item/122/"
+    },
+    {
+      "name": "air-mail",
+      "url": "https://pokeapi.co/api/v2/item/123/"
+    },
+    {
+      "name": "mosaic-mail",
+      "url": "https://pokeapi.co/api/v2/item/124/"
+    },
+    {
+      "name": "brick-mail",
+      "url": "https://pokeapi.co/api/v2/item/125/"
+    },
+    {
+      "name": "cheri-berry",
+      "url": "https://pokeapi.co/api/v2/item/126/"
+    },
+    {
+      "name": "chesto-berry",
+      "url": "https://pokeapi.co/api/v2/item/127/"
+    },
+    {
+      "name": "pecha-berry",
+      "url": "https://pokeapi.co/api/v2/item/128/"
+    },
+    {
+      "name": "rawst-berry",
+      "url": "https://pokeapi.co/api/v2/item/129/"
+    },
+    {
+      "name": "aspear-berry",
+      "url": "https://pokeapi.co/api/v2/item/130/"
+    },
+    {
+      "name": "leppa-berry",
+      "url": "https://pokeapi.co/api/v2/item/131/"
+    },
+    {
+      "name": "oran-berry",
+      "url": "https://pokeapi.co/api/v2/item/132/"
+    },
+    {
+      "name": "persim-berry",
+      "url": "https://pokeapi.co/api/v2/item/133/"
+    },
+    {
+      "name": "lum-berry",
+      "url": "https://pokeapi.co/api/v2/item/134/"
+    },
+    {
+      "name": "sitrus-berry",
+      "url": "https://pokeapi.co/api/v2/item/135/"
+    },
+    {
+      "name": "figy-berry",
+      "url": "https://pokeapi.co/api/v2/item/136/"
+    },
+    {
+      "name": "wiki-berry",
+      "url": "https://pokeapi.co/api/v2/item/137/"
+    },
+    {
+      "name": "mago-berry",
+      "url": "https://pokeapi.co/api/v2/item/138/"
+    },
+    {
+      "name": "aguav-berry",
+      "url": "https://pokeapi.co/api/v2/item/139/"
+    },
+    {
+      "name": "iapapa-berry",
+      "url": "https://pokeapi.co/api/v2/item/140/"
+    }
+  ]
+}

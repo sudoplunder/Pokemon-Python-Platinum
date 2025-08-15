@@ -1,0 +1,12 @@
+{
+  "name": "contest-pass",
+  "display_name": "Contest Pass",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Allows the trainer to enter Contests.",
+  "short_effect": "Allows participation in Pok\u00e9mon Contests.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

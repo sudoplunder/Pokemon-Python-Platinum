@@ -1,0 +1,144 @@
+{
+  "id": 57,
+  "name": "primeape",
+  "generation": "1",
+  "types": [
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 105,
+    "defense": 60,
+    "sp_atk": 60,
+    "sp_def": 70,
+    "speed": 95
+  },
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "vital-spirit",
+    "secondary": "anger-point",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fling"
+      },
+      {
+        "level": 1,
+        "name": "focus-energy"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "low-kick"
+      },
+      {
+        "level": 1,
+        "name": "rage"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 9,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 13,
+        "name": "karate-chop"
+      },
+      {
+        "level": 17,
+        "name": "seismic-toss"
+      },
+      {
+        "level": 21,
+        "name": "screech"
+      },
+      {
+        "level": 25,
+        "name": "assurance"
+      },
+      {
+        "level": 35,
+        "name": "swagger"
+      },
+      {
+        "level": 41,
+        "name": "cross-chop"
+      },
+      {
+        "level": 47,
+        "name": "thrash"
+      },
+      {
+        "level": 53,
+        "name": "punishment"
+      },
+      {
+        "level": 59,
+        "name": "close-combat"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "overheat",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 56,
+    "next": [],
+    "root": 56,
+    "next_details": []
+  }
+}

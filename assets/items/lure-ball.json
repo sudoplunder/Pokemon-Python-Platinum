@@ -1,0 +1,12 @@
+{
+  "name": "lure-ball",
+  "display_name": "Lure Ball",
+  "category": "apricorn-balls",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the wild Pok\u00e9mon was encountered by fishing, the wild Pok\u00e9mon's catch rate is 3\u00d7 normal.",
+  "short_effect": "3\u00d7 effectiveness while fishing. Made from Blu Apricorn.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

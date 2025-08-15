@@ -1,0 +1,15 @@
+{
+  "id": 40,
+  "item": {
+    "name": "tm02",
+    "url": "https://pokeapi.co/api/v2/item/306/"
+  },
+  "move": {
+    "name": "taunt",
+    "url": "https://pokeapi.co/api/v2/move/269/"
+  },
+  "version_group": {
+    "name": "lets-go-pikachu-lets-go-eevee",
+    "url": "https://pokeapi.co/api/v2/version-group/19/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": 380,
+  "item": {
+    "name": "tm19",
+    "url": "https://pokeapi.co/api/v2/item/323/"
+  },
+  "move": {
+    "name": "iron-tail",
+    "url": "https://pokeapi.co/api/v2/move/231/"
+  },
+  "version_group": {
+    "name": "lets-go-pikachu-lets-go-eevee",
+    "url": "https://pokeapi.co/api/v2/version-group/19/"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "heal-block",
+  "display_name": "Heal Block",
+  "type": "psychic",
+  "category": "status",
+  "power": null,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "generation": 4,
+  "crit_rate_stage": 0,
+  "targets": "all-opponents",
+  "short_effect": "Prevents target from restoring its HP for five turns.",
+  "effect": "For the next five turns, the target may not use any moves that only restore HP, and move effects that heal the target are disabled.  Moves that steal HP may still be used, but will only inflict damage and not heal the target.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    5,
+    5
+  ],
+  "flinch_chance": 0,
+  "ailment": "heal-block",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

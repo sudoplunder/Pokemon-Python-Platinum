@@ -1,0 +1,111 @@
+{
+  "id": 441,
+  "name": "chatot",
+  "generation": "4",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 76,
+    "attack": 65,
+    "defense": 45,
+    "sp_atk": 92,
+    "sp_def": 42,
+    "speed": 91
+  },
+  "base_experience": 144,
+  "growth_rate": "medium-slow",
+  "capture_rate": 30,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "keen-eye",
+    "secondary": "tangled-feet",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 5,
+        "name": "growl"
+      },
+      {
+        "level": 9,
+        "name": "mirror-move"
+      },
+      {
+        "level": 13,
+        "name": "sing"
+      },
+      {
+        "level": 17,
+        "name": "fury-attack"
+      },
+      {
+        "level": 21,
+        "name": "chatter"
+      },
+      {
+        "level": 25,
+        "name": "taunt"
+      },
+      {
+        "level": 33,
+        "name": "mimic"
+      },
+      {
+        "level": 41,
+        "name": "roost"
+      },
+      {
+        "level": 45,
+        "name": "uproar"
+      },
+      {
+        "level": 53,
+        "name": "feather-dance"
+      },
+      {
+        "level": 57,
+        "name": "hyper-voice"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 441,
+    "next_details": []
+  }
+}

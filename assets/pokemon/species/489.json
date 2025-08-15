@@ -1,0 +1,109 @@
+{
+  "id": 489,
+  "name": "phione",
+  "generation": "4",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "sp_atk": 80,
+    "sp_def": 80,
+    "speed": 80
+  },
+  "base_experience": 216,
+  "growth_rate": "slow",
+  "capture_rate": 30,
+  "gender_rate": -1,
+  "hatch_cycles": 40,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "hydration",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "water-sport"
+      },
+      {
+        "level": 9,
+        "name": "charm"
+      },
+      {
+        "level": 16,
+        "name": "supersonic"
+      },
+      {
+        "level": 24,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 31,
+        "name": "acid-armor"
+      },
+      {
+        "level": 39,
+        "name": "whirlpool"
+      },
+      {
+        "level": 46,
+        "name": "water-pulse"
+      },
+      {
+        "level": 54,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 61,
+        "name": "dive"
+      },
+      {
+        "level": 69,
+        "name": "rain-dance"
+      }
+    ],
+    "machines": [
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "u-turn",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 489,
+    "next_details": []
+  }
+}

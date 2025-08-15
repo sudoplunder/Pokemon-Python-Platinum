@@ -1,0 +1,127 @@
+{
+  "id": 219,
+  "name": "magcargo",
+  "generation": "2",
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 120,
+    "sp_atk": 90,
+    "sp_def": 80,
+    "speed": 30
+  },
+  "base_experience": 151,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "magma-armor",
+    "secondary": "flame-body",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "rock-throw"
+      },
+      {
+        "level": 1,
+        "name": "smog"
+      },
+      {
+        "level": 1,
+        "name": "yawn"
+      },
+      {
+        "level": 14,
+        "name": "harden"
+      },
+      {
+        "level": 19,
+        "name": "recover"
+      },
+      {
+        "level": 28,
+        "name": "ancient-power"
+      },
+      {
+        "level": 29,
+        "name": "amnesia"
+      },
+      {
+        "level": 36,
+        "name": "flamethrower"
+      },
+      {
+        "level": 37,
+        "name": "lava-plume"
+      },
+      {
+        "level": 44,
+        "name": "rock-slide"
+      },
+      {
+        "level": 52,
+        "name": "body-slam"
+      },
+      {
+        "level": 67,
+        "name": "earth-power"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "overheat",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 218,
+    "next": [],
+    "root": 218,
+    "next_details": []
+  }
+}

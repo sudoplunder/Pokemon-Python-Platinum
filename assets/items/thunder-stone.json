@@ -1,0 +1,14 @@
+{
+  "name": "thunder-stone",
+  "display_name": "Thunder Stone",
+  "category": "evolution",
+  "cost": 3000,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Evolves an eelektrik into eelektross, an eevee into jolteon, or a pikachu into raichu.",
+  "short_effect": "Evolves an Eelektrik into Eelektross, an Eevee into Jolteon, or a Pikachu into Raichu.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "underground"
+  ]
+}

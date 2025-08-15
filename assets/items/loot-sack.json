@@ -1,0 +1,12 @@
+{
+  "name": "loot-sack",
+  "display_name": "Loot Sack",
+  "category": "unused",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Unused.",
+  "short_effect": "Carries coal mine loot.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

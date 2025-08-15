@@ -1,0 +1,12 @@
+{
+  "name": "stable-mulch",
+  "display_name": "Stable Mulch",
+  "category": "mulch",
+  "cost": 200,
+  "fling_power": 30,
+  "effect": "Used on a patch of soil\n:   Fully-grown plant will last 25% longer before dying and possibly regrowing.",
+  "short_effect": "Berries stay on the plant for longer than their usual time.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

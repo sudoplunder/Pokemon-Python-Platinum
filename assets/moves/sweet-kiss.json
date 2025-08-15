@@ -1,0 +1,42 @@
+{
+  "name": "sweet-kiss",
+  "display_name": "Sweet Kiss",
+  "type": "fairy",
+  "category": "status",
+  "power": null,
+  "accuracy": 75,
+  "pp": 10,
+  "priority": 0,
+  "generation": 2,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Confuses the target.",
+  "effect": "Confuses the target.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    2,
+    5
+  ],
+  "flinch_chance": 0,
+  "ailment": "confusion",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

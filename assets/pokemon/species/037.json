@@ -1,0 +1,132 @@
+{
+  "id": 37,
+  "name": "vulpix",
+  "generation": "1",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "sp_atk": 50,
+    "sp_def": 65,
+    "speed": 65
+  },
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 6,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "flash-fire",
+    "secondary": null,
+    "hidden": "drought"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 4,
+        "name": "tail-whip"
+      },
+      {
+        "level": 7,
+        "name": "roar"
+      },
+      {
+        "level": 10,
+        "name": "quick-attack"
+      },
+      {
+        "level": 12,
+        "name": "fire-spin"
+      },
+      {
+        "level": 15,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 17,
+        "name": "will-o-wisp"
+      },
+      {
+        "level": 18,
+        "name": "imprison"
+      },
+      {
+        "level": 20,
+        "name": "feint-attack"
+      },
+      {
+        "level": 29,
+        "name": "flamethrower"
+      },
+      {
+        "level": 31,
+        "name": "payback"
+      },
+      {
+        "level": 33,
+        "name": "safeguard"
+      },
+      {
+        "level": 37,
+        "name": "grudge"
+      },
+      {
+        "level": 39,
+        "name": "extrasensory"
+      },
+      {
+        "level": 42,
+        "name": "fire-blast"
+      },
+      {
+        "level": 47,
+        "name": "captivate"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "hidden-power",
+      "iron-tail",
+      "overheat",
+      "payback",
+      "protect",
+      "psych-up",
+      "rest",
+      "return",
+      "roar",
+      "safeguard",
+      "secret-power",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      38
+    ],
+    "root": 37,
+    "next_details": []
+  }
+}

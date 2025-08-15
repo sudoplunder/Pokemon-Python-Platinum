@@ -1,0 +1,117 @@
+{
+  "id": 17,
+  "name": "pidgeotto",
+  "generation": "1",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 63,
+    "attack": 60,
+    "defense": 55,
+    "sp_atk": 50,
+    "sp_def": 50,
+    "speed": 71
+  },
+  "base_experience": 122,
+  "growth_rate": "medium-slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "keen-eye",
+    "secondary": "tangled-feet",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "gust"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 13,
+        "name": "quick-attack"
+      },
+      {
+        "level": 17,
+        "name": "whirlwind"
+      },
+      {
+        "level": 22,
+        "name": "twister"
+      },
+      {
+        "level": 27,
+        "name": "feather-dance"
+      },
+      {
+        "level": 27,
+        "name": "wing-attack"
+      },
+      {
+        "level": 32,
+        "name": "agility"
+      },
+      {
+        "level": 42,
+        "name": "roost"
+      },
+      {
+        "level": 47,
+        "name": "tailwind"
+      },
+      {
+        "level": 52,
+        "name": "mirror-move"
+      },
+      {
+        "level": 57,
+        "name": "air-slash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 16,
+    "next": [
+      18
+    ],
+    "root": 16,
+    "next_details": []
+  }
+}

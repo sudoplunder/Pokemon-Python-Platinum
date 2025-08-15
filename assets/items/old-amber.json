@@ -1,0 +1,14 @@
+{
+  "name": "old-amber",
+  "display_name": "Old Amber",
+  "category": "dex-completion",
+  "cost": 10000,
+  "fling_power": 100,
+  "effect": "Give to a scientist in the mining museum in oreburgh city or the Museum of Science in pewter city to receive an aerodactyl.",
+  "short_effect": "Can be revived into an Aerodactyl.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "underground"
+  ]
+}

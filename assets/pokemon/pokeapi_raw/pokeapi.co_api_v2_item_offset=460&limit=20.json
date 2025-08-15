@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=480&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=440&limit=20",
+  "results": [
+    {
+      "name": "green-apricorn",
+      "url": "https://pokeapi.co/api/v2/item/461/"
+    },
+    {
+      "name": "pink-apricorn",
+      "url": "https://pokeapi.co/api/v2/item/462/"
+    },
+    {
+      "name": "white-apricorn",
+      "url": "https://pokeapi.co/api/v2/item/463/"
+    },
+    {
+      "name": "black-apricorn",
+      "url": "https://pokeapi.co/api/v2/item/464/"
+    },
+    {
+      "name": "dowsing-machine",
+      "url": "https://pokeapi.co/api/v2/item/465/"
+    },
+    {
+      "name": "rage-candy-bar",
+      "url": "https://pokeapi.co/api/v2/item/466/"
+    },
+    {
+      "name": "red-orb",
+      "url": "https://pokeapi.co/api/v2/item/467/"
+    },
+    {
+      "name": "blue-orb",
+      "url": "https://pokeapi.co/api/v2/item/468/"
+    },
+    {
+      "name": "jade-orb",
+      "url": "https://pokeapi.co/api/v2/item/469/"
+    },
+    {
+      "name": "enigma-stone",
+      "url": "https://pokeapi.co/api/v2/item/470/"
+    },
+    {
+      "name": "unown-report",
+      "url": "https://pokeapi.co/api/v2/item/471/"
+    },
+    {
+      "name": "blue-card",
+      "url": "https://pokeapi.co/api/v2/item/472/"
+    },
+    {
+      "name": "slowpoke-tail",
+      "url": "https://pokeapi.co/api/v2/item/473/"
+    },
+    {
+      "name": "clear-bell",
+      "url": "https://pokeapi.co/api/v2/item/474/"
+    },
+    {
+      "name": "card-key",
+      "url": "https://pokeapi.co/api/v2/item/475/"
+    },
+    {
+      "name": "basement-key",
+      "url": "https://pokeapi.co/api/v2/item/476/"
+    },
+    {
+      "name": "red-scale",
+      "url": "https://pokeapi.co/api/v2/item/477/"
+    },
+    {
+      "name": "lost-item",
+      "url": "https://pokeapi.co/api/v2/item/478/"
+    },
+    {
+      "name": "pass",
+      "url": "https://pokeapi.co/api/v2/item/479/"
+    },
+    {
+      "name": "machine-part",
+      "url": "https://pokeapi.co/api/v2/item/480/"
+    }
+  ]
+}

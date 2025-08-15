@@ -1,0 +1,8 @@
+{
+  "name": "thick-fat",
+  "display_name": "Thick Fat",
+  "generation": 3,
+  "short_effect": "Halves damage from fire and ice moves.",
+  "effect": "This Pok\u00e9mon takes half as much damage from fire- and ice-type moves.",
+  "is_gen4_or_prior": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "honey",
+  "display_name": "Honey",
+  "category": "dex-completion",
+  "cost": 900,
+  "fling_power": 30,
+  "effect": "Used outside of battle\n:   Immediately triggers a wild Pok\u00e9mon battle, as long as the trainer is somewhere with wild Pok\u00e9mon\u2014i.e., in tall grass, in a cave, or surfing.\n\nCan be smeared on sweet-smelling trees to attract tree-dwelling Pok\u00e9mon after six hours.",
+  "short_effect": "",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

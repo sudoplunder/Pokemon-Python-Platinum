@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=880&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=840&limit=20",
+  "results": [
+    {
+      "name": "grass-memory",
+      "url": "https://pokeapi.co/api/v2/item/912/"
+    },
+    {
+      "name": "electric-memory",
+      "url": "https://pokeapi.co/api/v2/item/913/"
+    },
+    {
+      "name": "psychic-memory",
+      "url": "https://pokeapi.co/api/v2/item/914/"
+    },
+    {
+      "name": "ice-memory",
+      "url": "https://pokeapi.co/api/v2/item/915/"
+    },
+    {
+      "name": "dragon-memory",
+      "url": "https://pokeapi.co/api/v2/item/916/"
+    },
+    {
+      "name": "dark-memory",
+      "url": "https://pokeapi.co/api/v2/item/917/"
+    },
+    {
+      "name": "fairy-memory",
+      "url": "https://pokeapi.co/api/v2/item/918/"
+    },
+    {
+      "name": "bike--green",
+      "url": "https://pokeapi.co/api/v2/item/919/"
+    },
+    {
+      "name": "storage-key--galactic-warehouse",
+      "url": "https://pokeapi.co/api/v2/item/920/"
+    },
+    {
+      "name": "basement-key--goldenrod",
+      "url": "https://pokeapi.co/api/v2/item/921/"
+    },
+    {
+      "name": "xtransceiver--red",
+      "url": "https://pokeapi.co/api/v2/item/922/"
+    },
+    {
+      "name": "xtransceiver--yellow",
+      "url": "https://pokeapi.co/api/v2/item/923/"
+    },
+    {
+      "name": "dna-splicers--merge",
+      "url": "https://pokeapi.co/api/v2/item/924/"
+    },
+    {
+      "name": "dna-splicers--split",
+      "url": "https://pokeapi.co/api/v2/item/925/"
+    },
+    {
+      "name": "dropped-item--red",
+      "url": "https://pokeapi.co/api/v2/item/926/"
+    },
+    {
+      "name": "dropped-item--yellow",
+      "url": "https://pokeapi.co/api/v2/item/927/"
+    },
+    {
+      "name": "holo-caster--green",
+      "url": "https://pokeapi.co/api/v2/item/928/"
+    },
+    {
+      "name": "bike--yellow",
+      "url": "https://pokeapi.co/api/v2/item/929/"
+    },
+    {
+      "name": "holo-caster--red",
+      "url": "https://pokeapi.co/api/v2/item/930/"
+    },
+    {
+      "name": "basement-key--new-mauville",
+      "url": "https://pokeapi.co/api/v2/item/931/"
+    }
+  ]
+}

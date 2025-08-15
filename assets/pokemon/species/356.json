@@ -1,0 +1,162 @@
+{
+  "id": 356,
+  "name": "dusclops",
+  "generation": "3",
+  "types": [
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 70,
+    "defense": 130,
+    "sp_atk": 60,
+    "sp_def": 130,
+    "speed": 25
+  },
+  "base_experience": 159,
+  "growth_rate": "fast",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 35,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": "frisk"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bind"
+      },
+      {
+        "level": 1,
+        "name": "disable"
+      },
+      {
+        "level": 1,
+        "name": "fire-punch"
+      },
+      {
+        "level": 1,
+        "name": "gravity"
+      },
+      {
+        "level": 1,
+        "name": "ice-punch"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "night-shade"
+      },
+      {
+        "level": 1,
+        "name": "thunder-punch"
+      },
+      {
+        "level": 9,
+        "name": "foresight"
+      },
+      {
+        "level": 14,
+        "name": "astonish"
+      },
+      {
+        "level": 17,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 22,
+        "name": "shadow-sneak"
+      },
+      {
+        "level": 25,
+        "name": "pursuit"
+      },
+      {
+        "level": 30,
+        "name": "curse"
+      },
+      {
+        "level": 33,
+        "name": "will-o-wisp"
+      },
+      {
+        "level": 37,
+        "name": "shadow-punch"
+      },
+      {
+        "level": 49,
+        "name": "mean-look"
+      },
+      {
+        "level": 58,
+        "name": "future-sight"
+      },
+      {
+        "level": 58,
+        "name": "payback"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "embargo",
+      "facade",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "snatch",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 355,
+    "next": [
+      477
+    ],
+    "root": 355,
+    "next_details": []
+  }
+}

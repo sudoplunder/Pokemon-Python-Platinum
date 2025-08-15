@@ -1,0 +1,12 @@
+{
+  "name": "tri-pass",
+  "display_name": "Tri Pass",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Provides access to the first three Sevii Islands.",
+  "short_effect": "Grants access to the first three Sevii Islands.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

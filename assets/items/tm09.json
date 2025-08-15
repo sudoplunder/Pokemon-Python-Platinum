@@ -1,0 +1,12 @@
+{
+  "name": "tm09",
+  "display_name": "Tm09",
+  "category": "all-machines",
+  "cost": 50000,
+  "fling_power": null,
+  "effect": "Teaches Bullet Seed to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Venoshock to a compatible Pok\u00e9mon. (Gen IV & III: Bullet Seed Gen II: Psych Up Gen I: Take Down)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

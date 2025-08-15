@@ -1,0 +1,8 @@
+{
+  "name": "shell-armor",
+  "display_name": "Shell Armor",
+  "generation": 3,
+  "short_effect": "Protects against critical hits.",
+  "effect": "Moves cannot score critical hits against this Pok\u00e9mon.\n\nThis ability functions identically to battle armor.",
+  "is_gen4_or_prior": true
+}

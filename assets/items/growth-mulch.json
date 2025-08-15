@@ -1,0 +1,12 @@
+{
+  "name": "growth-mulch",
+  "display_name": "Growth Mulch",
+  "category": "mulch",
+  "cost": 200,
+  "fling_power": 30,
+  "effect": "Used on a patch of soil\n:   Plant's growth stages will each last 25% less time.  Dries soil out more quickly.",
+  "short_effect": "Growing time of berries is reduced, but the soil dries out faster.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

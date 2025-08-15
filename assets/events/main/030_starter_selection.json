@@ -1,16 +1,6 @@
 {
   "id": "starter.selection.sequence",
-  "trigger": { "type": "flag_set", "value": "lake_plan_formed" },
-  "prerequisites": {
-    "all": ["lake_plan_formed"],
-    "none": ["starter_chosen"]
-  },
-  "actions": [
-    { "command": "SHOW_TEXT", "dialogue_key": "intro.briefcase" },
-    { "command": "SHOW_TEXT", "dialogue_key": "intro.choose.starter" },
-    { "command": "START_BATTLE", "battle_id": "tutorial_starly_1" },
-    { "command": "SHOW_TEXT", "dialogue_key": "intro.after.battle" },
-    { "command": "SET_FLAG", "flag": "starter_chosen" }
-  ],
-  "set_flags": ["starter_chosen"]
+  "trigger": { "type": "deprecated", "value": "starter_selection_old" },
+  "once": true,
+  "actions": [ { "command": "SHOW_TEXT", "dialogue_key": "intro.briefcase" } ]
 }

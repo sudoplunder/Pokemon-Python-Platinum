@@ -1,0 +1,17 @@
+{
+  "name": "poke-doll",
+  "display_name": "Poke Doll",
+  "category": "spelunking",
+  "cost": 300,
+  "fling_power": 30,
+  "effect": "Used in battle\n:   Ends a wild battle.  Cannot be used in trainer battles.",
+  "short_effect": "Ends a wild battle.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

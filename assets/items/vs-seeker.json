@@ -1,0 +1,12 @@
+{
+  "name": "vs-seeker",
+  "display_name": "Vs Seeker",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Reveals trainers who want a rematch, by showing !! over their heads.  Each use drains the battery; requires 100 steps to charge.",
+  "short_effect": "Allows rebattling of on-screen trainers. 100 steps to recharge.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

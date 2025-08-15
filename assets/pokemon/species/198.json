@@ -1,0 +1,135 @@
+{
+  "id": 198,
+  "name": "murkrow",
+  "generation": "2",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 42,
+    "sp_atk": 85,
+    "sp_def": 42,
+    "speed": 91
+  },
+  "base_experience": 81,
+  "growth_rate": "medium-slow",
+  "capture_rate": 30,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "insomnia",
+    "secondary": "super-luck",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 5,
+        "name": "pursuit"
+      },
+      {
+        "level": 11,
+        "name": "haze"
+      },
+      {
+        "level": 15,
+        "name": "wing-attack"
+      },
+      {
+        "level": 21,
+        "name": "night-shade"
+      },
+      {
+        "level": 25,
+        "name": "assurance"
+      },
+      {
+        "level": 31,
+        "name": "taunt"
+      },
+      {
+        "level": 35,
+        "name": "feint-attack"
+      },
+      {
+        "level": 41,
+        "name": "mean-look"
+      },
+      {
+        "level": 51,
+        "name": "tailwind"
+      },
+      {
+        "level": 55,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 61,
+        "name": "torment"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "calm-mind",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "payback",
+      "pluck",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "snatch",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder-wave",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      430
+    ],
+    "root": 198,
+    "next_details": [
+      {
+        "id": 430,
+        "trigger": "item",
+        "conditions": {
+          "item": "dusk-stone"
+        }
+      }
+    ]
+  }
+}

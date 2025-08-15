@@ -1,0 +1,148 @@
+{
+  "id": 143,
+  "name": "snorlax",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 160,
+    "attack": 110,
+    "defense": 65,
+    "sp_atk": 65,
+    "sp_def": 110,
+    "speed": 30
+  },
+  "base_experience": 189,
+  "growth_rate": "slow",
+  "capture_rate": 25,
+  "gender_rate": 1,
+  "hatch_cycles": 40,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "immunity",
+    "secondary": "thick-fat",
+    "hidden": "gluttony"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 4,
+        "name": "defense-curl"
+      },
+      {
+        "level": 6,
+        "name": "amnesia"
+      },
+      {
+        "level": 12,
+        "name": "lick"
+      },
+      {
+        "level": 15,
+        "name": "belly-drum"
+      },
+      {
+        "level": 19,
+        "name": "headbutt"
+      },
+      {
+        "level": 20,
+        "name": "yawn"
+      },
+      {
+        "level": 28,
+        "name": "rest"
+      },
+      {
+        "level": 28,
+        "name": "snore"
+      },
+      {
+        "level": 33,
+        "name": "body-slam"
+      },
+      {
+        "level": 33,
+        "name": "sleep-talk"
+      },
+      {
+        "level": 37,
+        "name": "block"
+      },
+      {
+        "level": 42,
+        "name": "covet"
+      },
+      {
+        "level": 44,
+        "name": "rollout"
+      },
+      {
+        "level": 49,
+        "name": "crunch"
+      },
+      {
+        "level": 51,
+        "name": "hyper-beam"
+      },
+      {
+        "level": 57,
+        "name": "giga-impact"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 446,
+    "next": [],
+    "root": 446,
+    "next_details": []
+  }
+}

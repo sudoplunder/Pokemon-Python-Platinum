@@ -1,0 +1,12 @@
+{
+  "name": "rm-2-key",
+  "display_name": "Rm 2 Key",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Unlocks room 2 on the abandoned ship.",
+  "short_effect": "Unlocks room 2 on the Abandoned Ship.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

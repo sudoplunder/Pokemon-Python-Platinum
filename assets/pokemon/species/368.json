@@ -1,0 +1,116 @@
+{
+  "id": 368,
+  "name": "gorebyss",
+  "generation": "3",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 84,
+    "defense": 105,
+    "sp_atk": 114,
+    "sp_def": 75,
+    "speed": 52
+  },
+  "base_experience": 170,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": null,
+    "hidden": "hydration"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "whirlpool"
+      },
+      {
+        "level": 6,
+        "name": "confusion"
+      },
+      {
+        "level": 10,
+        "name": "agility"
+      },
+      {
+        "level": 15,
+        "name": "water-pulse"
+      },
+      {
+        "level": 19,
+        "name": "amnesia"
+      },
+      {
+        "level": 24,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 28,
+        "name": "captivate"
+      },
+      {
+        "level": 33,
+        "name": "baton-pass"
+      },
+      {
+        "level": 36,
+        "name": "psychic"
+      },
+      {
+        "level": 37,
+        "name": "dive"
+      },
+      {
+        "level": 46,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 50,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 366,
+    "next": [],
+    "root": 366,
+    "next_details": []
+  }
+}

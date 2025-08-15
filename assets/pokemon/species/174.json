@@ -1,0 +1,105 @@
+{
+  "id": 174,
+  "name": "igglybuff",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 30,
+    "defense": 15,
+    "sp_atk": 40,
+    "sp_def": 20,
+    "speed": 15
+  },
+  "base_experience": 42,
+  "growth_rate": "fast",
+  "capture_rate": 170,
+  "gender_rate": 6,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "cute-charm",
+    "secondary": "competitive",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "charm"
+      },
+      {
+        "level": 1,
+        "name": "sing"
+      },
+      {
+        "level": 4,
+        "name": "defense-curl"
+      },
+      {
+        "level": 9,
+        "name": "pound"
+      },
+      {
+        "level": 13,
+        "name": "sweet-kiss"
+      },
+      {
+        "level": 17,
+        "name": "copycat"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder-wave",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      39
+    ],
+    "root": 174,
+    "next_details": [
+      {
+        "id": 39,
+        "trigger": "friendship",
+        "conditions": {}
+      }
+    ]
+  }
+}

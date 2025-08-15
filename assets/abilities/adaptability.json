@@ -1,0 +1,8 @@
+{
+  "name": "adaptability",
+  "display_name": "Adaptability",
+  "generation": 4,
+  "short_effect": "Increases the same-type attack bonus from 1.5\u00d7 to 2\u00d7.",
+  "effect": "This Pok\u00e9mon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5\u00d7.",
+  "is_gen4_or_prior": true
+}

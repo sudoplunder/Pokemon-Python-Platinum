@@ -1,0 +1,71 @@
+{
+  "id": 360,
+  "name": "wynaut",
+  "generation": "3",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 23,
+    "defense": 48,
+    "sp_atk": 23,
+    "sp_def": 48,
+    "speed": 23
+  },
+  "base_experience": 52,
+  "growth_rate": "medium",
+  "capture_rate": 125,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "shadow-tag",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "charm"
+      },
+      {
+        "level": 1,
+        "name": "encore"
+      },
+      {
+        "level": 1,
+        "name": "splash"
+      },
+      {
+        "level": 15,
+        "name": "counter"
+      },
+      {
+        "level": 15,
+        "name": "destiny-bond"
+      },
+      {
+        "level": 15,
+        "name": "mirror-coat"
+      },
+      {
+        "level": 15,
+        "name": "safeguard"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      202
+    ],
+    "root": 360,
+    "next_details": []
+  }
+}

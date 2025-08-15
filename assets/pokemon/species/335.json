@@ -1,0 +1,148 @@
+{
+  "id": 335,
+  "name": "zangoose",
+  "generation": "3",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 73,
+    "attack": 115,
+    "defense": 60,
+    "sp_atk": 60,
+    "sp_def": 60,
+    "speed": 90
+  },
+  "base_experience": 160,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "immunity",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 5,
+        "name": "quick-attack"
+      },
+      {
+        "level": 8,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 10,
+        "name": "swords-dance"
+      },
+      {
+        "level": 12,
+        "name": "pursuit"
+      },
+      {
+        "level": 15,
+        "name": "slash"
+      },
+      {
+        "level": 19,
+        "name": "embargo"
+      },
+      {
+        "level": 22,
+        "name": "crush-claw"
+      },
+      {
+        "level": 26,
+        "name": "revenge"
+      },
+      {
+        "level": 29,
+        "name": "false-swipe"
+      },
+      {
+        "level": 33,
+        "name": "detect"
+      },
+      {
+        "level": 36,
+        "name": "x-scissor"
+      },
+      {
+        "level": 37,
+        "name": "taunt"
+      },
+      {
+        "level": 47,
+        "name": "close-combat"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "double-team",
+      "embargo",
+      "facade",
+      "false-swipe",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "water-pulse",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 335,
+    "next_details": []
+  }
+}

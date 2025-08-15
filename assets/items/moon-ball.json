@@ -1,0 +1,12 @@
+{
+  "name": "moon-ball",
+  "display_name": "Moon Ball",
+  "category": "apricorn-balls",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the wild Pok\u00e9mon is a clefairy, nidoran m, nidoran f, jigglypuff, skitty, or any evolution thereof, the wild Pok\u00e9mon has 4\u00d7 its catch rate.",
+  "short_effect": "4\u00d7 effectiveness on familes of Pok\u00e9mon with a Moon Stone evolution. Made from Ylw Apricorn.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

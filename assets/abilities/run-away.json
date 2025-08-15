@@ -1,0 +1,8 @@
+{
+  "name": "run-away",
+  "display_name": "Run Away",
+  "generation": 3,
+  "short_effect": "Ensures success fleeing from wild battles.",
+  "effect": "This Pok\u00e9mon is always successful fleeing from wild battles, even if trapped by a move or ability.",
+  "is_gen4_or_prior": true
+}

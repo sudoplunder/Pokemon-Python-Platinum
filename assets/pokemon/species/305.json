@@ -1,0 +1,131 @@
+{
+  "id": 305,
+  "name": "lairon",
+  "generation": "3",
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 140,
+    "sp_atk": 50,
+    "sp_def": 50,
+    "speed": 40
+  },
+  "base_experience": 151,
+  "growth_rate": "slow",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 35,
+  "base_friendship": 35,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "sturdy",
+    "secondary": "rock-head",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "headbutt"
+      },
+      {
+        "level": 1,
+        "name": "mud-slap"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 11,
+        "name": "metal-claw"
+      },
+      {
+        "level": 15,
+        "name": "iron-defense"
+      },
+      {
+        "level": 18,
+        "name": "roar"
+      },
+      {
+        "level": 22,
+        "name": "take-down"
+      },
+      {
+        "level": 25,
+        "name": "iron-head"
+      },
+      {
+        "level": 29,
+        "name": "iron-tail"
+      },
+      {
+        "level": 29,
+        "name": "protect"
+      },
+      {
+        "level": 34,
+        "name": "metal-sound"
+      },
+      {
+        "level": 53,
+        "name": "double-edge"
+      },
+      {
+        "level": 62,
+        "name": "metal-burst"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-claw",
+      "shock-wave",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 304,
+    "next": [
+      306
+    ],
+    "root": 304,
+    "next_details": []
+  }
+}

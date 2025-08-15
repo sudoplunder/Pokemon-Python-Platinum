@@ -1,0 +1,12 @@
+{
+  "name": "vs-recorder",
+  "display_name": "Vs Recorder",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Optionally records wireless, Wi-Fi, and Battle Frontier battles.\n\nTracks Battle Points earned in the Battle Frontier, and stores commemorative prints.",
+  "short_effect": "Records wireless, Wi-Fi, or Battle Frontier battles, and stores points.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

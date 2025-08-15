@@ -1,0 +1,119 @@
+{
+  "id": 361,
+  "name": "snorunt",
+  "generation": "3",
+  "types": [
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 50,
+    "sp_atk": 50,
+    "sp_def": 50,
+    "speed": 50
+  },
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "fairy",
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "inner-focus",
+    "secondary": "ice-body",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "powder-snow"
+      },
+      {
+        "level": 4,
+        "name": "double-team"
+      },
+      {
+        "level": 10,
+        "name": "bite"
+      },
+      {
+        "level": 13,
+        "name": "icy-wind"
+      },
+      {
+        "level": 19,
+        "name": "headbutt"
+      },
+      {
+        "level": 22,
+        "name": "protect"
+      },
+      {
+        "level": 28,
+        "name": "crunch"
+      },
+      {
+        "level": 28,
+        "name": "ice-fang"
+      },
+      {
+        "level": 34,
+        "name": "ice-beam"
+      },
+      {
+        "level": 37,
+        "name": "hail"
+      },
+      {
+        "level": 37,
+        "name": "ice-shard"
+      },
+      {
+        "level": 43,
+        "name": "blizzard"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "substitute",
+      "swagger",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      362,
+      478
+    ],
+    "root": 361,
+    "next_details": []
+  }
+}

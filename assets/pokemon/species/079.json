@@ -1,0 +1,145 @@
+{
+  "id": 79,
+  "name": "slowpoke",
+  "generation": "1",
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 65,
+    "defense": 65,
+    "sp_atk": 40,
+    "sp_def": 40,
+    "speed": 15
+  },
+  "base_experience": 63,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "abilities": {
+    "primary": "oblivious",
+    "secondary": "own-tempo",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "curse"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "yawn"
+      },
+      {
+        "level": 5,
+        "name": "growl"
+      },
+      {
+        "level": 9,
+        "name": "water-gun"
+      },
+      {
+        "level": 14,
+        "name": "confusion"
+      },
+      {
+        "level": 19,
+        "name": "disable"
+      },
+      {
+        "level": 23,
+        "name": "headbutt"
+      },
+      {
+        "level": 28,
+        "name": "water-pulse"
+      },
+      {
+        "level": 32,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 36,
+        "name": "slack-off"
+      },
+      {
+        "level": 41,
+        "name": "amnesia"
+      },
+      {
+        "level": 45,
+        "name": "psychic"
+      },
+      {
+        "level": 49,
+        "name": "rain-dance"
+      },
+      {
+        "level": 54,
+        "name": "psych-up"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "calm-mind",
+      "dig",
+      "dive",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "frustration",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thunder-wave",
+      "toxic",
+      "trick-room",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      80,
+      199
+    ],
+    "root": 79,
+    "next_details": []
+  }
+}

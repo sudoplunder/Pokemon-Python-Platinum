@@ -1,0 +1,12 @@
+{
+  "name": "super-rod",
+  "display_name": "Super Rod",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used to find Pok\u00e9mon on the Super Rod list for an area, which are generally the best available there.",
+  "short_effect": "Used to catch Pok\u00e9mon in bodies of water.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

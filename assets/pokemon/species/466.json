@@ -1,0 +1,136 @@
+{
+  "id": 466,
+  "name": "electivire",
+  "generation": "4",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 123,
+    "defense": 67,
+    "sp_atk": 95,
+    "sp_def": 85,
+    "speed": 95
+  },
+  "base_experience": 243,
+  "growth_rate": "medium",
+  "capture_rate": 30,
+  "gender_rate": 2,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "motor-drive",
+    "secondary": null,
+    "hidden": "vital-spirit"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fire-punch"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "low-kick"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 12,
+        "name": "swift"
+      },
+      {
+        "level": 15,
+        "name": "shock-wave"
+      },
+      {
+        "level": 19,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 26,
+        "name": "light-screen"
+      },
+      {
+        "level": 29,
+        "name": "thunder-punch"
+      },
+      {
+        "level": 36,
+        "name": "discharge"
+      },
+      {
+        "level": 42,
+        "name": "screech"
+      },
+      {
+        "level": 49,
+        "name": "thunderbolt"
+      },
+      {
+        "level": 55,
+        "name": "thunder"
+      },
+      {
+        "level": 62,
+        "name": "giga-impact"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "flamethrower",
+      "flash",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "strength",
+      "substitute",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 125,
+    "next": [],
+    "root": 239,
+    "next_details": []
+  }
+}

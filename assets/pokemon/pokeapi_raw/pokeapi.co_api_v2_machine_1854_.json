@@ -1,0 +1,15 @@
+{
+  "id": 1854,
+  "item": {
+    "name": "tm149",
+    "url": "https://pokeapi.co/api/v2/item/1992/"
+  },
+  "move": {
+    "name": "earthquake",
+    "url": "https://pokeapi.co/api/v2/move/89/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

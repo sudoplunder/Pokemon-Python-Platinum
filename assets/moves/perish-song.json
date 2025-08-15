@@ -1,0 +1,42 @@
+{
+  "name": "perish-song",
+  "display_name": "Perish Song",
+  "type": "normal",
+  "category": "status",
+  "power": null,
+  "accuracy": null,
+  "pp": 5,
+  "priority": 0,
+  "generation": 2,
+  "crit_rate_stage": 0,
+  "targets": "all-pokemon",
+  "short_effect": "User and target both faint after three turns.",
+  "effect": "Every Pok\u00e9mon is given a counter that starts at 3 and decreases by 1 at the end of every turn, including this one.  When a Pok\u00e9mon's counter reaches zero, that Pok\u00e9mon faints.  A Pok\u00e9mon that leaves the field will lose its counter; its replacement does not inherit the effect, and other Pok\u00e9mon's counters remain.\n\nThis effect is passed on by baton pass.\n\nThis move cannot be copied by mirror move.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    4,
+    4
+  ],
+  "flinch_chance": 0,
+  "ailment": "perish-song",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quick-powder",
+  "display_name": "Quick Powder",
+  "category": "species-specific",
+  "cost": 1000,
+  "fling_power": 10,
+  "effect": "Held by Ditto: Doubles the holder's initial Speed.",
+  "short_effect": "Doubles Ditto's Speed when held. The boost is lost after transforming.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable"
+  ]
+}

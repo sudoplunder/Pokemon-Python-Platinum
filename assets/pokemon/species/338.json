@@ -1,0 +1,144 @@
+{
+  "id": 338,
+  "name": "solrock",
+  "generation": "3",
+  "types": [
+    "rock",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 95,
+    "defense": 85,
+    "sp_atk": 55,
+    "sp_def": 65,
+    "speed": 70
+  },
+  "base_experience": 161,
+  "growth_rate": "fast",
+  "capture_rate": 45,
+  "gender_rate": -1,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "rock-throw"
+      },
+      {
+        "level": 9,
+        "name": "fire-spin"
+      },
+      {
+        "level": 13,
+        "name": "rock-polish"
+      },
+      {
+        "level": 17,
+        "name": "psywave"
+      },
+      {
+        "level": 21,
+        "name": "embargo"
+      },
+      {
+        "level": 25,
+        "name": "rock-slide"
+      },
+      {
+        "level": 29,
+        "name": "cosmic-power"
+      },
+      {
+        "level": 33,
+        "name": "psychic"
+      },
+      {
+        "level": 37,
+        "name": "heal-block"
+      },
+      {
+        "level": 41,
+        "name": "stone-edge"
+      },
+      {
+        "level": 43,
+        "name": "solar-beam"
+      },
+      {
+        "level": 49,
+        "name": "explosion"
+      }
+    ],
+    "machines": [
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "embargo",
+      "explosion",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "overheat",
+      "protect",
+      "psych-up",
+      "psychic",
+      "reflect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "solar-beam",
+      "stone-edge",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 338,
+    "next_details": []
+  }
+}

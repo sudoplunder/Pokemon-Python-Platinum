@@ -1,0 +1,12 @@
+{
+  "name": "tm16",
+  "display_name": "Tm16",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Light Screen to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Light Screen to a compatible Pok\u00e9mon. (Gen II: Icy Wind Gen I: Pay Day)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

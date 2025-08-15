@@ -1,0 +1,12 @@
+{
+  "id": "lake_verity_shore",
+  "name": "Lake Verity Shore",
+  "actions": [
+    { "label": "Search around the shore", "type": "inspect", "text": "The lake surface shimmers—something stirs beneath." },
+  { "label": "Inspect left briefcase", "type": "briefcase", "text": "A professor's briefcase... It looks forgotten." },
+    { "label": "Sense mysterious presence", "type": "inspect", "text": "You feel a watchful gaze from deep within the lake." },
+    { "label": "Return to Lake Path", "type": "move", "target": "lake_verity_path" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": []
+}

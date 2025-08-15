@@ -1,0 +1,12 @@
+{
+  "name": "storage-key",
+  "display_name": "Storage Key",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Grants access to the Team Galactic warehouse in Veilstone City.",
+  "short_effect": "Grants access to the Team Galactic warehouse in Veilstone City.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

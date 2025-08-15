@@ -1,0 +1,122 @@
+{
+  "id": 140,
+  "name": "kabuto",
+  "generation": "1",
+  "types": [
+    "rock",
+    "water"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 80,
+    "defense": 90,
+    "sp_atk": 55,
+    "sp_def": 45,
+    "speed": 55
+  },
+  "base_experience": 71,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "battle-armor",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 6,
+        "name": "absorb"
+      },
+      {
+        "level": 11,
+        "name": "leer"
+      },
+      {
+        "level": 16,
+        "name": "mud-shot"
+      },
+      {
+        "level": 21,
+        "name": "sand-attack"
+      },
+      {
+        "level": 26,
+        "name": "endure"
+      },
+      {
+        "level": 31,
+        "name": "aqua-jet"
+      },
+      {
+        "level": 36,
+        "name": "mega-drain"
+      },
+      {
+        "level": 41,
+        "name": "metal-sound"
+      },
+      {
+        "level": 46,
+        "name": "ancient-power"
+      },
+      {
+        "level": 51,
+        "name": "wring-out"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "dig",
+      "double-team",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      141
+    ],
+    "root": 140,
+    "next_details": []
+  }
+}

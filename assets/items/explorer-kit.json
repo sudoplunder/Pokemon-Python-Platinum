@@ -1,0 +1,12 @@
+{
+  "name": "explorer-kit",
+  "display_name": "Explorer Kit",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Sends the trainer to the Underground.  Only usable outside.",
+  "short_effect": "Allows visiting the Underground.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

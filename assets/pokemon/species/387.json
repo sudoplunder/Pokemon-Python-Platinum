@@ -1,0 +1,124 @@
+{
+  "id": 387,
+  "name": "turtwig",
+  "generation": "4",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 68,
+    "defense": 64,
+    "sp_atk": 45,
+    "sp_def": 55,
+    "speed": 31
+  },
+  "base_experience": 64,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "overgrow",
+    "secondary": null,
+    "hidden": "shell-armor"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "withdraw"
+      },
+      {
+        "level": 9,
+        "name": "absorb"
+      },
+      {
+        "level": 13,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 17,
+        "name": "curse"
+      },
+      {
+        "level": 21,
+        "name": "bite"
+      },
+      {
+        "level": 25,
+        "name": "mega-drain"
+      },
+      {
+        "level": 29,
+        "name": "leech-seed"
+      },
+      {
+        "level": 33,
+        "name": "synthesis"
+      },
+      {
+        "level": 37,
+        "name": "crunch"
+      },
+      {
+        "level": 41,
+        "name": "giga-drain"
+      },
+      {
+        "level": 45,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "attract",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      388
+    ],
+    "root": 387,
+    "next_details": [
+      {
+        "id": 388,
+        "trigger": "level",
+        "conditions": {
+          "level": 18
+        }
+      }
+    ]
+  }
+}

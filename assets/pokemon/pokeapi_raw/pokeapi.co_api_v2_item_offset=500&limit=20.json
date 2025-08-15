@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=520&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=480&limit=20",
+  "results": [
+    {
+      "name": "data-card-16",
+      "url": "https://pokeapi.co/api/v2/item/501/"
+    },
+    {
+      "name": "data-card-17",
+      "url": "https://pokeapi.co/api/v2/item/502/"
+    },
+    {
+      "name": "data-card-18",
+      "url": "https://pokeapi.co/api/v2/item/503/"
+    },
+    {
+      "name": "data-card-19",
+      "url": "https://pokeapi.co/api/v2/item/504/"
+    },
+    {
+      "name": "data-card-20",
+      "url": "https://pokeapi.co/api/v2/item/505/"
+    },
+    {
+      "name": "data-card-21",
+      "url": "https://pokeapi.co/api/v2/item/506/"
+    },
+    {
+      "name": "data-card-22",
+      "url": "https://pokeapi.co/api/v2/item/507/"
+    },
+    {
+      "name": "data-card-23",
+      "url": "https://pokeapi.co/api/v2/item/508/"
+    },
+    {
+      "name": "data-card-24",
+      "url": "https://pokeapi.co/api/v2/item/509/"
+    },
+    {
+      "name": "data-card-25",
+      "url": "https://pokeapi.co/api/v2/item/510/"
+    },
+    {
+      "name": "data-card-26",
+      "url": "https://pokeapi.co/api/v2/item/511/"
+    },
+    {
+      "name": "data-card-27",
+      "url": "https://pokeapi.co/api/v2/item/512/"
+    },
+    {
+      "name": "lock-capsule",
+      "url": "https://pokeapi.co/api/v2/item/513/"
+    },
+    {
+      "name": "photo-album",
+      "url": "https://pokeapi.co/api/v2/item/514/"
+    },
+    {
+      "name": "orange-mail",
+      "url": "https://pokeapi.co/api/v2/item/515/"
+    },
+    {
+      "name": "harbor-mail",
+      "url": "https://pokeapi.co/api/v2/item/516/"
+    },
+    {
+      "name": "glitter-mail",
+      "url": "https://pokeapi.co/api/v2/item/517/"
+    },
+    {
+      "name": "mech-mail",
+      "url": "https://pokeapi.co/api/v2/item/518/"
+    },
+    {
+      "name": "wood-mail",
+      "url": "https://pokeapi.co/api/v2/item/519/"
+    },
+    {
+      "name": "wave-mail",
+      "url": "https://pokeapi.co/api/v2/item/520/"
+    }
+  ]
+}

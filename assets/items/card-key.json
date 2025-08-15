@@ -1,0 +1,12 @@
+{
+  "name": "card-key",
+  "display_name": "Card Key",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by trainer outside of battle\n:   Opens doors in the goldenrod city Radio Tower.",
+  "short_effect": "HS: Opens doors in the Radio Tower. Gen III: Unlocks Silph Co Doors.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

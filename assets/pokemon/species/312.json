@@ -1,0 +1,129 @@
+{
+  "id": 312,
+  "name": "minun",
+  "generation": "3",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 50,
+    "sp_atk": 75,
+    "sp_def": 85,
+    "speed": 95
+  },
+  "base_experience": 142,
+  "growth_rate": "medium",
+  "capture_rate": 200,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "minus",
+    "secondary": null,
+    "hidden": "volt-absorb"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 3,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 7,
+        "name": "quick-attack"
+      },
+      {
+        "level": 10,
+        "name": "helping-hand"
+      },
+      {
+        "level": 15,
+        "name": "spark"
+      },
+      {
+        "level": 17,
+        "name": "encore"
+      },
+      {
+        "level": 21,
+        "name": "charm"
+      },
+      {
+        "level": 24,
+        "name": "copycat"
+      },
+      {
+        "level": 31,
+        "name": "charge"
+      },
+      {
+        "level": 31,
+        "name": "swift"
+      },
+      {
+        "level": 35,
+        "name": "fake-tears"
+      },
+      {
+        "level": 37,
+        "name": "thunder"
+      },
+      {
+        "level": 40,
+        "name": "baton-pass"
+      },
+      {
+        "level": 47,
+        "name": "agility"
+      },
+      {
+        "level": 51,
+        "name": "trump-card"
+      },
+      {
+        "level": 56,
+        "name": "nasty-plot"
+      }
+    ],
+    "machines": [
+      "attract",
+      "charge-beam",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shock-wave",
+      "substitute",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 312,
+    "next_details": []
+  }
+}

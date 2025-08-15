@@ -1,0 +1,12 @@
+{
+  "name": "oaks-parcel",
+  "display_name": "Oaks Parcel",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "A parcel to be delivered to Professor Oak for a Pok\u00e9dex.",
+  "short_effect": "Trade to Prof. Oak for a Pok\u00e9dex.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

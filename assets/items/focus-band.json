@@ -1,0 +1,15 @@
+{
+  "name": "focus-band",
+  "display_name": "Focus Band",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 10,
+  "effect": "Held: If the holder is attacked for regular damage that would faint it, this item has a 10% chance to prevent the holder's HP from lowering below 1.",
+  "short_effect": "Held: Holder has 10% chance to survive attacks or self-inflicted damage at 1 HP.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

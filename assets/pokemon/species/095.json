@@ -1,0 +1,156 @@
+{
+  "id": 95,
+  "name": "onix",
+  "generation": "1",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "sp_atk": 30,
+    "sp_def": 45,
+    "speed": 70
+  },
+  "base_experience": 77,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "rock-head",
+    "secondary": "sturdy",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bind"
+      },
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "mud-sport"
+      },
+      {
+        "level": 1,
+        "name": "screech"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 4,
+        "name": "curse"
+      },
+      {
+        "level": 7,
+        "name": "rock-throw"
+      },
+      {
+        "level": 10,
+        "name": "rage"
+      },
+      {
+        "level": 13,
+        "name": "rock-tomb"
+      },
+      {
+        "level": 16,
+        "name": "stealth-rock"
+      },
+      {
+        "level": 19,
+        "name": "rock-polish"
+      },
+      {
+        "level": 25,
+        "name": "dragon-breath"
+      },
+      {
+        "level": 28,
+        "name": "slam"
+      },
+      {
+        "level": 33,
+        "name": "sandstorm"
+      },
+      {
+        "level": 34,
+        "name": "rock-slide"
+      },
+      {
+        "level": 37,
+        "name": "sand-tomb"
+      },
+      {
+        "level": 40,
+        "name": "iron-tail"
+      },
+      {
+        "level": 43,
+        "name": "dig"
+      },
+      {
+        "level": 46,
+        "name": "stone-edge"
+      },
+      {
+        "level": 49,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "flash-cannon",
+      "frustration",
+      "gyro-ball",
+      "hidden-power",
+      "iron-tail",
+      "payback",
+      "protect",
+      "psych-up",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      208
+    ],
+    "root": 95,
+    "next_details": []
+  }
+}

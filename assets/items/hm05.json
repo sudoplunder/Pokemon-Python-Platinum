@@ -1,0 +1,12 @@
+{
+  "name": "hm05",
+  "display_name": "Hm05",
+  "category": "all-machines",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Teaches Defog to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Waterfall to a compatible Pok\u00e9mon. (HS: Whirlpool DPP: Defog Gen III & II & I: Flash)",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": []
+}

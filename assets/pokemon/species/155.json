@@ -1,0 +1,116 @@
+{
+  "id": 155,
+  "name": "cyndaquil",
+  "generation": "2",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "sp_atk": 60,
+    "sp_def": 50,
+    "speed": 65
+  },
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "blaze",
+    "secondary": null,
+    "hidden": "flash-fire"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 6,
+        "name": "smokescreen"
+      },
+      {
+        "level": 10,
+        "name": "ember"
+      },
+      {
+        "level": 13,
+        "name": "quick-attack"
+      },
+      {
+        "level": 19,
+        "name": "flame-wheel"
+      },
+      {
+        "level": 22,
+        "name": "defense-curl"
+      },
+      {
+        "level": 31,
+        "name": "swift"
+      },
+      {
+        "level": 37,
+        "name": "lava-plume"
+      },
+      {
+        "level": 40,
+        "name": "flamethrower"
+      },
+      {
+        "level": 49,
+        "name": "rollout"
+      },
+      {
+        "level": 55,
+        "name": "double-edge"
+      },
+      {
+        "level": 58,
+        "name": "eruption"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "hidden-power",
+      "overheat",
+      "protect",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      156
+    ],
+    "root": 155,
+    "next_details": []
+  }
+}

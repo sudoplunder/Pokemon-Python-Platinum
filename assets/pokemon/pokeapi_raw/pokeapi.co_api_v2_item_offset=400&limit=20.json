@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=420&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=380&limit=20",
+  "results": [
+    {
+      "name": "hm05",
+      "url": "https://pokeapi.co/api/v2/item/401/"
+    },
+    {
+      "name": "hm06",
+      "url": "https://pokeapi.co/api/v2/item/402/"
+    },
+    {
+      "name": "hm07",
+      "url": "https://pokeapi.co/api/v2/item/403/"
+    },
+    {
+      "name": "hm08",
+      "url": "https://pokeapi.co/api/v2/item/404/"
+    },
+    {
+      "name": "explorer-kit",
+      "url": "https://pokeapi.co/api/v2/item/405/"
+    },
+    {
+      "name": "loot-sack",
+      "url": "https://pokeapi.co/api/v2/item/406/"
+    },
+    {
+      "name": "rule-book",
+      "url": "https://pokeapi.co/api/v2/item/407/"
+    },
+    {
+      "name": "poke-radar",
+      "url": "https://pokeapi.co/api/v2/item/408/"
+    },
+    {
+      "name": "point-card",
+      "url": "https://pokeapi.co/api/v2/item/409/"
+    },
+    {
+      "name": "journal",
+      "url": "https://pokeapi.co/api/v2/item/410/"
+    },
+    {
+      "name": "seal-case",
+      "url": "https://pokeapi.co/api/v2/item/411/"
+    },
+    {
+      "name": "fashion-case",
+      "url": "https://pokeapi.co/api/v2/item/412/"
+    },
+    {
+      "name": "seal-bag",
+      "url": "https://pokeapi.co/api/v2/item/413/"
+    },
+    {
+      "name": "pal-pad",
+      "url": "https://pokeapi.co/api/v2/item/414/"
+    },
+    {
+      "name": "works-key",
+      "url": "https://pokeapi.co/api/v2/item/415/"
+    },
+    {
+      "name": "old-charm",
+      "url": "https://pokeapi.co/api/v2/item/416/"
+    },
+    {
+      "name": "galactic-key",
+      "url": "https://pokeapi.co/api/v2/item/417/"
+    },
+    {
+      "name": "red-chain",
+      "url": "https://pokeapi.co/api/v2/item/418/"
+    },
+    {
+      "name": "town-map",
+      "url": "https://pokeapi.co/api/v2/item/419/"
+    },
+    {
+      "name": "vs-seeker",
+      "url": "https://pokeapi.co/api/v2/item/420/"
+    }
+  ]
+}

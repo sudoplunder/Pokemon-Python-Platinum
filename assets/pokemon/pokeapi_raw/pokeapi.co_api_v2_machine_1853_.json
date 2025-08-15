@@ -1,0 +1,15 @@
+{
+  "id": 1853,
+  "item": {
+    "name": "tm148",
+    "url": "https://pokeapi.co/api/v2/item/1991/"
+  },
+  "move": {
+    "name": "sludge-bomb",
+    "url": "https://pokeapi.co/api/v2/move/188/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

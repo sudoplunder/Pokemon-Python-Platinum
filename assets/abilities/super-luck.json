@@ -1,0 +1,8 @@
+{
+  "name": "super-luck",
+  "display_name": "Super Luck",
+  "generation": 4,
+  "short_effect": "Raises moves' critical hit rates one stage.",
+  "effect": "This Pok\u00e9mon's moves have critical hit rates one stage higher than normal.",
+  "is_gen4_or_prior": true
+}

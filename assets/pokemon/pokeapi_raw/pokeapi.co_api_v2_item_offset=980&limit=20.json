@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1000&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=960&limit=20",
+  "results": [
+    {
+      "name": "tropical-shell",
+      "url": "https://pokeapi.co/api/v2/item/1032/"
+    },
+    {
+      "name": "leaf-letter--pikachu",
+      "url": "https://pokeapi.co/api/v2/item/1033/"
+    },
+    {
+      "name": "leaf-letter--eevee",
+      "url": "https://pokeapi.co/api/v2/item/1034/"
+    },
+    {
+      "name": "small-bouquet",
+      "url": "https://pokeapi.co/api/v2/item/1035/"
+    },
+    {
+      "name": "lure",
+      "url": "https://pokeapi.co/api/v2/item/1036/"
+    },
+    {
+      "name": "super-lure",
+      "url": "https://pokeapi.co/api/v2/item/1037/"
+    },
+    {
+      "name": "max-lure",
+      "url": "https://pokeapi.co/api/v2/item/1038/"
+    },
+    {
+      "name": "pewter-crunchies",
+      "url": "https://pokeapi.co/api/v2/item/1039/"
+    },
+    {
+      "name": "health-candy",
+      "url": "https://pokeapi.co/api/v2/item/1040/"
+    },
+    {
+      "name": "mighty-candy",
+      "url": "https://pokeapi.co/api/v2/item/1041/"
+    },
+    {
+      "name": "tough-candy",
+      "url": "https://pokeapi.co/api/v2/item/1042/"
+    },
+    {
+      "name": "smart-candy",
+      "url": "https://pokeapi.co/api/v2/item/1043/"
+    },
+    {
+      "name": "courage-candy",
+      "url": "https://pokeapi.co/api/v2/item/1044/"
+    },
+    {
+      "name": "quick-candy",
+      "url": "https://pokeapi.co/api/v2/item/1045/"
+    },
+    {
+      "name": "health-candy-l",
+      "url": "https://pokeapi.co/api/v2/item/1046/"
+    },
+    {
+      "name": "mighty-candy-l",
+      "url": "https://pokeapi.co/api/v2/item/1047/"
+    },
+    {
+      "name": "tough-candy-l",
+      "url": "https://pokeapi.co/api/v2/item/1048/"
+    },
+    {
+      "name": "smart-candy-l",
+      "url": "https://pokeapi.co/api/v2/item/1049/"
+    },
+    {
+      "name": "courage-candy-l",
+      "url": "https://pokeapi.co/api/v2/item/1050/"
+    },
+    {
+      "name": "quick-candy-l",
+      "url": "https://pokeapi.co/api/v2/item/1051/"
+    }
+  ]
+}

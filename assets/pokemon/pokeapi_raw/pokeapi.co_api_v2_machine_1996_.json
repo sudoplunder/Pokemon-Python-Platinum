@@ -1,0 +1,15 @@
+{
+  "id": 1996,
+  "item": {
+    "name": "tm81",
+    "url": "https://pokeapi.co/api/v2/item/385/"
+  },
+  "move": {
+    "name": "grass-knot",
+    "url": "https://pokeapi.co/api/v2/move/447/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

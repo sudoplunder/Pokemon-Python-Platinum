@@ -1,0 +1,12 @@
+{
+  "name": "mysticticket",
+  "display_name": "Mysticticket",
+  "category": "event-items",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Provides access to Navel Rock, ho oh, and lugia.",
+  "short_effect": "Allows access to Navel Rock and Lugia or Ho-oh.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

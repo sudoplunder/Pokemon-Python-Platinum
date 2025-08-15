@@ -1,0 +1,15 @@
+{
+  "id": 1607,
+  "item": {
+    "name": "tr18",
+    "url": "https://pokeapi.co/api/v2/item/1206/"
+  },
+  "move": {
+    "name": "leech-life",
+    "url": "https://pokeapi.co/api/v2/move/141/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

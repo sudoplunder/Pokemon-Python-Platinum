@@ -1,0 +1,17 @@
+{
+  "name": "white-flute",
+  "display_name": "White Flute",
+  "category": "spelunking",
+  "cost": 20,
+  "fling_power": 30,
+  "effect": "Used outside of battle\n:   Doubles the wild Pok\u00e9mon encounter rate.",
+  "short_effect": "Doubles the wild Pok\u00e9mon encounter rate.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "holdable"
+  ]
+}

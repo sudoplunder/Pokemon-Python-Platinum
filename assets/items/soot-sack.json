@@ -1,0 +1,12 @@
+{
+  "name": "soot-sack",
+  "display_name": "Soot Sack",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Collects soot when walking through tall grass on hoenn route 113.",
+  "short_effect": "Stores volcanic ash from Route 113.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

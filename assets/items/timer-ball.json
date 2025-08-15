@@ -1,0 +1,17 @@
+{
+  "name": "timer-ball",
+  "display_name": "Timer Ball",
+  "category": "special-balls",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon.  Has a catch rate of 1.1\u00d7 on the first turn of the battle and increases by 0.1\u00d7 every turn, to a maximum of 4\u00d7 on turn 30.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+  "short_effect": "Tries to catch a wild Pok\u00e9mon. Success rate increases by 0.1\u00d7 (Gen V: 0.3\u00d7) every turn, to a max of 4\u00d7.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": 423,
+  "name": "gastrodon",
+  "generation": "4",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 111,
+    "attack": 83,
+    "defense": 68,
+    "sp_atk": 92,
+    "sp_def": 82,
+    "speed": 39
+  },
+  "base_experience": 166,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "sticky-hold",
+    "secondary": "storm-drain",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "mud-slap"
+      },
+      {
+        "level": 1,
+        "name": "mud-sport"
+      },
+      {
+        "level": 1,
+        "name": "water-pulse"
+      },
+      {
+        "level": 11,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 16,
+        "name": "hidden-power"
+      },
+      {
+        "level": 22,
+        "name": "rain-dance"
+      },
+      {
+        "level": 29,
+        "name": "body-slam"
+      },
+      {
+        "level": 41,
+        "name": "muddy-water"
+      },
+      {
+        "level": 54,
+        "name": "recover"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "sludge-bomb",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 422,
+    "next": [],
+    "root": 422,
+    "next_details": []
+  }
+}

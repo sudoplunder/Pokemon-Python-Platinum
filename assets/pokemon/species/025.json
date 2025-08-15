@@ -1,0 +1,133 @@
+{
+  "id": 25,
+  "name": "pikachu",
+  "generation": "1",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 40,
+    "sp_atk": 50,
+    "sp_def": 50,
+    "speed": 90
+  },
+  "base_experience": 112,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "static",
+    "secondary": null,
+    "hidden": "lightning-rod"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 5,
+        "name": "tail-whip"
+      },
+      {
+        "level": 8,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 11,
+        "name": "quick-attack"
+      },
+      {
+        "level": 15,
+        "name": "double-team"
+      },
+      {
+        "level": 20,
+        "name": "slam"
+      },
+      {
+        "level": 26,
+        "name": "thunderbolt"
+      },
+      {
+        "level": 33,
+        "name": "agility"
+      },
+      {
+        "level": 34,
+        "name": "feint"
+      },
+      {
+        "level": 41,
+        "name": "thunder"
+      },
+      {
+        "level": 42,
+        "name": "discharge"
+      },
+      {
+        "level": 45,
+        "name": "light-screen"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "dig",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shock-wave",
+      "strength",
+      "substitute",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 172,
+    "next": [
+      26
+    ],
+    "root": 172,
+    "next_details": [
+      {
+        "id": 26,
+        "trigger": "item",
+        "conditions": {
+          "item": "thunder-stone"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 10,
+  "name": "caterpie",
+  "generation": "1",
+  "types": [
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 35,
+    "sp_atk": 20,
+    "sp_def": 20,
+    "speed": 45
+  },
+  "base_experience": 39,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "shield-dust",
+    "secondary": null,
+    "hidden": "run-away"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "string-shot"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 15,
+        "name": "bug-bite"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      11
+    ],
+    "root": 10,
+    "next_details": []
+  }
+}

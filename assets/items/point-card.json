@@ -1,0 +1,12 @@
+{
+  "name": "point-card",
+  "display_name": "Point Card",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Tracks Battle Points.",
+  "short_effect": "Keeps count of Battle Points earned.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

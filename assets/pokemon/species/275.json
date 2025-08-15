@@ -1,0 +1,121 @@
+{
+  "id": 275,
+  "name": "shiftry",
+  "generation": "3",
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 60,
+    "sp_atk": 90,
+    "sp_def": 60,
+    "speed": 80
+  },
+  "base_experience": 216,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": "wind-rider",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "feint-attack"
+      },
+      {
+        "level": 1,
+        "name": "growth"
+      },
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 1,
+        "name": "nature-power"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 1,
+        "name": "whirlwind"
+      },
+      {
+        "level": 49,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bullet-seed",
+      "cut",
+      "dig",
+      "double-team",
+      "embargo",
+      "energy-ball",
+      "explosion",
+      "facade",
+      "false-swipe",
+      "flash",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "torment",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 274,
+    "next": [],
+    "root": 273,
+    "next_details": []
+  }
+}

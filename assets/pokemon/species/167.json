@@ -1,0 +1,127 @@
+{
+  "id": 167,
+  "name": "spinarak",
+  "generation": "2",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 40,
+    "sp_atk": 40,
+    "sp_def": 40,
+    "speed": 30
+  },
+  "base_experience": 50,
+  "growth_rate": "fast",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swarm",
+    "secondary": "insomnia",
+    "hidden": "sniper"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "string-shot"
+      },
+      {
+        "level": 5,
+        "name": "scary-face"
+      },
+      {
+        "level": 8,
+        "name": "constrict"
+      },
+      {
+        "level": 12,
+        "name": "leech-life"
+      },
+      {
+        "level": 15,
+        "name": "night-shade"
+      },
+      {
+        "level": 19,
+        "name": "shadow-sneak"
+      },
+      {
+        "level": 22,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 26,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 29,
+        "name": "spider-web"
+      },
+      {
+        "level": 33,
+        "name": "agility"
+      },
+      {
+        "level": 36,
+        "name": "pin-missile"
+      },
+      {
+        "level": 40,
+        "name": "psychic"
+      },
+      {
+        "level": 43,
+        "name": "poison-jab"
+      },
+      {
+        "level": 47,
+        "name": "cross-poison"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "poison-jab",
+      "protect",
+      "psychic",
+      "rest",
+      "return",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      168
+    ],
+    "root": 167,
+    "next_details": []
+  }
+}

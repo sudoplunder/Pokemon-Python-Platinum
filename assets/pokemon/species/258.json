@@ -1,0 +1,119 @@
+{
+  "id": 258,
+  "name": "mudkip",
+  "generation": "3",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 70,
+    "defense": 50,
+    "sp_atk": 50,
+    "sp_def": 50,
+    "speed": 40
+  },
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "abilities": {
+    "primary": "torrent",
+    "secondary": null,
+    "hidden": "damp"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 6,
+        "name": "mud-slap"
+      },
+      {
+        "level": 10,
+        "name": "water-gun"
+      },
+      {
+        "level": 15,
+        "name": "bide"
+      },
+      {
+        "level": 19,
+        "name": "foresight"
+      },
+      {
+        "level": 24,
+        "name": "mud-sport"
+      },
+      {
+        "level": 28,
+        "name": "take-down"
+      },
+      {
+        "level": 33,
+        "name": "whirlpool"
+      },
+      {
+        "level": 37,
+        "name": "protect"
+      },
+      {
+        "level": 42,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 46,
+        "name": "endeavor"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      259
+    ],
+    "root": 258,
+    "next_details": []
+  }
+}

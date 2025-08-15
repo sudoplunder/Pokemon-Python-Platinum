@@ -1,0 +1,14 @@
+{
+  "name": "pure-incense",
+  "display_name": "Pure Incense",
+  "category": "training",
+  "cost": 6000,
+  "fling_power": 10,
+  "effect": "Held by lead Pok\u00e9mon: Prevents wild battles with Pok\u00e9mon that are lower level than the holder.",
+  "short_effect": "Prevents wild encounters of level lower than your party's lead Pok\u00e9mon. Breeding: Chimecho begets a Chingling Egg.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable"
+  ]
+}

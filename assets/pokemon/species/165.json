@@ -1,0 +1,124 @@
+{
+  "id": 165,
+  "name": "ledyba",
+  "generation": "2",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 20,
+    "defense": 30,
+    "sp_atk": 40,
+    "sp_def": 80,
+    "speed": 55
+  },
+  "base_experience": 53,
+  "growth_rate": "fast",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swarm",
+    "secondary": "early-bird",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 6,
+        "name": "supersonic"
+      },
+      {
+        "level": 9,
+        "name": "comet-punch"
+      },
+      {
+        "level": 14,
+        "name": "light-screen"
+      },
+      {
+        "level": 14,
+        "name": "reflect"
+      },
+      {
+        "level": 14,
+        "name": "safeguard"
+      },
+      {
+        "level": 17,
+        "name": "mach-punch"
+      },
+      {
+        "level": 22,
+        "name": "baton-pass"
+      },
+      {
+        "level": 25,
+        "name": "silver-wind"
+      },
+      {
+        "level": 30,
+        "name": "agility"
+      },
+      {
+        "level": 33,
+        "name": "swift"
+      },
+      {
+        "level": 38,
+        "name": "double-edge"
+      },
+      {
+        "level": 41,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "dig",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      166
+    ],
+    "root": 165,
+    "next_details": []
+  }
+}

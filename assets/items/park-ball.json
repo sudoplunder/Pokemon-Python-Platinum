@@ -1,0 +1,12 @@
+{
+  "name": "park-ball",
+  "display_name": "Park Ball",
+  "category": "standard-balls",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Used by a trainer in battle\n:   Catches a wild Pok\u00e9mon.\n\nThis item can only be used in pal park.",
+  "short_effect": "Catches Pok\u00e9mon in the Pal Park every time.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

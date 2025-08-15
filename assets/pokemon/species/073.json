@@ -1,0 +1,125 @@
+{
+  "id": 73,
+  "name": "tentacruel",
+  "generation": "1",
+  "types": [
+    "water",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "sp_atk": 80,
+    "sp_def": 120,
+    "speed": 100
+  },
+  "base_experience": 180,
+  "growth_rate": "slow",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "clear-body",
+    "secondary": "liquid-ooze",
+    "hidden": "rain-dish"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "constrict"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "supersonic"
+      },
+      {
+        "level": 12,
+        "name": "acid"
+      },
+      {
+        "level": 15,
+        "name": "toxic-spikes"
+      },
+      {
+        "level": 19,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 22,
+        "name": "wrap"
+      },
+      {
+        "level": 29,
+        "name": "barrier"
+      },
+      {
+        "level": 34,
+        "name": "water-pulse"
+      },
+      {
+        "level": 38,
+        "name": "poison-jab"
+      },
+      {
+        "level": 43,
+        "name": "screech"
+      },
+      {
+        "level": 52,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 61,
+        "name": "wring-out"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "cut",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "sludge-bomb",
+      "substitute",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 72,
+    "next": [],
+    "root": 72,
+    "next_details": []
+  }
+}

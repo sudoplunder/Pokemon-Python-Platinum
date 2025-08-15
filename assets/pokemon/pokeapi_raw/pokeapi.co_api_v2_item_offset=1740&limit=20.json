@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1760&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1720&limit=20",
+  "results": [
+    {
+      "name": "heracross-claw",
+      "url": "https://pokeapi.co/api/v2/item/1792/"
+    },
+    {
+      "name": "sneasel-claw",
+      "url": "https://pokeapi.co/api/v2/item/1793/"
+    },
+    {
+      "name": "teddiursa-claw",
+      "url": "https://pokeapi.co/api/v2/item/1794/"
+    },
+    {
+      "name": "delibird-parcel",
+      "url": "https://pokeapi.co/api/v2/item/1795/"
+    },
+    {
+      "name": "houndour-fang",
+      "url": "https://pokeapi.co/api/v2/item/1796/"
+    },
+    {
+      "name": "phanpy-nail",
+      "url": "https://pokeapi.co/api/v2/item/1797/"
+    },
+    {
+      "name": "stantler-hair",
+      "url": "https://pokeapi.co/api/v2/item/1798/"
+    },
+    {
+      "name": "larvitar-claw",
+      "url": "https://pokeapi.co/api/v2/item/1799/"
+    },
+    {
+      "name": "wingull-feather",
+      "url": "https://pokeapi.co/api/v2/item/1800/"
+    },
+    {
+      "name": "ralts-dust",
+      "url": "https://pokeapi.co/api/v2/item/1801/"
+    },
+    {
+      "name": "surskit-syrup",
+      "url": "https://pokeapi.co/api/v2/item/1802/"
+    },
+    {
+      "name": "shroomish-spores",
+      "url": "https://pokeapi.co/api/v2/item/1803/"
+    },
+    {
+      "name": "slakoth-fur",
+      "url": "https://pokeapi.co/api/v2/item/1804/"
+    },
+    {
+      "name": "makuhita-sweat",
+      "url": "https://pokeapi.co/api/v2/item/1805/"
+    },
+    {
+      "name": "azurill-fur",
+      "url": "https://pokeapi.co/api/v2/item/1806/"
+    },
+    {
+      "name": "sableye-gem",
+      "url": "https://pokeapi.co/api/v2/item/1807/"
+    },
+    {
+      "name": "meditite-sweat",
+      "url": "https://pokeapi.co/api/v2/item/1808/"
+    },
+    {
+      "name": "gulpin-mucus",
+      "url": "https://pokeapi.co/api/v2/item/1809/"
+    },
+    {
+      "name": "numel-lava",
+      "url": "https://pokeapi.co/api/v2/item/1810/"
+    },
+    {
+      "name": "torkoal-coal",
+      "url": "https://pokeapi.co/api/v2/item/1811/"
+    }
+  ]
+}

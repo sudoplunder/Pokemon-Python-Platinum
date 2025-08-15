@@ -1,0 +1,135 @@
+{
+  "id": 184,
+  "name": "azumarill",
+  "generation": "2",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 50,
+    "defense": 80,
+    "sp_atk": 60,
+    "sp_def": 80,
+    "speed": 50
+  },
+  "base_experience": 189,
+  "growth_rate": "fast",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "huge-power",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 1,
+        "name": "water-sport"
+      },
+      {
+        "level": 10,
+        "name": "rollout"
+      },
+      {
+        "level": 13,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 16,
+        "name": "helping-hand"
+      },
+      {
+        "level": 21,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 25,
+        "name": "double-edge"
+      },
+      {
+        "level": 31,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 35,
+        "name": "rain-dance"
+      },
+      {
+        "level": 42,
+        "name": "superpower"
+      },
+      {
+        "level": 46,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 183,
+    "next": [],
+    "root": 298,
+    "next_details": []
+  }
+}

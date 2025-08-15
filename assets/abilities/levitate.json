@@ -1,0 +1,8 @@
+{
+  "name": "levitate",
+  "display_name": "Levitate",
+  "generation": 3,
+  "short_effect": "Evades ground moves.",
+  "effect": "This Pok\u00e9mon is immune to ground-type moves, spikes, toxic spikes, and arena trap.\n\nThis ability is disabled during gravity or ingrain, or while holding an iron ball.  This ability is not disabled during roost.",
+  "is_gen4_or_prior": true
+}

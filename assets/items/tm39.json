@@ -1,0 +1,12 @@
+{
+  "name": "tm39",
+  "display_name": "Tm39",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Rock Tomb to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Rock Tomb to a compatible Pok\u00e9mon. (Gen II & I: Swift)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

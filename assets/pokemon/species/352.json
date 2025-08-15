@@ -1,0 +1,155 @@
+{
+  "id": 352,
+  "name": "kecleon",
+  "generation": "3",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 70,
+    "sp_atk": 60,
+    "sp_def": 120,
+    "speed": 40
+  },
+  "base_experience": 154,
+  "growth_rate": "medium-slow",
+  "capture_rate": 200,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "color-change",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 1,
+        "name": "thief"
+      },
+      {
+        "level": 4,
+        "name": "bind"
+      },
+      {
+        "level": 7,
+        "name": "feint-attack"
+      },
+      {
+        "level": 10,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 14,
+        "name": "feint"
+      },
+      {
+        "level": 17,
+        "name": "psybeam"
+      },
+      {
+        "level": 22,
+        "name": "shadow-sneak"
+      },
+      {
+        "level": 24,
+        "name": "screech"
+      },
+      {
+        "level": 27,
+        "name": "slash"
+      },
+      {
+        "level": 37,
+        "name": "substitute"
+      },
+      {
+        "level": 43,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 49,
+        "name": "ancient-power"
+      },
+      {
+        "level": 49,
+        "name": "shadow-claw"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "charge-beam",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "trick-room",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 352,
+    "next_details": []
+  }
+}

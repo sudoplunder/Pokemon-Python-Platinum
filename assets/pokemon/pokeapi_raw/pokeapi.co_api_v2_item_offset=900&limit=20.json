@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=920&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=880&limit=20",
+  "results": [
+    {
+      "name": "dragonium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/952/"
+    },
+    {
+      "name": "darkinium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/953/"
+    },
+    {
+      "name": "steelium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/954/"
+    },
+    {
+      "name": "fairium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/955/"
+    },
+    {
+      "name": "pikanium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/956/"
+    },
+    {
+      "name": "decidium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/957/"
+    },
+    {
+      "name": "incinium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/958/"
+    },
+    {
+      "name": "primarium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/959/"
+    },
+    {
+      "name": "tapunium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/960/"
+    },
+    {
+      "name": "marshadium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/961/"
+    },
+    {
+      "name": "aloraichium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/962/"
+    },
+    {
+      "name": "snorlium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/963/"
+    },
+    {
+      "name": "eevium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/964/"
+    },
+    {
+      "name": "mewnium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/965/"
+    },
+    {
+      "name": "pikashunium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/966/"
+    },
+    {
+      "name": "solganium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/967/"
+    },
+    {
+      "name": "lunalium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/968/"
+    },
+    {
+      "name": "ultranecrozium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/969/"
+    },
+    {
+      "name": "mimikium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/970/"
+    },
+    {
+      "name": "lycanium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/971/"
+    }
+  ]
+}

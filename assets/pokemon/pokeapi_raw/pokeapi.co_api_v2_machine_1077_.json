@@ -1,0 +1,15 @@
+{
+  "id": 1077,
+  "item": {
+    "name": "tm57",
+    "url": "https://pokeapi.co/api/v2/item/361/"
+  },
+  "move": {
+    "name": "pay-day",
+    "url": "https://pokeapi.co/api/v2/move/6/"
+  },
+  "version_group": {
+    "name": "lets-go-pikachu-lets-go-eevee",
+    "url": "https://pokeapi.co/api/v2/version-group/19/"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": 238,
+  "name": "smoochum",
+  "generation": "2",
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 15,
+    "sp_atk": 85,
+    "sp_def": 65,
+    "speed": 65
+  },
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 8,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "oblivious",
+    "secondary": "forewarn",
+    "hidden": "hydration"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 8,
+        "name": "sweet-kiss"
+      },
+      {
+        "level": 11,
+        "name": "powder-snow"
+      },
+      {
+        "level": 15,
+        "name": "confusion"
+      },
+      {
+        "level": 18,
+        "name": "sing"
+      },
+      {
+        "level": 25,
+        "name": "mean-look"
+      },
+      {
+        "level": 28,
+        "name": "fake-tears"
+      },
+      {
+        "level": 31,
+        "name": "lucky-chant"
+      },
+      {
+        "level": 35,
+        "name": "avalanche"
+      },
+      {
+        "level": 38,
+        "name": "psychic"
+      },
+      {
+        "level": 41,
+        "name": "copycat"
+      },
+      {
+        "level": 45,
+        "name": "perish-song"
+      },
+      {
+        "level": 48,
+        "name": "blizzard"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "calm-mind",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "light-screen",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "substitute",
+      "swagger",
+      "thief",
+      "toxic",
+      "trick-room",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      124
+    ],
+    "root": 238,
+    "next_details": []
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": 286,
+  "name": "breloom",
+  "generation": "3",
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 130,
+    "defense": 80,
+    "sp_atk": 60,
+    "sp_def": 60,
+    "speed": 70
+  },
+  "base_experience": 161,
+  "growth_rate": "fast-then-very-slow",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "fairy",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "effect-spore",
+    "secondary": "poison-heal",
+    "hidden": "technician"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 1,
+        "name": "leech-seed"
+      },
+      {
+        "level": 1,
+        "name": "stun-spore"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 16,
+        "name": "mega-drain"
+      },
+      {
+        "level": 21,
+        "name": "headbutt"
+      },
+      {
+        "level": 23,
+        "name": "mach-punch"
+      },
+      {
+        "level": 25,
+        "name": "counter"
+      },
+      {
+        "level": 29,
+        "name": "force-palm"
+      },
+      {
+        "level": 33,
+        "name": "sky-uppercut"
+      },
+      {
+        "level": 37,
+        "name": "mind-reader"
+      },
+      {
+        "level": 41,
+        "name": "seed-bomb"
+      },
+      {
+        "level": 45,
+        "name": "dynamic-punch"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "false-swipe",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "secret-power",
+      "sludge-bomb",
+      "snatch",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 285,
+    "next": [],
+    "root": 285,
+    "next_details": []
+  }
+}

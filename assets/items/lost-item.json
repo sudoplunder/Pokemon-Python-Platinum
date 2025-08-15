@@ -1,0 +1,12 @@
+{
+  "name": "lost-item",
+  "display_name": "Lost Item",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "May be traded to the Copycat for a pass.",
+  "short_effect": "A Pok\u00e9 Doll lost by the Copycat who lives in Saffron City. Trade for a Pass.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

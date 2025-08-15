@@ -1,0 +1,15 @@
+{
+  "id": 1855,
+  "item": {
+    "name": "tm150",
+    "url": "https://pokeapi.co/api/v2/item/1993/"
+  },
+  "move": {
+    "name": "stone-edge",
+    "url": "https://pokeapi.co/api/v2/move/444/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

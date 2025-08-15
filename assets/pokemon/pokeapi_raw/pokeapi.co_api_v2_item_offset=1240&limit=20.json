@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1260&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1220&limit=20",
+  "results": [
+    {
+      "name": "brave-mint",
+      "url": "https://pokeapi.co/api/v2/item/1292/"
+    },
+    {
+      "name": "bold-mint",
+      "url": "https://pokeapi.co/api/v2/item/1293/"
+    },
+    {
+      "name": "impish-mint",
+      "url": "https://pokeapi.co/api/v2/item/1294/"
+    },
+    {
+      "name": "lax-mint",
+      "url": "https://pokeapi.co/api/v2/item/1295/"
+    },
+    {
+      "name": "relaxed-mint",
+      "url": "https://pokeapi.co/api/v2/item/1296/"
+    },
+    {
+      "name": "modest-mint",
+      "url": "https://pokeapi.co/api/v2/item/1297/"
+    },
+    {
+      "name": "mild-mint",
+      "url": "https://pokeapi.co/api/v2/item/1298/"
+    },
+    {
+      "name": "rash-mint",
+      "url": "https://pokeapi.co/api/v2/item/1299/"
+    },
+    {
+      "name": "quiet-mint",
+      "url": "https://pokeapi.co/api/v2/item/1300/"
+    },
+    {
+      "name": "calm-mint",
+      "url": "https://pokeapi.co/api/v2/item/1301/"
+    },
+    {
+      "name": "gentle-mint",
+      "url": "https://pokeapi.co/api/v2/item/1302/"
+    },
+    {
+      "name": "careful-mint",
+      "url": "https://pokeapi.co/api/v2/item/1303/"
+    },
+    {
+      "name": "sassy-mint",
+      "url": "https://pokeapi.co/api/v2/item/1304/"
+    },
+    {
+      "name": "timid-mint",
+      "url": "https://pokeapi.co/api/v2/item/1305/"
+    },
+    {
+      "name": "hasty-mint",
+      "url": "https://pokeapi.co/api/v2/item/1306/"
+    },
+    {
+      "name": "jolly-mint",
+      "url": "https://pokeapi.co/api/v2/item/1307/"
+    },
+    {
+      "name": "naive-mint",
+      "url": "https://pokeapi.co/api/v2/item/1308/"
+    },
+    {
+      "name": "serious-mint",
+      "url": "https://pokeapi.co/api/v2/item/1309/"
+    },
+    {
+      "name": "wishing-piece",
+      "url": "https://pokeapi.co/api/v2/item/1310/"
+    },
+    {
+      "name": "cracked-pot",
+      "url": "https://pokeapi.co/api/v2/item/1311/"
+    }
+  ]
+}

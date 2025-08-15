@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=860&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=820&limit=20",
+  "results": [
+    {
+      "name": "purple-nectar",
+      "url": "https://pokeapi.co/api/v2/item/892/"
+    },
+    {
+      "name": "sun-flute",
+      "url": "https://pokeapi.co/api/v2/item/893/"
+    },
+    {
+      "name": "moon-flute",
+      "url": "https://pokeapi.co/api/v2/item/894/"
+    },
+    {
+      "name": "enigmatic-card",
+      "url": "https://pokeapi.co/api/v2/item/895/"
+    },
+    {
+      "name": "terrain-extender",
+      "url": "https://pokeapi.co/api/v2/item/896/"
+    },
+    {
+      "name": "protective-pads",
+      "url": "https://pokeapi.co/api/v2/item/897/"
+    },
+    {
+      "name": "electric-seed",
+      "url": "https://pokeapi.co/api/v2/item/898/"
+    },
+    {
+      "name": "psychic-seed",
+      "url": "https://pokeapi.co/api/v2/item/899/"
+    },
+    {
+      "name": "misty-seed",
+      "url": "https://pokeapi.co/api/v2/item/900/"
+    },
+    {
+      "name": "grassy-seed",
+      "url": "https://pokeapi.co/api/v2/item/901/"
+    },
+    {
+      "name": "fighting-memory",
+      "url": "https://pokeapi.co/api/v2/item/902/"
+    },
+    {
+      "name": "flying-memory",
+      "url": "https://pokeapi.co/api/v2/item/903/"
+    },
+    {
+      "name": "poison-memory",
+      "url": "https://pokeapi.co/api/v2/item/904/"
+    },
+    {
+      "name": "ground-memory",
+      "url": "https://pokeapi.co/api/v2/item/905/"
+    },
+    {
+      "name": "rock-memory",
+      "url": "https://pokeapi.co/api/v2/item/906/"
+    },
+    {
+      "name": "bug-memory",
+      "url": "https://pokeapi.co/api/v2/item/907/"
+    },
+    {
+      "name": "ghost-memory",
+      "url": "https://pokeapi.co/api/v2/item/908/"
+    },
+    {
+      "name": "steel-memory",
+      "url": "https://pokeapi.co/api/v2/item/909/"
+    },
+    {
+      "name": "fire-memory",
+      "url": "https://pokeapi.co/api/v2/item/910/"
+    },
+    {
+      "name": "water-memory",
+      "url": "https://pokeapi.co/api/v2/item/911/"
+    }
+  ]
+}

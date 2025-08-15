@@ -1,0 +1,15 @@
+{
+  "id": 1932,
+  "item": {
+    "name": "tm227",
+    "url": "https://pokeapi.co/api/v2/item/2216/"
+  },
+  "move": {
+    "name": "alluring-voice",
+    "url": "https://pokeapi.co/api/v2/move/914/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

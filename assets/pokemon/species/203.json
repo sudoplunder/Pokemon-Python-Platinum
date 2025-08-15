@@ -1,0 +1,143 @@
+{
+  "id": 203,
+  "name": "girafarig",
+  "generation": "2",
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 65,
+    "sp_atk": 90,
+    "sp_def": 65,
+    "speed": 85
+  },
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "inner-focus",
+    "secondary": "early-bird",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "guard-swap"
+      },
+      {
+        "level": 1,
+        "name": "power-swap"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 10,
+        "name": "stomp"
+      },
+      {
+        "level": 14,
+        "name": "agility"
+      },
+      {
+        "level": 19,
+        "name": "psybeam"
+      },
+      {
+        "level": 23,
+        "name": "baton-pass"
+      },
+      {
+        "level": 28,
+        "name": "assurance"
+      },
+      {
+        "level": 32,
+        "name": "double-hit"
+      },
+      {
+        "level": 37,
+        "name": "psychic"
+      },
+      {
+        "level": 41,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 46,
+        "name": "crunch"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 203,
+    "next_details": []
+  }
+}

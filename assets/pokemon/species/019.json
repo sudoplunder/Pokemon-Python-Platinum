@@ -1,0 +1,127 @@
+{
+  "id": 19,
+  "name": "rattata",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 56,
+    "defense": 35,
+    "sp_atk": 25,
+    "sp_def": 35,
+    "speed": 72
+  },
+  "base_experience": 51,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "run-away",
+    "secondary": "guts",
+    "hidden": "hustle"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 4,
+        "name": "quick-attack"
+      },
+      {
+        "level": 7,
+        "name": "focus-energy"
+      },
+      {
+        "level": 10,
+        "name": "bite"
+      },
+      {
+        "level": 13,
+        "name": "hyper-fang"
+      },
+      {
+        "level": 13,
+        "name": "pursuit"
+      },
+      {
+        "level": 19,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 22,
+        "name": "crunch"
+      },
+      {
+        "level": 25,
+        "name": "assurance"
+      },
+      {
+        "level": 28,
+        "name": "super-fang"
+      },
+      {
+        "level": 31,
+        "name": "double-edge"
+      },
+      {
+        "level": 34,
+        "name": "endeavor"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "charge-beam",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      20
+    ],
+    "root": 19,
+    "next_details": []
+  }
+}

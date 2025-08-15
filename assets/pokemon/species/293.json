@@ -1,0 +1,113 @@
+{
+  "id": 293,
+  "name": "whismur",
+  "generation": "3",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 64,
+    "attack": 51,
+    "defense": 23,
+    "sp_atk": 51,
+    "sp_def": 23,
+    "speed": 28
+  },
+  "base_experience": 48,
+  "growth_rate": "medium-slow",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "soundproof",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 5,
+        "name": "uproar"
+      },
+      {
+        "level": 11,
+        "name": "astonish"
+      },
+      {
+        "level": 15,
+        "name": "howl"
+      },
+      {
+        "level": 21,
+        "name": "supersonic"
+      },
+      {
+        "level": 25,
+        "name": "stomp"
+      },
+      {
+        "level": 31,
+        "name": "screech"
+      },
+      {
+        "level": 35,
+        "name": "roar"
+      },
+      {
+        "level": 41,
+        "name": "rest"
+      },
+      {
+        "level": 41,
+        "name": "sleep-talk"
+      },
+      {
+        "level": 45,
+        "name": "hyper-voice"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      294
+    ],
+    "root": 293,
+    "next_details": []
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": 226,
+  "name": "mantine",
+  "generation": "2",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 40,
+    "defense": 70,
+    "sp_atk": 80,
+    "sp_def": 140,
+    "speed": 70
+  },
+  "base_experience": 170,
+  "growth_rate": "slow",
+  "capture_rate": 25,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "water-absorb",
+    "hidden": "water-veil"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 1,
+        "name": "bullet-seed"
+      },
+      {
+        "level": 1,
+        "name": "psybeam"
+      },
+      {
+        "level": 1,
+        "name": "signal-beam"
+      },
+      {
+        "level": 1,
+        "name": "supersonic"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 11,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 14,
+        "name": "wing-attack"
+      },
+      {
+        "level": 16,
+        "name": "headbutt"
+      },
+      {
+        "level": 19,
+        "name": "water-pulse"
+      },
+      {
+        "level": 22,
+        "name": "take-down"
+      },
+      {
+        "level": 29,
+        "name": "agility"
+      },
+      {
+        "level": 36,
+        "name": "air-slash"
+      },
+      {
+        "level": 39,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 46,
+        "name": "bounce"
+      },
+      {
+        "level": 49,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-tomb",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 458,
+    "next": [],
+    "root": 458,
+    "next_details": []
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": 438,
+  "name": "bonsly",
+  "generation": "4",
+  "types": [
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 80,
+    "defense": 95,
+    "sp_atk": 10,
+    "sp_def": 45,
+    "speed": 10
+  },
+  "base_experience": 58,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "sturdy",
+    "secondary": "rock-head",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "copycat"
+      },
+      {
+        "level": 1,
+        "name": "fake-tears"
+      },
+      {
+        "level": 5,
+        "name": "flail"
+      },
+      {
+        "level": 8,
+        "name": "low-kick"
+      },
+      {
+        "level": 12,
+        "name": "rock-throw"
+      },
+      {
+        "level": 15,
+        "name": "slam"
+      },
+      {
+        "level": 19,
+        "name": "feint-attack"
+      },
+      {
+        "level": 22,
+        "name": "rock-tomb"
+      },
+      {
+        "level": 26,
+        "name": "block"
+      },
+      {
+        "level": 29,
+        "name": "rock-slide"
+      },
+      {
+        "level": 33,
+        "name": "mimic"
+      },
+      {
+        "level": 36,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 40,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "calm-mind",
+      "dig",
+      "double-team",
+      "explosion",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "protect",
+      "psych-up",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-tomb",
+      "sandstorm",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      185
+    ],
+    "root": 438,
+    "next_details": []
+  }
+}

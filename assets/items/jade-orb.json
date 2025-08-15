@@ -1,0 +1,12 @@
+{
+  "name": "jade-orb",
+  "display_name": "Jade Orb",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Causes rayquaza to appear in the embedded tower.",
+  "short_effect": "Summons Rayquaza to the Embedded Tower.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

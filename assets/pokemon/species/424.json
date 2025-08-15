@@ -1,0 +1,132 @@
+{
+  "id": 424,
+  "name": "ambipom",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 66,
+    "sp_atk": 60,
+    "sp_def": 66,
+    "speed": 115
+  },
+  "base_experience": 169,
+  "growth_rate": "fast",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 100,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "technician",
+    "secondary": "pickup",
+    "hidden": "skill-link"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 11,
+        "name": "baton-pass"
+      },
+      {
+        "level": 15,
+        "name": "tickle"
+      },
+      {
+        "level": 18,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 22,
+        "name": "swift"
+      },
+      {
+        "level": 25,
+        "name": "screech"
+      },
+      {
+        "level": 29,
+        "name": "agility"
+      },
+      {
+        "level": 32,
+        "name": "double-hit"
+      },
+      {
+        "level": 36,
+        "name": "fling"
+      },
+      {
+        "level": 39,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 43,
+        "name": "last-resort"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "shadow-ball",
+      "shadow-claw",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 190,
+    "next": [],
+    "root": 190,
+    "next_details": []
+  }
+}

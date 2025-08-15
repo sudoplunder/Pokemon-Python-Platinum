@@ -1,0 +1,89 @@
+{
+  "id": 407,
+  "name": "roserade",
+  "generation": "4",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 65,
+    "sp_atk": 125,
+    "sp_def": 105,
+    "speed": 90
+  },
+  "base_experience": 232,
+  "growth_rate": "medium-slow",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "fairy",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "natural-cure",
+    "secondary": "poison-point",
+    "hidden": "technician"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 1,
+        "name": "mega-drain"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 1,
+        "name": "weather-ball"
+      }
+    ],
+    "machines": [
+      "attract",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "shadow-ball",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 315,
+    "next": [],
+    "root": 406,
+    "next_details": []
+  }
+}

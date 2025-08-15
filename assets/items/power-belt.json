@@ -1,0 +1,15 @@
+{
+  "name": "power-belt",
+  "display_name": "Power Belt",
+  "category": "effort-training",
+  "cost": 3000,
+  "fling_power": 70,
+  "effect": "Held: Decreases the holder's Speed by 50%.  Whenever the holder gains Defense effort from battle, increases that effort by 4; this applies before the Pok\u00e9RUS doubling effect.",
+  "short_effect": "Held: Holder gains 4 Defense effort values, but has halved Speed in battle.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

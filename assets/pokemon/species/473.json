@@ -1,0 +1,139 @@
+{
+  "id": 473,
+  "name": "mamoswine",
+  "generation": "4",
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 130,
+    "defense": 80,
+    "sp_atk": 70,
+    "sp_def": 60,
+    "speed": 80
+  },
+  "base_experience": 239,
+  "growth_rate": "slow",
+  "capture_rate": 50,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "oblivious",
+    "secondary": "snow-cloak",
+    "hidden": "thick-fat"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ancient-power"
+      },
+      {
+        "level": 1,
+        "name": "mud-sport"
+      },
+      {
+        "level": 1,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 1,
+        "name": "powder-snow"
+      },
+      {
+        "level": 11,
+        "name": "mud-slap"
+      },
+      {
+        "level": 14,
+        "name": "endure"
+      },
+      {
+        "level": 18,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 21,
+        "name": "hail"
+      },
+      {
+        "level": 24,
+        "name": "ice-fang"
+      },
+      {
+        "level": 28,
+        "name": "take-down"
+      },
+      {
+        "level": 33,
+        "name": "double-hit"
+      },
+      {
+        "level": 37,
+        "name": "mist"
+      },
+      {
+        "level": 41,
+        "name": "thrash"
+      },
+      {
+        "level": 46,
+        "name": "earthquake"
+      },
+      {
+        "level": 52,
+        "name": "blizzard"
+      },
+      {
+        "level": 58,
+        "name": "scary-face"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 221,
+    "next": [],
+    "root": 220,
+    "next_details": []
+  }
+}

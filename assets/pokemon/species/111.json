@@ -1,0 +1,126 @@
+{
+  "id": 111,
+  "name": "rhyhorn",
+  "generation": "1",
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 85,
+    "defense": 95,
+    "sp_atk": 30,
+    "sp_def": 30,
+    "speed": 25
+  },
+  "base_experience": 69,
+  "growth_rate": "slow",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "lightning-rod",
+    "secondary": "rock-head",
+    "hidden": "reckless"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "horn-attack"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 8,
+        "name": "stomp"
+      },
+      {
+        "level": 12,
+        "name": "fury-attack"
+      },
+      {
+        "level": 19,
+        "name": "scary-face"
+      },
+      {
+        "level": 23,
+        "name": "rock-blast"
+      },
+      {
+        "level": 38,
+        "name": "horn-drill"
+      },
+      {
+        "level": 41,
+        "name": "take-down"
+      },
+      {
+        "level": 52,
+        "name": "earthquake"
+      },
+      {
+        "level": 52,
+        "name": "stone-edge"
+      },
+      {
+        "level": 57,
+        "name": "megahorn"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shock-wave",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      112
+    ],
+    "root": 111,
+    "next_details": []
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": 35,
+  "name": "clefairy",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 45,
+    "defense": 48,
+    "sp_atk": 60,
+    "sp_def": 65,
+    "speed": 35
+  },
+  "base_experience": 113,
+  "growth_rate": "fast",
+  "capture_rate": 150,
+  "gender_rate": 6,
+  "hatch_cycles": 10,
+  "base_friendship": 140,
+  "egg_groups": [
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "cute-charm",
+    "secondary": "magic-guard",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 4,
+        "name": "encore"
+      },
+      {
+        "level": 7,
+        "name": "sing"
+      },
+      {
+        "level": 10,
+        "name": "double-slap"
+      },
+      {
+        "level": 13,
+        "name": "defense-curl"
+      },
+      {
+        "level": 16,
+        "name": "follow-me"
+      },
+      {
+        "level": 21,
+        "name": "minimize"
+      },
+      {
+        "level": 22,
+        "name": "wake-up-slap"
+      },
+      {
+        "level": 29,
+        "name": "metronome"
+      },
+      {
+        "level": 33,
+        "name": "cosmic-power"
+      },
+      {
+        "level": 37,
+        "name": "lucky-chant"
+      },
+      {
+        "level": 37,
+        "name": "moonlight"
+      },
+      {
+        "level": 40,
+        "name": "body-slam"
+      },
+      {
+        "level": 41,
+        "name": "light-screen"
+      },
+      {
+        "level": 45,
+        "name": "meteor-mash"
+      },
+      {
+        "level": 49,
+        "name": "gravity"
+      },
+      {
+        "level": 55,
+        "name": "healing-wish"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "snatch",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 173,
+    "next": [
+      36
+    ],
+    "root": 173,
+    "next_details": [
+      {
+        "id": 36,
+        "trigger": "item",
+        "conditions": {
+          "item": "moon-stone"
+        }
+      }
+    ]
+  }
+}

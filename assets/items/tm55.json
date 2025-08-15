@@ -1,0 +1,12 @@
+{
+  "name": "tm55",
+  "display_name": "Tm55",
+  "category": "all-machines",
+  "cost": 10000,
+  "fling_power": null,
+  "effect": "Teaches Brine to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Scald to a compatible Pok\u00e9mon. (Gen IV: Brine)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

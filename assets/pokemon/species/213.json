@@ -1,0 +1,125 @@
+{
+  "id": 213,
+  "name": "shuckle",
+  "generation": "2",
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 230,
+    "sp_atk": 10,
+    "sp_def": 230,
+    "speed": 5
+  },
+  "base_experience": 177,
+  "growth_rate": "medium-slow",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "sturdy",
+    "secondary": "gluttony",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bide"
+      },
+      {
+        "level": 1,
+        "name": "constrict"
+      },
+      {
+        "level": 1,
+        "name": "rollout"
+      },
+      {
+        "level": 1,
+        "name": "withdraw"
+      },
+      {
+        "level": 5,
+        "name": "encore"
+      },
+      {
+        "level": 9,
+        "name": "wrap"
+      },
+      {
+        "level": 16,
+        "name": "safeguard"
+      },
+      {
+        "level": 20,
+        "name": "rest"
+      },
+      {
+        "level": 23,
+        "name": "rock-throw"
+      },
+      {
+        "level": 27,
+        "name": "gastro-acid"
+      },
+      {
+        "level": 31,
+        "name": "power-trick"
+      },
+      {
+        "level": 38,
+        "name": "rock-slide"
+      },
+      {
+        "level": 42,
+        "name": "bug-bite"
+      },
+      {
+        "level": 49,
+        "name": "stone-edge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "flash",
+      "frustration",
+      "gyro-ball",
+      "hidden-power",
+      "protect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "sludge-bomb",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 213,
+    "next_details": []
+  }
+}

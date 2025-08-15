@@ -2,10 +2,17 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from typing import List
+from platinum.core.paths import ASSETS
 from .types import Event
 
 def load_events() -> List[Event]:
-    root = Path("assets/events")
+    """Load all event JSON files.
+
+    Uses the absolute assets path so it is robust to invoking the game from
+    different working directories (e.g. running inside the `platinum` package
+    folder instead of project root).
+    """
+    root = ASSETS / "events"
     results: List[Event] = []
     if not root.exists():
         return results

@@ -1,0 +1,15 @@
+{
+  "id": 1805,
+  "item": {
+    "name": "tm100",
+    "url": "https://pokeapi.co/api/v2/item/1943/"
+  },
+  "move": {
+    "name": "dragon-dance",
+    "url": "https://pokeapi.co/api/v2/move/349/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

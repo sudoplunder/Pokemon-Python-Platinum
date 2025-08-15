@@ -1,0 +1,8 @@
+{
+  "name": "ice-body",
+  "display_name": "Ice Body",
+  "generation": 4,
+  "short_effect": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage.",
+  "effect": "This Pok\u00e9mon heals for 1/16 of its maximum HP after each turn during hail, and it does not take hail damage regardless of type.",
+  "is_gen4_or_prior": true
+}

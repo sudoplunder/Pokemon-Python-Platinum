@@ -1,0 +1,15 @@
+{
+  "id": 1984,
+  "item": {
+    "name": "tm59",
+    "url": "https://pokeapi.co/api/v2/item/363/"
+  },
+  "move": {
+    "name": "zen-headbutt",
+    "url": "https://pokeapi.co/api/v2/move/428/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

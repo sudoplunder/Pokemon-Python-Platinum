@@ -1,0 +1,12 @@
+{
+  "name": "escape-rope",
+  "display_name": "Escape Rope",
+  "category": "spelunking",
+  "cost": 300,
+  "fling_power": 30,
+  "effect": "Used outside of battle\n:   Transports the trainer to the last-entered dungeon entrance.  Cannot be used outside, in buildings, or in distortion world, sinnoh hall of origin 1, spear pillar, or turnback cave.",
+  "short_effect": "Transports user to the outside entrance of a cave.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

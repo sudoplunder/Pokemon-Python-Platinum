@@ -1,0 +1,176 @@
+{
+  "id": 151,
+  "name": "mew",
+  "generation": "1",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "sp_atk": 100,
+    "sp_def": 100,
+    "speed": 100
+  },
+  "base_experience": 270,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": -1,
+  "hatch_cycles": 120,
+  "base_friendship": 100,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "synchronize",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "transform"
+      },
+      {
+        "level": 10,
+        "name": "mega-punch"
+      },
+      {
+        "level": 20,
+        "name": "metronome"
+      },
+      {
+        "level": 30,
+        "name": "psychic"
+      },
+      {
+        "level": 40,
+        "name": "barrier"
+      },
+      {
+        "level": 50,
+        "name": "ancient-power"
+      },
+      {
+        "level": 60,
+        "name": "amnesia"
+      },
+      {
+        "level": 70,
+        "name": "me-first"
+      },
+      {
+        "level": 80,
+        "name": "baton-pass"
+      },
+      {
+        "level": 90,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 100,
+        "name": "aura-sphere"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "bulk-up",
+      "bullet-seed",
+      "calm-mind",
+      "charge-beam",
+      "cut",
+      "dig",
+      "dive",
+      "double-team",
+      "dragon-claw",
+      "dream-eater",
+      "earthquake",
+      "embargo",
+      "energy-ball",
+      "explosion",
+      "facade",
+      "false-swipe",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "flash-cannon",
+      "fling",
+      "fly",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "gyro-ball",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "overheat",
+      "payback",
+      "pluck",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "skill-swap",
+      "sludge-bomb",
+      "snatch",
+      "solar-beam",
+      "steel-wing",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "u-turn",
+      "water-pulse",
+      "waterfall",
+      "will-o-wisp",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 151,
+    "next_details": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pal-pad",
+  "display_name": "Pal Pad",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Contains friend codes for up to 32 other players, as well as their sprite, gender, and basic statistics for those that have been seen on WFC.",
+  "short_effect": "Use to record Friend Codes and check your own.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

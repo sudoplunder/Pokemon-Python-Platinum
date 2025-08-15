@@ -1,0 +1,143 @@
+{
+  "id": 97,
+  "name": "hypno",
+  "generation": "1",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "sp_atk": 73,
+    "sp_def": 115,
+    "speed": 67
+  },
+  "base_experience": 169,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "insomnia",
+    "secondary": "forewarn",
+    "hidden": "inner-focus"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "disable"
+      },
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "nightmare"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "switcheroo"
+      },
+      {
+        "level": 13,
+        "name": "headbutt"
+      },
+      {
+        "level": 17,
+        "name": "poison-gas"
+      },
+      {
+        "level": 21,
+        "name": "meditate"
+      },
+      {
+        "level": 25,
+        "name": "psybeam"
+      },
+      {
+        "level": 33,
+        "name": "psych-up"
+      },
+      {
+        "level": 41,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 45,
+        "name": "swagger"
+      },
+      {
+        "level": 49,
+        "name": "psychic"
+      },
+      {
+        "level": 53,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 60,
+        "name": "future-sight"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "calm-mind",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder-wave",
+      "torment",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": 96,
+    "next": [],
+    "root": 96,
+    "next_details": []
+  }
+}

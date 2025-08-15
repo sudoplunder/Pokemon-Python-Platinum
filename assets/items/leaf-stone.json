@@ -1,0 +1,14 @@
+{
+  "name": "leaf-stone",
+  "display_name": "Leaf Stone",
+  "category": "evolution",
+  "cost": 3000,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Evolves an exeggcute into exeggutor, a gloom into vileplume, a nuzleaf into shiftry, a pansage into simisage, or a weepinbell into victreebel.",
+  "short_effect": "Evolves an Exeggcute into Exeggutor, a Gloom into Vileplume, a Nuzleaf into Shiftry, a Pansage into Simisage, or a Weepinbell into Victreebel.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "underground"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": 247,
+  "name": "pupitar",
+  "generation": "2",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 84,
+    "defense": 70,
+    "sp_atk": 65,
+    "sp_def": 70,
+    "speed": 51
+  },
+  "base_experience": 144,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 35,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "shed-skin",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "sandstorm"
+      },
+      {
+        "level": 1,
+        "name": "screech"
+      },
+      {
+        "level": 19,
+        "name": "rock-slide"
+      },
+      {
+        "level": 23,
+        "name": "scary-face"
+      },
+      {
+        "level": 28,
+        "name": "thrash"
+      },
+      {
+        "level": 34,
+        "name": "dark-pulse"
+      },
+      {
+        "level": 41,
+        "name": "payback"
+      },
+      {
+        "level": 47,
+        "name": "crunch"
+      },
+      {
+        "level": 54,
+        "name": "earthquake"
+      },
+      {
+        "level": 60,
+        "name": "stone-edge"
+      },
+      {
+        "level": 65,
+        "name": "hyper-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 246,
+    "next": [
+      248
+    ],
+    "root": 246,
+    "next_details": []
+  }
+}

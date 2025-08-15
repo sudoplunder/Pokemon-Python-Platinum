@@ -1,0 +1,43 @@
+{
+  "count": 29,
+  "next": null,
+  "previous": "https://pokeapi.co/api/v2/version-group?offset=11&limit=9",
+  "results": [
+    {
+      "name": "the-isle-of-armor",
+      "url": "https://pokeapi.co/api/v2/version-group/21/"
+    },
+    {
+      "name": "the-crown-tundra",
+      "url": "https://pokeapi.co/api/v2/version-group/22/"
+    },
+    {
+      "name": "brilliant-diamond-and-shining-pearl",
+      "url": "https://pokeapi.co/api/v2/version-group/23/"
+    },
+    {
+      "name": "legends-arceus",
+      "url": "https://pokeapi.co/api/v2/version-group/24/"
+    },
+    {
+      "name": "scarlet-violet",
+      "url": "https://pokeapi.co/api/v2/version-group/25/"
+    },
+    {
+      "name": "the-teal-mask",
+      "url": "https://pokeapi.co/api/v2/version-group/26/"
+    },
+    {
+      "name": "the-indigo-disk",
+      "url": "https://pokeapi.co/api/v2/version-group/27/"
+    },
+    {
+      "name": "red-green-japan",
+      "url": "https://pokeapi.co/api/v2/version-group/28/"
+    },
+    {
+      "name": "blue-japan",
+      "url": "https://pokeapi.co/api/v2/version-group/29/"
+    }
+  ]
+}

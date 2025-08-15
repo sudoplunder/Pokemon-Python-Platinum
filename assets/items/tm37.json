@@ -1,0 +1,12 @@
+{
+  "name": "tm37",
+  "display_name": "Tm37",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Sandstorm to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Sandstorm to a compatible Pok\u00e9mon. (Gen I: Egg Bomb)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sacred-ash",
+  "display_name": "Sacred Ash",
+  "category": "revival",
+  "cost": 50000,
+  "fling_power": 30,
+  "effect": "Used\n:   Revives all fainted Pok\u00e9mon in the party and restores their HP to full.",
+  "short_effect": "Revives all fainted Pok\u00e9mon with full HP.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

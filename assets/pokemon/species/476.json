@@ -1,0 +1,144 @@
+{
+  "id": 476,
+  "name": "probopass",
+  "generation": "4",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 145,
+    "sp_atk": 75,
+    "sp_def": 150,
+    "speed": 40
+  },
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "sturdy",
+    "secondary": "magnet-pull",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "block"
+      },
+      {
+        "level": 1,
+        "name": "gravity"
+      },
+      {
+        "level": 1,
+        "name": "iron-defense"
+      },
+      {
+        "level": 1,
+        "name": "magnet-bomb"
+      },
+      {
+        "level": 1,
+        "name": "magnet-rise"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 15,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 18,
+        "name": "rock-blast"
+      },
+      {
+        "level": 22,
+        "name": "rest"
+      },
+      {
+        "level": 25,
+        "name": "spark"
+      },
+      {
+        "level": 29,
+        "name": "rock-slide"
+      },
+      {
+        "level": 32,
+        "name": "power-gem"
+      },
+      {
+        "level": 36,
+        "name": "sandstorm"
+      },
+      {
+        "level": 39,
+        "name": "discharge"
+      },
+      {
+        "level": 43,
+        "name": "earth-power"
+      },
+      {
+        "level": 46,
+        "name": "stone-edge"
+      },
+      {
+        "level": 50,
+        "name": "lock-on"
+      },
+      {
+        "level": 50,
+        "name": "zap-cannon"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "flash-cannon",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 299,
+    "next": [],
+    "root": 299,
+    "next_details": []
+  }
+}

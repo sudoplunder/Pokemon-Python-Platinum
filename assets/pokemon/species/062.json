@@ -1,0 +1,108 @@
+{
+  "id": 62,
+  "name": "poliwrath",
+  "generation": "1",
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 95,
+    "defense": 95,
+    "sp_atk": 70,
+    "sp_def": 90,
+    "speed": 70
+  },
+  "base_experience": 230,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1"
+  ],
+  "abilities": {
+    "primary": "water-absorb",
+    "secondary": "damp",
+    "hidden": "swift-swim"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 1,
+        "name": "double-slap"
+      },
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "submission"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 32,
+        "name": "dynamic-punch"
+      },
+      {
+        "level": 43,
+        "name": "mind-reader"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 61,
+    "next": [],
+    "root": 60,
+    "next_details": []
+  }
+}

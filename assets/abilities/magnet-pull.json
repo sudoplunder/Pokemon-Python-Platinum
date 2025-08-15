@@ -1,0 +1,8 @@
+{
+  "name": "magnet-pull",
+  "display_name": "Magnet Pull",
+  "generation": 3,
+  "short_effect": "Prevents steel opponents from fleeing or switching out.",
+  "effect": "While this Pok\u00e9mon is in battle, opposing steel-type Pok\u00e9mon cannot flee or switch out.\n\nPok\u00e9mon with run away can still flee.  Pok\u00e9mon can still switch out with the use of a move or item.\n\nOverworld: If the lead Pok\u00e9mon has this ability, Steel-type Pok\u00e9mon have a higher encounter rate.",
+  "is_gen4_or_prior": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": 740,
+  "item": {
+    "name": "tm37",
+    "url": "https://pokeapi.co/api/v2/item/341/"
+  },
+  "move": {
+    "name": "flamethrower",
+    "url": "https://pokeapi.co/api/v2/move/53/"
+  },
+  "version_group": {
+    "name": "lets-go-pikachu-lets-go-eevee",
+    "url": "https://pokeapi.co/api/v2/version-group/19/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "devon-scope",
+  "display_name": "Devon Scope",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Reveals invisble kecleon on the overworld.",
+  "short_effect": "Allows spotting of invisible Kecleon.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

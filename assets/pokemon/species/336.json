@@ -1,0 +1,127 @@
+{
+  "id": 336,
+  "name": "seviper",
+  "generation": "3",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 73,
+    "attack": 100,
+    "defense": 60,
+    "sp_atk": 100,
+    "sp_def": 60,
+    "speed": 65
+  },
+  "base_experience": 160,
+  "growth_rate": "fast-then-very-slow",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "shed-skin",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 1,
+        "name": "wrap"
+      },
+      {
+        "level": 5,
+        "name": "bite"
+      },
+      {
+        "level": 9,
+        "name": "swagger"
+      },
+      {
+        "level": 12,
+        "name": "poison-tail"
+      },
+      {
+        "level": 16,
+        "name": "screech"
+      },
+      {
+        "level": 23,
+        "name": "glare"
+      },
+      {
+        "level": 27,
+        "name": "poison-fang"
+      },
+      {
+        "level": 28,
+        "name": "crunch"
+      },
+      {
+        "level": 31,
+        "name": "night-slash"
+      },
+      {
+        "level": 34,
+        "name": "gastro-acid"
+      },
+      {
+        "level": 38,
+        "name": "haze"
+      },
+      {
+        "level": 42,
+        "name": "poison-jab"
+      },
+      {
+        "level": 53,
+        "name": "wring-out"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "flamethrower",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "iron-tail",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "sludge-bomb",
+      "snatch",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 336,
+    "next_details": []
+  }
+}

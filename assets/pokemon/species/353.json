@@ -1,0 +1,134 @@
+{
+  "id": 353,
+  "name": "shuppet",
+  "generation": "3",
+  "types": [
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 44,
+    "attack": 75,
+    "defense": 35,
+    "sp_atk": 63,
+    "sp_def": 33,
+    "speed": 45
+  },
+  "base_experience": 59,
+  "growth_rate": "fast",
+  "capture_rate": 225,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 35,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "insomnia",
+    "secondary": "frisk",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "knock-off"
+      },
+      {
+        "level": 4,
+        "name": "screech"
+      },
+      {
+        "level": 7,
+        "name": "night-shade"
+      },
+      {
+        "level": 10,
+        "name": "spite"
+      },
+      {
+        "level": 13,
+        "name": "will-o-wisp"
+      },
+      {
+        "level": 16,
+        "name": "shadow-sneak"
+      },
+      {
+        "level": 19,
+        "name": "curse"
+      },
+      {
+        "level": 22,
+        "name": "feint-attack"
+      },
+      {
+        "level": 30,
+        "name": "shadow-ball"
+      },
+      {
+        "level": 34,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 38,
+        "name": "embargo"
+      },
+      {
+        "level": 42,
+        "name": "snatch"
+      },
+      {
+        "level": 46,
+        "name": "grudge"
+      },
+      {
+        "level": 50,
+        "name": "trick"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "flash",
+      "frustration",
+      "hidden-power",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      354
+    ],
+    "root": 353,
+    "next_details": []
+  }
+}

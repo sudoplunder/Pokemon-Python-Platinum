@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1780&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1740&limit=20",
+  "results": [
+    {
+      "name": "spoink-pearl",
+      "url": "https://pokeapi.co/api/v2/item/1812/"
+    },
+    {
+      "name": "cacnea-needle",
+      "url": "https://pokeapi.co/api/v2/item/1813/"
+    },
+    {
+      "name": "swablu-fluff",
+      "url": "https://pokeapi.co/api/v2/item/1814/"
+    },
+    {
+      "name": "zangoose-claw",
+      "url": "https://pokeapi.co/api/v2/item/1815/"
+    },
+    {
+      "name": "seviper-fang",
+      "url": "https://pokeapi.co/api/v2/item/1816/"
+    },
+    {
+      "name": "barboach-slime",
+      "url": "https://pokeapi.co/api/v2/item/1817/"
+    },
+    {
+      "name": "shuppet-scrap",
+      "url": "https://pokeapi.co/api/v2/item/1818/"
+    },
+    {
+      "name": "tropius-leaf",
+      "url": "https://pokeapi.co/api/v2/item/1819/"
+    },
+    {
+      "name": "snorunt-fur",
+      "url": "https://pokeapi.co/api/v2/item/1820/"
+    },
+    {
+      "name": "luvdisc-scales",
+      "url": "https://pokeapi.co/api/v2/item/1821/"
+    },
+    {
+      "name": "bagon-scales",
+      "url": "https://pokeapi.co/api/v2/item/1822/"
+    },
+    {
+      "name": "starly-feather",
+      "url": "https://pokeapi.co/api/v2/item/1823/"
+    },
+    {
+      "name": "kricketot-shell",
+      "url": "https://pokeapi.co/api/v2/item/1824/"
+    },
+    {
+      "name": "shinx-fang",
+      "url": "https://pokeapi.co/api/v2/item/1825/"
+    },
+    {
+      "name": "combee-honey",
+      "url": "https://pokeapi.co/api/v2/item/1826/"
+    },
+    {
+      "name": "pachirisu-fur",
+      "url": "https://pokeapi.co/api/v2/item/1827/"
+    },
+    {
+      "name": "buizel-fur",
+      "url": "https://pokeapi.co/api/v2/item/1828/"
+    },
+    {
+      "name": "shellos-mucus",
+      "url": "https://pokeapi.co/api/v2/item/1829/"
+    },
+    {
+      "name": "drifloon-gas",
+      "url": "https://pokeapi.co/api/v2/item/1830/"
+    },
+    {
+      "name": "stunky-fur",
+      "url": "https://pokeapi.co/api/v2/item/1831/"
+    }
+  ]
+}

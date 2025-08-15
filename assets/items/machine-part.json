@@ -1,0 +1,12 @@
+{
+  "name": "machine-part",
+  "display_name": "Machine Part",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Must be replaced in the power plant to power the Magnet Train.",
+  "short_effect": "Must be replaced in the Power Plant to power the Magnet Train.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

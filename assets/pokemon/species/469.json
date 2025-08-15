@@ -1,0 +1,138 @@
+{
+  "id": 469,
+  "name": "yanmega",
+  "generation": "4",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 86,
+    "attack": 76,
+    "defense": 86,
+    "sp_atk": 116,
+    "sp_def": 56,
+    "speed": 95
+  },
+  "base_experience": 180,
+  "growth_rate": "medium",
+  "capture_rate": 30,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "speed-boost",
+    "secondary": "tinted-lens",
+    "hidden": "frisk"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bug-bite"
+      },
+      {
+        "level": 1,
+        "name": "double-team"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "night-slash"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 14,
+        "name": "sonic-boom"
+      },
+      {
+        "level": 17,
+        "name": "detect"
+      },
+      {
+        "level": 22,
+        "name": "supersonic"
+      },
+      {
+        "level": 27,
+        "name": "uproar"
+      },
+      {
+        "level": 30,
+        "name": "pursuit"
+      },
+      {
+        "level": 33,
+        "name": "ancient-power"
+      },
+      {
+        "level": 38,
+        "name": "feint"
+      },
+      {
+        "level": 43,
+        "name": "slash"
+      },
+      {
+        "level": 46,
+        "name": "screech"
+      },
+      {
+        "level": 49,
+        "name": "u-turn"
+      },
+      {
+        "level": 54,
+        "name": "air-slash"
+      },
+      {
+        "level": 57,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rest",
+      "return",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 193,
+    "next": [],
+    "root": 193,
+    "next_details": []
+  }
+}

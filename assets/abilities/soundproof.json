@@ -1,0 +1,8 @@
+{
+  "name": "soundproof",
+  "display_name": "Soundproof",
+  "generation": 3,
+  "short_effect": "Protects against sound-based moves.",
+  "effect": "This Pok\u00e9mon is immune to moves flagged as being sound-based.\n\nheal bell is unaffected.  uproar still prevents this Pok\u00e9mon from sleeping.  This Pok\u00e9mon can still receive a Perish Song counter through baton pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nhowl, roar of time, sonic boom, and yawn are not flagged as sound-based.",
+  "is_gen4_or_prior": true
+}

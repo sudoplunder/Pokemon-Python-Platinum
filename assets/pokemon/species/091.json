@@ -1,0 +1,96 @@
+{
+  "id": 91,
+  "name": "cloyster",
+  "generation": "1",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 180,
+    "sp_atk": 85,
+    "sp_def": 45,
+    "speed": 70
+  },
+  "base_experience": 184,
+  "growth_rate": "slow",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "shell-armor",
+    "secondary": "skill-link",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "aurora-beam"
+      },
+      {
+        "level": 1,
+        "name": "protect"
+      },
+      {
+        "level": 1,
+        "name": "supersonic"
+      },
+      {
+        "level": 1,
+        "name": "toxic-spikes"
+      },
+      {
+        "level": 1,
+        "name": "withdraw"
+      },
+      {
+        "level": 13,
+        "name": "spike-cannon"
+      },
+      {
+        "level": 28,
+        "name": "spikes"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "explosion",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "torment",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 90,
+    "next": [],
+    "root": 90,
+    "next_details": []
+  }
+}

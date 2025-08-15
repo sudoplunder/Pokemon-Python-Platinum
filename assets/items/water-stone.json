@@ -1,0 +1,14 @@
+{
+  "name": "water-stone",
+  "display_name": "Water Stone",
+  "category": "evolution",
+  "cost": 3000,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Evolves an eevee into vaporeon, a lombre into ludicolo, a panpour into simipour, a poliwhirl into poliwrath, a shellder into cloyster, or a staryu into starmie.",
+  "short_effect": "Evolves an Eevee into Vaporeon, a Lombre into Ludicolo, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Shellder into Cloyster, or a Staryu into Starmie.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "underground"
+  ]
+}

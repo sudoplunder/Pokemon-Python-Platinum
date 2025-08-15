@@ -1,0 +1,12 @@
+{
+  "name": "damp-mulch",
+  "display_name": "Damp Mulch",
+  "category": "mulch",
+  "cost": 200,
+  "fling_power": 30,
+  "effect": "Used on a patch of soil\n:   Plant's growth stages will each last 25% more time.  Dries soil out more slowly.",
+  "short_effect": "Growing time of berries is increased, but the soil dries out slower.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

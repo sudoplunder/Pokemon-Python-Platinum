@@ -1,0 +1,15 @@
+{
+  "name": "power-herb",
+  "display_name": "Power Herb",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 10,
+  "effect": "Held: Whenever the holder uses a move that requires a turn to charge first (Bounce, Dig, Dive, Fly, Razor Wind, Skull Bash, Sky Attack, or Solarbeam), this item is consumed and the charge is skipped.  Skull Bash still provides a Defense boost.",
+  "short_effect": "Held: Both turns of a two-turn charge move happen at once. Consumed upon use.",
+  "generation": 4,
+  "is_consumable": true,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

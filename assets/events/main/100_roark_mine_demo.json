@@ -1,0 +1,14 @@
+{
+  "id": "roark.mine.demo",
+  "trigger": { "type": "enter_map", "value": "oreburgh_mine_depths" },
+  "once": true,
+  "prerequisites": { "none": ["roark_found"] },
+  "actions": [
+  { "command": "SET_LOCATION", "location": "oreburgh_mine_depths" },
+    { "command": "SHOW_TEXT", "dialogue_key": "roark.demo.intro" },
+    { "command": "RUN_SCRIPT", "value": "roark_rock_smash_demo" },
+    { "command": "SHOW_TEXT", "dialogue_key": "roark.demo.outro" },
+    { "command": "SET_FLAG", "flag": "roark_found" }
+  ],
+  "set_flags": ["roark_found"]
+}

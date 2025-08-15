@@ -1,0 +1,8 @@
+{
+  "name": "hyper-cutter",
+  "display_name": "Hyper Cutter",
+  "generation": 3,
+  "short_effect": "Prevents Attack from being lowered by other Pok\u00e9mon.",
+  "effect": "This Pok\u00e9mon's Attack cannot be lowered by other Pok\u00e9mon.\n\nThis ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn.  This Pok\u00e9mon can still be passed negative Attack modifiers through heart swap or power swap.",
+  "is_gen4_or_prior": true
+}

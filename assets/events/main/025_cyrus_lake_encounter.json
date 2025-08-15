@@ -1,0 +1,17 @@
+{
+  "id": "cyrus.lake.encounter",
+  "trigger": { "type": "enter_map", "value": "lake_verity_shore" },
+  "once": true,
+  "prerequisites": {
+    "all": ["lake_plan_formed"],
+    "none": ["cyrus_lake_seen", "starter_chosen"]
+  },
+  "actions": [
+    { "command": "SET_LOCATION", "location": "lake_verity_shore" },
+    { "command": "SHOW_TEXT", "dialogue_key": "cyrus.lake.silent" },
+    { "command": "SHOW_TEXT", "dialogue_key": "cyrus.lake.depart" },
+    { "command": "SHOW_TEXT", "dialogue_key": "rival.lake.cyrus.react" },
+    { "command": "SET_FLAG", "flag": "cyrus_lake_seen" }
+  ],
+  "set_flags": ["cyrus_lake_seen"]
+}

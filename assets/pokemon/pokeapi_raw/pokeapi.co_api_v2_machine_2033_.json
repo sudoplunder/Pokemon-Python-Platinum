@@ -1,0 +1,15 @@
+{
+  "id": 2033,
+  "item": {
+    "name": "tm137",
+    "url": "https://pokeapi.co/api/v2/item/1980/"
+  },
+  "move": {
+    "name": "grassy-terrain",
+    "url": "https://pokeapi.co/api/v2/move/580/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

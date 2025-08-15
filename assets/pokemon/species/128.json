@@ -1,0 +1,129 @@
+{
+  "id": 128,
+  "name": "tauros",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "sp_atk": 40,
+    "sp_def": 70,
+    "speed": 110
+  },
+  "base_experience": 172,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 0,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": "anger-point",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 3,
+        "name": "tail-whip"
+      },
+      {
+        "level": 5,
+        "name": "rage"
+      },
+      {
+        "level": 8,
+        "name": "horn-attack"
+      },
+      {
+        "level": 11,
+        "name": "scary-face"
+      },
+      {
+        "level": 15,
+        "name": "pursuit"
+      },
+      {
+        "level": 19,
+        "name": "rest"
+      },
+      {
+        "level": 24,
+        "name": "payback"
+      },
+      {
+        "level": 35,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 41,
+        "name": "take-down"
+      },
+      {
+        "level": 43,
+        "name": "thrash"
+      },
+      {
+        "level": 48,
+        "name": "swagger"
+      },
+      {
+        "level": 63,
+        "name": "giga-impact"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shock-wave",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 128,
+    "next_details": []
+  }
+}

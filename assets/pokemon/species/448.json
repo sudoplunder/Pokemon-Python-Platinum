@@ -1,0 +1,147 @@
+{
+  "id": 448,
+  "name": "lucario",
+  "generation": "4",
+  "types": [
+    "fighting",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 70,
+    "sp_atk": 115,
+    "sp_def": 70,
+    "speed": 90
+  },
+  "base_experience": 184,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "steadfast",
+    "secondary": "inner-focus",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "dark-pulse"
+      },
+      {
+        "level": 1,
+        "name": "detect"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "metal-claw"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 6,
+        "name": "counter"
+      },
+      {
+        "level": 11,
+        "name": "feint"
+      },
+      {
+        "level": 15,
+        "name": "force-palm"
+      },
+      {
+        "level": 19,
+        "name": "me-first"
+      },
+      {
+        "level": 24,
+        "name": "metal-sound"
+      },
+      {
+        "level": 29,
+        "name": "bone-rush"
+      },
+      {
+        "level": 37,
+        "name": "swords-dance"
+      },
+      {
+        "level": 47,
+        "name": "calm-mind"
+      },
+      {
+        "level": 51,
+        "name": "aura-sphere"
+      },
+      {
+        "level": 55,
+        "name": "close-combat"
+      },
+      {
+        "level": 60,
+        "name": "dragon-pulse"
+      },
+      {
+        "level": 65,
+        "name": "extreme-speed"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "calm-mind",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "flash-cannon",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "shadow-ball",
+      "shadow-claw",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 447,
+    "next": [],
+    "root": 447,
+    "next_details": []
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": 319,
+  "name": "sharpedo",
+  "generation": "3",
+  "types": [
+    "water",
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 120,
+    "defense": 40,
+    "sp_atk": 95,
+    "sp_def": 40,
+    "speed": 95
+  },
+  "base_experience": 161,
+  "growth_rate": "slow",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "rough-skin",
+    "secondary": null,
+    "hidden": "speed-boost"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "feint"
+      },
+      {
+        "level": 1,
+        "name": "focus-energy"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "rage"
+      },
+      {
+        "level": 11,
+        "name": "scary-face"
+      },
+      {
+        "level": 16,
+        "name": "ice-fang"
+      },
+      {
+        "level": 18,
+        "name": "screech"
+      },
+      {
+        "level": 21,
+        "name": "swagger"
+      },
+      {
+        "level": 22,
+        "name": "crunch"
+      },
+      {
+        "level": 26,
+        "name": "assurance"
+      },
+      {
+        "level": 30,
+        "name": "slash"
+      },
+      {
+        "level": 34,
+        "name": "aqua-jet"
+      },
+      {
+        "level": 38,
+        "name": "taunt"
+      },
+      {
+        "level": 45,
+        "name": "agility"
+      },
+      {
+        "level": 48,
+        "name": "skull-bash"
+      },
+      {
+        "level": 56,
+        "name": "night-slash"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 318,
+    "next": [],
+    "root": 318,
+    "next_details": []
+  }
+}

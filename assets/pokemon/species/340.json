@@ -1,0 +1,136 @@
+{
+  "id": 340,
+  "name": "whiscash",
+  "generation": "3",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 78,
+    "defense": 73,
+    "sp_atk": 76,
+    "sp_def": 71,
+    "speed": 60
+  },
+  "base_experience": 164,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "oblivious",
+    "secondary": "anticipation",
+    "hidden": "hydration"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "mud-slap"
+      },
+      {
+        "level": 1,
+        "name": "mud-sport"
+      },
+      {
+        "level": 1,
+        "name": "tickle"
+      },
+      {
+        "level": 1,
+        "name": "water-sport"
+      },
+      {
+        "level": 1,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 10,
+        "name": "water-gun"
+      },
+      {
+        "level": 14,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 16,
+        "name": "magnitude"
+      },
+      {
+        "level": 18,
+        "name": "amnesia"
+      },
+      {
+        "level": 22,
+        "name": "water-pulse"
+      },
+      {
+        "level": 26,
+        "name": "rest"
+      },
+      {
+        "level": 26,
+        "name": "snore"
+      },
+      {
+        "level": 36,
+        "name": "earthquake"
+      },
+      {
+        "level": 39,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 46,
+        "name": "future-sight"
+      },
+      {
+        "level": 56,
+        "name": "fissure"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 339,
+    "next": [],
+    "root": 339,
+    "next_details": []
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": 49,
+  "name": "venomoth",
+  "generation": "1",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 65,
+    "defense": 60,
+    "sp_atk": 90,
+    "sp_def": 75,
+    "speed": 90
+  },
+  "base_experience": 158,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "shield-dust",
+    "secondary": "tinted-lens",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "disable"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "silver-wind"
+      },
+      {
+        "level": 1,
+        "name": "supersonic"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 11,
+        "name": "confusion"
+      },
+      {
+        "level": 13,
+        "name": "poison-powder"
+      },
+      {
+        "level": 17,
+        "name": "leech-life"
+      },
+      {
+        "level": 23,
+        "name": "stun-spore"
+      },
+      {
+        "level": 25,
+        "name": "psybeam"
+      },
+      {
+        "level": 29,
+        "name": "sleep-powder"
+      },
+      {
+        "level": 31,
+        "name": "gust"
+      },
+      {
+        "level": 37,
+        "name": "signal-beam"
+      },
+      {
+        "level": 41,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 47,
+        "name": "poison-fang"
+      },
+      {
+        "level": 52,
+        "name": "psychic"
+      },
+      {
+        "level": 59,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "psychic",
+      "rest",
+      "return",
+      "secret-power",
+      "skill-swap",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 48,
+    "next": [],
+    "root": 48,
+    "next_details": []
+  }
+}

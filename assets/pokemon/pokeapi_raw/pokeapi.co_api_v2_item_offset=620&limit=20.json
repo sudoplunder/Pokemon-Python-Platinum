@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=640&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=600&limit=20",
+  "results": [
+    {
+      "name": "balm-mushroom",
+      "url": "https://pokeapi.co/api/v2/item/621/"
+    },
+    {
+      "name": "big-nugget",
+      "url": "https://pokeapi.co/api/v2/item/622/"
+    },
+    {
+      "name": "pearl-string",
+      "url": "https://pokeapi.co/api/v2/item/623/"
+    },
+    {
+      "name": "comet-shard",
+      "url": "https://pokeapi.co/api/v2/item/624/"
+    },
+    {
+      "name": "relic-copper",
+      "url": "https://pokeapi.co/api/v2/item/625/"
+    },
+    {
+      "name": "relic-silver",
+      "url": "https://pokeapi.co/api/v2/item/626/"
+    },
+    {
+      "name": "relic-gold",
+      "url": "https://pokeapi.co/api/v2/item/627/"
+    },
+    {
+      "name": "relic-vase",
+      "url": "https://pokeapi.co/api/v2/item/628/"
+    },
+    {
+      "name": "relic-band",
+      "url": "https://pokeapi.co/api/v2/item/629/"
+    },
+    {
+      "name": "relic-statue",
+      "url": "https://pokeapi.co/api/v2/item/630/"
+    },
+    {
+      "name": "relic-crown",
+      "url": "https://pokeapi.co/api/v2/item/631/"
+    },
+    {
+      "name": "casteliacone",
+      "url": "https://pokeapi.co/api/v2/item/632/"
+    },
+    {
+      "name": "dire-hit-2",
+      "url": "https://pokeapi.co/api/v2/item/633/"
+    },
+    {
+      "name": "x-speed-2",
+      "url": "https://pokeapi.co/api/v2/item/634/"
+    },
+    {
+      "name": "x-sp-atk-2",
+      "url": "https://pokeapi.co/api/v2/item/635/"
+    },
+    {
+      "name": "x-sp-def-2",
+      "url": "https://pokeapi.co/api/v2/item/636/"
+    },
+    {
+      "name": "x-defense-2",
+      "url": "https://pokeapi.co/api/v2/item/637/"
+    },
+    {
+      "name": "x-attack-2",
+      "url": "https://pokeapi.co/api/v2/item/638/"
+    },
+    {
+      "name": "x-accuracy-2",
+      "url": "https://pokeapi.co/api/v2/item/639/"
+    },
+    {
+      "name": "x-speed-3",
+      "url": "https://pokeapi.co/api/v2/item/640/"
+    }
+  ]
+}

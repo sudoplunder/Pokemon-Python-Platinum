@@ -1,0 +1,125 @@
+{
+  "id": 322,
+  "name": "numel",
+  "generation": "3",
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 40,
+    "sp_atk": 65,
+    "sp_def": 45,
+    "speed": 35
+  },
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "oblivious",
+    "secondary": "simple",
+    "hidden": "own-tempo"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "ember"
+      },
+      {
+        "level": 8,
+        "name": "magnitude"
+      },
+      {
+        "level": 12,
+        "name": "focus-energy"
+      },
+      {
+        "level": 19,
+        "name": "amnesia"
+      },
+      {
+        "level": 22,
+        "name": "lava-plume"
+      },
+      {
+        "level": 26,
+        "name": "earth-power"
+      },
+      {
+        "level": 29,
+        "name": "curse"
+      },
+      {
+        "level": 29,
+        "name": "take-down"
+      },
+      {
+        "level": 35,
+        "name": "earthquake"
+      },
+      {
+        "level": 36,
+        "name": "yawn"
+      },
+      {
+        "level": 41,
+        "name": "flamethrower"
+      },
+      {
+        "level": 47,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "hidden-power",
+      "overheat",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      323
+    ],
+    "root": 322,
+    "next_details": []
+  }
+}

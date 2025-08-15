@@ -1,0 +1,98 @@
+{
+  "id": 121,
+  "name": "starmie",
+  "generation": "1",
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 85,
+    "sp_atk": 100,
+    "sp_def": 85,
+    "speed": 115
+  },
+  "base_experience": 182,
+  "growth_rate": "slow",
+  "capture_rate": 60,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "illuminate",
+    "secondary": "natural-cure",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 1,
+        "name": "recover"
+      },
+      {
+        "level": 1,
+        "name": "swift"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 22,
+        "name": "confuse-ray"
+      }
+    ],
+    "machines": [
+      "blizzard",
+      "dive",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "flash-cannon",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "gyro-ball",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "skill-swap",
+      "substitute",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "trick-room",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 120,
+    "next": [],
+    "root": 120,
+    "next_details": []
+  }
+}

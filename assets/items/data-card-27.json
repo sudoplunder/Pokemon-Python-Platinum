@@ -1,0 +1,12 @@
+{
+  "name": "data-card-27",
+  "display_name": "Data Card 27",
+  "category": "data-cards",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Records the total time spent in the Pok\u00e9athlon.",
+  "short_effect": "Records the total time spent in the Pok\u00e9athlon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

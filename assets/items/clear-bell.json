@@ -1,0 +1,12 @@
+{
+  "name": "clear-bell",
+  "display_name": "Clear Bell",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "May be given to the Kimono Girls to summon ho oh to the top of the bell tower.",
+  "short_effect": "HS: Allows Kimono-girls to summon Ho-oh. C: Summons Suicune to the Tin Tower.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

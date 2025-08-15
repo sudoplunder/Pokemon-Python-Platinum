@@ -1,0 +1,42 @@
+{
+  "name": "leech-life",
+  "display_name": "Leech Life",
+  "type": "bug",
+  "category": "physical",
+  "power": 80,
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "generation": 1,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Drains half the damage inflicted to heal the user.",
+  "effect": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+  "drain": [
+    1,
+    2
+  ],
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": null,
+  "flinch_chance": 0,
+  "ailment": "none",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

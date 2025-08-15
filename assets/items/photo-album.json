@@ -1,0 +1,12 @@
+{
+  "name": "photo-album",
+  "display_name": "Photo Album",
+  "category": "unused",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Does nothing.",
+  "short_effect": "Stores photos from your adventure.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

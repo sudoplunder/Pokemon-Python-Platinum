@@ -1,0 +1,14 @@
+{
+  "name": "rawst-berry",
+  "display_name": "Rawst Berry",
+  "category": "medicine",
+  "cost": 80,
+  "fling_power": 10,
+  "effect": "Held in battle\n:   When the holder is burned, it consumes this item to cure the burn.\n\nUsed on a party Pok\u00e9mon\n:   Cures a burn.",
+  "short_effect": "Held: Consumed when burned to cure a burn.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "holdable-active"
+  ]
+}

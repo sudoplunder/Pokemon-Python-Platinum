@@ -1,0 +1,165 @@
+{
+  "id": 359,
+  "name": "absol",
+  "generation": "3",
+  "types": [
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "sp_atk": 75,
+    "sp_def": 60,
+    "speed": 75
+  },
+  "base_experience": 163,
+  "growth_rate": "medium-slow",
+  "capture_rate": 30,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 35,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": "super-luck",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "feint"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 4,
+        "name": "leer"
+      },
+      {
+        "level": 9,
+        "name": "quick-attack"
+      },
+      {
+        "level": 9,
+        "name": "taunt"
+      },
+      {
+        "level": 12,
+        "name": "pursuit"
+      },
+      {
+        "level": 17,
+        "name": "razor-wind"
+      },
+      {
+        "level": 20,
+        "name": "bite"
+      },
+      {
+        "level": 25,
+        "name": "double-team"
+      },
+      {
+        "level": 26,
+        "name": "swords-dance"
+      },
+      {
+        "level": 28,
+        "name": "slash"
+      },
+      {
+        "level": 36,
+        "name": "future-sight"
+      },
+      {
+        "level": 41,
+        "name": "night-slash"
+      },
+      {
+        "level": 44,
+        "name": "detect"
+      },
+      {
+        "level": 46,
+        "name": "perish-song"
+      },
+      {
+        "level": 49,
+        "name": "psycho-cut"
+      },
+      {
+        "level": 52,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 60,
+        "name": "me-first"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "calm-mind",
+      "charge-beam",
+      "cut",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "false-swipe",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "payback",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "snatch",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "water-pulse",
+      "will-o-wisp",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 359,
+    "next_details": []
+  }
+}

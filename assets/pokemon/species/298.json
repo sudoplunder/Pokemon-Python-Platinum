@@ -1,0 +1,105 @@
+{
+  "id": 298,
+  "name": "azurill",
+  "generation": "3",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 40,
+    "sp_atk": 20,
+    "sp_def": 40,
+    "speed": 20
+  },
+  "base_experience": 38,
+  "growth_rate": "fast",
+  "capture_rate": 150,
+  "gender_rate": 6,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "huge-power",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "splash"
+      },
+      {
+        "level": 2,
+        "name": "tail-whip"
+      },
+      {
+        "level": 3,
+        "name": "charm"
+      },
+      {
+        "level": 5,
+        "name": "water-sport"
+      },
+      {
+        "level": 7,
+        "name": "water-gun"
+      },
+      {
+        "level": 13,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 15,
+        "name": "slam"
+      },
+      {
+        "level": 16,
+        "name": "helping-hand"
+      },
+      {
+        "level": 23,
+        "name": "bounce"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      183
+    ],
+    "root": 298,
+    "next_details": []
+  }
+}

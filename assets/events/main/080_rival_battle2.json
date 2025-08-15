@@ -1,0 +1,17 @@
+{
+  "id": "rival.battle.2",
+  "trigger": { "type": "enter_map", "value": "route_203" },
+  "once": true,
+  "prerequisites": {
+    "all": ["parcel_delivered"],
+    "none": ["rival2_defeated"]
+  },
+  "actions": [
+  { "command": "SET_LOCATION", "location": "route_203" },
+    { "command": "SHOW_TEXT", "dialogue_key": "rival2.prep" },
+    { "command": "START_BATTLE", "battle_id": "rival_route203_1" },
+    { "command": "SHOW_TEXT", "dialogue_key": "rival2.after" },
+    { "command": "SET_FLAG", "flag": "rival2_defeated" }
+  ],
+  "set_flags": ["rival2_defeated"]
+}

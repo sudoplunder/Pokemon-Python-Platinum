@@ -1,0 +1,157 @@
+{
+  "id": 461,
+  "name": "weavile",
+  "generation": "4",
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 120,
+    "defense": 65,
+    "sp_atk": 45,
+    "sp_def": 85,
+    "speed": 125
+  },
+  "base_experience": 179,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "assurance"
+      },
+      {
+        "level": 1,
+        "name": "embargo"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "revenge"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "taunt"
+      },
+      {
+        "level": 10,
+        "name": "feint-attack"
+      },
+      {
+        "level": 14,
+        "name": "icy-wind"
+      },
+      {
+        "level": 16,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 20,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 22,
+        "name": "metal-claw"
+      },
+      {
+        "level": 28,
+        "name": "fling"
+      },
+      {
+        "level": 32,
+        "name": "screech"
+      },
+      {
+        "level": 35,
+        "name": "night-slash"
+      },
+      {
+        "level": 40,
+        "name": "snatch"
+      },
+      {
+        "level": 44,
+        "name": "punishment"
+      },
+      {
+        "level": 47,
+        "name": "dark-pulse"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "cut",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "false-swipe",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "shadow-ball",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 215,
+    "next": [],
+    "root": 215,
+    "next_details": []
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": 289,
+  "name": "slaking",
+  "generation": "3",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 150,
+    "attack": 160,
+    "defense": 100,
+    "sp_atk": 95,
+    "sp_def": 65,
+    "speed": 100
+  },
+  "base_experience": 252,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "truant",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "encore"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "slack-off"
+      },
+      {
+        "level": 1,
+        "name": "yawn"
+      },
+      {
+        "level": 19,
+        "name": "feint-attack"
+      },
+      {
+        "level": 25,
+        "name": "amnesia"
+      },
+      {
+        "level": 31,
+        "name": "covet"
+      },
+      {
+        "level": 36,
+        "name": "swagger"
+      },
+      {
+        "level": 37,
+        "name": "counter"
+      },
+      {
+        "level": 43,
+        "name": "flail"
+      },
+      {
+        "level": 55,
+        "name": "fling"
+      },
+      {
+        "level": 61,
+        "name": "punishment"
+      },
+      {
+        "level": 67,
+        "name": "hammer-arm"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "shock-wave",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 288,
+    "next": [],
+    "root": 287,
+    "next_details": []
+  }
+}

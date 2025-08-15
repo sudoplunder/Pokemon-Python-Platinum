@@ -1,0 +1,15 @@
+{
+  "id": 1843,
+  "item": {
+    "name": "tm138",
+    "url": "https://pokeapi.co/api/v2/item/1981/"
+  },
+  "move": {
+    "name": "psychic-terrain",
+    "url": "https://pokeapi.co/api/v2/move/678/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": 236,
+  "name": "tyrogue",
+  "generation": "2",
+  "types": [
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 35,
+    "defense": 35,
+    "sp_atk": 35,
+    "sp_def": 35,
+    "speed": 35
+  },
+  "base_experience": 42,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 0,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "guts",
+    "secondary": "steadfast",
+    "hidden": "vital-spirit"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fake-out"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "helping-hand"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "secret-power",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      106,
+      107,
+      237
+    ],
+    "root": 236,
+    "next_details": []
+  }
+}

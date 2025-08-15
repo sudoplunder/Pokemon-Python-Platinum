@@ -1,0 +1,130 @@
+{
+  "id": 7,
+  "name": "squirtle",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 44,
+    "attack": 48,
+    "defense": 65,
+    "sp_atk": 50,
+    "sp_def": 64,
+    "speed": 43
+  },
+  "base_experience": 63,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "abilities": {
+    "primary": "torrent",
+    "secondary": null,
+    "hidden": "rain-dish"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 4,
+        "name": "tail-whip"
+      },
+      {
+        "level": 7,
+        "name": "bubble"
+      },
+      {
+        "level": 10,
+        "name": "withdraw"
+      },
+      {
+        "level": 13,
+        "name": "water-gun"
+      },
+      {
+        "level": 16,
+        "name": "bite"
+      },
+      {
+        "level": 19,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 22,
+        "name": "protect"
+      },
+      {
+        "level": 25,
+        "name": "water-pulse"
+      },
+      {
+        "level": 28,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 31,
+        "name": "skull-bash"
+      },
+      {
+        "level": 33,
+        "name": "rain-dance"
+      },
+      {
+        "level": 34,
+        "name": "iron-defense"
+      },
+      {
+        "level": 40,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "gyro-ball",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      8
+    ],
+    "root": 7,
+    "next_details": []
+  }
+}

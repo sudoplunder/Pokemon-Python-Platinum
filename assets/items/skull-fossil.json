@@ -1,0 +1,14 @@
+{
+  "name": "skull-fossil",
+  "display_name": "Skull Fossil",
+  "category": "dex-completion",
+  "cost": 7000,
+  "fling_power": 100,
+  "effect": "Give to a scientist in the mining museum in oreburgh city or the Museum of Science in pewter city to receive a cranidos.",
+  "short_effect": "Can be revived into a Cranidos.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "underground"
+  ]
+}

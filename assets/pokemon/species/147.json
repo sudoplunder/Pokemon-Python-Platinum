@@ -1,0 +1,127 @@
+{
+  "id": 147,
+  "name": "dratini",
+  "generation": "1",
+  "types": [
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 41,
+    "attack": 64,
+    "defense": 45,
+    "sp_atk": 50,
+    "sp_def": 50,
+    "speed": 50
+  },
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 35,
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "shed-skin",
+    "secondary": null,
+    "hidden": "marvel-scale"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "wrap"
+      },
+      {
+        "level": 5,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 11,
+        "name": "twister"
+      },
+      {
+        "level": 15,
+        "name": "dragon-rage"
+      },
+      {
+        "level": 21,
+        "name": "slam"
+      },
+      {
+        "level": 25,
+        "name": "agility"
+      },
+      {
+        "level": 35,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 41,
+        "name": "dragon-rush"
+      },
+      {
+        "level": 43,
+        "name": "safeguard"
+      },
+      {
+        "level": 50,
+        "name": "outrage"
+      },
+      {
+        "level": 51,
+        "name": "dragon-dance"
+      },
+      {
+        "level": 57,
+        "name": "hyper-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shock-wave",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      148
+    ],
+    "root": 147,
+    "next_details": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "normalize",
+  "display_name": "Normalize",
+  "generation": 4,
+  "short_effect": "Makes the Pok\u00e9mon's moves all act normal-type.",
+  "effect": "This Pok\u00e9mon's moves all act as if they were normal-type.\n\nMoves that inflict typeless damage do so as usual.  Moves of variable type, such as hidden power, are affected.  They otherwise work as usual, however; weather ball, for example, is always forced to be Normal, but it still has doubled power and looks different during weather.\n\nAs thunder wave is prevented by immunities, unlike most non-damaging moves, it does not affect ghost-type Pok\u00e9mon under the effect of this ability.",
+  "is_gen4_or_prior": true
+}

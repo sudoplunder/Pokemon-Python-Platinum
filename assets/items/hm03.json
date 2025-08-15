@@ -1,0 +1,12 @@
+{
+  "name": "hm03",
+  "display_name": "Hm03",
+  "category": "all-machines",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Teaches Surf to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Surf to a compatible Pok\u00e9mon.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

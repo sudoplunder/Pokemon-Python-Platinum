@@ -1,0 +1,8 @@
+{
+  "name": "download",
+  "display_name": "Download",
+  "generation": 4,
+  "short_effect": "Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle.",
+  "effect": "When this Pok\u00e9mon enters battle, its Attack or Special Attack, whichever corresponds to its opponents' weaker total defensive stat, rises one stage.  In the event of a tie, Special Attack is raised.\n\nThis ability also takes effect when acquired during a battle.",
+  "is_gen4_or_prior": true
+}

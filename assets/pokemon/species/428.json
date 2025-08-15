@@ -1,0 +1,137 @@
+{
+  "id": 428,
+  "name": "lopunny",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 76,
+    "defense": 84,
+    "sp_atk": 54,
+    "sp_def": 96,
+    "speed": 105
+  },
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 140,
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "cute-charm",
+    "secondary": "klutz",
+    "hidden": "limber"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "foresight"
+      },
+      {
+        "level": 1,
+        "name": "magic-coat"
+      },
+      {
+        "level": 1,
+        "name": "mirror-coat"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "splash"
+      },
+      {
+        "level": 6,
+        "name": "endure"
+      },
+      {
+        "level": 13,
+        "name": "return"
+      },
+      {
+        "level": 16,
+        "name": "quick-attack"
+      },
+      {
+        "level": 23,
+        "name": "jump-kick"
+      },
+      {
+        "level": 26,
+        "name": "baton-pass"
+      },
+      {
+        "level": 33,
+        "name": "agility"
+      },
+      {
+        "level": 36,
+        "name": "dizzy-punch"
+      },
+      {
+        "level": 46,
+        "name": "charm"
+      },
+      {
+        "level": 56,
+        "name": "bounce"
+      },
+      {
+        "level": 63,
+        "name": "healing-wish"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "charge-beam",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "shadow-ball",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 427,
+    "next": [],
+    "root": 427,
+    "next_details": []
+  }
+}

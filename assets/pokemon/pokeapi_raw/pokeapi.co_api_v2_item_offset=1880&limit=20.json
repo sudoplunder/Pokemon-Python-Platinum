@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1900&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1860&limit=20",
+  "results": [
+    {
+      "name": "nacli-salt",
+      "url": "https://pokeapi.co/api/v2/item/1932/"
+    },
+    {
+      "name": "glimmet-crystal",
+      "url": "https://pokeapi.co/api/v2/item/1933/"
+    },
+    {
+      "name": "shroodle-ink",
+      "url": "https://pokeapi.co/api/v2/item/1934/"
+    },
+    {
+      "name": "fidough-fur",
+      "url": "https://pokeapi.co/api/v2/item/1935/"
+    },
+    {
+      "name": "maschiff-fang",
+      "url": "https://pokeapi.co/api/v2/item/1936/"
+    },
+    {
+      "name": "bramblin-twig",
+      "url": "https://pokeapi.co/api/v2/item/1937/"
+    },
+    {
+      "name": "gimmighoul-coin",
+      "url": "https://pokeapi.co/api/v2/item/1938/"
+    },
+    {
+      "name": "tinkatink-hair",
+      "url": "https://pokeapi.co/api/v2/item/1939/"
+    },
+    {
+      "name": "charcadet-soot",
+      "url": "https://pokeapi.co/api/v2/item/1940/"
+    },
+    {
+      "name": "toedscool-flaps",
+      "url": "https://pokeapi.co/api/v2/item/1941/"
+    },
+    {
+      "name": "wooper-slime",
+      "url": "https://pokeapi.co/api/v2/item/1942/"
+    },
+    {
+      "name": "tm100",
+      "url": "https://pokeapi.co/api/v2/item/1943/"
+    },
+    {
+      "name": "tm101",
+      "url": "https://pokeapi.co/api/v2/item/1944/"
+    },
+    {
+      "name": "tm102",
+      "url": "https://pokeapi.co/api/v2/item/1945/"
+    },
+    {
+      "name": "tm103",
+      "url": "https://pokeapi.co/api/v2/item/1946/"
+    },
+    {
+      "name": "tm104",
+      "url": "https://pokeapi.co/api/v2/item/1947/"
+    },
+    {
+      "name": "tm105",
+      "url": "https://pokeapi.co/api/v2/item/1948/"
+    },
+    {
+      "name": "tm106",
+      "url": "https://pokeapi.co/api/v2/item/1949/"
+    },
+    {
+      "name": "tm107",
+      "url": "https://pokeapi.co/api/v2/item/1950/"
+    },
+    {
+      "name": "tm108",
+      "url": "https://pokeapi.co/api/v2/item/1951/"
+    }
+  ]
+}

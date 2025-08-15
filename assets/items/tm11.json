@@ -1,0 +1,12 @@
+{
+  "name": "tm11",
+  "display_name": "Tm11",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Sunny Day to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Sunny Day to a compatible Pok\u00e9mon. (Gen I: BubbleBeam)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

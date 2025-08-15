@@ -1,0 +1,135 @@
+{
+  "id": 296,
+  "name": "makuhita",
+  "generation": "3",
+  "types": [
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 72,
+    "attack": 60,
+    "defense": 30,
+    "sp_atk": 20,
+    "sp_def": 30,
+    "speed": 25
+  },
+  "base_experience": 47,
+  "growth_rate": "fast-then-very-slow",
+  "capture_rate": 180,
+  "gender_rate": 2,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "thick-fat",
+    "secondary": "guts",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "focus-energy"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 4,
+        "name": "sand-attack"
+      },
+      {
+        "level": 7,
+        "name": "arm-thrust"
+      },
+      {
+        "level": 10,
+        "name": "vital-throw"
+      },
+      {
+        "level": 13,
+        "name": "fake-out"
+      },
+      {
+        "level": 16,
+        "name": "whirlwind"
+      },
+      {
+        "level": 19,
+        "name": "knock-off"
+      },
+      {
+        "level": 22,
+        "name": "smelling-salts"
+      },
+      {
+        "level": 25,
+        "name": "belly-drum"
+      },
+      {
+        "level": 28,
+        "name": "force-palm"
+      },
+      {
+        "level": 31,
+        "name": "seismic-toss"
+      },
+      {
+        "level": 34,
+        "name": "wake-up-slap"
+      },
+      {
+        "level": 37,
+        "name": "endure"
+      },
+      {
+        "level": 40,
+        "name": "close-combat"
+      },
+      {
+        "level": 43,
+        "name": "reversal"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "hidden-power",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      297
+    ],
+    "root": 296,
+    "next_details": []
+  }
+}

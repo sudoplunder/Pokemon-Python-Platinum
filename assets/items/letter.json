@@ -1,0 +1,12 @@
+{
+  "name": "letter",
+  "display_name": "Letter",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Contains a letter to be delivered to Steven.",
+  "short_effect": "A letter to Steven from the Devon Corp president.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=700&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=660&limit=20",
+  "results": [
+    {
+      "name": "pixie-plate",
+      "url": "https://pokeapi.co/api/v2/item/684/"
+    },
+    {
+      "name": "ability-capsule",
+      "url": "https://pokeapi.co/api/v2/item/685/"
+    },
+    {
+      "name": "whipped-dream",
+      "url": "https://pokeapi.co/api/v2/item/686/"
+    },
+    {
+      "name": "sachet",
+      "url": "https://pokeapi.co/api/v2/item/687/"
+    },
+    {
+      "name": "luminous-moss",
+      "url": "https://pokeapi.co/api/v2/item/688/"
+    },
+    {
+      "name": "snowball",
+      "url": "https://pokeapi.co/api/v2/item/689/"
+    },
+    {
+      "name": "safety-goggles",
+      "url": "https://pokeapi.co/api/v2/item/690/"
+    },
+    {
+      "name": "rich-mulch",
+      "url": "https://pokeapi.co/api/v2/item/691/"
+    },
+    {
+      "name": "surprise-mulch",
+      "url": "https://pokeapi.co/api/v2/item/692/"
+    },
+    {
+      "name": "boost-mulch",
+      "url": "https://pokeapi.co/api/v2/item/693/"
+    },
+    {
+      "name": "amaze-mulch",
+      "url": "https://pokeapi.co/api/v2/item/694/"
+    },
+    {
+      "name": "gengarite",
+      "url": "https://pokeapi.co/api/v2/item/695/"
+    },
+    {
+      "name": "gardevoirite",
+      "url": "https://pokeapi.co/api/v2/item/696/"
+    },
+    {
+      "name": "ampharosite",
+      "url": "https://pokeapi.co/api/v2/item/697/"
+    },
+    {
+      "name": "venusaurite",
+      "url": "https://pokeapi.co/api/v2/item/698/"
+    },
+    {
+      "name": "charizardite-x",
+      "url": "https://pokeapi.co/api/v2/item/699/"
+    },
+    {
+      "name": "blastoisinite",
+      "url": "https://pokeapi.co/api/v2/item/700/"
+    },
+    {
+      "name": "mewtwonite-x",
+      "url": "https://pokeapi.co/api/v2/item/701/"
+    },
+    {
+      "name": "mewtwonite-y",
+      "url": "https://pokeapi.co/api/v2/item/702/"
+    },
+    {
+      "name": "blazikenite",
+      "url": "https://pokeapi.co/api/v2/item/703/"
+    }
+  ]
+}

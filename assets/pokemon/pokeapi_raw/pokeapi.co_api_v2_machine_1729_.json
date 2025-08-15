@@ -1,0 +1,15 @@
+{
+  "id": 1729,
+  "item": {
+    "name": "tm24",
+    "url": "https://pokeapi.co/api/v2/item/328/"
+  },
+  "move": {
+    "name": "fire-spin",
+    "url": "https://pokeapi.co/api/v2/move/83/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

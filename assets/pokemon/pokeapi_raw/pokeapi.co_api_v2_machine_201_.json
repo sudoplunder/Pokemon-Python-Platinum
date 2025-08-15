@@ -1,0 +1,15 @@
+{
+  "id": 201,
+  "item": {
+    "name": "tm10",
+    "url": "https://pokeapi.co/api/v2/item/314/"
+  },
+  "move": {
+    "name": "magical-leaf",
+    "url": "https://pokeapi.co/api/v2/move/345/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

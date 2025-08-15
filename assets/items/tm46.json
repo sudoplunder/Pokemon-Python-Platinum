@@ -1,0 +1,12 @@
+{
+  "name": "tm46",
+  "display_name": "Tm46",
+  "category": "all-machines",
+  "cost": 30000,
+  "fling_power": null,
+  "effect": "Teaches Thief to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Thief to a compatible Pok\u00e9mon. (Gen I: Psywave)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

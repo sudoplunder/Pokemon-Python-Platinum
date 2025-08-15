@@ -1,0 +1,15 @@
+{
+  "id": 1747,
+  "item": {
+    "name": "tm42",
+    "url": "https://pokeapi.co/api/v2/item/346/"
+  },
+  "move": {
+    "name": "night-shade",
+    "url": "https://pokeapi.co/api/v2/move/101/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tm26",
+  "display_name": "Tm26",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Earthquake to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Earthquake to a compatible Pok\u00e9mon.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

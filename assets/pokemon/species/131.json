@@ -1,0 +1,136 @@
+{
+  "id": 131,
+  "name": "lapras",
+  "generation": "1",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "sp_atk": 85,
+    "sp_def": 95,
+    "speed": 60
+  },
+  "base_experience": 187,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "abilities": {
+    "primary": "water-absorb",
+    "secondary": "shell-armor",
+    "hidden": "hydration"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "sing"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 4,
+        "name": "mist"
+      },
+      {
+        "level": 7,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 10,
+        "name": "ice-shard"
+      },
+      {
+        "level": 13,
+        "name": "body-slam"
+      },
+      {
+        "level": 14,
+        "name": "water-pulse"
+      },
+      {
+        "level": 22,
+        "name": "rain-dance"
+      },
+      {
+        "level": 25,
+        "name": "perish-song"
+      },
+      {
+        "level": 31,
+        "name": "ice-beam"
+      },
+      {
+        "level": 37,
+        "name": "brine"
+      },
+      {
+        "level": 43,
+        "name": "safeguard"
+      },
+      {
+        "level": 49,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 55,
+        "name": "sheer-cold"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "shock-wave",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunderbolt",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 131,
+    "next_details": []
+  }
+}

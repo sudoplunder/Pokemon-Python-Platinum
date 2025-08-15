@@ -1,0 +1,134 @@
+{
+  "id": 3,
+  "name": "venusaur",
+  "generation": "1",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 83,
+    "sp_atk": 100,
+    "sp_def": 100,
+    "speed": 80
+  },
+  "base_experience": 236,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "overgrow",
+    "secondary": null,
+    "hidden": "chlorophyll"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "leech-seed"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "vine-whip"
+      },
+      {
+        "level": 13,
+        "name": "poison-powder"
+      },
+      {
+        "level": 13,
+        "name": "sleep-powder"
+      },
+      {
+        "level": 15,
+        "name": "take-down"
+      },
+      {
+        "level": 20,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 23,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 28,
+        "name": "growth"
+      },
+      {
+        "level": 31,
+        "name": "double-edge"
+      },
+      {
+        "level": 32,
+        "name": "petal-dance"
+      },
+      {
+        "level": 39,
+        "name": "worry-seed"
+      },
+      {
+        "level": 45,
+        "name": "synthesis"
+      },
+      {
+        "level": 53,
+        "name": "solar-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 2,
+    "next": [],
+    "root": 1,
+    "next_details": []
+  }
+}

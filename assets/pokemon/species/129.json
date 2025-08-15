@@ -1,0 +1,64 @@
+{
+  "id": 129,
+  "name": "magikarp",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "sp_atk": 15,
+    "sp_def": 20,
+    "speed": 80
+  },
+  "base_experience": 40,
+  "growth_rate": "slow",
+  "capture_rate": 255,
+  "gender_rate": 4,
+  "hatch_cycles": 5,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "splash"
+      },
+      {
+        "level": 15,
+        "name": "tackle"
+      },
+      {
+        "level": 30,
+        "name": "flail"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      130
+    ],
+    "root": 129,
+    "next_details": [
+      {
+        "id": 130,
+        "trigger": "level",
+        "conditions": {
+          "level": 20
+        }
+      }
+    ]
+  }
+}

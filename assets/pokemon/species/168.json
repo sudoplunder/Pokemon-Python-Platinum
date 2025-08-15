@@ -1,0 +1,131 @@
+{
+  "id": 168,
+  "name": "ariados",
+  "generation": "2",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 90,
+    "defense": 70,
+    "sp_atk": 60,
+    "sp_def": 70,
+    "speed": 40
+  },
+  "base_experience": 140,
+  "growth_rate": "fast",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swarm",
+    "secondary": "insomnia",
+    "hidden": "sniper"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bug-bite"
+      },
+      {
+        "level": 1,
+        "name": "constrict"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "scary-face"
+      },
+      {
+        "level": 1,
+        "name": "string-shot"
+      },
+      {
+        "level": 12,
+        "name": "leech-life"
+      },
+      {
+        "level": 15,
+        "name": "night-shade"
+      },
+      {
+        "level": 19,
+        "name": "shadow-sneak"
+      },
+      {
+        "level": 23,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 28,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 32,
+        "name": "spider-web"
+      },
+      {
+        "level": 37,
+        "name": "agility"
+      },
+      {
+        "level": 41,
+        "name": "pin-missile"
+      },
+      {
+        "level": 46,
+        "name": "psychic"
+      },
+      {
+        "level": 50,
+        "name": "poison-jab"
+      },
+      {
+        "level": 55,
+        "name": "cross-poison"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "poison-jab",
+      "protect",
+      "psychic",
+      "rest",
+      "return",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 167,
+    "next": [],
+    "root": 167,
+    "next_details": []
+  }
+}

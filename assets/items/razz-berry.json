@@ -1,0 +1,12 @@
+{
+  "name": "razz-berry",
+  "display_name": "Razz Berry",
+  "category": "baking-only",
+  "cost": 200,
+  "fling_power": 10,
+  "effect": "No effect; only useful for planting and cooking.",
+  "short_effect": "Used for creating Pok\u00e9Blocks and Poffins.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

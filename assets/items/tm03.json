@@ -1,0 +1,12 @@
+{
+  "name": "tm03",
+  "display_name": "Tm03",
+  "category": "all-machines",
+  "cost": 50000,
+  "fling_power": null,
+  "effect": "Teaches Water Pulse to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Psyshock to a compatible Pok\u00e9mon. (Gen IV & III: Water Pulse Gen II: Curse Gen I: Swords Dance)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

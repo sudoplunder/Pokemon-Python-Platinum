@@ -1,0 +1,12 @@
+{
+  "name": "berry-pouch",
+  "display_name": "Berry Pouch",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Stores Berries.",
+  "short_effect": "Holds berries.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,146 @@
+{
+  "id": 160,
+  "name": "feraligatr",
+  "generation": "2",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 105,
+    "defense": 100,
+    "sp_atk": 79,
+    "sp_def": 83,
+    "speed": 78
+  },
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "abilities": {
+    "primary": "torrent",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "rage"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 13,
+        "name": "bite"
+      },
+      {
+        "level": 15,
+        "name": "scary-face"
+      },
+      {
+        "level": 21,
+        "name": "ice-fang"
+      },
+      {
+        "level": 24,
+        "name": "flail"
+      },
+      {
+        "level": 30,
+        "name": "agility"
+      },
+      {
+        "level": 32,
+        "name": "crunch"
+      },
+      {
+        "level": 38,
+        "name": "slash"
+      },
+      {
+        "level": 47,
+        "name": "screech"
+      },
+      {
+        "level": 58,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 58,
+        "name": "thrash"
+      },
+      {
+        "level": 63,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 71,
+        "name": "superpower"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "dive",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 159,
+    "next": [],
+    "root": 158,
+    "next_details": []
+  }
+}

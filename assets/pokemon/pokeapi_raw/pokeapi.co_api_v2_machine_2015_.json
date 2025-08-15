@@ -1,0 +1,15 @@
+{
+  "id": 2015,
+  "item": {
+    "name": "tm112",
+    "url": "https://pokeapi.co/api/v2/item/1955/"
+  },
+  "move": {
+    "name": "aura-sphere",
+    "url": "https://pokeapi.co/api/v2/move/396/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

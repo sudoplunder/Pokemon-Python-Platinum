@@ -1,0 +1,8 @@
+{
+  "name": "technician",
+  "display_name": "Technician",
+  "generation": 4,
+  "short_effect": "Strengthens moves of 60 base power or less to 1.5\u00d7 their power.",
+  "effect": "This Pok\u00e9mon's moves have 1.5\u00d7 their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as hidden power and magnitude, when their power is 60 or less.  helping hand's power boost is taken into account for any move, as is defense curl's power boost for rollout.",
+  "is_gen4_or_prior": true
+}

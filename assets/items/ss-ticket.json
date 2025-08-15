@@ -1,0 +1,12 @@
+{
+  "name": "ss-ticket",
+  "display_name": "Ss Ticket",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Allows passage on a ferry.\n\nThe same item is used for different ferries between different games.",
+  "short_effect": "Ticket for a ship. (RSE: S.S. Tidal LF: S.S. Anne HG: S.S. Aqua)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

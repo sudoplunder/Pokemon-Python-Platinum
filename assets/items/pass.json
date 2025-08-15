@@ -1,0 +1,12 @@
+{
+  "name": "pass",
+  "display_name": "Pass",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Allows the trainer to ride the Magnet Train between goldenrod city and saffron city.",
+  "short_effect": "Grants access to ride the Magnet Train between Goldenrod City and Saffron City.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

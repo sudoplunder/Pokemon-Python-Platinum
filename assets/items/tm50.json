@@ -1,0 +1,12 @@
+{
+  "name": "tm50",
+  "display_name": "Tm50",
+  "category": "all-machines",
+  "cost": 10000,
+  "fling_power": null,
+  "effect": "Teaches Overheat to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Overheat to a compatible Pok\u00e9mon. (Gen II: Nightmare Gen I: Substitute)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

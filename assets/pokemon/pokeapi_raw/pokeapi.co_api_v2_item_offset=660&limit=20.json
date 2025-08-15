@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=680&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=640&limit=20",
+  "results": [
+    {
+      "name": "tm95",
+      "url": "https://pokeapi.co/api/v2/item/661/"
+    },
+    {
+      "name": "xtransceiver",
+      "url": "https://pokeapi.co/api/v2/item/662/"
+    },
+    {
+      "name": "god-stone",
+      "url": "https://pokeapi.co/api/v2/item/663/"
+    },
+    {
+      "name": "gram-1",
+      "url": "https://pokeapi.co/api/v2/item/664/"
+    },
+    {
+      "name": "gram-2",
+      "url": "https://pokeapi.co/api/v2/item/665/"
+    },
+    {
+      "name": "gram-3",
+      "url": "https://pokeapi.co/api/v2/item/666/"
+    },
+    {
+      "name": "dragon-gem",
+      "url": "https://pokeapi.co/api/v2/item/668/"
+    },
+    {
+      "name": "normal-gem",
+      "url": "https://pokeapi.co/api/v2/item/669/"
+    },
+    {
+      "name": "medal-box",
+      "url": "https://pokeapi.co/api/v2/item/670/"
+    },
+    {
+      "name": "dna-splicers",
+      "url": "https://pokeapi.co/api/v2/item/671/"
+    },
+    {
+      "name": "permit",
+      "url": "https://pokeapi.co/api/v2/item/673/"
+    },
+    {
+      "name": "oval-charm",
+      "url": "https://pokeapi.co/api/v2/item/674/"
+    },
+    {
+      "name": "shiny-charm",
+      "url": "https://pokeapi.co/api/v2/item/675/"
+    },
+    {
+      "name": "plasma-card",
+      "url": "https://pokeapi.co/api/v2/item/676/"
+    },
+    {
+      "name": "grubby-hanky",
+      "url": "https://pokeapi.co/api/v2/item/677/"
+    },
+    {
+      "name": "colress-machine",
+      "url": "https://pokeapi.co/api/v2/item/678/"
+    },
+    {
+      "name": "dropped-item",
+      "url": "https://pokeapi.co/api/v2/item/679/"
+    },
+    {
+      "name": "reveal-glass",
+      "url": "https://pokeapi.co/api/v2/item/681/"
+    },
+    {
+      "name": "weakness-policy",
+      "url": "https://pokeapi.co/api/v2/item/682/"
+    },
+    {
+      "name": "assault-vest",
+      "url": "https://pokeapi.co/api/v2/item/683/"
+    }
+  ]
+}

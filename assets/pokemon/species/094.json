@@ -1,0 +1,146 @@
+{
+  "id": 94,
+  "name": "gengar",
+  "generation": "1",
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 60,
+    "sp_atk": 130,
+    "sp_def": 75,
+    "speed": 110
+  },
+  "base_experience": 225,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "cursed-body",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 1,
+        "name": "spite"
+      },
+      {
+        "level": 8,
+        "name": "mean-look"
+      },
+      {
+        "level": 12,
+        "name": "curse"
+      },
+      {
+        "level": 15,
+        "name": "night-shade"
+      },
+      {
+        "level": 19,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 22,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 25,
+        "name": "shadow-punch"
+      },
+      {
+        "level": 28,
+        "name": "payback"
+      },
+      {
+        "level": 33,
+        "name": "shadow-ball"
+      },
+      {
+        "level": 39,
+        "name": "dream-eater"
+      },
+      {
+        "level": 44,
+        "name": "dark-pulse"
+      },
+      {
+        "level": 48,
+        "name": "destiny-bond"
+      },
+      {
+        "level": 61,
+        "name": "nightmare"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "energy-ball",
+      "explosion",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "skill-swap",
+      "sludge-bomb",
+      "snatch",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 93,
+    "next": [],
+    "root": 92,
+    "next_details": []
+  }
+}

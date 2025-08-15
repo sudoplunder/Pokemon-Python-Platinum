@@ -6,7 +6,7 @@ from typing import Dict
 
 from platinum.core.logging import logger
 from platinum.core.paths import DIALOGUE_EN
-from .variant import DialogueEntry, VariantSelector
+from .variant import DialogueEntry
 from .render import render_line
 
 class DialogueManager:
@@ -43,23 +43,47 @@ class DialogueManager:
             for key, value in data.items():
                 if key.startswith("_"):
                     continue
-                # collect variants
-                variants = {}
-                for variant_name in ("base","concise","expanded"):
-                    if variant_name in value:
-                        variants[variant_name] = value[variant_name]
-                if not variants:
+                # Single-format system: only 'expanded' retained.
+                expanded = value.get("expanded") or value.get("base") or value.get("concise")
+                if not expanded:
                     continue
                 speaker = value.get("speaker")
-                self.entries[key] = DialogueEntry(key, speaker, variants)
-        logger.debug("DialogueLoaded", entries=len(self.entries), chars=len(self.characters))
+                self.entries[key] = DialogueEntry(key, speaker, expanded)
+        from platinum.system.settings import Settings
+        if getattr(Settings.load().data, 'debug', False):
+            logger.debug("DialogueLoaded", entries=len(self.entries), chars=len(self.characters))
 
     def show(self, key: str):
+        """Render a dialogue line by key.
+
+        In the simplified single-format system all lines use the 'expanded'
+        text (falling back to base/concise only if legacy files still have
+        not yet been cleaned). Missing keys are logged and visibly marked.
+        """
         entry = self.entries.get(key)
         if not entry:
             logger.warn("DialogueKeyMissing", key=key)
             print(f"[Missing dialogue: {key}]")
             return
-        selector = VariantSelector(self.settings.data.dialogue_mode, self.rng)
-        text = selector.select(entry)
+        # Render the single-format (expanded) line
+        text = entry.text
+        # Basic placeholder substitution if GameContext injected later
+        ctx = getattr(self.settings, "_game_context", None)
+        if ctx is None:
+            # Alternate path: try global variable injection by monkeypatch in GameContext
+            ctx = getattr(self, "_game_context", None)
+        if ctx is not None:
+            try:
+                # Prefer persisted assistant field; fallback to gender rule
+                assistant = getattr(ctx.state, 'assistant', None)
+                if not assistant:
+                    gender = getattr(ctx.state, 'player_gender', 'unspecified')
+                    assistant = 'lucas' if gender == 'female' else 'dawn'
+                assistant_display = assistant.title()
+                text = (text
+                        .replace("{PLAYER}", ctx.state.player_name)
+                        .replace("{RIVAL}", ctx.state.rival_name)
+                        .replace("{ASSISTANT}", assistant_display))
+            except Exception:
+                pass
         render_line(entry.speaker, text, self.characters, self.settings.data.text_speed)

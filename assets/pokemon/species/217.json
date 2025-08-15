@@ -1,0 +1,135 @@
+{
+  "id": 217,
+  "name": "ursaring",
+  "generation": "2",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 75,
+    "sp_atk": 75,
+    "sp_def": 75,
+    "speed": 55
+  },
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "guts",
+    "secondary": "quick-feet",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "covet"
+      },
+      {
+        "level": 1,
+        "name": "fake-tears"
+      },
+      {
+        "level": 1,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "lick"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 15,
+        "name": "feint-attack"
+      },
+      {
+        "level": 22,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 29,
+        "name": "slash"
+      },
+      {
+        "level": 31,
+        "name": "rest"
+      },
+      {
+        "level": 38,
+        "name": "scary-face"
+      },
+      {
+        "level": 43,
+        "name": "snore"
+      },
+      {
+        "level": 49,
+        "name": "thrash"
+      },
+      {
+        "level": 67,
+        "name": "hammer-arm"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 216,
+    "next": [],
+    "root": 216,
+    "next_details": []
+  }
+}

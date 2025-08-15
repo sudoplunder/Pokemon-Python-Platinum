@@ -1,0 +1,120 @@
+{
+  "id": 126,
+  "name": "magmar",
+  "generation": "1",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "sp_atk": 100,
+    "sp_def": 85,
+    "speed": 93
+  },
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 2,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "flame-body",
+    "secondary": null,
+    "hidden": "vital-spirit"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "fire-punch"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "smog"
+      },
+      {
+        "level": 8,
+        "name": "smokescreen"
+      },
+      {
+        "level": 12,
+        "name": "feint-attack"
+      },
+      {
+        "level": 15,
+        "name": "fire-spin"
+      },
+      {
+        "level": 26,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 33,
+        "name": "sunny-day"
+      },
+      {
+        "level": 36,
+        "name": "lava-plume"
+      },
+      {
+        "level": 41,
+        "name": "flamethrower"
+      },
+      {
+        "level": 55,
+        "name": "fire-blast"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "overheat",
+      "protect",
+      "psychic",
+      "rest",
+      "return",
+      "rock-smash",
+      "secret-power",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 240,
+    "next": [
+      467
+    ],
+    "root": 240,
+    "next_details": []
+  }
+}

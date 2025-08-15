@@ -1,0 +1,12 @@
+{
+  "name": "tm24",
+  "display_name": "Tm24",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Thunderbolt to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Thunderbolt to a compatible Pok\u00e9mon. (Gen II: DragonBreath)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

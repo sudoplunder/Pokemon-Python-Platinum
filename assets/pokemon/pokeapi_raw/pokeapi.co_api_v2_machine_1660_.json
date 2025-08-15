@@ -1,0 +1,15 @@
+{
+  "id": 1660,
+  "item": {
+    "name": "tr71",
+    "url": "https://pokeapi.co/api/v2/item/1259/"
+  },
+  "move": {
+    "name": "leaf-storm",
+    "url": "https://pokeapi.co/api/v2/move/437/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": 331,
+  "name": "cacnea",
+  "generation": "3",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 85,
+    "defense": 40,
+    "sp_atk": 85,
+    "sp_def": 40,
+    "speed": 35
+  },
+  "base_experience": 67,
+  "growth_rate": "medium-slow",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "plant",
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "sand-veil",
+    "secondary": null,
+    "hidden": "water-absorb"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 5,
+        "name": "absorb"
+      },
+      {
+        "level": 9,
+        "name": "growth"
+      },
+      {
+        "level": 13,
+        "name": "leech-seed"
+      },
+      {
+        "level": 17,
+        "name": "sand-attack"
+      },
+      {
+        "level": 21,
+        "name": "pin-missile"
+      },
+      {
+        "level": 25,
+        "name": "ingrain"
+      },
+      {
+        "level": 29,
+        "name": "feint-attack"
+      },
+      {
+        "level": 33,
+        "name": "spikes"
+      },
+      {
+        "level": 37,
+        "name": "needle-arm"
+      },
+      {
+        "level": 37,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 41,
+        "name": "cotton-spore"
+      },
+      {
+        "level": 41,
+        "name": "payback"
+      },
+      {
+        "level": 45,
+        "name": "sandstorm"
+      },
+      {
+        "level": 57,
+        "name": "destiny-bond"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rest",
+      "return",
+      "sandstorm",
+      "secret-power",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      332
+    ],
+    "root": 331,
+    "next_details": []
+  }
+}

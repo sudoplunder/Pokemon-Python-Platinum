@@ -1,0 +1,15 @@
+{
+  "id": 2068,
+  "item": {
+    "name": "tm190",
+    "url": "https://pokeapi.co/api/v2/item/2179/"
+  },
+  "move": {
+    "name": "solar-blade",
+    "url": "https://pokeapi.co/api/v2/move/669/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

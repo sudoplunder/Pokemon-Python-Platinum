@@ -1,50 +1,66 @@
 {
   "_meta": { "phase": 0, "segment": "intro" },
   "intro.start.1": {
-    "base": "Welcome to the world of Pokémon!",
-    "concise": "Welcome to Pokémon.",
     "expanded": "Welcome to the world of Pokémon—teeming with creatures of wonder and mystery!",
     "speaker": "prof"
   },
   "intro.start.2": {
-    "base": "My name is Rowan. People call me the Pokémon Professor.",
-    "concise": "I'm Professor Rowan.",
     "expanded": "My name is Rowan—though in these parts, most simply call me the Pokémon Professor.",
     "speaker": "prof"
   },
   "intro.rival.intro": {
-    "base": "Your friend was looking for you earlier.",
-    "concise": "Your friend wants you.",
     "expanded": "Your energetic friend was dashing about earlier, looking for you with unusual urgency.",
     "speaker": "mom"
   },
   "intro.lake.plan": {
-    "base": "Let's dash to the lake and find a rare Pokémon!",
-    "concise": "Lake. Rare Pokémon!",
-    "expanded": "C'mon! To the lake—we might find a super-rare Pokémon today!",
+    "expanded": "C'mon {PLAYER}! To the lake—we might find a super-rare Pokémon today!",
+    "speaker": "rival"
+  },
+  "cyrus.lake.silent": {
+    "expanded": "A silent figure gazes across the lake... His eyes are distant—measuring, calculating—before he even notices you're here.",
+    "speaker": "narration"
+  },
+  "cyrus.lake.depart": {
+    "expanded": "...A future shaped by will alone—no chaos, no frailty of spirit... Hmph. This place will play its role soon enough.",
+    "speaker": "cyrus"
+  },
+  "rival.lake.cyrus.react": {
+    "expanded": "What was THAT guy's deal? Total ice-core vibes. Anyway—hey, is that a briefcase?",
     "speaker": "rival"
   },
   "intro.briefcase": {
-    "base": "A briefcase? We should return it... Wait—wild Pokémon!",
-    "concise": "Briefcase... Wild Pokémon!",
     "expanded": "Somebody left a briefcase here... We should retur—whoa, wild Pokémon incoming!",
     "speaker": "rival"
   },
+  "intro.briefcase.assistant": {
+    "expanded": "Professor Rowan's briefcase—he must have left it behind when he was studying the lake!",
+    "speaker": "assistant"
+  },
+  "intro.rowan.arrival": {
+    "expanded": "Ah! My briefcase! I was dreadfully careless... You two are in danger—open it and choose a Pokémon at once!",
+    "speaker": "rowan"
+  },
   "intro.choose.starter": {
-    "base": "Choose a Pokémon to protect yourself!",
-    "concise": "Pick a Pokémon!",
     "expanded": "Quick—choose a Pokémon from the briefcase so we can defend ourselves!",
     "speaker": "rival"
   },
   "intro.after.battle": {
-    "base": "We won! Your Pokémon totally rocked!",
-    "concise": "We won!",
     "expanded": "We pulled through! Your Pokémon really carried us there—nice!",
     "speaker": "rival"
   },
+  "intro.rowan.intervene": {
+    "expanded": "Stop right there! Venturing into tall grass without a Pokémon of your own is far too dangerous.",
+    "speaker": "rowan"
+  },
+  "intro.assistant.approach": {
+    "expanded": "Professor—those are the two we saw by the lake earlier.",
+    "speaker": "assistant"
+  },
+  "intro.rowan.present": {
+    "expanded": "Hmm... Very well. I left my briefcase at the lake, but I retrieved it. Choose a partner Pokémon from inside so you may travel safely.",
+    "speaker": "rowan"
+  },
   "intro.mom.running_shoes": {
-    "base": "Here—these Running Shoes will help you travel faster.",
-    "concise": "Running Shoes for you.",
     "expanded": "Take these Running Shoes—may they carry you swiftly on your journey.",
     "speaker": "mom"
   }

@@ -1,0 +1,115 @@
+{
+  "id": 479,
+  "name": "rotom",
+  "generation": "4",
+  "types": [
+    "electric",
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 77,
+    "sp_atk": 95,
+    "sp_def": 77,
+    "speed": 91
+  },
+  "base_experience": 154,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 1,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 1,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 1,
+        "name": "trick"
+      },
+      {
+        "level": 8,
+        "name": "uproar"
+      },
+      {
+        "level": 15,
+        "name": "double-team"
+      },
+      {
+        "level": 22,
+        "name": "shock-wave"
+      },
+      {
+        "level": 29,
+        "name": "ominous-wind"
+      },
+      {
+        "level": 36,
+        "name": "substitute"
+      },
+      {
+        "level": 57,
+        "name": "charge"
+      },
+      {
+        "level": 64,
+        "name": "discharge"
+      }
+    ],
+    "machines": [
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "frustration",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "shadow-ball",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 479,
+    "next_details": []
+  }
+}

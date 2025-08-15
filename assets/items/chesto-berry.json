@@ -1,0 +1,14 @@
+{
+  "name": "chesto-berry",
+  "display_name": "Chesto Berry",
+  "category": "medicine",
+  "cost": 80,
+  "fling_power": 10,
+  "effect": "Held in battle\n:   When the holder is asleep, it consumes this item to wake up.\n\nUsed on a party Pok\u00e9mon\n:   Cures sleep.",
+  "short_effect": "Held: Consumed when asleep to cure sleep.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "holdable-active"
+  ]
+}

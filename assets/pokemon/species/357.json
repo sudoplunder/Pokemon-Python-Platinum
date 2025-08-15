@@ -1,0 +1,131 @@
+{
+  "id": 357,
+  "name": "tropius",
+  "generation": "3",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 99,
+    "attack": 68,
+    "defense": 83,
+    "sp_atk": 72,
+    "sp_def": 87,
+    "speed": 51
+  },
+  "base_experience": 161,
+  "growth_rate": "slow",
+  "capture_rate": 200,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": "solar-power",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "gust"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 7,
+        "name": "growth"
+      },
+      {
+        "level": 11,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 17,
+        "name": "stomp"
+      },
+      {
+        "level": 21,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 27,
+        "name": "whirlwind"
+      },
+      {
+        "level": 31,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 37,
+        "name": "body-slam"
+      },
+      {
+        "level": 41,
+        "name": "solar-beam"
+      },
+      {
+        "level": 41,
+        "name": "synthesis"
+      },
+      {
+        "level": 51,
+        "name": "air-slash"
+      },
+      {
+        "level": 67,
+        "name": "natural-gift"
+      },
+      {
+        "level": 71,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fly",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "steel-wing",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 357,
+    "next_details": []
+  }
+}

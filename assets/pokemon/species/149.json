@@ -1,0 +1,161 @@
+{
+  "id": 149,
+  "name": "dragonite",
+  "generation": "1",
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 91,
+    "attack": 134,
+    "defense": 95,
+    "sp_atk": 100,
+    "sp_def": 100,
+    "speed": 80
+  },
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 35,
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "inner-focus",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fire-punch"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "roost"
+      },
+      {
+        "level": 1,
+        "name": "thunder-punch"
+      },
+      {
+        "level": 1,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 1,
+        "name": "twister"
+      },
+      {
+        "level": 1,
+        "name": "wrap"
+      },
+      {
+        "level": 15,
+        "name": "dragon-rage"
+      },
+      {
+        "level": 21,
+        "name": "slam"
+      },
+      {
+        "level": 25,
+        "name": "agility"
+      },
+      {
+        "level": 39,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 47,
+        "name": "dragon-rush"
+      },
+      {
+        "level": 47,
+        "name": "safeguard"
+      },
+      {
+        "level": 55,
+        "name": "wing-attack"
+      },
+      {
+        "level": 61,
+        "name": "dragon-dance"
+      },
+      {
+        "level": 61,
+        "name": "outrage"
+      },
+      {
+        "level": 75,
+        "name": "hyper-beam"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dive",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "fly",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shock-wave",
+      "steel-wing",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 148,
+    "next": [],
+    "root": 147,
+    "next_details": []
+  }
+}

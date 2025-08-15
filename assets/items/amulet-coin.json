@@ -1,0 +1,15 @@
+{
+  "name": "amulet-coin",
+  "display_name": "Amulet Coin",
+  "category": "training",
+  "cost": 10000,
+  "fling_power": 30,
+  "effect": "Held\n:   If the holder participated in a trainer battle, the trainer earns twice the usual prize money.  This effect applies even if the holder fainted.\n\n    This effect does not stack with any other similar effect.",
+  "short_effect": "Held: Doubles the money earned from a battle. Does not stack with Luck Incense.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

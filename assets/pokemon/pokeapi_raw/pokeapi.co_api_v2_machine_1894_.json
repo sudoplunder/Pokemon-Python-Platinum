@@ -1,0 +1,15 @@
+{
+  "id": 1894,
+  "item": {
+    "name": "tm189",
+    "url": "https://pokeapi.co/api/v2/item/2178/"
+  },
+  "move": {
+    "name": "heat-crash",
+    "url": "https://pokeapi.co/api/v2/move/535/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

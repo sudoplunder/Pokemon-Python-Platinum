@@ -1,0 +1,126 @@
+{
+  "id": 152,
+  "name": "chikorita",
+  "generation": "2",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 65,
+    "sp_atk": 49,
+    "sp_def": 65,
+    "speed": 45
+  },
+  "base_experience": 64,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "overgrow",
+    "secondary": null,
+    "hidden": "leaf-guard"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 6,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 9,
+        "name": "poison-powder"
+      },
+      {
+        "level": 12,
+        "name": "reflect"
+      },
+      {
+        "level": 12,
+        "name": "synthesis"
+      },
+      {
+        "level": 20,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 23,
+        "name": "natural-gift"
+      },
+      {
+        "level": 28,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 29,
+        "name": "body-slam"
+      },
+      {
+        "level": 31,
+        "name": "light-screen"
+      },
+      {
+        "level": 39,
+        "name": "safeguard"
+      },
+      {
+        "level": 42,
+        "name": "aromatherapy"
+      },
+      {
+        "level": 45,
+        "name": "solar-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      153
+    ],
+    "root": 152,
+    "next_details": []
+  }
+}

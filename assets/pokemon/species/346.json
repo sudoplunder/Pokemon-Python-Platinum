@@ -1,0 +1,126 @@
+{
+  "id": 346,
+  "name": "cradily",
+  "generation": "3",
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 86,
+    "attack": 81,
+    "defense": 97,
+    "sp_atk": 81,
+    "sp_def": 107,
+    "speed": 43
+  },
+  "base_experience": 173,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "suction-cups",
+    "secondary": null,
+    "hidden": "storm-drain"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "acid"
+      },
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "constrict"
+      },
+      {
+        "level": 1,
+        "name": "ingrain"
+      },
+      {
+        "level": 22,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 29,
+        "name": "amnesia"
+      },
+      {
+        "level": 36,
+        "name": "ancient-power"
+      },
+      {
+        "level": 46,
+        "name": "gastro-acid"
+      },
+      {
+        "level": 56,
+        "name": "energy-ball"
+      },
+      {
+        "level": 60,
+        "name": "spit-up"
+      },
+      {
+        "level": 60,
+        "name": "stockpile"
+      },
+      {
+        "level": 60,
+        "name": "swallow"
+      },
+      {
+        "level": 76,
+        "name": "wring-out"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "double-team",
+      "earthquake",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 345,
+    "next": [],
+    "root": 345,
+    "next_details": []
+  }
+}

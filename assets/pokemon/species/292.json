@@ -1,0 +1,119 @@
+{
+  "id": 292,
+  "name": "shedinja",
+  "generation": "3",
+  "types": [
+    "bug",
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 1,
+    "attack": 90,
+    "defense": 45,
+    "sp_atk": 30,
+    "sp_def": 30,
+    "speed": 40
+  },
+  "base_experience": 83,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": -1,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "wonder-guard",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 5,
+        "name": "leech-life"
+      },
+      {
+        "level": 9,
+        "name": "sand-attack"
+      },
+      {
+        "level": 14,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 19,
+        "name": "mind-reader"
+      },
+      {
+        "level": 25,
+        "name": "spite"
+      },
+      {
+        "level": 31,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 38,
+        "name": "shadow-ball"
+      },
+      {
+        "level": 38,
+        "name": "shadow-sneak"
+      },
+      {
+        "level": 45,
+        "name": "grudge"
+      },
+      {
+        "level": 52,
+        "name": "heal-block"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "cut",
+      "dig",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "false-swipe",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shadow-claw",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "will-o-wisp",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 290,
+    "next": [],
+    "root": 290,
+    "next_details": []
+  }
+}

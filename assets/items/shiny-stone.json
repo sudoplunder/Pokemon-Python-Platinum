@@ -1,0 +1,12 @@
+{
+  "name": "shiny-stone",
+  "display_name": "Shiny Stone",
+  "category": "evolution",
+  "cost": 3000,
+  "fling_power": 80,
+  "effect": "Used on a party Pok\u00e9mon\n:   Evolves a minccino into cinccino, a roselia into roserade, or a togetic into togekiss.",
+  "short_effect": "Evolves a Minccino into Cinccino, a Roselia into Roserade, or a Togetic into Togekiss.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": 429,
+  "name": "mismagius",
+  "generation": "4",
+  "types": [
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "sp_atk": 105,
+    "sp_def": 105,
+    "speed": 105
+  },
+  "base_experience": 173,
+  "growth_rate": "fast",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 25,
+  "base_friendship": 35,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "lucky-chant"
+      },
+      {
+        "level": 1,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 1,
+        "name": "psywave"
+      },
+      {
+        "level": 1,
+        "name": "spite"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "shadow-ball",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "trick-room",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 200,
+    "next": [],
+    "root": 200,
+    "next_details": []
+  }
+}

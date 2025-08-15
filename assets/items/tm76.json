@@ -1,0 +1,12 @@
+{
+  "name": "tm76",
+  "display_name": "Tm76",
+  "category": "all-machines",
+  "cost": 10000,
+  "fling_power": null,
+  "effect": "Teaches Stealth Rock to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Struggle Bug to a compatible Pok\u00e9mon. (Gen IV: Stealth Rock)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

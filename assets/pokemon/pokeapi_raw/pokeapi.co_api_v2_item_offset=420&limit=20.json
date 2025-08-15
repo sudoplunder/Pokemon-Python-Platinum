@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=440&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=400&limit=20",
+  "results": [
+    {
+      "name": "coin-case",
+      "url": "https://pokeapi.co/api/v2/item/421/"
+    },
+    {
+      "name": "old-rod",
+      "url": "https://pokeapi.co/api/v2/item/422/"
+    },
+    {
+      "name": "good-rod",
+      "url": "https://pokeapi.co/api/v2/item/423/"
+    },
+    {
+      "name": "super-rod",
+      "url": "https://pokeapi.co/api/v2/item/424/"
+    },
+    {
+      "name": "sprayduck",
+      "url": "https://pokeapi.co/api/v2/item/425/"
+    },
+    {
+      "name": "poffin-case",
+      "url": "https://pokeapi.co/api/v2/item/426/"
+    },
+    {
+      "name": "bicycle",
+      "url": "https://pokeapi.co/api/v2/item/427/"
+    },
+    {
+      "name": "suite-key",
+      "url": "https://pokeapi.co/api/v2/item/428/"
+    },
+    {
+      "name": "oaks-letter",
+      "url": "https://pokeapi.co/api/v2/item/429/"
+    },
+    {
+      "name": "lunar-wing",
+      "url": "https://pokeapi.co/api/v2/item/430/"
+    },
+    {
+      "name": "member-card",
+      "url": "https://pokeapi.co/api/v2/item/431/"
+    },
+    {
+      "name": "azure-flute",
+      "url": "https://pokeapi.co/api/v2/item/432/"
+    },
+    {
+      "name": "ss-ticket",
+      "url": "https://pokeapi.co/api/v2/item/433/"
+    },
+    {
+      "name": "contest-pass",
+      "url": "https://pokeapi.co/api/v2/item/434/"
+    },
+    {
+      "name": "magma-stone",
+      "url": "https://pokeapi.co/api/v2/item/435/"
+    },
+    {
+      "name": "parcel",
+      "url": "https://pokeapi.co/api/v2/item/436/"
+    },
+    {
+      "name": "coupon-1",
+      "url": "https://pokeapi.co/api/v2/item/437/"
+    },
+    {
+      "name": "coupon-2",
+      "url": "https://pokeapi.co/api/v2/item/438/"
+    },
+    {
+      "name": "coupon-3",
+      "url": "https://pokeapi.co/api/v2/item/439/"
+    },
+    {
+      "name": "storage-key",
+      "url": "https://pokeapi.co/api/v2/item/440/"
+    }
+  ]
+}

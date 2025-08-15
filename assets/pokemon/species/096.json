@@ -1,0 +1,134 @@
+{
+  "id": 96,
+  "name": "drowzee",
+  "generation": "1",
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "sp_atk": 43,
+    "sp_def": 90,
+    "speed": 42
+  },
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "insomnia",
+    "secondary": "forewarn",
+    "hidden": "inner-focus"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "hypnosis"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 5,
+        "name": "disable"
+      },
+      {
+        "level": 9,
+        "name": "confusion"
+      },
+      {
+        "level": 13,
+        "name": "headbutt"
+      },
+      {
+        "level": 17,
+        "name": "poison-gas"
+      },
+      {
+        "level": 21,
+        "name": "meditate"
+      },
+      {
+        "level": 25,
+        "name": "psybeam"
+      },
+      {
+        "level": 33,
+        "name": "psych-up"
+      },
+      {
+        "level": 40,
+        "name": "psychic"
+      },
+      {
+        "level": 41,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 45,
+        "name": "future-sight"
+      },
+      {
+        "level": 45,
+        "name": "swagger"
+      },
+      {
+        "level": 53,
+        "name": "nasty-plot"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "calm-mind",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "snatch",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder-wave",
+      "torment",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      97
+    ],
+    "root": 96,
+    "next_details": []
+  }
+}

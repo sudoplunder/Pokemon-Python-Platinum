@@ -1,0 +1,18 @@
+{
+  "name": "lemonade",
+  "display_name": "Lemonade",
+  "category": "healing",
+  "cost": 400,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Restores 80 HP.",
+  "short_effect": "Restores 80 HP.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

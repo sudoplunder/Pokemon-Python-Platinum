@@ -1,0 +1,128 @@
+{
+  "id": 445,
+  "name": "garchomp",
+  "generation": "4",
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 108,
+    "attack": 130,
+    "defense": 95,
+    "sp_atk": 80,
+    "sp_def": 85,
+    "speed": 102
+  },
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "sand-veil",
+    "secondary": null,
+    "hidden": "rough-skin"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "dragon-rage"
+      },
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "sandstorm"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 15,
+        "name": "take-down"
+      },
+      {
+        "level": 19,
+        "name": "sand-tomb"
+      },
+      {
+        "level": 28,
+        "name": "slash"
+      },
+      {
+        "level": 33,
+        "name": "dragon-claw"
+      },
+      {
+        "level": 40,
+        "name": "dig"
+      },
+      {
+        "level": 48,
+        "name": "crunch"
+      },
+      {
+        "level": 55,
+        "name": "dragon-rush"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "facade",
+      "false-swipe",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "shadow-claw",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 444,
+    "next": [],
+    "root": 443,
+    "next_details": []
+  }
+}

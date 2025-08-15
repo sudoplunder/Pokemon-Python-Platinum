@@ -1,0 +1,127 @@
+{
+  "id": 135,
+  "name": "jolteon",
+  "generation": "1",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 60,
+    "sp_atk": 110,
+    "sp_def": 95,
+    "speed": 130
+  },
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 35,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "volt-absorb",
+    "secondary": null,
+    "hidden": "quick-feet"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "helping-hand"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 5,
+        "name": "sand-attack"
+      },
+      {
+        "level": 9,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 13,
+        "name": "quick-attack"
+      },
+      {
+        "level": 17,
+        "name": "double-kick"
+      },
+      {
+        "level": 21,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 25,
+        "name": "pin-missile"
+      },
+      {
+        "level": 29,
+        "name": "agility"
+      },
+      {
+        "level": 33,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 37,
+        "name": "discharge"
+      },
+      {
+        "level": 41,
+        "name": "last-resort"
+      },
+      {
+        "level": 45,
+        "name": "thunder"
+      }
+    ],
+    "machines": [
+      "attract",
+      "charge-beam",
+      "dig",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 133,
+    "next": [],
+    "root": 133,
+    "next_details": []
+  }
+}

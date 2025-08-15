@@ -1,0 +1,8 @@
+{
+  "name": "gluttony",
+  "display_name": "Gluttony",
+  "generation": 4,
+  "short_effect": "Makes the Pok\u00e9mon eat any held Berry triggered by low HP below 1/2 its max HP.",
+  "effect": "This Pok\u00e9mon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold.",
+  "is_gen4_or_prior": true
+}

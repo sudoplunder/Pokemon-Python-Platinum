@@ -1,0 +1,127 @@
+{
+  "id": 313,
+  "name": "volbeat",
+  "generation": "3",
+  "types": [
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 73,
+    "defense": 75,
+    "sp_atk": 47,
+    "sp_def": 85,
+    "speed": 85
+  },
+  "base_experience": 151,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 150,
+  "gender_rate": 0,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug",
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "illuminate",
+    "secondary": "swarm",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "flash"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 5,
+        "name": "double-team"
+      },
+      {
+        "level": 13,
+        "name": "moonlight"
+      },
+      {
+        "level": 17,
+        "name": "quick-attack"
+      },
+      {
+        "level": 21,
+        "name": "tail-glow"
+      },
+      {
+        "level": 25,
+        "name": "signal-beam"
+      },
+      {
+        "level": 29,
+        "name": "protect"
+      },
+      {
+        "level": 33,
+        "name": "helping-hand"
+      },
+      {
+        "level": 37,
+        "name": "double-edge"
+      },
+      {
+        "level": 37,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 41,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "charge-beam",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "u-turn",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 313,
+    "next_details": []
+  }
+}

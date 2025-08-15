@@ -1,0 +1,8 @@
+{
+  "name": "rough-skin",
+  "display_name": "Rough Skin",
+  "generation": 3,
+  "short_effect": "Damages attacking Pok\u00e9mon for 1/8 their max HP on contact.",
+  "effect": "Whenever a move makes contact with this Pok\u00e9mon, the move's user takes 1/8 of its maximum HP in damage.\n\nThis ability functions identically to iron barbs.",
+  "is_gen4_or_prior": true
+}

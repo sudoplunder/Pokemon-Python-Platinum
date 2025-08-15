@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+venv/
+.env/
+.venv/
+env/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs & runtime
+logs/
+*.log
+
+# Audio/Music large source originals (keep only optimized OGG in assets if needed)
+assets/audio/original_sources/
+*.wav
+
+# Cache / downloaded data (PokéAPI prefetch to be added later)
+assets/cache/
+assets/pokeapi_raw/
+
+# Saves
+saves/
+
+# Temporary test artifacts
+tmp/
+temp/
+
+# Avoid accidentally committing old duplicate package once removed
+platinum/  # remove this line after deletion is finalized

@@ -1,0 +1,153 @@
+{
+  "id": 113,
+  "name": "chansey",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "sp_atk": 35,
+    "sp_def": 105,
+    "speed": 50
+  },
+  "base_experience": 395,
+  "growth_rate": "fast",
+  "capture_rate": 30,
+  "gender_rate": 8,
+  "hatch_cycles": 40,
+  "base_friendship": 140,
+  "egg_groups": [
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "natural-cure",
+    "secondary": "serene-grace",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "defense-curl"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 5,
+        "name": "tail-whip"
+      },
+      {
+        "level": 9,
+        "name": "refresh"
+      },
+      {
+        "level": 12,
+        "name": "double-slap"
+      },
+      {
+        "level": 13,
+        "name": "soft-boiled"
+      },
+      {
+        "level": 23,
+        "name": "minimize"
+      },
+      {
+        "level": 27,
+        "name": "take-down"
+      },
+      {
+        "level": 29,
+        "name": "sing"
+      },
+      {
+        "level": 34,
+        "name": "fling"
+      },
+      {
+        "level": 35,
+        "name": "egg-bomb"
+      },
+      {
+        "level": 46,
+        "name": "light-screen"
+      },
+      {
+        "level": 50,
+        "name": "healing-wish"
+      },
+      {
+        "level": 54,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "snatch",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 440,
+    "next": [
+      242
+    ],
+    "root": 440,
+    "next_details": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tm63",
+  "display_name": "Tm63",
+  "category": "all-machines",
+  "cost": 50000,
+  "fling_power": null,
+  "effect": "Teaches Embargo to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Embargo to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

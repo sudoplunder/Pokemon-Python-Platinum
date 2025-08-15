@@ -1,0 +1,114 @@
+{
+  "id": 444,
+  "name": "gabite",
+  "generation": "4",
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 90,
+    "defense": 65,
+    "sp_atk": 50,
+    "sp_def": 55,
+    "speed": 82
+  },
+  "base_experience": 144,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "sand-veil",
+    "secondary": null,
+    "hidden": "rough-skin"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "sand-attack"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 7,
+        "name": "dragon-rage"
+      },
+      {
+        "level": 13,
+        "name": "sandstorm"
+      },
+      {
+        "level": 15,
+        "name": "take-down"
+      },
+      {
+        "level": 19,
+        "name": "sand-tomb"
+      },
+      {
+        "level": 28,
+        "name": "slash"
+      },
+      {
+        "level": 33,
+        "name": "dragon-claw"
+      },
+      {
+        "level": 40,
+        "name": "dig"
+      },
+      {
+        "level": 49,
+        "name": "dragon-rush"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "cut",
+      "dig",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "hidden-power",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "shadow-claw",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 443,
+    "next": [
+      445
+    ],
+    "root": 443,
+    "next_details": []
+  }
+}

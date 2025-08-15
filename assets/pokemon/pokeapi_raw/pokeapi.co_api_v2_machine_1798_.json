@@ -1,0 +1,15 @@
+{
+  "id": 1798,
+  "item": {
+    "name": "tm93",
+    "url": "https://pokeapi.co/api/v2/item/659/"
+  },
+  "move": {
+    "name": "flash-cannon",
+    "url": "https://pokeapi.co/api/v2/move/430/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

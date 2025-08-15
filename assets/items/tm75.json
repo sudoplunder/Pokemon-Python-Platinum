@@ -1,0 +1,12 @@
+{
+  "name": "tm75",
+  "display_name": "Tm75",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Swords Dance to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Swords Dance to a compatible Pok\u00e9mon.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

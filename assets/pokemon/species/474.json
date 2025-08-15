@@ -1,0 +1,140 @@
+{
+  "id": 474,
+  "name": "porygon-z",
+  "generation": "4",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 80,
+    "defense": 70,
+    "sp_atk": 135,
+    "sp_def": 75,
+    "speed": 90
+  },
+  "base_experience": 241,
+  "growth_rate": "medium",
+  "capture_rate": 30,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "adaptability",
+    "secondary": "download",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "conversion"
+      },
+      {
+        "level": 1,
+        "name": "conversion-2"
+      },
+      {
+        "level": 1,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "trick-room"
+      },
+      {
+        "level": 7,
+        "name": "psybeam"
+      },
+      {
+        "level": 12,
+        "name": "agility"
+      },
+      {
+        "level": 18,
+        "name": "recover"
+      },
+      {
+        "level": 23,
+        "name": "magnet-rise"
+      },
+      {
+        "level": 29,
+        "name": "signal-beam"
+      },
+      {
+        "level": 34,
+        "name": "embargo"
+      },
+      {
+        "level": 40,
+        "name": "discharge"
+      },
+      {
+        "level": 45,
+        "name": "lock-on"
+      },
+      {
+        "level": 51,
+        "name": "tri-attack"
+      },
+      {
+        "level": 56,
+        "name": "magic-coat"
+      },
+      {
+        "level": 62,
+        "name": "zap-cannon"
+      },
+      {
+        "level": 67,
+        "name": "hyper-beam"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "blizzard",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": 233,
+    "next": [],
+    "root": 137,
+    "next_details": []
+  }
+}

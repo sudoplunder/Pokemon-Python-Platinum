@@ -1,0 +1,12 @@
+{
+  "name": "tm79",
+  "display_name": "Tm79",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Dark Pulse to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Frost Breath to a compatible Pok\u00e9mon. (Gen IV: Dark Pulse)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

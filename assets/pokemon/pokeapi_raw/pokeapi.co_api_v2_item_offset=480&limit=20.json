@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=500&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=460&limit=20",
+  "results": [
+    {
+      "name": "silver-wing",
+      "url": "https://pokeapi.co/api/v2/item/481/"
+    },
+    {
+      "name": "rainbow-wing",
+      "url": "https://pokeapi.co/api/v2/item/482/"
+    },
+    {
+      "name": "mystery-egg",
+      "url": "https://pokeapi.co/api/v2/item/483/"
+    },
+    {
+      "name": "gb-sounds",
+      "url": "https://pokeapi.co/api/v2/item/484/"
+    },
+    {
+      "name": "tidal-bell",
+      "url": "https://pokeapi.co/api/v2/item/485/"
+    },
+    {
+      "name": "data-card-01",
+      "url": "https://pokeapi.co/api/v2/item/486/"
+    },
+    {
+      "name": "data-card-02",
+      "url": "https://pokeapi.co/api/v2/item/487/"
+    },
+    {
+      "name": "data-card-03",
+      "url": "https://pokeapi.co/api/v2/item/488/"
+    },
+    {
+      "name": "data-card-04",
+      "url": "https://pokeapi.co/api/v2/item/489/"
+    },
+    {
+      "name": "data-card-05",
+      "url": "https://pokeapi.co/api/v2/item/490/"
+    },
+    {
+      "name": "data-card-06",
+      "url": "https://pokeapi.co/api/v2/item/491/"
+    },
+    {
+      "name": "data-card-07",
+      "url": "https://pokeapi.co/api/v2/item/492/"
+    },
+    {
+      "name": "data-card-08",
+      "url": "https://pokeapi.co/api/v2/item/493/"
+    },
+    {
+      "name": "data-card-09",
+      "url": "https://pokeapi.co/api/v2/item/494/"
+    },
+    {
+      "name": "data-card-10",
+      "url": "https://pokeapi.co/api/v2/item/495/"
+    },
+    {
+      "name": "data-card-11",
+      "url": "https://pokeapi.co/api/v2/item/496/"
+    },
+    {
+      "name": "data-card-12",
+      "url": "https://pokeapi.co/api/v2/item/497/"
+    },
+    {
+      "name": "data-card-13",
+      "url": "https://pokeapi.co/api/v2/item/498/"
+    },
+    {
+      "name": "data-card-14",
+      "url": "https://pokeapi.co/api/v2/item/499/"
+    },
+    {
+      "name": "data-card-15",
+      "url": "https://pokeapi.co/api/v2/item/500/"
+    }
+  ]
+}

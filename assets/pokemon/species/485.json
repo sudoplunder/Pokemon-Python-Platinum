@@ -1,0 +1,127 @@
+{
+  "id": 485,
+  "name": "heatran",
+  "generation": "4",
+  "types": [
+    "fire",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 91,
+    "attack": 90,
+    "defense": 106,
+    "sp_atk": 130,
+    "sp_def": 106,
+    "speed": 77
+  },
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": 4,
+  "hatch_cycles": 10,
+  "base_friendship": 100,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "flash-fire",
+    "secondary": null,
+    "hidden": "flame-body"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ancient-power"
+      },
+      {
+        "level": 9,
+        "name": "leer"
+      },
+      {
+        "level": 17,
+        "name": "fire-fang"
+      },
+      {
+        "level": 25,
+        "name": "metal-sound"
+      },
+      {
+        "level": 33,
+        "name": "crunch"
+      },
+      {
+        "level": 41,
+        "name": "scary-face"
+      },
+      {
+        "level": 49,
+        "name": "lava-plume"
+      },
+      {
+        "level": 57,
+        "name": "fire-spin"
+      },
+      {
+        "level": 65,
+        "name": "iron-head"
+      },
+      {
+        "level": 73,
+        "name": "earth-power"
+      },
+      {
+        "level": 81,
+        "name": "heat-wave"
+      },
+      {
+        "level": 88,
+        "name": "stone-edge"
+      },
+      {
+        "level": 96,
+        "name": "magma-storm"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash-cannon",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "overheat",
+      "payback",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "solar-beam",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "torment",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 485,
+    "next_details": []
+  }
+}

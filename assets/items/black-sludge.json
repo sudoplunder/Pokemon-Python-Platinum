@@ -1,0 +1,15 @@
+{
+  "name": "black-sludge",
+  "display_name": "Black Sludge",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 30,
+  "effect": "Held: If the holder is Poison-type, restores 1/16 max HP at the end of each turn.  Otherwise, damages the holder by 1/16 its max HP at the end of each turn.",
+  "short_effect": "Held: Poison-type holder recovers 1/16 (6.25%) max HP each turn. Non-Poison-Types take 1/8 (12.5%) max HP damage.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

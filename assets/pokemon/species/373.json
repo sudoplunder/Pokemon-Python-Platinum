@@ -1,0 +1,140 @@
+{
+  "id": 373,
+  "name": "salamence",
+  "generation": "3",
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 135,
+    "defense": 80,
+    "sp_atk": 110,
+    "sp_def": 80,
+    "speed": 100
+  },
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 35,
+  "egg_groups": [
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "headbutt"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "rage"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 20,
+        "name": "focus-energy"
+      },
+      {
+        "level": 25,
+        "name": "ember"
+      },
+      {
+        "level": 30,
+        "name": "protect"
+      },
+      {
+        "level": 32,
+        "name": "dragon-breath"
+      },
+      {
+        "level": 37,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 43,
+        "name": "scary-face"
+      },
+      {
+        "level": 50,
+        "name": "fly"
+      },
+      {
+        "level": 53,
+        "name": "crunch"
+      },
+      {
+        "level": 61,
+        "name": "dragon-claw"
+      },
+      {
+        "level": 70,
+        "name": "double-edge"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "steel-wing",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 372,
+    "next": [],
+    "root": 371,
+    "next_details": []
+  }
+}

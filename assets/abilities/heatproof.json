@@ -1,0 +1,8 @@
+{
+  "name": "heatproof",
+  "display_name": "Heatproof",
+  "generation": 4,
+  "short_effect": "Halves damage from fire moves and burns.",
+  "effect": "This Pok\u00e9mon takes half as much damage from fire-type moves and burns.",
+  "is_gen4_or_prior": true
+}

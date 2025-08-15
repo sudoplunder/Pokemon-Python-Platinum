@@ -1,0 +1,15 @@
+{
+  "id": 1664,
+  "item": {
+    "name": "tr75",
+    "url": "https://pokeapi.co/api/v2/item/1263/"
+  },
+  "move": {
+    "name": "stone-edge",
+    "url": "https://pokeapi.co/api/v2/move/444/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

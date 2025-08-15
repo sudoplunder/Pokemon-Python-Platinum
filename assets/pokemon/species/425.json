@@ -1,0 +1,139 @@
+{
+  "id": 425,
+  "name": "drifloon",
+  "generation": "4",
+  "types": [
+    "ghost",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 50,
+    "defense": 34,
+    "sp_atk": 60,
+    "sp_def": 44,
+    "speed": 70
+  },
+  "base_experience": 70,
+  "growth_rate": "fast-then-very-slow",
+  "capture_rate": 125,
+  "gender_rate": 4,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "aftermath",
+    "secondary": "unburden",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "constrict"
+      },
+      {
+        "level": 1,
+        "name": "minimize"
+      },
+      {
+        "level": 4,
+        "name": "astonish"
+      },
+      {
+        "level": 8,
+        "name": "gust"
+      },
+      {
+        "level": 13,
+        "name": "focus-energy"
+      },
+      {
+        "level": 16,
+        "name": "payback"
+      },
+      {
+        "level": 20,
+        "name": "ominous-wind"
+      },
+      {
+        "level": 25,
+        "name": "stockpile"
+      },
+      {
+        "level": 32,
+        "name": "spit-up"
+      },
+      {
+        "level": 32,
+        "name": "swallow"
+      },
+      {
+        "level": 36,
+        "name": "shadow-ball"
+      },
+      {
+        "level": 40,
+        "name": "amnesia"
+      },
+      {
+        "level": 44,
+        "name": "baton-pass"
+      },
+      {
+        "level": 50,
+        "name": "explosion"
+      }
+    ],
+    "machines": [
+      "attract",
+      "calm-mind",
+      "charge-beam",
+      "cut",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "explosion",
+      "facade",
+      "flash",
+      "frustration",
+      "gyro-ball",
+      "hidden-power",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "shadow-ball",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      426
+    ],
+    "root": 425,
+    "next_details": [
+      {
+        "id": 426,
+        "trigger": "level",
+        "conditions": {
+          "level": 28
+        }
+      }
+    ]
+  }
+}

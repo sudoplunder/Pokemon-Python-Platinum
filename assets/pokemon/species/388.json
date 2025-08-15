@@ -1,0 +1,124 @@
+{
+  "id": 388,
+  "name": "grotle",
+  "generation": "4",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 89,
+    "defense": 85,
+    "sp_atk": 55,
+    "sp_def": 65,
+    "speed": 36
+  },
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "overgrow",
+    "secondary": null,
+    "hidden": "shell-armor"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "withdraw"
+      },
+      {
+        "level": 9,
+        "name": "absorb"
+      },
+      {
+        "level": 13,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 17,
+        "name": "curse"
+      },
+      {
+        "level": 22,
+        "name": "bite"
+      },
+      {
+        "level": 27,
+        "name": "mega-drain"
+      },
+      {
+        "level": 32,
+        "name": "leech-seed"
+      },
+      {
+        "level": 37,
+        "name": "synthesis"
+      },
+      {
+        "level": 42,
+        "name": "crunch"
+      },
+      {
+        "level": 47,
+        "name": "giga-drain"
+      },
+      {
+        "level": 52,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "attract",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 387,
+    "next": [
+      389
+    ],
+    "root": 387,
+    "next_details": [
+      {
+        "id": 389,
+        "trigger": "level",
+        "conditions": {
+          "level": 32
+        }
+      }
+    ]
+  }
+}

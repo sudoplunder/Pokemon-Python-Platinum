@@ -1,0 +1,138 @@
+{
+  "id": 394,
+  "name": "prinplup",
+  "generation": "4",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 64,
+    "attack": 66,
+    "defense": 68,
+    "sp_atk": 81,
+    "sp_def": 76,
+    "speed": 50
+  },
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "abilities": {
+    "primary": "torrent",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 8,
+        "name": "bubble"
+      },
+      {
+        "level": 11,
+        "name": "water-sport"
+      },
+      {
+        "level": 15,
+        "name": "peck"
+      },
+      {
+        "level": 16,
+        "name": "metal-claw"
+      },
+      {
+        "level": 19,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 24,
+        "name": "bide"
+      },
+      {
+        "level": 28,
+        "name": "fury-attack"
+      },
+      {
+        "level": 33,
+        "name": "brine"
+      },
+      {
+        "level": 37,
+        "name": "whirlpool"
+      },
+      {
+        "level": 42,
+        "name": "mist"
+      },
+      {
+        "level": 46,
+        "name": "drill-peck"
+      },
+      {
+        "level": 51,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "rock-tomb",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 393,
+    "next": [
+      395
+    ],
+    "root": 393,
+    "next_details": [
+      {
+        "id": 395,
+        "trigger": "level",
+        "conditions": {
+          "level": 36
+        }
+      }
+    ]
+  }
+}

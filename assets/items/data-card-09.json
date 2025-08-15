@@ -1,0 +1,12 @@
+{
+  "name": "data-card-09",
+  "display_name": "Data Card 09",
+  "category": "data-cards",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Records the number of times the trainer has come in first in the Pok\u00e9athlon Disc Catch.",
+  "short_effect": "Records the number of times the trainer has come in first in the Pok\u00e9athlon Disc Catch.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

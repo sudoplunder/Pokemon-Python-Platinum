@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=820&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=780&limit=20",
+  "results": [
+    {
+      "name": "fightinium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/823/"
+    },
+    {
+      "name": "poisonium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/824/"
+    },
+    {
+      "name": "groundium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/825/"
+    },
+    {
+      "name": "flyinium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/826/"
+    },
+    {
+      "name": "psychium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/827/"
+    },
+    {
+      "name": "buginium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/828/"
+    },
+    {
+      "name": "rockium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/829/"
+    },
+    {
+      "name": "ghostium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/830/"
+    },
+    {
+      "name": "dragonium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/831/"
+    },
+    {
+      "name": "darkinium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/832/"
+    },
+    {
+      "name": "steelium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/833/"
+    },
+    {
+      "name": "fairium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/834/"
+    },
+    {
+      "name": "pikanium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/835/"
+    },
+    {
+      "name": "bottle-cap",
+      "url": "https://pokeapi.co/api/v2/item/836/"
+    },
+    {
+      "name": "gold-bottle-cap",
+      "url": "https://pokeapi.co/api/v2/item/837/"
+    },
+    {
+      "name": "z-ring",
+      "url": "https://pokeapi.co/api/v2/item/838/"
+    },
+    {
+      "name": "decidium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/839/"
+    },
+    {
+      "name": "incinium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/840/"
+    },
+    {
+      "name": "primarium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/841/"
+    },
+    {
+      "name": "tapunium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/842/"
+    }
+  ]
+}

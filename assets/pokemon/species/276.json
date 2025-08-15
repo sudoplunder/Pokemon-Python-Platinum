@@ -1,0 +1,105 @@
+{
+  "id": 276,
+  "name": "taillow",
+  "generation": "3",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 55,
+    "defense": 30,
+    "sp_atk": 30,
+    "sp_def": 30,
+    "speed": 85
+  },
+  "base_experience": 54,
+  "growth_rate": "medium-slow",
+  "capture_rate": 200,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "guts",
+    "secondary": null,
+    "hidden": "scrappy"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 4,
+        "name": "focus-energy"
+      },
+      {
+        "level": 8,
+        "name": "quick-attack"
+      },
+      {
+        "level": 13,
+        "name": "wing-attack"
+      },
+      {
+        "level": 19,
+        "name": "double-team"
+      },
+      {
+        "level": 26,
+        "name": "endeavor"
+      },
+      {
+        "level": 34,
+        "name": "aerial-ace"
+      },
+      {
+        "level": 43,
+        "name": "agility"
+      },
+      {
+        "level": 53,
+        "name": "air-slash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "pluck",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      277
+    ],
+    "root": 276,
+    "next_details": []
+  }
+}

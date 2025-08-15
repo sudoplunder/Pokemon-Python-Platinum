@@ -1,0 +1,12 @@
+{
+  "name": "yellow-apricorn",
+  "display_name": "Yellow Apricorn",
+  "category": "apricorn-box",
+  "cost": 200,
+  "fling_power": 10,
+  "effect": "May be given to Kurt in azalea town to produce a moon ball.",
+  "short_effect": "Used to make a Moon Ball.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

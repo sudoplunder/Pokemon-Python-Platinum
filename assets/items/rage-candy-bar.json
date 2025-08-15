@@ -1,0 +1,12 @@
+{
+  "name": "rage-candy-bar",
+  "display_name": "Rage Candy Bar",
+  "category": "gameplay",
+  "cost": 350,
+  "fling_power": 30,
+  "effect": "May be traded for a tm64 in the vertical Underground Path.",
+  "short_effect": "HS: Traded for TM64. Gen II & Gen V: Acts as a Potion.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

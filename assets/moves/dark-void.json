@@ -1,0 +1,42 @@
+{
+  "name": "dark-void",
+  "display_name": "Dark Void",
+  "type": "dark",
+  "category": "status",
+  "power": null,
+  "accuracy": 50,
+  "pp": 10,
+  "priority": 0,
+  "generation": 4,
+  "crit_rate_stage": 0,
+  "targets": "all-opponents",
+  "short_effect": "Puts the target to sleep.",
+  "effect": "Puts the target to sleep.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    2,
+    4
+  ],
+  "flinch_chance": 0,
+  "ailment": "sleep",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

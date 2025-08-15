@@ -1,0 +1,118 @@
+{
+  "id": 417,
+  "name": "pachirisu",
+  "generation": "4",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 70,
+    "sp_atk": 45,
+    "sp_def": 90,
+    "speed": 95
+  },
+  "base_experience": 142,
+  "growth_rate": "medium",
+  "capture_rate": 200,
+  "gender_rate": 4,
+  "hatch_cycles": 10,
+  "base_friendship": 100,
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "run-away",
+    "secondary": "pickup",
+    "hidden": "volt-absorb"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bide"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 5,
+        "name": "quick-attack"
+      },
+      {
+        "level": 9,
+        "name": "charm"
+      },
+      {
+        "level": 13,
+        "name": "spark"
+      },
+      {
+        "level": 17,
+        "name": "endure"
+      },
+      {
+        "level": 21,
+        "name": "swift"
+      },
+      {
+        "level": 29,
+        "name": "sweet-kiss"
+      },
+      {
+        "level": 33,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 37,
+        "name": "super-fang"
+      },
+      {
+        "level": 41,
+        "name": "discharge"
+      },
+      {
+        "level": 45,
+        "name": "last-resort"
+      },
+      {
+        "level": 49,
+        "name": "hyper-fang"
+      }
+    ],
+    "machines": [
+      "attract",
+      "charge-beam",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "substitute",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 417,
+    "next_details": []
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1580&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1540&limit=20",
+  "results": [
+    {
+      "name": "dynamax-crystal-dra6705",
+      "url": "https://pokeapi.co/api/v2/item/1612/"
+    },
+    {
+      "name": "dynamax-crystal-dra6536",
+      "url": "https://pokeapi.co/api/v2/item/1613/"
+    },
+    {
+      "name": "dynamax-crystal-dra7310",
+      "url": "https://pokeapi.co/api/v2/item/1614/"
+    },
+    {
+      "name": "dynamax-crystal-dra6688",
+      "url": "https://pokeapi.co/api/v2/item/1615/"
+    },
+    {
+      "name": "dynamax-crystal-dra4434",
+      "url": "https://pokeapi.co/api/v2/item/1616/"
+    },
+    {
+      "name": "dynamax-crystal-dra6370",
+      "url": "https://pokeapi.co/api/v2/item/1617/"
+    },
+    {
+      "name": "dynamax-crystal-dra7462",
+      "url": "https://pokeapi.co/api/v2/item/1618/"
+    },
+    {
+      "name": "dynamax-crystal-dra6396",
+      "url": "https://pokeapi.co/api/v2/item/1619/"
+    },
+    {
+      "name": "dynamax-crystal-dra6132",
+      "url": "https://pokeapi.co/api/v2/item/1620/"
+    },
+    {
+      "name": "dynamax-crystal-dra6636",
+      "url": "https://pokeapi.co/api/v2/item/1621/"
+    },
+    {
+      "name": "dynamax-crystal-cvn4915",
+      "url": "https://pokeapi.co/api/v2/item/1622/"
+    },
+    {
+      "name": "dynamax-crystal-cvn4785",
+      "url": "https://pokeapi.co/api/v2/item/1623/"
+    },
+    {
+      "name": "dynamax-crystal-cvn4846",
+      "url": "https://pokeapi.co/api/v2/item/1624/"
+    },
+    {
+      "name": "dynamax-crystal-aql7595",
+      "url": "https://pokeapi.co/api/v2/item/1625/"
+    },
+    {
+      "name": "dynamax-crystal-aql7557",
+      "url": "https://pokeapi.co/api/v2/item/1626/"
+    },
+    {
+      "name": "dynamax-crystal-aql7525",
+      "url": "https://pokeapi.co/api/v2/item/1627/"
+    },
+    {
+      "name": "dynamax-crystal-aql7602",
+      "url": "https://pokeapi.co/api/v2/item/1628/"
+    },
+    {
+      "name": "dynamax-crystal-aql7235",
+      "url": "https://pokeapi.co/api/v2/item/1629/"
+    },
+    {
+      "name": "max-honey",
+      "url": "https://pokeapi.co/api/v2/item/1630/"
+    },
+    {
+      "name": "max-mushrooms",
+      "url": "https://pokeapi.co/api/v2/item/1631/"
+    }
+  ]
+}

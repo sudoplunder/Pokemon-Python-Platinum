@@ -1,0 +1,42 @@
+{
+  "name": "embargo",
+  "display_name": "Embargo",
+  "type": "dark",
+  "category": "status",
+  "power": null,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "generation": 4,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Target cannot use held items.",
+  "effect": "Target cannot use its held item for five turns.  If the target leaves the field, this effect ends.\n\nIf a Pok\u00e9mon under this effect uses bug bite or pluck on a Pok\u00e9mon holding a berry, the berry is destroyed but not used.  If a Pok\u00e9mon under this effect uses fling, it will fail.\n\nThis effect is passed by baton pass.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    5,
+    5
+  ],
+  "flinch_chance": 0,
+  "ailment": "embargo",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

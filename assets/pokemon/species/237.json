@@ -1,0 +1,124 @@
+{
+  "id": 237,
+  "name": "hitmontop",
+  "generation": "2",
+  "types": [
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 95,
+    "sp_atk": 35,
+    "sp_def": 110,
+    "speed": 70
+  },
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 0,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": "technician",
+    "hidden": "steadfast"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "revenge"
+      },
+      {
+        "level": 1,
+        "name": "rolling-kick"
+      },
+      {
+        "level": 6,
+        "name": "focus-energy"
+      },
+      {
+        "level": 10,
+        "name": "pursuit"
+      },
+      {
+        "level": 15,
+        "name": "quick-attack"
+      },
+      {
+        "level": 19,
+        "name": "triple-kick"
+      },
+      {
+        "level": 24,
+        "name": "rapid-spin"
+      },
+      {
+        "level": 28,
+        "name": "counter"
+      },
+      {
+        "level": 33,
+        "name": "feint"
+      },
+      {
+        "level": 37,
+        "name": "agility"
+      },
+      {
+        "level": 42,
+        "name": "gyro-ball"
+      },
+      {
+        "level": 43,
+        "name": "detect"
+      },
+      {
+        "level": 49,
+        "name": "endeavor"
+      },
+      {
+        "level": 55,
+        "name": "close-combat"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "gyro-ball",
+      "hidden-power",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 236,
+    "next": [],
+    "root": 236,
+    "next_details": []
+  }
+}

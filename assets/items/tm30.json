@@ -1,0 +1,12 @@
+{
+  "name": "tm30",
+  "display_name": "Tm30",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Shadow Ball to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Shadow Ball to a compatible Pok\u00e9mon. (Gen I: Teleport)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

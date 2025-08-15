@@ -1,0 +1,56 @@
+{
+  "id": 268,
+  "name": "cascoon",
+  "generation": "3",
+  "types": [
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 35,
+    "defense": 55,
+    "sp_atk": 25,
+    "sp_def": 25,
+    "speed": 15
+  },
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "shed-skin",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": 265,
+    "next": [
+      269
+    ],
+    "root": 265,
+    "next_details": [
+      {
+        "id": 269,
+        "trigger": "level_gender",
+        "conditions": {
+          "level": 10,
+          "gender": "female"
+        }
+      }
+    ]
+  }
+}

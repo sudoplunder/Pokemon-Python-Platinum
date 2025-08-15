@@ -1,0 +1,119 @@
+{
+  "id": 230,
+  "name": "kingdra",
+  "generation": "2",
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 95,
+    "sp_atk": 95,
+    "sp_def": 95,
+    "speed": 85
+  },
+  "base_experience": 243,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": "sniper",
+    "hidden": "damp"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "smokescreen"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 1,
+        "name": "yawn"
+      },
+      {
+        "level": 14,
+        "name": "focus-energy"
+      },
+      {
+        "level": 18,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 23,
+        "name": "agility"
+      },
+      {
+        "level": 26,
+        "name": "twister"
+      },
+      {
+        "level": 30,
+        "name": "brine"
+      },
+      {
+        "level": 40,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 48,
+        "name": "dragon-dance"
+      },
+      {
+        "level": 57,
+        "name": "dragon-pulse"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "flash-cannon",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 117,
+    "next": [],
+    "root": 116,
+    "next_details": []
+  }
+}

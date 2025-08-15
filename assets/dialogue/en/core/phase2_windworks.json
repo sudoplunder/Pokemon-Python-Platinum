@@ -1,14 +1,10 @@
 {
   "_meta": { "phase": 2 },
   "windworks.guard.locked": {
-    "base": "The door is locked. You need a key.",
-    "concise": "Locked door.",
     "expanded": "The Valley Windworks door is firmly locked—looks like you'll need a key.",
     "speaker": "narration"
   },
   "windworks.commander.taunt": {
-    "base": "Team Galactic will harness this energy!",
-    "concise": "Galactic owns this power!",
     "expanded": "Team Galactic shall harness the Windworks' energy for our grand design!",
     "speaker": "commander"
   }

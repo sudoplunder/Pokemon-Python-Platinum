@@ -1,0 +1,13 @@
+{
+  "id": "hm.rock_smash.obtain",
+  "trigger": { "type": "npc_interact", "value": "hiker_oreburgh_gate" },
+  "once": true,
+  "prerequisites": { "none": ["hm_rock_smash_obtained"] },
+  "actions": [
+  { "command": "SET_LOCATION", "location": "oreburgh_gate" },
+    { "command": "SHOW_TEXT", "dialogue_key": "hm.rock_smash.give" },
+    { "command": "GIVE_ITEM", "value": { "item": "hm_rock_smash", "quantity": 1 } },
+    { "command": "SET_FLAG", "flag": "hm_rock_smash_obtained" }
+  ],
+  "set_flags": ["hm_rock_smash_obtained"]
+}

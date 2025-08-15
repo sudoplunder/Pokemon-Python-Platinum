@@ -1,0 +1,122 @@
+{
+  "id": 345,
+  "name": "lileep",
+  "generation": "3",
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 66,
+    "attack": 41,
+    "defense": 77,
+    "sp_atk": 61,
+    "sp_def": 87,
+    "speed": 23
+  },
+  "base_experience": 71,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "suction-cups",
+    "secondary": null,
+    "hidden": "storm-drain"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "constrict"
+      },
+      {
+        "level": 8,
+        "name": "acid"
+      },
+      {
+        "level": 15,
+        "name": "ingrain"
+      },
+      {
+        "level": 22,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 29,
+        "name": "amnesia"
+      },
+      {
+        "level": 36,
+        "name": "gastro-acid"
+      },
+      {
+        "level": 43,
+        "name": "ancient-power"
+      },
+      {
+        "level": 50,
+        "name": "energy-ball"
+      },
+      {
+        "level": 50,
+        "name": "spit-up"
+      },
+      {
+        "level": 50,
+        "name": "stockpile"
+      },
+      {
+        "level": 50,
+        "name": "swallow"
+      },
+      {
+        "level": 64,
+        "name": "wring-out"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "protect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      346
+    ],
+    "root": 345,
+    "next_details": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "first_rival_battle",
+  "trigger": { "type": "flag_set", "value": "STARTER_CHOSEN" },
+  "actions": [
+    { "command": "show_dialogue", "dialogue_key": "rival_first_challenge" },
+    { "command": "start_trainer_battle", "battle_id": "rival_intro" }
+  ],
+  "set_flags": ["FIRST_RIVAL_BATTLE_DONE"],
+  "once": true
+}

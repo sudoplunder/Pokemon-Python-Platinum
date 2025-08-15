@@ -1,0 +1,131 @@
+{
+  "id": 134,
+  "name": "vaporeon",
+  "generation": "1",
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 130,
+    "attack": 65,
+    "defense": 60,
+    "sp_atk": 110,
+    "sp_def": 95,
+    "speed": 65
+  },
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 35,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "water-absorb",
+    "secondary": null,
+    "hidden": "hydration"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "helping-hand"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "tail-whip"
+      },
+      {
+        "level": 5,
+        "name": "sand-attack"
+      },
+      {
+        "level": 9,
+        "name": "water-gun"
+      },
+      {
+        "level": 13,
+        "name": "quick-attack"
+      },
+      {
+        "level": 17,
+        "name": "water-pulse"
+      },
+      {
+        "level": 21,
+        "name": "aurora-beam"
+      },
+      {
+        "level": 25,
+        "name": "aqua-ring"
+      },
+      {
+        "level": 29,
+        "name": "acid-armor"
+      },
+      {
+        "level": 30,
+        "name": "bite"
+      },
+      {
+        "level": 33,
+        "name": "haze"
+      },
+      {
+        "level": 37,
+        "name": "muddy-water"
+      },
+      {
+        "level": 41,
+        "name": "last-resort"
+      },
+      {
+        "level": 45,
+        "name": "hydro-pump"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": 133,
+    "next": [],
+    "root": 133,
+    "next_details": []
+  }
+}

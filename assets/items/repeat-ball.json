@@ -1,0 +1,17 @@
+{
+  "name": "repeat-ball",
+  "display_name": "Repeat Ball",
+  "category": "special-balls",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If the wild Pok\u00e9mon's species is marked as caught in the trainer's Pok\u00e9dex, this ball has a catch rate of 3\u00d7.  Otherwise, it has a catch rate of 1\u00d7.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+  "short_effect": "Tries to catch a wild Pok\u00e9mon.  Success rate is 3\u00d7 for previously-caught Pok\u00e9mon.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

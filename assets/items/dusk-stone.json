@@ -1,0 +1,12 @@
+{
+  "name": "dusk-stone",
+  "display_name": "Dusk Stone",
+  "category": "evolution",
+  "cost": 3000,
+  "fling_power": 80,
+  "effect": "Used on a party Pok\u00e9mon\n:   Evolves a lampent into chandelure, a misdreavus into mismagius, or a murkrow into honchkrow.",
+  "short_effect": "Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Murkrow into Honchkrow.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

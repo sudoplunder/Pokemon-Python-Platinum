@@ -1,0 +1,131 @@
+{
+  "id": 390,
+  "name": "chimchar",
+  "generation": "4",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 44,
+    "attack": 58,
+    "defense": 44,
+    "sp_atk": 58,
+    "sp_def": 44,
+    "speed": 61
+  },
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "blaze",
+    "secondary": null,
+    "hidden": "iron-fist"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 7,
+        "name": "ember"
+      },
+      {
+        "level": 9,
+        "name": "taunt"
+      },
+      {
+        "level": 15,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 17,
+        "name": "flame-wheel"
+      },
+      {
+        "level": 23,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 25,
+        "name": "torment"
+      },
+      {
+        "level": 31,
+        "name": "facade"
+      },
+      {
+        "level": 33,
+        "name": "fire-spin"
+      },
+      {
+        "level": 41,
+        "name": "slack-off"
+      },
+      {
+        "level": 47,
+        "name": "flamethrower"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "dig",
+      "double-team",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "frustration",
+      "grass-knot",
+      "hidden-power",
+      "overheat",
+      "protect",
+      "rest",
+      "return",
+      "rock-smash",
+      "shadow-claw",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "torment",
+      "toxic",
+      "u-turn",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      391
+    ],
+    "root": 390,
+    "next_details": [
+      {
+        "id": 391,
+        "trigger": "level",
+        "conditions": {
+          "level": 14
+        }
+      }
+    ]
+  }
+}

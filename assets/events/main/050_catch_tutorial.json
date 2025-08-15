@@ -1,0 +1,17 @@
+{
+  "id": "tutorial.catch",
+  "trigger": { "type": "flag_set", "value": "received_running_shoes" },
+  "once": true,
+  "prerequisites": {
+    "all": ["received_running_shoes"],
+    "none": ["catch_tutorial_done", "first_wild_caught"]
+  },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "tutorial.catch.intro" },
+    { "command": "RUN_SCRIPT", "value": "demo_catch_sequence" },
+    { "command": "GIVE_ITEM", "value": { "item": "pokeball", "quantity": 5 } },
+    { "command": "SHOW_TEXT", "dialogue_key": "tutorial.catch.outro" },
+    { "command": "SET_FLAG", "flag": "catch_tutorial_done" }
+  ],
+  "set_flags": ["catch_tutorial_done"]
+}

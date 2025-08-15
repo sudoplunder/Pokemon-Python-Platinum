@@ -1,0 +1,131 @@
+{
+  "id": 253,
+  "name": "grovyle",
+  "generation": "3",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "sp_atk": 85,
+    "sp_def": 65,
+    "speed": 95
+  },
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "overgrow",
+    "secondary": null,
+    "hidden": "unburden"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "pound"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 16,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 17,
+        "name": "pursuit"
+      },
+      {
+        "level": 23,
+        "name": "screech"
+      },
+      {
+        "level": 29,
+        "name": "leaf-blade"
+      },
+      {
+        "level": 35,
+        "name": "agility"
+      },
+      {
+        "level": 41,
+        "name": "slam"
+      },
+      {
+        "level": 47,
+        "name": "detect"
+      },
+      {
+        "level": 53,
+        "name": "false-swipe"
+      },
+      {
+        "level": 59,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "bullet-seed",
+      "cut",
+      "dig",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "false-swipe",
+      "flash",
+      "fling",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "iron-tail",
+      "protect",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "secret-power",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 252,
+    "next": [
+      254
+    ],
+    "root": 252,
+    "next_details": []
+  }
+}

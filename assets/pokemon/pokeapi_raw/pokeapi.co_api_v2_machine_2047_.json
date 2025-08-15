@@ -1,0 +1,15 @@
+{
+  "id": 2047,
+  "item": {
+    "name": "tm154",
+    "url": "https://pokeapi.co/api/v2/item/1997/"
+  },
+  "move": {
+    "name": "hydro-cannon",
+    "url": "https://pokeapi.co/api/v2/move/308/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

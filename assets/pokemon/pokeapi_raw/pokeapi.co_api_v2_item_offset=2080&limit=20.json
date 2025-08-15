@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=2100&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=2060&limit=20",
+  "results": [
+    {
+      "name": "yanma-spike",
+      "url": "https://pokeapi.co/api/v2/item/2132/"
+    },
+    {
+      "name": "gligar-fang",
+      "url": "https://pokeapi.co/api/v2/item/2133/"
+    },
+    {
+      "name": "slugma-lava",
+      "url": "https://pokeapi.co/api/v2/item/2134/"
+    },
+    {
+      "name": "swinub-hair",
+      "url": "https://pokeapi.co/api/v2/item/2135/"
+    },
+    {
+      "name": "poochyena-fang",
+      "url": "https://pokeapi.co/api/v2/item/2136/"
+    },
+    {
+      "name": "lotad-leaf",
+      "url": "https://pokeapi.co/api/v2/item/2137/"
+    },
+    {
+      "name": "seedot-stem",
+      "url": "https://pokeapi.co/api/v2/item/2138/"
+    },
+    {
+      "name": "nosepass-fragment",
+      "url": "https://pokeapi.co/api/v2/item/2139/"
+    },
+    {
+      "name": "volbeat-fluid",
+      "url": "https://pokeapi.co/api/v2/item/2140/"
+    },
+    {
+      "name": "illumise-fluid",
+      "url": "https://pokeapi.co/api/v2/item/2141/"
+    },
+    {
+      "name": "corphish-shell",
+      "url": "https://pokeapi.co/api/v2/item/2142/"
+    },
+    {
+      "name": "feebas-scales",
+      "url": "https://pokeapi.co/api/v2/item/2143/"
+    },
+    {
+      "name": "duskull-fragment",
+      "url": "https://pokeapi.co/api/v2/item/2144/"
+    },
+    {
+      "name": "chingling-fragment",
+      "url": "https://pokeapi.co/api/v2/item/2145/"
+    },
+    {
+      "name": "timburr-sweat",
+      "url": "https://pokeapi.co/api/v2/item/2146/"
+    },
+    {
+      "name": "sewaddle-leaf",
+      "url": "https://pokeapi.co/api/v2/item/2147/"
+    },
+    {
+      "name": "ducklett-feather",
+      "url": "https://pokeapi.co/api/v2/item/2148/"
+    },
+    {
+      "name": "litwick-soot",
+      "url": "https://pokeapi.co/api/v2/item/2149/"
+    },
+    {
+      "name": "mienfoo-claw",
+      "url": "https://pokeapi.co/api/v2/item/2150/"
+    },
+    {
+      "name": "vullaby-feather",
+      "url": "https://pokeapi.co/api/v2/item/2151/"
+    }
+  ]
+}

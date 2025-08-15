@@ -1,0 +1,144 @@
+{
+  "id": 211,
+  "name": "qwilfish",
+  "generation": "2",
+  "types": [
+    "water",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 85,
+    "sp_atk": 55,
+    "sp_def": 55,
+    "speed": 85
+  },
+  "base_experience": 88,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "poison-point",
+    "secondary": "swift-swim",
+    "hidden": "intimidate"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "spikes"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 9,
+        "name": "harden"
+      },
+      {
+        "level": 9,
+        "name": "minimize"
+      },
+      {
+        "level": 13,
+        "name": "water-gun"
+      },
+      {
+        "level": 17,
+        "name": "rollout"
+      },
+      {
+        "level": 21,
+        "name": "toxic-spikes"
+      },
+      {
+        "level": 25,
+        "name": "spit-up"
+      },
+      {
+        "level": 25,
+        "name": "stockpile"
+      },
+      {
+        "level": 28,
+        "name": "pin-missile"
+      },
+      {
+        "level": 29,
+        "name": "revenge"
+      },
+      {
+        "level": 33,
+        "name": "brine"
+      },
+      {
+        "level": 37,
+        "name": "take-down"
+      },
+      {
+        "level": 45,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 46,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 49,
+        "name": "poison-jab"
+      },
+      {
+        "level": 53,
+        "name": "destiny-bond"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "explosion",
+      "facade",
+      "frustration",
+      "gyro-ball",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "sludge-bomb",
+      "substitute",
+      "surf",
+      "swagger",
+      "taunt",
+      "thunder-wave",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 211,
+    "next_details": []
+  }
+}

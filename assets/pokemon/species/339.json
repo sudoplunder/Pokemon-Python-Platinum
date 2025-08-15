@@ -1,0 +1,124 @@
+{
+  "id": 339,
+  "name": "barboach",
+  "generation": "3",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 48,
+    "defense": 43,
+    "sp_atk": 46,
+    "sp_def": 41,
+    "speed": 60
+  },
+  "base_experience": 58,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "oblivious",
+    "secondary": "anticipation",
+    "hidden": "hydration"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "mud-slap"
+      },
+      {
+        "level": 6,
+        "name": "mud-sport"
+      },
+      {
+        "level": 6,
+        "name": "water-sport"
+      },
+      {
+        "level": 10,
+        "name": "water-gun"
+      },
+      {
+        "level": 14,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 16,
+        "name": "magnitude"
+      },
+      {
+        "level": 18,
+        "name": "amnesia"
+      },
+      {
+        "level": 22,
+        "name": "water-pulse"
+      },
+      {
+        "level": 26,
+        "name": "rest"
+      },
+      {
+        "level": 26,
+        "name": "snore"
+      },
+      {
+        "level": 31,
+        "name": "earthquake"
+      },
+      {
+        "level": 35,
+        "name": "aqua-tail"
+      },
+      {
+        "level": 36,
+        "name": "future-sight"
+      },
+      {
+        "level": 41,
+        "name": "fissure"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      340
+    ],
+    "root": 339,
+    "next_details": []
+  }
+}

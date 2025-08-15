@@ -1,0 +1,138 @@
+{
+  "id": 81,
+  "name": "magnemite",
+  "generation": "1",
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 25,
+    "attack": 35,
+    "defense": 70,
+    "sp_atk": 95,
+    "sp_def": 55,
+    "speed": 45
+  },
+  "base_experience": 65,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "magnet-pull",
+    "secondary": "sturdy",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "metal-sound"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 4,
+        "name": "supersonic"
+      },
+      {
+        "level": 6,
+        "name": "thunder-shock"
+      },
+      {
+        "level": 11,
+        "name": "sonic-boom"
+      },
+      {
+        "level": 15,
+        "name": "thunder-wave"
+      },
+      {
+        "level": 18,
+        "name": "magnet-bomb"
+      },
+      {
+        "level": 21,
+        "name": "spark"
+      },
+      {
+        "level": 25,
+        "name": "mirror-shot"
+      },
+      {
+        "level": 32,
+        "name": "lock-on"
+      },
+      {
+        "level": 35,
+        "name": "flash-cannon"
+      },
+      {
+        "level": 38,
+        "name": "swift"
+      },
+      {
+        "level": 39,
+        "name": "screech"
+      },
+      {
+        "level": 43,
+        "name": "discharge"
+      },
+      {
+        "level": 49,
+        "name": "magnet-rise"
+      },
+      {
+        "level": 50,
+        "name": "zap-cannon"
+      },
+      {
+        "level": 53,
+        "name": "gyro-ball"
+      }
+    ],
+    "machines": [
+      "charge-beam",
+      "double-team",
+      "explosion",
+      "facade",
+      "flash",
+      "flash-cannon",
+      "frustration",
+      "gyro-ball",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "secret-power",
+      "shock-wave",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      82
+    ],
+    "root": 81,
+    "next_details": []
+  }
+}

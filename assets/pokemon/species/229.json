@@ -1,0 +1,136 @@
+{
+  "id": 229,
+  "name": "houndoom",
+  "generation": "2",
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 90,
+    "defense": 50,
+    "sp_atk": 110,
+    "sp_def": 80,
+    "speed": 95
+  },
+  "base_experience": 175,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "early-bird",
+    "secondary": "flash-fire",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "howl"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "smog"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 13,
+        "name": "roar"
+      },
+      {
+        "level": 16,
+        "name": "bite"
+      },
+      {
+        "level": 20,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 26,
+        "name": "beat-up"
+      },
+      {
+        "level": 30,
+        "name": "fire-fang"
+      },
+      {
+        "level": 35,
+        "name": "feint-attack"
+      },
+      {
+        "level": 41,
+        "name": "embargo"
+      },
+      {
+        "level": 50,
+        "name": "flamethrower"
+      },
+      {
+        "level": 56,
+        "name": "crunch"
+      },
+      {
+        "level": 60,
+        "name": "nasty-plot"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "dream-eater",
+      "embargo",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "overheat",
+      "payback",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "secret-power",
+      "shadow-ball",
+      "sludge-bomb",
+      "snatch",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 228,
+    "next": [],
+    "root": 228,
+    "next_details": []
+  }
+}

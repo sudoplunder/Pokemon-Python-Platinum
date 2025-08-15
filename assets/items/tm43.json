@@ -1,0 +1,12 @@
+{
+  "name": "tm43",
+  "display_name": "Tm43",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Secret Power to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Flame Charge to a compatible Pok\u00e9mon. (Gen IV & III: Secret Power Gen II: Detect Gen I: Sky Attack)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

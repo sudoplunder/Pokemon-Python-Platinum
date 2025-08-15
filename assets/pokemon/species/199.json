@@ -1,0 +1,157 @@
+{
+  "id": 199,
+  "name": "slowking",
+  "generation": "2",
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 80,
+    "sp_atk": 100,
+    "sp_def": 110,
+    "speed": 30
+  },
+  "base_experience": 172,
+  "growth_rate": "medium",
+  "capture_rate": 70,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "abilities": {
+    "primary": "oblivious",
+    "secondary": "own-tempo",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "curse"
+      },
+      {
+        "level": 1,
+        "name": "hidden-power"
+      },
+      {
+        "level": 1,
+        "name": "power-gem"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 1,
+        "name": "yawn"
+      },
+      {
+        "level": 5,
+        "name": "growl"
+      },
+      {
+        "level": 9,
+        "name": "water-gun"
+      },
+      {
+        "level": 14,
+        "name": "confusion"
+      },
+      {
+        "level": 19,
+        "name": "disable"
+      },
+      {
+        "level": 23,
+        "name": "headbutt"
+      },
+      {
+        "level": 28,
+        "name": "water-pulse"
+      },
+      {
+        "level": 32,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 36,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 41,
+        "name": "swagger"
+      },
+      {
+        "level": 45,
+        "name": "psychic"
+      },
+      {
+        "level": 49,
+        "name": "trump-card"
+      },
+      {
+        "level": 54,
+        "name": "psych-up"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "calm-mind",
+      "dig",
+      "dive",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "skill-swap",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thunder-wave",
+      "toxic",
+      "trick-room",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 79,
+    "next": [],
+    "root": 79,
+    "next_details": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "auroraticket",
+  "display_name": "Auroraticket",
+  "category": "event-items",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Provides access to Birth Island and deoxys.",
+  "short_effect": "Allows access to Birth Island and Deoxys.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

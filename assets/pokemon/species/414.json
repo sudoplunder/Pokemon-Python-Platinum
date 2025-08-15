@@ -1,0 +1,121 @@
+{
+  "id": 414,
+  "name": "mothim",
+  "generation": "4",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 94,
+    "defense": 50,
+    "sp_atk": 94,
+    "sp_def": 50,
+    "speed": 66
+  },
+  "base_experience": 148,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 0,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swarm",
+    "secondary": null,
+    "hidden": "tinted-lens"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 10,
+        "name": "protect"
+      },
+      {
+        "level": 15,
+        "name": "bug-bite"
+      },
+      {
+        "level": 20,
+        "name": "hidden-power"
+      },
+      {
+        "level": 23,
+        "name": "confusion"
+      },
+      {
+        "level": 26,
+        "name": "gust"
+      },
+      {
+        "level": 29,
+        "name": "poison-powder"
+      },
+      {
+        "level": 32,
+        "name": "psybeam"
+      },
+      {
+        "level": 35,
+        "name": "camouflage"
+      },
+      {
+        "level": 38,
+        "name": "silver-wind"
+      },
+      {
+        "level": 41,
+        "name": "air-slash"
+      },
+      {
+        "level": 44,
+        "name": "psychic"
+      },
+      {
+        "level": 47,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn"
+    ]
+  },
+  "evolution": {
+    "previous": 412,
+    "next": [],
+    "root": 412,
+    "next_details": []
+  }
+}

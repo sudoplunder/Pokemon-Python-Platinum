@@ -1,0 +1,158 @@
+{
+  "id": 249,
+  "name": "lugia",
+  "generation": "2",
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 106,
+    "attack": 90,
+    "defense": 130,
+    "sp_atk": 90,
+    "sp_def": 154,
+    "speed": 110
+  },
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 120,
+  "base_friendship": 0,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "weather-ball"
+      },
+      {
+        "level": 1,
+        "name": "whirlwind"
+      },
+      {
+        "level": 9,
+        "name": "gust"
+      },
+      {
+        "level": 11,
+        "name": "safeguard"
+      },
+      {
+        "level": 15,
+        "name": "dragon-rush"
+      },
+      {
+        "level": 23,
+        "name": "extrasensory"
+      },
+      {
+        "level": 29,
+        "name": "rain-dance"
+      },
+      {
+        "level": 33,
+        "name": "recover"
+      },
+      {
+        "level": 37,
+        "name": "hydro-pump"
+      },
+      {
+        "level": 43,
+        "name": "aeroblast"
+      },
+      {
+        "level": 50,
+        "name": "punishment"
+      },
+      {
+        "level": 57,
+        "name": "ancient-power"
+      },
+      {
+        "level": 66,
+        "name": "swift"
+      },
+      {
+        "level": 79,
+        "name": "future-sight"
+      },
+      {
+        "level": 85,
+        "name": "natural-gift"
+      },
+      {
+        "level": 93,
+        "name": "calm-mind"
+      },
+      {
+        "level": 99,
+        "name": "sky-attack"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "blizzard",
+      "calm-mind",
+      "charge-beam",
+      "dive",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "facade",
+      "flash",
+      "fly",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "iron-tail",
+      "light-screen",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "safeguard",
+      "sandstorm",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "skill-swap",
+      "steel-wing",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 249,
+    "next_details": []
+  }
+}

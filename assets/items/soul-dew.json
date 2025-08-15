@@ -1,0 +1,14 @@
+{
+  "name": "soul-dew",
+  "display_name": "Soul Dew",
+  "category": "species-specific",
+  "cost": 0,
+  "fling_power": 30,
+  "effect": "Held by Latias or Latios: Increases the holder's Special Attack and Special Defense by 50%.",
+  "short_effect": "Raises Latias and Latios's Special Attack and Special Defense by 50%.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "sprayduck",
+  "display_name": "Sprayduck",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Waters Berry plants.",
+  "short_effect": "Used to water berries.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

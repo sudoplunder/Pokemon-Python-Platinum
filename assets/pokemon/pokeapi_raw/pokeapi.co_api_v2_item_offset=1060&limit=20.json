@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1080&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1040&limit=20",
+  "results": [
+    {
+      "name": "horsea-candy",
+      "url": "https://pokeapi.co/api/v2/item/1112/"
+    },
+    {
+      "name": "goldeen-candy",
+      "url": "https://pokeapi.co/api/v2/item/1113/"
+    },
+    {
+      "name": "staryu-candy",
+      "url": "https://pokeapi.co/api/v2/item/1114/"
+    },
+    {
+      "name": "mr-mime-candy",
+      "url": "https://pokeapi.co/api/v2/item/1115/"
+    },
+    {
+      "name": "scyther-candy",
+      "url": "https://pokeapi.co/api/v2/item/1116/"
+    },
+    {
+      "name": "jynx-candy",
+      "url": "https://pokeapi.co/api/v2/item/1117/"
+    },
+    {
+      "name": "electabuzz-candy",
+      "url": "https://pokeapi.co/api/v2/item/1118/"
+    },
+    {
+      "name": "pinsir-candy",
+      "url": "https://pokeapi.co/api/v2/item/1119/"
+    },
+    {
+      "name": "tauros-candy",
+      "url": "https://pokeapi.co/api/v2/item/1120/"
+    },
+    {
+      "name": "magikarp-candy",
+      "url": "https://pokeapi.co/api/v2/item/1121/"
+    },
+    {
+      "name": "lapras-candy",
+      "url": "https://pokeapi.co/api/v2/item/1122/"
+    },
+    {
+      "name": "ditto-candy",
+      "url": "https://pokeapi.co/api/v2/item/1123/"
+    },
+    {
+      "name": "eevee-candy",
+      "url": "https://pokeapi.co/api/v2/item/1124/"
+    },
+    {
+      "name": "porygon-candy",
+      "url": "https://pokeapi.co/api/v2/item/1125/"
+    },
+    {
+      "name": "omanyte-candy",
+      "url": "https://pokeapi.co/api/v2/item/1126/"
+    },
+    {
+      "name": "kabuto-candy",
+      "url": "https://pokeapi.co/api/v2/item/1127/"
+    },
+    {
+      "name": "aerodactyl-candy",
+      "url": "https://pokeapi.co/api/v2/item/1128/"
+    },
+    {
+      "name": "snorlax-candy",
+      "url": "https://pokeapi.co/api/v2/item/1129/"
+    },
+    {
+      "name": "articuno-candy",
+      "url": "https://pokeapi.co/api/v2/item/1130/"
+    },
+    {
+      "name": "zapdos-candy",
+      "url": "https://pokeapi.co/api/v2/item/1131/"
+    }
+  ]
+}

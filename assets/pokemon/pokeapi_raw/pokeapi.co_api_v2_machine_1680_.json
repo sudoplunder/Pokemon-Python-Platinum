@@ -1,0 +1,15 @@
+{
+  "id": 1680,
+  "item": {
+    "name": "tr91",
+    "url": "https://pokeapi.co/api/v2/item/1279/"
+  },
+  "move": {
+    "name": "venom-drench",
+    "url": "https://pokeapi.co/api/v2/move/599/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

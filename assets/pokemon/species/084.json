@@ -1,0 +1,119 @@
+{
+  "id": 84,
+  "name": "doduo",
+  "generation": "1",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 85,
+    "defense": 45,
+    "sp_atk": 35,
+    "sp_def": 35,
+    "speed": 75
+  },
+  "base_experience": 62,
+  "growth_rate": "medium",
+  "capture_rate": 190,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "run-away",
+    "secondary": "early-bird",
+    "hidden": "tangled-feet"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 5,
+        "name": "quick-attack"
+      },
+      {
+        "level": 9,
+        "name": "pursuit"
+      },
+      {
+        "level": 10,
+        "name": "rage"
+      },
+      {
+        "level": 13,
+        "name": "fury-attack"
+      },
+      {
+        "level": 21,
+        "name": "tri-attack"
+      },
+      {
+        "level": 23,
+        "name": "uproar"
+      },
+      {
+        "level": 28,
+        "name": "acupressure"
+      },
+      {
+        "level": 32,
+        "name": "double-hit"
+      },
+      {
+        "level": 37,
+        "name": "agility"
+      },
+      {
+        "level": 37,
+        "name": "drill-peck"
+      },
+      {
+        "level": 46,
+        "name": "endeavor"
+      },
+      {
+        "level": 50,
+        "name": "thrash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "hidden-power",
+      "pluck",
+      "protect",
+      "rest",
+      "return",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      85
+    ],
+    "root": 84,
+    "next_details": []
+  }
+}

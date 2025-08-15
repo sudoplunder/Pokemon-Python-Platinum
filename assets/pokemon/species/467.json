@@ -1,0 +1,130 @@
+{
+  "id": 467,
+  "name": "magmortar",
+  "generation": "4",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 67,
+    "sp_atk": 125,
+    "sp_def": 95,
+    "speed": 83
+  },
+  "base_experience": 243,
+  "growth_rate": "medium",
+  "capture_rate": 30,
+  "gender_rate": 2,
+  "hatch_cycles": 25,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "flame-body",
+    "secondary": null,
+    "hidden": "vital-spirit"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "smog"
+      },
+      {
+        "level": 1,
+        "name": "smokescreen"
+      },
+      {
+        "level": 1,
+        "name": "thunder-punch"
+      },
+      {
+        "level": 12,
+        "name": "feint-attack"
+      },
+      {
+        "level": 15,
+        "name": "fire-spin"
+      },
+      {
+        "level": 26,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 29,
+        "name": "fire-punch"
+      },
+      {
+        "level": 36,
+        "name": "lava-plume"
+      },
+      {
+        "level": 42,
+        "name": "sunny-day"
+      },
+      {
+        "level": 49,
+        "name": "flamethrower"
+      },
+      {
+        "level": 55,
+        "name": "fire-blast"
+      },
+      {
+        "level": 62,
+        "name": "hyper-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "overheat",
+      "protect",
+      "psychic",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 126,
+    "next": [],
+    "root": 240,
+    "next_details": []
+  }
+}

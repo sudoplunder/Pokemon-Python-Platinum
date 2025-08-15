@@ -1,0 +1,12 @@
+{
+  "name": "tm35",
+  "display_name": "Tm35",
+  "category": "all-machines",
+  "cost": 10000,
+  "fling_power": null,
+  "effect": "Teaches Flamethrower to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Flamethrower to a compatible Pok\u00e9mon. (Gen II: Sleep Talk Gen I: Metronome)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

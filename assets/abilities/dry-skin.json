@@ -1,0 +1,8 @@
+{
+  "name": "dry-skin",
+  "display_name": "Dry Skin",
+  "generation": 4,
+  "short_effect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from fire moves to 1.25\u00d7, but absorbs water moves, healing for 1/4 max HP.",
+  "effect": "This Pok\u00e9mon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pok\u00e9mon takes 1.25\u00d7 as much damage from fire-type moves, but whenever a water move hits it, it heals for 1/4 its maximum HP instead.",
+  "is_gen4_or_prior": true
+}

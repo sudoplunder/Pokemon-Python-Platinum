@@ -1,0 +1,12 @@
+{
+  "name": "big-mushroom",
+  "display_name": "Big Mushroom",
+  "category": "loot",
+  "cost": 5000,
+  "fling_power": 30,
+  "effect": "Vendor trash.",
+  "short_effect": "Fire Red and Leaf Green: Trade for prior Level-up moves. Sell for 2500 Pok\u00e9dollars, or to Hungry Maid for 5000 Pok\u00e9dollars.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

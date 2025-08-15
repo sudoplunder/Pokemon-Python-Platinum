@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=800&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=760&limit=20",
+  "results": [
+    {
+      "name": "slowbronite",
+      "url": "https://pokeapi.co/api/v2/item/801/"
+    },
+    {
+      "name": "steelixite",
+      "url": "https://pokeapi.co/api/v2/item/802/"
+    },
+    {
+      "name": "pidgeotite",
+      "url": "https://pokeapi.co/api/v2/item/803/"
+    },
+    {
+      "name": "glalitite",
+      "url": "https://pokeapi.co/api/v2/item/804/"
+    },
+    {
+      "name": "diancite",
+      "url": "https://pokeapi.co/api/v2/item/805/"
+    },
+    {
+      "name": "prison-bottle",
+      "url": "https://pokeapi.co/api/v2/item/806/"
+    },
+    {
+      "name": "mega-cuff",
+      "url": "https://pokeapi.co/api/v2/item/807/"
+    },
+    {
+      "name": "cameruptite",
+      "url": "https://pokeapi.co/api/v2/item/808/"
+    },
+    {
+      "name": "lopunnite",
+      "url": "https://pokeapi.co/api/v2/item/809/"
+    },
+    {
+      "name": "salamencite",
+      "url": "https://pokeapi.co/api/v2/item/810/"
+    },
+    {
+      "name": "beedrillite",
+      "url": "https://pokeapi.co/api/v2/item/811/"
+    },
+    {
+      "name": "key-stone",
+      "url": "https://pokeapi.co/api/v2/item/814/"
+    },
+    {
+      "name": "meteorite-shard",
+      "url": "https://pokeapi.co/api/v2/item/815/"
+    },
+    {
+      "name": "eon-flute",
+      "url": "https://pokeapi.co/api/v2/item/816/"
+    },
+    {
+      "name": "normalium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/817/"
+    },
+    {
+      "name": "firium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/818/"
+    },
+    {
+      "name": "waterium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/819/"
+    },
+    {
+      "name": "electrium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/820/"
+    },
+    {
+      "name": "grassium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/821/"
+    },
+    {
+      "name": "icium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/822/"
+    }
+  ]
+}

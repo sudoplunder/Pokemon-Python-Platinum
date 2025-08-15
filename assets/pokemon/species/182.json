@@ -1,0 +1,108 @@
+{
+  "id": 182,
+  "name": "bellossom",
+  "generation": "2",
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 95,
+    "sp_atk": 90,
+    "sp_def": 100,
+    "speed": 50
+  },
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "plant"
+  ],
+  "abilities": {
+    "primary": "chlorophyll",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 1,
+        "name": "leaf-blade"
+      },
+      {
+        "level": 1,
+        "name": "magical-leaf"
+      },
+      {
+        "level": 1,
+        "name": "mega-drain"
+      },
+      {
+        "level": 1,
+        "name": "stun-spore"
+      },
+      {
+        "level": 1,
+        "name": "sunny-day"
+      },
+      {
+        "level": 1,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 44,
+        "name": "petal-dance"
+      },
+      {
+        "level": 53,
+        "name": "leaf-storm"
+      },
+      {
+        "level": 55,
+        "name": "solar-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 44,
+    "next": [],
+    "root": 43,
+    "next_details": []
+  }
+}

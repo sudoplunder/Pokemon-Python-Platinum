@@ -1,0 +1,120 @@
+{
+  "id": 413,
+  "name": "wormadam-plant",
+  "generation": "4",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 59,
+    "defense": 85,
+    "sp_atk": 79,
+    "sp_def": 105,
+    "speed": 36
+  },
+  "base_experience": 148,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 8,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "anticipation",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 10,
+        "name": "protect"
+      },
+      {
+        "level": 15,
+        "name": "bug-bite"
+      },
+      {
+        "level": 20,
+        "name": "hidden-power"
+      },
+      {
+        "level": 23,
+        "name": "confusion"
+      },
+      {
+        "level": 26,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 29,
+        "name": "growth"
+      },
+      {
+        "level": 32,
+        "name": "psybeam"
+      },
+      {
+        "level": 35,
+        "name": "captivate"
+      },
+      {
+        "level": 38,
+        "name": "flail"
+      },
+      {
+        "level": 41,
+        "name": "attract"
+      },
+      {
+        "level": 44,
+        "name": "psychic"
+      },
+      {
+        "level": 47,
+        "name": "leaf-storm"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "dream-eater",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 412,
+    "next": [],
+    "root": 412,
+    "next_details": []
+  }
+}

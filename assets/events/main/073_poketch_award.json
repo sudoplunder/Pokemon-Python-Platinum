@@ -1,0 +1,16 @@
+{
+  "id": "poketch.award",
+  "trigger": { "type": "npc_interact", "value": "poketch_president" },
+  "once": true,
+  "prerequisites": {
+    "all": ["poketch_coupon1", "poketch_coupon2", "poketch_coupon3"],
+    "none": ["poketch_received"]
+  },
+  "actions": [
+  { "command": "SET_LOCATION", "location": "poketch_company_lobby" },
+    { "command": "SHOW_TEXT", "dialogue_key": "poketch.president.award" },
+    { "command": "GIVE_ITEM", "value": { "item": "poketch", "quantity": 1 } },
+    { "command": "SET_FLAG", "flag": "poketch_received" }
+  ],
+  "set_flags": ["poketch_received"]
+}

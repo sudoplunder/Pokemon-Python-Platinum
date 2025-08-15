@@ -1,0 +1,15 @@
+{
+  "id": 1796,
+  "item": {
+    "name": "tm91",
+    "url": "https://pokeapi.co/api/v2/item/395/"
+  },
+  "move": {
+    "name": "toxic-spikes",
+    "url": "https://pokeapi.co/api/v2/move/390/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

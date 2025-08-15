@@ -1,0 +1,12 @@
+{
+  "name": "unown-report",
+  "display_name": "Unown Report",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Lists which unown forms the trainer has caught.",
+  "short_effect": "Keeps track of Unown types caught.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

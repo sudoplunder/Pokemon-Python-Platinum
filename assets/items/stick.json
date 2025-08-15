@@ -1,0 +1,14 @@
+{
+  "name": "stick",
+  "display_name": "Stick",
+  "category": "species-specific",
+  "cost": 1000,
+  "fling_power": 60,
+  "effect": "Held by Farfetch'd: Raises the holder's critical hit counter by 2.",
+  "short_effect": "Raises Farfetch'd's critical hit ratio by two stages.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable"
+  ]
+}

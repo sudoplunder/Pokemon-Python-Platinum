@@ -1,0 +1,124 @@
+{
+  "id": 362,
+  "name": "glalie",
+  "generation": "3",
+  "types": [
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "sp_atk": 80,
+    "sp_def": 80,
+    "speed": 80
+  },
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "fairy",
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "inner-focus",
+    "secondary": "ice-body",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "double-team"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "powder-snow"
+      },
+      {
+        "level": 13,
+        "name": "icy-wind"
+      },
+      {
+        "level": 19,
+        "name": "headbutt"
+      },
+      {
+        "level": 22,
+        "name": "protect"
+      },
+      {
+        "level": 28,
+        "name": "crunch"
+      },
+      {
+        "level": 28,
+        "name": "ice-fang"
+      },
+      {
+        "level": 34,
+        "name": "ice-beam"
+      },
+      {
+        "level": 40,
+        "name": "hail"
+      },
+      {
+        "level": 51,
+        "name": "blizzard"
+      },
+      {
+        "level": 59,
+        "name": "sheer-cold"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "earthquake",
+      "explosion",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hail",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "light-screen",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "safeguard",
+      "secret-power",
+      "shadow-ball",
+      "substitute",
+      "swagger",
+      "taunt",
+      "torment",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 361,
+    "next": [],
+    "root": 361,
+    "next_details": []
+  }
+}

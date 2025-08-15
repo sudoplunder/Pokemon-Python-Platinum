@@ -1,0 +1,8 @@
+{
+  "name": "motor-drive",
+  "display_name": "Motor Drive",
+  "generation": 4,
+  "short_effect": "Absorbs electric moves, raising Speed one stage.",
+  "effect": "Whenever an electric-type move hits this Pok\u00e9mon, its Speed rises one stage, negating any other effect on it.\n\nThis ability will not take effect if this Pok\u00e9mon is immune to Electric moves.  Electric moves will ignore this Pok\u00e9mon's substitute.\n\nThis effect includes non-damaging moves, i.e. thunder wave.",
+  "is_gen4_or_prior": true
+}

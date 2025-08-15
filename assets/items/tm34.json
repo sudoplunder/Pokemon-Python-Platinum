@@ -1,0 +1,12 @@
+{
+  "name": "tm34",
+  "display_name": "Tm34",
+  "category": "all-machines",
+  "cost": 10000,
+  "fling_power": null,
+  "effect": "Teaches Shock Wave to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Sludge Wave to a compatible Pok\u00e9mon. (Gen IV & III: Shock Wave Gen II: Swagger Gen I: Bide)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

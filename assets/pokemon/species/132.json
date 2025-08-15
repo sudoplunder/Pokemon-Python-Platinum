@@ -1,0 +1,45 @@
+{
+  "id": 132,
+  "name": "ditto",
+  "generation": "1",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 48,
+    "defense": 48,
+    "sp_atk": 48,
+    "sp_def": 48,
+    "speed": 48
+  },
+  "base_experience": 101,
+  "growth_rate": "medium",
+  "capture_rate": 35,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ditto"
+  ],
+  "abilities": {
+    "primary": "limber",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "transform"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 132,
+    "next_details": []
+  }
+}

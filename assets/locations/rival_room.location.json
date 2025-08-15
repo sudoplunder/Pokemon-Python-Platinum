@@ -1,0 +1,10 @@
+{
+  "id": "rival_room",
+  "name": "Rival's Room",
+  "actions": [
+    { "label": "Inspect messy desk", "type": "inspect", "text": "Stacks of strategy guides and half-finished notes cover the desk." },
+    { "label": "Return downstairs", "type": "move", "target": "rival_house_interior" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1609,
+  "item": {
+    "name": "tr20",
+    "url": "https://pokeapi.co/api/v2/item/1208/"
+  },
+  "move": {
+    "name": "substitute",
+    "url": "https://pokeapi.co/api/v2/move/164/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

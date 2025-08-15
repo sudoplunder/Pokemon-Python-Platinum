@@ -1,0 +1,93 @@
+{
+  "id": 468,
+  "name": "togekiss",
+  "generation": "4",
+  "types": [
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 50,
+    "defense": 95,
+    "sp_atk": 120,
+    "sp_def": 115,
+    "speed": 80
+  },
+  "base_experience": 245,
+  "growth_rate": "fast",
+  "capture_rate": 30,
+  "gender_rate": 1,
+  "hatch_cycles": 10,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying",
+    "fairy"
+  ],
+  "abilities": {
+    "primary": "hustle",
+    "secondary": "serene-grace",
+    "hidden": "super-luck"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "air-slash"
+      },
+      {
+        "level": 1,
+        "name": "aura-sphere"
+      },
+      {
+        "level": 1,
+        "name": "extreme-speed"
+      },
+      {
+        "level": 1,
+        "name": "sky-attack"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "double-team",
+      "dream-eater",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "fling",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "pluck",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder-wave",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 176,
+    "next": [],
+    "root": 175,
+    "next_details": []
+  }
+}

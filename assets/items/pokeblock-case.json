@@ -1,0 +1,12 @@
+{
+  "name": "pokeblock-case",
+  "display_name": "Pokeblock Case",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Stores Pok\u00e9blocks.",
+  "short_effect": "Holds Pok\u00e9blocks.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

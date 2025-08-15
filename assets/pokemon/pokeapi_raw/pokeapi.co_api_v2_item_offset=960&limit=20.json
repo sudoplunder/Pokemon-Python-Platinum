@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=980&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=940&limit=20",
+  "results": [
+    {
+      "name": "catching-pocket",
+      "url": "https://pokeapi.co/api/v2/item/1012/"
+    },
+    {
+      "name": "battle-pocket",
+      "url": "https://pokeapi.co/api/v2/item/1013/"
+    },
+    {
+      "name": "silver-razz-berry",
+      "url": "https://pokeapi.co/api/v2/item/1014/"
+    },
+    {
+      "name": "golden-razz-berry",
+      "url": "https://pokeapi.co/api/v2/item/1015/"
+    },
+    {
+      "name": "silver-nanab-berry",
+      "url": "https://pokeapi.co/api/v2/item/1016/"
+    },
+    {
+      "name": "golden-nanab-berry",
+      "url": "https://pokeapi.co/api/v2/item/1017/"
+    },
+    {
+      "name": "silver-pinap-berry",
+      "url": "https://pokeapi.co/api/v2/item/1018/"
+    },
+    {
+      "name": "golden-pinap-berry",
+      "url": "https://pokeapi.co/api/v2/item/1019/"
+    },
+    {
+      "name": "secret-key--letsgo",
+      "url": "https://pokeapi.co/api/v2/item/1020/"
+    },
+    {
+      "name": "ss-ticket--letsgo",
+      "url": "https://pokeapi.co/api/v2/item/1021/"
+    },
+    {
+      "name": "parcel--letsgo",
+      "url": "https://pokeapi.co/api/v2/item/1022/"
+    },
+    {
+      "name": "card-key--letsgo",
+      "url": "https://pokeapi.co/api/v2/item/1023/"
+    },
+    {
+      "name": "stretchy-spring",
+      "url": "https://pokeapi.co/api/v2/item/1024/"
+    },
+    {
+      "name": "chalky-stone",
+      "url": "https://pokeapi.co/api/v2/item/1025/"
+    },
+    {
+      "name": "marble",
+      "url": "https://pokeapi.co/api/v2/item/1026/"
+    },
+    {
+      "name": "lone-earring",
+      "url": "https://pokeapi.co/api/v2/item/1027/"
+    },
+    {
+      "name": "beach-glass",
+      "url": "https://pokeapi.co/api/v2/item/1028/"
+    },
+    {
+      "name": "gold-leaf",
+      "url": "https://pokeapi.co/api/v2/item/1029/"
+    },
+    {
+      "name": "silver-leaf",
+      "url": "https://pokeapi.co/api/v2/item/1030/"
+    },
+    {
+      "name": "polished-mud-ball",
+      "url": "https://pokeapi.co/api/v2/item/1031/"
+    }
+  ]
+}

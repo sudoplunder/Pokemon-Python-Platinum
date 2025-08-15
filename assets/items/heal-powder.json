@@ -1,0 +1,18 @@
+{
+  "name": "heal-powder",
+  "display_name": "Heal Powder",
+  "category": "status-cures",
+  "cost": 300,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Cures any status ailment.  Decreases happiness by 5/5/10.",
+  "short_effect": "Cures any status ailment, but lowers happiness.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

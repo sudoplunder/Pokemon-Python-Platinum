@@ -1,0 +1,47 @@
+{
+  "id": 11,
+  "name": "metapod",
+  "generation": "1",
+  "types": [
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 55,
+    "sp_atk": 25,
+    "sp_def": 25,
+    "speed": 30
+  },
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "capture_rate": 120,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "bug"
+  ],
+  "abilities": {
+    "primary": "shed-skin",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      }
+    ],
+    "machines": []
+  },
+  "evolution": {
+    "previous": 10,
+    "next": [
+      12
+    ],
+    "root": 10,
+    "next_details": []
+  }
+}

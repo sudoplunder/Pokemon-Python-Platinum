@@ -1,0 +1,14 @@
+{
+  "name": "metal-powder",
+  "display_name": "Metal Powder",
+  "category": "species-specific",
+  "cost": 1000,
+  "fling_power": 10,
+  "effect": "Held by Ditto: Increases the holder's initial Defense and Special Defense by 50%.",
+  "short_effect": "Raises Ditto's Defense and Special Defense by 50%. The boost is lost after transforming.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable"
+  ]
+}

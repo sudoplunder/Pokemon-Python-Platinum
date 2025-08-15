@@ -1,0 +1,17 @@
+{
+  "name": "yellow-flute",
+  "display_name": "Yellow Flute",
+  "category": "flutes",
+  "cost": 20,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon in battle\n:   Cures confusion.",
+  "short_effect": "Cures confusion.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

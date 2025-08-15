@@ -1,0 +1,17 @@
+{
+  "name": "black-flute",
+  "display_name": "Black Flute",
+  "category": "spelunking",
+  "cost": 20,
+  "fling_power": 30,
+  "effect": "Used outside of battle\n:   Decreases the wild Pok\u00e9mon encounter rate by 50%.",
+  "short_effect": "Halves the wild Pok\u00e9mon encounter rate.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "holdable"
+  ]
+}

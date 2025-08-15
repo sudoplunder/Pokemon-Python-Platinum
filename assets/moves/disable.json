@@ -1,0 +1,42 @@
+{
+  "name": "disable",
+  "display_name": "Disable",
+  "type": "normal",
+  "category": "status",
+  "power": null,
+  "accuracy": 100,
+  "pp": 20,
+  "priority": 0,
+  "generation": 1,
+  "crit_rate_stage": 0,
+  "targets": "selected-pokemon",
+  "short_effect": "Disables the target's last used move for 1-8 turns.",
+  "effect": "Disables the target's last used move, preventing its use for 4\u20137 turns, selected at random, or until the target leaves the field.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed,  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail.",
+  "drain": null,
+  "recoil": null,
+  "multi_hit": null,
+  "multi_turn": [
+    4,
+    4
+  ],
+  "flinch_chance": 0,
+  "ailment": "disable",
+  "ailment_chance": 0,
+  "stat_changes": [],
+  "flags": {
+    "contact": false,
+    "sound": false,
+    "punch": false,
+    "bite": false,
+    "powder": false,
+    "pulse": false,
+    "ballistic": false,
+    "gravity": false,
+    "snatch": false,
+    "mirror": false,
+    "protect": false,
+    "magic_coat": false,
+    "defrost": false,
+    "charge": false
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": 483,
+  "name": "dialga",
+  "generation": "4",
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 120,
+    "defense": 120,
+    "sp_atk": 150,
+    "sp_def": 100,
+    "speed": 90
+  },
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "capture_rate": 3,
+  "gender_rate": -1,
+  "hatch_cycles": 120,
+  "base_friendship": 0,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "abilities": {
+    "primary": "pressure",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "dragon-breath"
+      },
+      {
+        "level": 1,
+        "name": "scary-face"
+      },
+      {
+        "level": 6,
+        "name": "metal-claw"
+      },
+      {
+        "level": 10,
+        "name": "ancient-power"
+      },
+      {
+        "level": 15,
+        "name": "slash"
+      },
+      {
+        "level": 19,
+        "name": "power-gem"
+      },
+      {
+        "level": 24,
+        "name": "metal-burst"
+      },
+      {
+        "level": 28,
+        "name": "dragon-claw"
+      },
+      {
+        "level": 33,
+        "name": "earth-power"
+      },
+      {
+        "level": 37,
+        "name": "aura-sphere"
+      },
+      {
+        "level": 42,
+        "name": "iron-tail"
+      },
+      {
+        "level": 46,
+        "name": "roar-of-time"
+      },
+      {
+        "level": 50,
+        "name": "flash-cannon"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "blizzard",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "flash-cannon",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "overheat",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "shadow-claw",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [],
+    "root": 483,
+    "next_details": []
+  }
+}

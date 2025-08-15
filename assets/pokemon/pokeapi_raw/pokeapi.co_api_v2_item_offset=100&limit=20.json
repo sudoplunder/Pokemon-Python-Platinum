@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=120&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=80&limit=20",
+  "results": [
+    {
+      "name": "helix-fossil",
+      "url": "https://pokeapi.co/api/v2/item/101/"
+    },
+    {
+      "name": "dome-fossil",
+      "url": "https://pokeapi.co/api/v2/item/102/"
+    },
+    {
+      "name": "old-amber",
+      "url": "https://pokeapi.co/api/v2/item/103/"
+    },
+    {
+      "name": "armor-fossil",
+      "url": "https://pokeapi.co/api/v2/item/104/"
+    },
+    {
+      "name": "skull-fossil",
+      "url": "https://pokeapi.co/api/v2/item/105/"
+    },
+    {
+      "name": "rare-bone",
+      "url": "https://pokeapi.co/api/v2/item/106/"
+    },
+    {
+      "name": "shiny-stone",
+      "url": "https://pokeapi.co/api/v2/item/107/"
+    },
+    {
+      "name": "dusk-stone",
+      "url": "https://pokeapi.co/api/v2/item/108/"
+    },
+    {
+      "name": "dawn-stone",
+      "url": "https://pokeapi.co/api/v2/item/109/"
+    },
+    {
+      "name": "oval-stone",
+      "url": "https://pokeapi.co/api/v2/item/110/"
+    },
+    {
+      "name": "odd-keystone",
+      "url": "https://pokeapi.co/api/v2/item/111/"
+    },
+    {
+      "name": "adamant-orb",
+      "url": "https://pokeapi.co/api/v2/item/112/"
+    },
+    {
+      "name": "lustrous-orb",
+      "url": "https://pokeapi.co/api/v2/item/113/"
+    },
+    {
+      "name": "grass-mail",
+      "url": "https://pokeapi.co/api/v2/item/114/"
+    },
+    {
+      "name": "flame-mail",
+      "url": "https://pokeapi.co/api/v2/item/115/"
+    },
+    {
+      "name": "bubble-mail",
+      "url": "https://pokeapi.co/api/v2/item/116/"
+    },
+    {
+      "name": "bloom-mail",
+      "url": "https://pokeapi.co/api/v2/item/117/"
+    },
+    {
+      "name": "tunnel-mail",
+      "url": "https://pokeapi.co/api/v2/item/118/"
+    },
+    {
+      "name": "steel-mail",
+      "url": "https://pokeapi.co/api/v2/item/119/"
+    },
+    {
+      "name": "heart-mail",
+      "url": "https://pokeapi.co/api/v2/item/120/"
+    }
+  ]
+}

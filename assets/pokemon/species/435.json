@@ -1,0 +1,126 @@
+{
+  "id": 435,
+  "name": "skuntank",
+  "generation": "4",
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 103,
+    "attack": 93,
+    "defense": 67,
+    "sp_atk": 71,
+    "sp_def": 61,
+    "speed": 84
+  },
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "stench",
+    "secondary": "aftermath",
+    "hidden": "keen-eye"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "focus-energy"
+      },
+      {
+        "level": 1,
+        "name": "poison-gas"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 7,
+        "name": "screech"
+      },
+      {
+        "level": 10,
+        "name": "fury-swipes"
+      },
+      {
+        "level": 14,
+        "name": "smokescreen"
+      },
+      {
+        "level": 18,
+        "name": "feint"
+      },
+      {
+        "level": 22,
+        "name": "slash"
+      },
+      {
+        "level": 27,
+        "name": "toxic"
+      },
+      {
+        "level": 34,
+        "name": "flamethrower"
+      },
+      {
+        "level": 41,
+        "name": "night-slash"
+      },
+      {
+        "level": 51,
+        "name": "memento"
+      },
+      {
+        "level": 61,
+        "name": "explosion"
+      }
+    ],
+    "machines": [
+      "attract",
+      "cut",
+      "dig",
+      "double-team",
+      "explosion",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-smash",
+      "shadow-ball",
+      "shadow-claw",
+      "sludge-bomb",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 434,
+    "next": [],
+    "root": 434,
+    "next_details": []
+  }
+}

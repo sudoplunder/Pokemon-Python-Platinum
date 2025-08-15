@@ -1,0 +1,12 @@
+{
+  "name": "magma-stone",
+  "display_name": "Magma Stone",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Causes Heatran to appear at Reversal Mountain.\n\nUnused prior to Black and White 2.",
+  "short_effect": "Magma is sealed inside.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

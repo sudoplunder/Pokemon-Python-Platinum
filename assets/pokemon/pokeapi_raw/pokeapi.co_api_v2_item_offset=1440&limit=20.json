@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1460&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1420&limit=20",
+  "results": [
+    {
+      "name": "dynamax-crystal-lyr7298",
+      "url": "https://pokeapi.co/api/v2/item/1492/"
+    },
+    {
+      "name": "dynamax-crystal-ara6585",
+      "url": "https://pokeapi.co/api/v2/item/1493/"
+    },
+    {
+      "name": "dynamax-crystal-sco6134",
+      "url": "https://pokeapi.co/api/v2/item/1494/"
+    },
+    {
+      "name": "dynamax-crystal-sco6527",
+      "url": "https://pokeapi.co/api/v2/item/1495/"
+    },
+    {
+      "name": "dynamax-crystal-sco6553",
+      "url": "https://pokeapi.co/api/v2/item/1496/"
+    },
+    {
+      "name": "dynamax-crystal-sco5953",
+      "url": "https://pokeapi.co/api/v2/item/1497/"
+    },
+    {
+      "name": "dynamax-crystal-sco5984",
+      "url": "https://pokeapi.co/api/v2/item/1498/"
+    },
+    {
+      "name": "dynamax-crystal-sco6508",
+      "url": "https://pokeapi.co/api/v2/item/1499/"
+    },
+    {
+      "name": "dynamax-crystal-sco6084",
+      "url": "https://pokeapi.co/api/v2/item/1500/"
+    },
+    {
+      "name": "dynamax-crystal-sco5944",
+      "url": "https://pokeapi.co/api/v2/item/1501/"
+    },
+    {
+      "name": "dynamax-crystal-sco6630",
+      "url": "https://pokeapi.co/api/v2/item/1502/"
+    },
+    {
+      "name": "dynamax-crystal-sco6027",
+      "url": "https://pokeapi.co/api/v2/item/1503/"
+    },
+    {
+      "name": "dynamax-crystal-sco6247",
+      "url": "https://pokeapi.co/api/v2/item/1504/"
+    },
+    {
+      "name": "dynamax-crystal-sco6252",
+      "url": "https://pokeapi.co/api/v2/item/1505/"
+    },
+    {
+      "name": "dynamax-crystal-sco5928",
+      "url": "https://pokeapi.co/api/v2/item/1506/"
+    },
+    {
+      "name": "dynamax-crystal-sco6241",
+      "url": "https://pokeapi.co/api/v2/item/1507/"
+    },
+    {
+      "name": "dynamax-crystal-sco6165",
+      "url": "https://pokeapi.co/api/v2/item/1508/"
+    },
+    {
+      "name": "dynamax-crystal-tri544",
+      "url": "https://pokeapi.co/api/v2/item/1509/"
+    },
+    {
+      "name": "dynamax-crystal-leo3982",
+      "url": "https://pokeapi.co/api/v2/item/1510/"
+    },
+    {
+      "name": "dynamax-crystal-leo4534",
+      "url": "https://pokeapi.co/api/v2/item/1511/"
+    }
+  ]
+}

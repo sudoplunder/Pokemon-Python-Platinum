@@ -1,0 +1,128 @@
+{
+  "id": 2,
+  "name": "ivysaur",
+  "generation": "1",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 62,
+    "defense": 63,
+    "sp_atk": 80,
+    "sp_def": 80,
+    "speed": 60
+  },
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "abilities": {
+    "primary": "overgrow",
+    "secondary": null,
+    "hidden": "chlorophyll"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "leech-seed"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 9,
+        "name": "vine-whip"
+      },
+      {
+        "level": 13,
+        "name": "poison-powder"
+      },
+      {
+        "level": 13,
+        "name": "sleep-powder"
+      },
+      {
+        "level": 15,
+        "name": "take-down"
+      },
+      {
+        "level": 20,
+        "name": "razor-leaf"
+      },
+      {
+        "level": 23,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 28,
+        "name": "growth"
+      },
+      {
+        "level": 31,
+        "name": "double-edge"
+      },
+      {
+        "level": 36,
+        "name": "worry-seed"
+      },
+      {
+        "level": 39,
+        "name": "synthesis"
+      },
+      {
+        "level": 44,
+        "name": "solar-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "grass-knot",
+      "hidden-power",
+      "light-screen",
+      "protect",
+      "rest",
+      "return",
+      "rock-smash",
+      "safeguard",
+      "secret-power",
+      "sludge-bomb",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 1,
+    "next": [
+      3
+    ],
+    "root": 1,
+    "next_details": []
+  }
+}

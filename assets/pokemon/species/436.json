@@ -1,0 +1,138 @@
+{
+  "id": 436,
+  "name": "bronzor",
+  "generation": "4",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 57,
+    "attack": 24,
+    "defense": 86,
+    "sp_atk": 24,
+    "sp_def": 86,
+    "speed": 23
+  },
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "capture_rate": 255,
+  "gender_rate": -1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "mineral"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": "heatproof",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "confusion"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "hypnosis"
+      },
+      {
+        "level": 9,
+        "name": "imprison"
+      },
+      {
+        "level": 11,
+        "name": "confuse-ray"
+      },
+      {
+        "level": 15,
+        "name": "psywave"
+      },
+      {
+        "level": 19,
+        "name": "iron-defense"
+      },
+      {
+        "level": 21,
+        "name": "feint-attack"
+      },
+      {
+        "level": 25,
+        "name": "safeguard"
+      },
+      {
+        "level": 29,
+        "name": "future-sight"
+      },
+      {
+        "level": 31,
+        "name": "metal-sound"
+      },
+      {
+        "level": 35,
+        "name": "gyro-ball"
+      },
+      {
+        "level": 39,
+        "name": "extrasensory"
+      },
+      {
+        "level": 41,
+        "name": "payback"
+      },
+      {
+        "level": 45,
+        "name": "heal-block"
+      }
+    ],
+    "machines": [
+      "calm-mind",
+      "charge-beam",
+      "double-team",
+      "dream-eater",
+      "earthquake",
+      "facade",
+      "flash",
+      "flash-cannon",
+      "frustration",
+      "grass-knot",
+      "gyro-ball",
+      "hidden-power",
+      "light-screen",
+      "payback",
+      "protect",
+      "psych-up",
+      "psychic",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-tomb",
+      "safeguard",
+      "sandstorm",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "toxic",
+      "trick-room"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      437
+    ],
+    "root": 436,
+    "next_details": []
+  }
+}

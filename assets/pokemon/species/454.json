@@ -1,0 +1,136 @@
+{
+  "id": 454,
+  "name": "toxicroak",
+  "generation": "4",
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 83,
+    "attack": 106,
+    "defense": 65,
+    "sp_atk": 86,
+    "sp_def": 65,
+    "speed": 85
+  },
+  "base_experience": 172,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "anticipation",
+    "secondary": "dry-skin",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "astonish"
+      },
+      {
+        "level": 1,
+        "name": "mud-slap"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 10,
+        "name": "taunt"
+      },
+      {
+        "level": 15,
+        "name": "pursuit"
+      },
+      {
+        "level": 17,
+        "name": "feint-attack"
+      },
+      {
+        "level": 22,
+        "name": "revenge"
+      },
+      {
+        "level": 24,
+        "name": "swagger"
+      },
+      {
+        "level": 29,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 31,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 41,
+        "name": "nasty-plot"
+      },
+      {
+        "level": 49,
+        "name": "poison-jab"
+      },
+      {
+        "level": 54,
+        "name": "sludge-bomb"
+      },
+      {
+        "level": 62,
+        "name": "flatter"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bulk-up",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "embargo",
+      "facade",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "shadow-ball",
+      "sludge-bomb",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 453,
+    "next": [],
+    "root": 453,
+    "next_details": []
+  }
+}

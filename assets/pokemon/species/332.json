@@ -1,0 +1,144 @@
+{
+  "id": 332,
+  "name": "cacturne",
+  "generation": "3",
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 115,
+    "defense": 60,
+    "sp_atk": 115,
+    "sp_def": 60,
+    "speed": 55
+  },
+  "base_experience": 166,
+  "growth_rate": "medium-slow",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "plant",
+    "humanshape"
+  ],
+  "abilities": {
+    "primary": "sand-veil",
+    "secondary": null,
+    "hidden": "water-absorb"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "absorb"
+      },
+      {
+        "level": 1,
+        "name": "growth"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "revenge"
+      },
+      {
+        "level": 13,
+        "name": "leech-seed"
+      },
+      {
+        "level": 17,
+        "name": "sand-attack"
+      },
+      {
+        "level": 21,
+        "name": "pin-missile"
+      },
+      {
+        "level": 25,
+        "name": "ingrain"
+      },
+      {
+        "level": 29,
+        "name": "feint-attack"
+      },
+      {
+        "level": 35,
+        "name": "spikes"
+      },
+      {
+        "level": 41,
+        "name": "needle-arm"
+      },
+      {
+        "level": 41,
+        "name": "sucker-punch"
+      },
+      {
+        "level": 47,
+        "name": "cotton-spore"
+      },
+      {
+        "level": 47,
+        "name": "payback"
+      },
+      {
+        "level": 53,
+        "name": "sandstorm"
+      },
+      {
+        "level": 71,
+        "name": "destiny-bond"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "bullet-seed",
+      "cut",
+      "double-team",
+      "embargo",
+      "energy-ball",
+      "facade",
+      "flash",
+      "fling",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "grass-knot",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rest",
+      "return",
+      "sandstorm",
+      "secret-power",
+      "solar-beam",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 331,
+    "next": [],
+    "root": 331,
+    "next_details": []
+  }
+}

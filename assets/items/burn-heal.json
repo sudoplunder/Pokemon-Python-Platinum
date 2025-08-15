@@ -1,0 +1,18 @@
+{
+  "name": "burn-heal",
+  "display_name": "Burn Heal",
+  "category": "status-cures",
+  "cost": 200,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Cures a burn.",
+  "short_effect": "Cures a burn.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

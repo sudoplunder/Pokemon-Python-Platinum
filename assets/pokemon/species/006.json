@@ -1,0 +1,151 @@
+{
+  "id": 6,
+  "name": "charizard",
+  "generation": "1",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "sp_atk": 109,
+    "sp_def": 85,
+    "speed": 100
+  },
+  "base_experience": 240,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "blaze",
+    "secondary": null,
+    "hidden": "solar-power"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "air-slash"
+      },
+      {
+        "level": 1,
+        "name": "dragon-claw"
+      },
+      {
+        "level": 1,
+        "name": "ember"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "shadow-claw"
+      },
+      {
+        "level": 1,
+        "name": "smokescreen"
+      },
+      {
+        "level": 17,
+        "name": "dragon-rage"
+      },
+      {
+        "level": 20,
+        "name": "rage"
+      },
+      {
+        "level": 21,
+        "name": "scary-face"
+      },
+      {
+        "level": 28,
+        "name": "fire-fang"
+      },
+      {
+        "level": 34,
+        "name": "flamethrower"
+      },
+      {
+        "level": 36,
+        "name": "wing-attack"
+      },
+      {
+        "level": 41,
+        "name": "slash"
+      },
+      {
+        "level": 56,
+        "name": "fire-spin"
+      },
+      {
+        "level": 71,
+        "name": "heat-wave"
+      },
+      {
+        "level": 77,
+        "name": "flare-blitz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "dragon-claw",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "fly",
+      "focus-blast",
+      "focus-punch",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "overheat",
+      "protect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "secret-power",
+      "shadow-claw",
+      "solar-beam",
+      "steel-wing",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 5,
+    "next": [],
+    "root": 4,
+    "next_details": []
+  }
+}

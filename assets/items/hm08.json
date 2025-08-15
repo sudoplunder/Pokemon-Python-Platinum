@@ -1,0 +1,12 @@
+{
+  "name": "hm08",
+  "display_name": "Hm08",
+  "category": "all-machines",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Teaches Rock Climb to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches a move to a compatible Pok\u00e9mon. (Gen IV: Rock Climb Gen III: Dive)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

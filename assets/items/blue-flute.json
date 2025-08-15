@@ -1,0 +1,18 @@
+{
+  "name": "blue-flute",
+  "display_name": "Blue Flute",
+  "category": "flutes",
+  "cost": 20,
+  "fling_power": 30,
+  "effect": "Used on a party Pok\u00e9mon\n:   Cures sleep.",
+  "short_effect": "Cures sleep.",
+  "generation": 3,
+  "is_consumable": true,
+  "attributes": [
+    "countable",
+    "consumable",
+    "usable-overworld",
+    "usable-in-battle",
+    "holdable"
+  ]
+}

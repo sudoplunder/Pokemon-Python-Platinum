@@ -1,0 +1,15 @@
+{
+  "id": 1863,
+  "item": {
+    "name": "tm158",
+    "url": "https://pokeapi.co/api/v2/item/2001/"
+  },
+  "move": {
+    "name": "focus-blast",
+    "url": "https://pokeapi.co/api/v2/move/411/"
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "https://pokeapi.co/api/v2/version-group/25/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "devon-goods",
+  "display_name": "Devon Goods",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Contains a machine part to be delivered to Captain Stern.",
+  "short_effect": "Contains mechanical parts to be delivered to Captain Stern.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

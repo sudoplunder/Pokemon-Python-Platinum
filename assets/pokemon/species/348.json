@@ -1,0 +1,124 @@
+{
+  "id": 348,
+  "name": "armaldo",
+  "generation": "3",
+  "types": [
+    "rock",
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 100,
+    "sp_atk": 70,
+    "sp_def": 80,
+    "speed": 45
+  },
+  "base_experience": 173,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water3"
+  ],
+  "abilities": {
+    "primary": "battle-armor",
+    "secondary": null,
+    "hidden": "swift-swim"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "harden"
+      },
+      {
+        "level": 1,
+        "name": "mud-sport"
+      },
+      {
+        "level": 1,
+        "name": "scratch"
+      },
+      {
+        "level": 1,
+        "name": "water-gun"
+      },
+      {
+        "level": 19,
+        "name": "metal-claw"
+      },
+      {
+        "level": 25,
+        "name": "protect"
+      },
+      {
+        "level": 31,
+        "name": "ancient-power"
+      },
+      {
+        "level": 37,
+        "name": "fury-cutter"
+      },
+      {
+        "level": 46,
+        "name": "slash"
+      },
+      {
+        "level": 55,
+        "name": "rock-blast"
+      },
+      {
+        "level": 67,
+        "name": "crush-claw"
+      },
+      {
+        "level": 73,
+        "name": "x-scissor"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "false-swipe",
+      "flash-cannon",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "protect",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "swords-dance",
+      "toxic",
+      "water-pulse",
+      "x-scissor"
+    ]
+  },
+  "evolution": {
+    "previous": 347,
+    "next": [],
+    "root": 347,
+    "next_details": []
+  }
+}

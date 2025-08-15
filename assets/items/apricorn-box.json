@@ -1,0 +1,12 @@
+{
+  "name": "apricorn-box",
+  "display_name": "Apricorn Box",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Stores Apricorns.",
+  "short_effect": "Holds Apricorns.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

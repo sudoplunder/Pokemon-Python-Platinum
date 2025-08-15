@@ -1,0 +1,15 @@
+{
+  "name": "luck-incense",
+  "display_name": "Luck Incense",
+  "category": "training",
+  "cost": 11000,
+  "fling_power": 10,
+  "effect": "Held: Doubles the money the trainer receives after an in-game trainer battle.  This effect cannot apply more than once to the same battle.",
+  "short_effect": "Held: Doubles the money earned from a battle. Does not stack with Amulet Coin. Breeding: Chansey and Blissey beget a Happiny Egg.",
+  "generation": 4,
+  "is_consumable": true,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

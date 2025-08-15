@@ -1,0 +1,15 @@
+{
+  "id": 1669,
+  "item": {
+    "name": "tr80",
+    "url": "https://pokeapi.co/api/v2/item/1268/"
+  },
+  "move": {
+    "name": "electro-ball",
+    "url": "https://pokeapi.co/api/v2/move/486/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

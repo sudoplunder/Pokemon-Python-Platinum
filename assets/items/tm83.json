@@ -1,0 +1,12 @@
+{
+  "name": "tm83",
+  "display_name": "Tm83",
+  "category": "all-machines",
+  "cost": 100000,
+  "fling_power": null,
+  "effect": "Teaches Natural Gift to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Work Up to a compatible Pok\u00e9mon. (Gen IV: Natural Gift)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

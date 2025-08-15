@@ -1,0 +1,12 @@
+{
+  "name": "data-card-10",
+  "display_name": "Data Card 10",
+  "category": "data-cards",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Records the number of times the trainer has come in first in the Pok\u00e9athlon Snow Throw.",
+  "short_effect": "Records the number of times the trainer has come in first in the Pok\u00e9athlon Snow Throw.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

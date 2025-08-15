@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=2000&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1960&limit=20",
+  "results": [
+    {
+      "name": "academy-ball",
+      "url": "https://pokeapi.co/api/v2/item/2032/"
+    },
+    {
+      "name": "marill-ball",
+      "url": "https://pokeapi.co/api/v2/item/2033/"
+    },
+    {
+      "name": "yarn-ball",
+      "url": "https://pokeapi.co/api/v2/item/2034/"
+    },
+    {
+      "name": "cyber-ball",
+      "url": "https://pokeapi.co/api/v2/item/2035/"
+    },
+    {
+      "name": "gold-pick",
+      "url": "https://pokeapi.co/api/v2/item/2036/"
+    },
+    {
+      "name": "silver-pick",
+      "url": "https://pokeapi.co/api/v2/item/2037/"
+    },
+    {
+      "name": "red-flag-pick",
+      "url": "https://pokeapi.co/api/v2/item/2038/"
+    },
+    {
+      "name": "blue-flag-pick",
+      "url": "https://pokeapi.co/api/v2/item/2039/"
+    },
+    {
+      "name": "pika-pika-pick",
+      "url": "https://pokeapi.co/api/v2/item/2040/"
+    },
+    {
+      "name": "winking-pika-pick",
+      "url": "https://pokeapi.co/api/v2/item/2041/"
+    },
+    {
+      "name": "vee-vee-pick",
+      "url": "https://pokeapi.co/api/v2/item/2042/"
+    },
+    {
+      "name": "smiling-vee-pick",
+      "url": "https://pokeapi.co/api/v2/item/2043/"
+    },
+    {
+      "name": "blue-pok\u00e9-ball-pick",
+      "url": "https://pokeapi.co/api/v2/item/2044/"
+    },
+    {
+      "name": "auspicious-armor",
+      "url": "https://pokeapi.co/api/v2/item/2045/"
+    },
+    {
+      "name": "leader\u2019s-crest",
+      "url": "https://pokeapi.co/api/v2/item/2046/"
+    },
+    {
+      "name": "pink-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2047/"
+    },
+    {
+      "name": "blue-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2048/"
+    },
+    {
+      "name": "yellow-bottle",
+      "url": "https://pokeapi.co/api/v2/item/2049/"
+    },
+    {
+      "name": "steel-bottle-(r)",
+      "url": "https://pokeapi.co/api/v2/item/2050/"
+    },
+    {
+      "name": "steel-bottle-(y)",
+      "url": "https://pokeapi.co/api/v2/item/2051/"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "sand-veil",
+  "display_name": "Sand Veil",
+  "generation": 3,
+  "short_effect": "Increases evasion to 1.25\u00d7 during a sandstorm.  Protects against sandstorm damage.",
+  "effect": "During a sandstorm, this Pok\u00e9mon has 1.25\u00d7 its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pok\u00e9mon has this ability, the wild encounter rate is halved in a sandstorm.",
+  "is_gen4_or_prior": true
+}

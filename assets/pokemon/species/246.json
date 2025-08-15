@@ -1,0 +1,124 @@
+{
+  "id": 246,
+  "name": "larvitar",
+  "generation": "2",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 64,
+    "defense": 50,
+    "sp_atk": 45,
+    "sp_def": 50,
+    "speed": 41
+  },
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 40,
+  "base_friendship": 35,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "guts",
+    "secondary": null,
+    "hidden": "sand-veil"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 5,
+        "name": "sandstorm"
+      },
+      {
+        "level": 10,
+        "name": "screech"
+      },
+      {
+        "level": 19,
+        "name": "rock-slide"
+      },
+      {
+        "level": 23,
+        "name": "scary-face"
+      },
+      {
+        "level": 28,
+        "name": "thrash"
+      },
+      {
+        "level": 32,
+        "name": "dark-pulse"
+      },
+      {
+        "level": 37,
+        "name": "payback"
+      },
+      {
+        "level": 41,
+        "name": "crunch"
+      },
+      {
+        "level": 46,
+        "name": "earthquake"
+      },
+      {
+        "level": 50,
+        "name": "stone-edge"
+      },
+      {
+        "level": 55,
+        "name": "hyper-beam"
+      }
+    ],
+    "machines": [
+      "attract",
+      "brick-break",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "stone-edge",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      247
+    ],
+    "root": 246,
+    "next_details": []
+  }
+}

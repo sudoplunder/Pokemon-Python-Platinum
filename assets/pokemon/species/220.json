@@ -1,0 +1,131 @@
+{
+  "id": 220,
+  "name": "swinub",
+  "generation": "2",
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 40,
+    "sp_atk": 30,
+    "sp_def": 30,
+    "speed": 50
+  },
+  "base_experience": 50,
+  "growth_rate": "slow",
+  "capture_rate": 225,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "oblivious",
+    "secondary": "snow-cloak",
+    "hidden": "thick-fat"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "odor-sleuth"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 5,
+        "name": "mud-sport"
+      },
+      {
+        "level": 8,
+        "name": "powder-snow"
+      },
+      {
+        "level": 11,
+        "name": "mud-slap"
+      },
+      {
+        "level": 14,
+        "name": "endure"
+      },
+      {
+        "level": 18,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 21,
+        "name": "icy-wind"
+      },
+      {
+        "level": 24,
+        "name": "ice-shard"
+      },
+      {
+        "level": 28,
+        "name": "take-down"
+      },
+      {
+        "level": 35,
+        "name": "mist"
+      },
+      {
+        "level": 37,
+        "name": "earthquake"
+      },
+      {
+        "level": 40,
+        "name": "flail"
+      },
+      {
+        "level": 44,
+        "name": "blizzard"
+      },
+      {
+        "level": 48,
+        "name": "amnesia"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "reflect",
+      "rest",
+      "return",
+      "roar",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "secret-power",
+      "strength",
+      "substitute",
+      "swagger",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      221
+    ],
+    "root": 220,
+    "next_details": []
+  }
+}

@@ -7,7 +7,7 @@
   "legal_lines": [
     "Pok\u00e9mon \u00a9 1996\u2013{CURRENT_YEAR} Nintendo / Creatures Inc. / GAME FREAK inc.",
     "Pok\u00e9mon Platinum \u00a9 2008\u20132009 Nintendo / Creatures Inc. / GAME FREAK inc.",
-    "This fan-made, non-commercial project is not affiliated with or endorsed by Nintendo, Creatures, or GAME FREAK."
+    "This fan-made, non-commercial project is not affiliated with or endorsed by Nintendo or GAME FREAK."
   ],
   "timings": {
     "twinkle_at": 6.0,
@@ -28,4 +28,26 @@
   "seed": null
   },
   "post_logo_prompt": "Press Enter To Start"
+  ,"logo_idle_sparkles": {
+    "enabled": true,
+    "count": 14,
+    "frame_interval": 0.12,
+    "frames": ["·","•","✦"],
+    "color_codes": ["37","90","31","91"]
+  }
+  ,"logo_idle_eyes": {
+    "enabled": true,
+    "interval": 3.5,
+    "fade_in": 1.0,
+    "sustain": 4.0,
+    "fade_out": 1.0,
+    "blink_enabled": true,
+    "blink_probability": 0.6,
+    "blink_cycles_min": 1,
+    "blink_cycles_max": 2,
+    "blink_cycle_interval": 0.18,
+    "gap": 3,
+    "frames": ["·","•","●"],
+    "color_codes": ["31","91"]
+  }
 }

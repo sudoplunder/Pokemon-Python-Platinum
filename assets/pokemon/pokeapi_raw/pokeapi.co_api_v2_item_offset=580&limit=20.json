@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=600&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=560&limit=20",
+  "results": [
+    {
+      "name": "eviolite",
+      "url": "https://pokeapi.co/api/v2/item/581/"
+    },
+    {
+      "name": "float-stone",
+      "url": "https://pokeapi.co/api/v2/item/582/"
+    },
+    {
+      "name": "rocky-helmet",
+      "url": "https://pokeapi.co/api/v2/item/583/"
+    },
+    {
+      "name": "air-balloon",
+      "url": "https://pokeapi.co/api/v2/item/584/"
+    },
+    {
+      "name": "red-card",
+      "url": "https://pokeapi.co/api/v2/item/585/"
+    },
+    {
+      "name": "ring-target",
+      "url": "https://pokeapi.co/api/v2/item/586/"
+    },
+    {
+      "name": "binding-band",
+      "url": "https://pokeapi.co/api/v2/item/587/"
+    },
+    {
+      "name": "absorb-bulb",
+      "url": "https://pokeapi.co/api/v2/item/588/"
+    },
+    {
+      "name": "cell-battery",
+      "url": "https://pokeapi.co/api/v2/item/589/"
+    },
+    {
+      "name": "eject-button",
+      "url": "https://pokeapi.co/api/v2/item/590/"
+    },
+    {
+      "name": "fire-gem",
+      "url": "https://pokeapi.co/api/v2/item/591/"
+    },
+    {
+      "name": "water-gem",
+      "url": "https://pokeapi.co/api/v2/item/592/"
+    },
+    {
+      "name": "electric-gem",
+      "url": "https://pokeapi.co/api/v2/item/593/"
+    },
+    {
+      "name": "grass-gem",
+      "url": "https://pokeapi.co/api/v2/item/594/"
+    },
+    {
+      "name": "ice-gem",
+      "url": "https://pokeapi.co/api/v2/item/595/"
+    },
+    {
+      "name": "fighting-gem",
+      "url": "https://pokeapi.co/api/v2/item/596/"
+    },
+    {
+      "name": "poison-gem",
+      "url": "https://pokeapi.co/api/v2/item/597/"
+    },
+    {
+      "name": "ground-gem",
+      "url": "https://pokeapi.co/api/v2/item/598/"
+    },
+    {
+      "name": "flying-gem",
+      "url": "https://pokeapi.co/api/v2/item/599/"
+    },
+    {
+      "name": "psychic-gem",
+      "url": "https://pokeapi.co/api/v2/item/600/"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "red-scarf",
+  "display_name": "Red Scarf",
+  "category": "scarves",
+  "cost": 100,
+  "fling_power": 10,
+  "effect": "Held: Increases the holder's Coolness during a Super Contest's Visual Competition.",
+  "short_effect": "Raises the holder's Coolness while in a contest.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable-active"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "smoke-ball",
+  "display_name": "Smoke Ball",
+  "category": "held-items",
+  "cost": 4000,
+  "fling_power": 30,
+  "effect": "Held: In wild battles, attempts to run away on the holder's turn will always succeed.",
+  "short_effect": "Held: Allows the Holder to escape from any wild battle.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

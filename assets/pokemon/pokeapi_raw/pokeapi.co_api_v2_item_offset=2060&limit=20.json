@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=2080&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=2040&limit=20",
+  "results": [
+    {
+      "name": "health-mochi",
+      "url": "https://pokeapi.co/api/v2/item/2112/"
+    },
+    {
+      "name": "muscle-mochi",
+      "url": "https://pokeapi.co/api/v2/item/2113/"
+    },
+    {
+      "name": "resist-mochi",
+      "url": "https://pokeapi.co/api/v2/item/2114/"
+    },
+    {
+      "name": "genius-mochi",
+      "url": "https://pokeapi.co/api/v2/item/2115/"
+    },
+    {
+      "name": "clever-mochi",
+      "url": "https://pokeapi.co/api/v2/item/2116/"
+    },
+    {
+      "name": "swift-mochi",
+      "url": "https://pokeapi.co/api/v2/item/2117/"
+    },
+    {
+      "name": "fresh-start-mochi",
+      "url": "https://pokeapi.co/api/v2/item/2118/"
+    },
+    {
+      "name": "ekans-fang",
+      "url": "https://pokeapi.co/api/v2/item/2119/"
+    },
+    {
+      "name": "sandshrew-claw",
+      "url": "https://pokeapi.co/api/v2/item/2120/"
+    },
+    {
+      "name": "cleffa-fur",
+      "url": "https://pokeapi.co/api/v2/item/2121/"
+    },
+    {
+      "name": "vulpix-fur",
+      "url": "https://pokeapi.co/api/v2/item/2122/"
+    },
+    {
+      "name": "poliwag-slime",
+      "url": "https://pokeapi.co/api/v2/item/2123/"
+    },
+    {
+      "name": "bellsprout-vine",
+      "url": "https://pokeapi.co/api/v2/item/2124/"
+    },
+    {
+      "name": "geodude-fragment",
+      "url": "https://pokeapi.co/api/v2/item/2125/"
+    },
+    {
+      "name": "koffing-gas",
+      "url": "https://pokeapi.co/api/v2/item/2126/"
+    },
+    {
+      "name": "munchlax-fang",
+      "url": "https://pokeapi.co/api/v2/item/2127/"
+    },
+    {
+      "name": "sentret-fur",
+      "url": "https://pokeapi.co/api/v2/item/2128/"
+    },
+    {
+      "name": "hoothoot-feather",
+      "url": "https://pokeapi.co/api/v2/item/2129/"
+    },
+    {
+      "name": "spinarak-thread",
+      "url": "https://pokeapi.co/api/v2/item/2130/"
+    },
+    {
+      "name": "aipom-hair",
+      "url": "https://pokeapi.co/api/v2/item/2131/"
+    }
+  ]
+}

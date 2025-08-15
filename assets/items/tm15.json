@@ -1,0 +1,12 @@
+{
+  "name": "tm15",
+  "display_name": "Tm15",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Hyper Beam to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Hyper Beam to a compatible Pok\u00e9mon.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

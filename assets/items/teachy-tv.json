@@ -1,0 +1,12 @@
+{
+  "name": "teachy-tv",
+  "display_name": "Teachy Tv",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Teaches beginning trainers basic information.",
+  "short_effect": "Teachers basic trainer advice.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

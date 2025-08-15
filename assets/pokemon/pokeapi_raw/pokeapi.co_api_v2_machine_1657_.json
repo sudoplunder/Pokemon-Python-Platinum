@@ -1,0 +1,15 @@
+{
+  "id": 1657,
+  "item": {
+    "name": "tr68",
+    "url": "https://pokeapi.co/api/v2/item/1256/"
+  },
+  "move": {
+    "name": "nasty-plot",
+    "url": "https://pokeapi.co/api/v2/move/417/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

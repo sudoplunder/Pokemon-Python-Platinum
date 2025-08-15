@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=940&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=900&limit=20",
+  "results": [
+    {
+      "name": "kommonium-z--held",
+      "url": "https://pokeapi.co/api/v2/item/972/"
+    },
+    {
+      "name": "solganium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/973/"
+    },
+    {
+      "name": "lunalium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/974/"
+    },
+    {
+      "name": "ultranecrozium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/975/"
+    },
+    {
+      "name": "mimikium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/976/"
+    },
+    {
+      "name": "lycanium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/977/"
+    },
+    {
+      "name": "kommonium-z--bag",
+      "url": "https://pokeapi.co/api/v2/item/978/"
+    },
+    {
+      "name": "z-power-ring",
+      "url": "https://pokeapi.co/api/v2/item/979/"
+    },
+    {
+      "name": "pink-petal",
+      "url": "https://pokeapi.co/api/v2/item/980/"
+    },
+    {
+      "name": "orange-petal",
+      "url": "https://pokeapi.co/api/v2/item/981/"
+    },
+    {
+      "name": "blue-petal",
+      "url": "https://pokeapi.co/api/v2/item/982/"
+    },
+    {
+      "name": "red-petal",
+      "url": "https://pokeapi.co/api/v2/item/983/"
+    },
+    {
+      "name": "green-petal",
+      "url": "https://pokeapi.co/api/v2/item/984/"
+    },
+    {
+      "name": "yellow-petal",
+      "url": "https://pokeapi.co/api/v2/item/985/"
+    },
+    {
+      "name": "purple-petal",
+      "url": "https://pokeapi.co/api/v2/item/986/"
+    },
+    {
+      "name": "rainbow-flower",
+      "url": "https://pokeapi.co/api/v2/item/987/"
+    },
+    {
+      "name": "surge-badge",
+      "url": "https://pokeapi.co/api/v2/item/988/"
+    },
+    {
+      "name": "n-solarizer--merge",
+      "url": "https://pokeapi.co/api/v2/item/989/"
+    },
+    {
+      "name": "n-lunarizer--merge",
+      "url": "https://pokeapi.co/api/v2/item/990/"
+    },
+    {
+      "name": "n-solarizer--split",
+      "url": "https://pokeapi.co/api/v2/item/991/"
+    }
+  ]
+}

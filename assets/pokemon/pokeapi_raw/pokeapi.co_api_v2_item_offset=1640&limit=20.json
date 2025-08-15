@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=1660&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=1620&limit=20",
+  "results": [
+    {
+      "name": "dragon-tera-shard",
+      "url": "https://pokeapi.co/api/v2/item/1692/"
+    },
+    {
+      "name": "dark-tera-shard",
+      "url": "https://pokeapi.co/api/v2/item/1693/"
+    },
+    {
+      "name": "steel-tera-shard",
+      "url": "https://pokeapi.co/api/v2/item/1694/"
+    },
+    {
+      "name": "fairy-tera-shard",
+      "url": "https://pokeapi.co/api/v2/item/1695/"
+    },
+    {
+      "name": "booster-energy",
+      "url": "https://pokeapi.co/api/v2/item/1696/"
+    },
+    {
+      "name": "ability-shield",
+      "url": "https://pokeapi.co/api/v2/item/1697/"
+    },
+    {
+      "name": "clear-amulet",
+      "url": "https://pokeapi.co/api/v2/item/1698/"
+    },
+    {
+      "name": "mirror-herb",
+      "url": "https://pokeapi.co/api/v2/item/1699/"
+    },
+    {
+      "name": "punching-glove",
+      "url": "https://pokeapi.co/api/v2/item/1700/"
+    },
+    {
+      "name": "covert-cloak",
+      "url": "https://pokeapi.co/api/v2/item/1701/"
+    },
+    {
+      "name": "loaded-dice",
+      "url": "https://pokeapi.co/api/v2/item/1702/"
+    },
+    {
+      "name": "baguette",
+      "url": "https://pokeapi.co/api/v2/item/1703/"
+    },
+    {
+      "name": "mayonnaise",
+      "url": "https://pokeapi.co/api/v2/item/1704/"
+    },
+    {
+      "name": "ketchup",
+      "url": "https://pokeapi.co/api/v2/item/1705/"
+    },
+    {
+      "name": "mustard",
+      "url": "https://pokeapi.co/api/v2/item/1706/"
+    },
+    {
+      "name": "butter",
+      "url": "https://pokeapi.co/api/v2/item/1707/"
+    },
+    {
+      "name": "peanut-butter",
+      "url": "https://pokeapi.co/api/v2/item/1708/"
+    },
+    {
+      "name": "chili-sauce",
+      "url": "https://pokeapi.co/api/v2/item/1709/"
+    },
+    {
+      "name": "salt",
+      "url": "https://pokeapi.co/api/v2/item/1710/"
+    },
+    {
+      "name": "pepper",
+      "url": "https://pokeapi.co/api/v2/item/1711/"
+    }
+  ]
+}

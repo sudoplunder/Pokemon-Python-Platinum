@@ -1,0 +1,125 @@
+{
+  "id": 110,
+  "name": "weezing",
+  "generation": "1",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 120,
+    "sp_atk": 85,
+    "sp_def": 70,
+    "speed": 60
+  },
+  "base_experience": 172,
+  "growth_rate": "medium",
+  "capture_rate": 60,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "abilities": {
+    "primary": "levitate",
+    "secondary": "neutralizing-gas",
+    "hidden": "stench"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "poison-gas"
+      },
+      {
+        "level": 1,
+        "name": "self-destruct"
+      },
+      {
+        "level": 1,
+        "name": "smog"
+      },
+      {
+        "level": 1,
+        "name": "smokescreen"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 12,
+        "name": "assurance"
+      },
+      {
+        "level": 18,
+        "name": "sludge"
+      },
+      {
+        "level": 26,
+        "name": "haze"
+      },
+      {
+        "level": 29,
+        "name": "double-hit"
+      },
+      {
+        "level": 34,
+        "name": "sludge-bomb"
+      },
+      {
+        "level": 40,
+        "name": "explosion"
+      },
+      {
+        "level": 46,
+        "name": "destiny-bond"
+      },
+      {
+        "level": 54,
+        "name": "memento"
+      }
+    ],
+    "machines": [
+      "attract",
+      "double-team",
+      "explosion",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "gyro-ball",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "shock-wave",
+      "sludge-bomb",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "torment",
+      "toxic",
+      "will-o-wisp"
+    ]
+  },
+  "evolution": {
+    "previous": 109,
+    "next": [],
+    "root": 109,
+    "next_details": []
+  }
+}

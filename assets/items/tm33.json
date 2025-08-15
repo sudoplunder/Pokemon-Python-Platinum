@@ -1,0 +1,12 @@
+{
+  "name": "tm33",
+  "display_name": "Tm33",
+  "category": "all-machines",
+  "cost": 10000,
+  "fling_power": null,
+  "effect": "Teaches Reflect to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Reflect to a compatible Pok\u00e9mon. (Gen II: Ice Punch)",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

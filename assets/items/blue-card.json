@@ -1,0 +1,12 @@
+{
+  "name": "blue-card",
+  "display_name": "Blue Card",
+  "category": "gameplay",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "Allows the trainer to answer the daily question on Buena's radio show.  Records the points earned for correct answers.",
+  "short_effect": "Keeps track of points from Buena's show.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

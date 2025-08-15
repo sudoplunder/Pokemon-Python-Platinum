@@ -1,0 +1,121 @@
+{
+  "id": 318,
+  "name": "carvanha",
+  "generation": "3",
+  "types": [
+    "water",
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 90,
+    "defense": 20,
+    "sp_atk": 65,
+    "sp_def": 20,
+    "speed": 65
+  },
+  "base_experience": 61,
+  "growth_rate": "slow",
+  "capture_rate": 225,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 35,
+  "egg_groups": [
+    "water2"
+  ],
+  "abilities": {
+    "primary": "rough-skin",
+    "secondary": null,
+    "hidden": "speed-boost"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 6,
+        "name": "rage"
+      },
+      {
+        "level": 8,
+        "name": "focus-energy"
+      },
+      {
+        "level": 11,
+        "name": "scary-face"
+      },
+      {
+        "level": 16,
+        "name": "ice-fang"
+      },
+      {
+        "level": 18,
+        "name": "screech"
+      },
+      {
+        "level": 21,
+        "name": "swagger"
+      },
+      {
+        "level": 22,
+        "name": "crunch"
+      },
+      {
+        "level": 26,
+        "name": "assurance"
+      },
+      {
+        "level": 31,
+        "name": "aqua-jet"
+      },
+      {
+        "level": 31,
+        "name": "take-down"
+      },
+      {
+        "level": 36,
+        "name": "agility"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "dive",
+      "double-team",
+      "facade",
+      "frustration",
+      "hail",
+      "hidden-power",
+      "ice-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "substitute",
+      "surf",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic",
+      "water-pulse",
+      "waterfall"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      319
+    ],
+    "root": 318,
+    "next_details": []
+  }
+}

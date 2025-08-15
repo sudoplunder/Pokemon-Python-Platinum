@@ -1,0 +1,12 @@
+{
+  "name": "tidal-bell",
+  "display_name": "Tidal Bell",
+  "category": "plot-advancement",
+  "cost": 0,
+  "fling_power": null,
+  "effect": "May be given to the Kimono Girls to summon lugia to the top of the bell tower.",
+  "short_effect": "Allows Kimono-girls to summon Lugia.",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

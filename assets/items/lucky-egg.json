@@ -1,0 +1,15 @@
+{
+  "name": "lucky-egg",
+  "display_name": "Lucky Egg",
+  "category": "training",
+  "cost": 10000,
+  "fling_power": 30,
+  "effect": "Held: Increases any Exp the holder gains by 50%.",
+  "short_effect": "Held: Increases EXP earned in battle by 50%.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": [
+    "holdable",
+    "holdable-active"
+  ]
+}

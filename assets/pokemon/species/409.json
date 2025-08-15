@@ -1,0 +1,129 @@
+{
+  "id": 409,
+  "name": "rampardos",
+  "generation": "4",
+  "types": [
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 97,
+    "attack": 165,
+    "defense": 60,
+    "sp_atk": 65,
+    "sp_def": 50,
+    "speed": 58
+  },
+  "base_experience": 173,
+  "growth_rate": "slow-then-very-fast",
+  "capture_rate": 45,
+  "gender_rate": 1,
+  "hatch_cycles": 30,
+  "base_friendship": 70,
+  "egg_groups": [
+    "monster"
+  ],
+  "abilities": {
+    "primary": "mold-breaker",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "headbutt"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 6,
+        "name": "focus-energy"
+      },
+      {
+        "level": 10,
+        "name": "pursuit"
+      },
+      {
+        "level": 15,
+        "name": "take-down"
+      },
+      {
+        "level": 19,
+        "name": "scary-face"
+      },
+      {
+        "level": 24,
+        "name": "assurance"
+      },
+      {
+        "level": 30,
+        "name": "endeavor"
+      },
+      {
+        "level": 36,
+        "name": "ancient-power"
+      },
+      {
+        "level": 43,
+        "name": "zen-headbutt"
+      },
+      {
+        "level": 51,
+        "name": "screech"
+      },
+      {
+        "level": 58,
+        "name": "head-smash"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "brick-break",
+      "cut",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "fire-blast",
+      "flamethrower",
+      "fling",
+      "focus-blast",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "payback",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "rock-polish",
+      "rock-slide",
+      "rock-smash",
+      "rock-tomb",
+      "sandstorm",
+      "stone-edge",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "surf",
+      "swagger",
+      "swords-dance",
+      "thief",
+      "thunder",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 408,
+    "next": [],
+    "root": 408,
+    "next_details": []
+  }
+}

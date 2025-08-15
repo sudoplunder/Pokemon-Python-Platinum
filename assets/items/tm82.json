@@ -1,0 +1,12 @@
+{
+  "name": "tm82",
+  "display_name": "Tm82",
+  "category": "all-machines",
+  "cost": 1000,
+  "fling_power": null,
+  "effect": "Teaches Sleep Talk to a compatible Pok\u00e9mon.",
+  "short_effect": "Teaches Dragon Tail to a compatible Pok\u00e9mon. (Gen IV: Sleep Talk)",
+  "generation": 4,
+  "is_consumable": false,
+  "attributes": []
+}

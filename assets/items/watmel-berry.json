@@ -1,0 +1,12 @@
+{
+  "name": "watmel-berry",
+  "display_name": "Watmel Berry",
+  "category": "baking-only",
+  "cost": 20,
+  "fling_power": 10,
+  "effect": "No effect; only useful for planting and cooking.",
+  "short_effect": "Used for creating Pok\u00e9Blocks and Poffins.",
+  "generation": 3,
+  "is_consumable": false,
+  "attributes": []
+}

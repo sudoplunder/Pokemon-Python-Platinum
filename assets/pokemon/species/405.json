@@ -1,0 +1,109 @@
+{
+  "id": 405,
+  "name": "luxray",
+  "generation": "4",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 79,
+    "sp_atk": 95,
+    "sp_def": 79,
+    "speed": 70
+  },
+  "base_experience": 235,
+  "growth_rate": "medium-slow",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground"
+  ],
+  "abilities": {
+    "primary": "rivalry",
+    "secondary": "intimidate",
+    "hidden": "guts"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "charge"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "tackle"
+      },
+      {
+        "level": 13,
+        "name": "spark"
+      },
+      {
+        "level": 18,
+        "name": "bite"
+      },
+      {
+        "level": 23,
+        "name": "roar"
+      },
+      {
+        "level": 28,
+        "name": "swagger"
+      },
+      {
+        "level": 35,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 42,
+        "name": "crunch"
+      },
+      {
+        "level": 49,
+        "name": "scary-face"
+      },
+      {
+        "level": 56,
+        "name": "discharge"
+      }
+    ],
+    "machines": [
+      "attract",
+      "charge-beam",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "light-screen",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "roar",
+      "strength",
+      "substitute",
+      "swagger",
+      "thief",
+      "thunder",
+      "thunder-wave",
+      "thunderbolt",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 404,
+    "next": [],
+    "root": 403,
+    "next_details": []
+  }
+}

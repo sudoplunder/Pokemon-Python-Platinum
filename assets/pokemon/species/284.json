@@ -1,0 +1,120 @@
+{
+  "id": 284,
+  "name": "masquerain",
+  "generation": "3",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 60,
+    "defense": 62,
+    "sp_atk": 100,
+    "sp_def": 82,
+    "speed": 80
+  },
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "capture_rate": 75,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "bug"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": null,
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 1,
+        "name": "ominous-wind"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 1,
+        "name": "water-sport"
+      },
+      {
+        "level": 22,
+        "name": "gust"
+      },
+      {
+        "level": 26,
+        "name": "scary-face"
+      },
+      {
+        "level": 33,
+        "name": "stun-spore"
+      },
+      {
+        "level": 40,
+        "name": "silver-wind"
+      },
+      {
+        "level": 47,
+        "name": "air-slash"
+      },
+      {
+        "level": 53,
+        "name": "whirlwind"
+      },
+      {
+        "level": 61,
+        "name": "bug-buzz"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "blizzard",
+      "double-team",
+      "energy-ball",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "ice-beam",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "u-turn",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": 283,
+    "next": [],
+    "root": 283,
+    "next_details": []
+  }
+}

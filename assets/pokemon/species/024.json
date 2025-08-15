@@ -1,0 +1,144 @@
+{
+  "id": 24,
+  "name": "arbok",
+  "generation": "1",
+  "types": [
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 69,
+    "sp_atk": 65,
+    "sp_def": 79,
+    "speed": 80
+  },
+  "base_experience": 157,
+  "growth_rate": "medium",
+  "capture_rate": 90,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "ground",
+    "dragon"
+  ],
+  "abilities": {
+    "primary": "intimidate",
+    "secondary": "shed-skin",
+    "hidden": null
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bite"
+      },
+      {
+        "level": 1,
+        "name": "fire-fang"
+      },
+      {
+        "level": 1,
+        "name": "ice-fang"
+      },
+      {
+        "level": 1,
+        "name": "leer"
+      },
+      {
+        "level": 1,
+        "name": "poison-sting"
+      },
+      {
+        "level": 1,
+        "name": "thunder-fang"
+      },
+      {
+        "level": 1,
+        "name": "wrap"
+      },
+      {
+        "level": 12,
+        "name": "glare"
+      },
+      {
+        "level": 17,
+        "name": "screech"
+      },
+      {
+        "level": 20,
+        "name": "acid"
+      },
+      {
+        "level": 22,
+        "name": "crunch"
+      },
+      {
+        "level": 27,
+        "name": "spit-up"
+      },
+      {
+        "level": 27,
+        "name": "stockpile"
+      },
+      {
+        "level": 27,
+        "name": "swallow"
+      },
+      {
+        "level": 39,
+        "name": "mud-bomb"
+      },
+      {
+        "level": 44,
+        "name": "gastro-acid"
+      },
+      {
+        "level": 51,
+        "name": "haze"
+      },
+      {
+        "level": 63,
+        "name": "gunk-shot"
+      }
+    ],
+    "machines": [
+      "attract",
+      "dig",
+      "double-team",
+      "earthquake",
+      "facade",
+      "frustration",
+      "giga-drain",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "iron-tail",
+      "payback",
+      "poison-jab",
+      "protect",
+      "rain-dance",
+      "rest",
+      "return",
+      "rock-slide",
+      "rock-tomb",
+      "secret-power",
+      "sludge-bomb",
+      "snatch",
+      "strength",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 23,
+    "next": [],
+    "root": 23,
+    "next_details": []
+  }
+}

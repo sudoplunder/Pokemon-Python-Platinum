@@ -1,0 +1,15 @@
+{
+  "id": 2000,
+  "item": {
+    "name": "tm87",
+    "url": "https://pokeapi.co/api/v2/item/391/"
+  },
+  "move": {
+    "name": "taunt",
+    "url": "https://pokeapi.co/api/v2/move/269/"
+  },
+  "version_group": {
+    "name": "the-indigo-disk",
+    "url": "https://pokeapi.co/api/v2/version-group/27/"
+  }
+}

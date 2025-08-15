@@ -1,0 +1,15 @@
+{
+  "id": 1625,
+  "item": {
+    "name": "tr36",
+    "url": "https://pokeapi.co/api/v2/item/1224/"
+  },
+  "move": {
+    "name": "heat-wave",
+    "url": "https://pokeapi.co/api/v2/move/257/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

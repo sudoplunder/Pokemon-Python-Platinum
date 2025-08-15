@@ -1,0 +1,122 @@
+{
+  "id": 85,
+  "name": "dodrio",
+  "generation": "1",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 110,
+    "defense": 70,
+    "sp_atk": 60,
+    "sp_def": 60,
+    "speed": 110
+  },
+  "base_experience": 165,
+  "growth_rate": "medium",
+  "capture_rate": 45,
+  "gender_rate": 4,
+  "hatch_cycles": 20,
+  "base_friendship": 70,
+  "egg_groups": [
+    "flying"
+  ],
+  "abilities": {
+    "primary": "run-away",
+    "secondary": "early-bird",
+    "hidden": "tangled-feet"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "fury-attack"
+      },
+      {
+        "level": 1,
+        "name": "growl"
+      },
+      {
+        "level": 1,
+        "name": "peck"
+      },
+      {
+        "level": 1,
+        "name": "pluck"
+      },
+      {
+        "level": 1,
+        "name": "pursuit"
+      },
+      {
+        "level": 1,
+        "name": "quick-attack"
+      },
+      {
+        "level": 1,
+        "name": "rage"
+      },
+      {
+        "level": 21,
+        "name": "tri-attack"
+      },
+      {
+        "level": 23,
+        "name": "uproar"
+      },
+      {
+        "level": 28,
+        "name": "acupressure"
+      },
+      {
+        "level": 41,
+        "name": "agility"
+      },
+      {
+        "level": 47,
+        "name": "drill-peck"
+      },
+      {
+        "level": 54,
+        "name": "endeavor"
+      },
+      {
+        "level": 60,
+        "name": "thrash"
+      }
+    ],
+    "machines": [
+      "aerial-ace",
+      "attract",
+      "double-team",
+      "facade",
+      "fly",
+      "frustration",
+      "giga-impact",
+      "hidden-power",
+      "hyper-beam",
+      "payback",
+      "pluck",
+      "protect",
+      "rest",
+      "return",
+      "secret-power",
+      "steel-wing",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "taunt",
+      "thief",
+      "torment",
+      "toxic"
+    ]
+  },
+  "evolution": {
+    "previous": 84,
+    "next": [],
+    "root": 84,
+    "next_details": []
+  }
+}

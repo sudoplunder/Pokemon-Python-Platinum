@@ -1,0 +1,87 @@
+{
+  "count": 2180,
+  "next": "https://pokeapi.co/api/v2/item?offset=660&limit=20",
+  "previous": "https://pokeapi.co/api/v2/item?offset=620&limit=20",
+  "results": [
+    {
+      "name": "x-sp-atk-3",
+      "url": "https://pokeapi.co/api/v2/item/641/"
+    },
+    {
+      "name": "x-sp-def-3",
+      "url": "https://pokeapi.co/api/v2/item/642/"
+    },
+    {
+      "name": "x-defense-3",
+      "url": "https://pokeapi.co/api/v2/item/643/"
+    },
+    {
+      "name": "x-attack-3",
+      "url": "https://pokeapi.co/api/v2/item/644/"
+    },
+    {
+      "name": "x-accuracy-3",
+      "url": "https://pokeapi.co/api/v2/item/645/"
+    },
+    {
+      "name": "x-speed-6",
+      "url": "https://pokeapi.co/api/v2/item/646/"
+    },
+    {
+      "name": "x-sp-atk-6",
+      "url": "https://pokeapi.co/api/v2/item/647/"
+    },
+    {
+      "name": "x-sp-def-6",
+      "url": "https://pokeapi.co/api/v2/item/648/"
+    },
+    {
+      "name": "x-defense-6",
+      "url": "https://pokeapi.co/api/v2/item/649/"
+    },
+    {
+      "name": "x-attack-6",
+      "url": "https://pokeapi.co/api/v2/item/650/"
+    },
+    {
+      "name": "x-accuracy-6",
+      "url": "https://pokeapi.co/api/v2/item/651/"
+    },
+    {
+      "name": "ability-urge",
+      "url": "https://pokeapi.co/api/v2/item/652/"
+    },
+    {
+      "name": "item-drop",
+      "url": "https://pokeapi.co/api/v2/item/653/"
+    },
+    {
+      "name": "item-urge",
+      "url": "https://pokeapi.co/api/v2/item/654/"
+    },
+    {
+      "name": "reset-urge",
+      "url": "https://pokeapi.co/api/v2/item/655/"
+    },
+    {
+      "name": "dire-hit-3",
+      "url": "https://pokeapi.co/api/v2/item/656/"
+    },
+    {
+      "name": "light-stone",
+      "url": "https://pokeapi.co/api/v2/item/657/"
+    },
+    {
+      "name": "dark-stone",
+      "url": "https://pokeapi.co/api/v2/item/658/"
+    },
+    {
+      "name": "tm93",
+      "url": "https://pokeapi.co/api/v2/item/659/"
+    },
+    {
+      "name": "tm94",
+      "url": "https://pokeapi.co/api/v2/item/660/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1472,
+  "item": {
+    "name": "tm99",
+    "url": "https://pokeapi.co/api/v2/item/748/"
+  },
+  "move": {
+    "name": "breaking-swipe",
+    "url": "https://pokeapi.co/api/v2/move/784/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

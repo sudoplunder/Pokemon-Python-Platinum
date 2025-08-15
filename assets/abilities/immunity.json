@@ -1,0 +1,8 @@
+{
+  "name": "immunity",
+  "display_name": "Immunity",
+  "generation": 3,
+  "short_effect": "Prevents poison.",
+  "effect": "This Pok\u00e9mon cannot be poisoned.  This includes bad poison.\n\nIf a Pok\u00e9mon is poisoned and acquires this ability, its poison is healed; this includes when regaining a lost ability upon leaving battle.",
+  "is_gen4_or_prior": true
+}

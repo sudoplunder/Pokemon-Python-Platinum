@@ -1,0 +1,15 @@
+{
+  "id": 361,
+  "item": {
+    "name": "tm18",
+    "url": "https://pokeapi.co/api/v2/item/322/"
+  },
+  "move": {
+    "name": "reflect",
+    "url": "https://pokeapi.co/api/v2/move/115/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}

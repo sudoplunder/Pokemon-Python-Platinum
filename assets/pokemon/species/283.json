@@ -1,0 +1,105 @@
+{
+  "id": 283,
+  "name": "surskit",
+  "generation": "3",
+  "types": [
+    "bug",
+    "water"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 32,
+    "sp_atk": 50,
+    "sp_def": 52,
+    "speed": 65
+  },
+  "base_experience": 54,
+  "growth_rate": "medium",
+  "capture_rate": 200,
+  "gender_rate": 4,
+  "hatch_cycles": 15,
+  "base_friendship": 70,
+  "egg_groups": [
+    "water1",
+    "bug"
+  ],
+  "abilities": {
+    "primary": "swift-swim",
+    "secondary": null,
+    "hidden": "rain-dish"
+  },
+  "moves": {
+    "level_up": [
+      {
+        "level": 1,
+        "name": "bubble"
+      },
+      {
+        "level": 7,
+        "name": "quick-attack"
+      },
+      {
+        "level": 13,
+        "name": "sweet-scent"
+      },
+      {
+        "level": 19,
+        "name": "water-sport"
+      },
+      {
+        "level": 25,
+        "name": "bubble-beam"
+      },
+      {
+        "level": 31,
+        "name": "agility"
+      },
+      {
+        "level": 37,
+        "name": "haze"
+      },
+      {
+        "level": 37,
+        "name": "mist"
+      },
+      {
+        "level": 43,
+        "name": "baton-pass"
+      }
+    ],
+    "machines": [
+      "attract",
+      "blizzard",
+      "double-team",
+      "facade",
+      "flash",
+      "frustration",
+      "giga-drain",
+      "hidden-power",
+      "ice-beam",
+      "protect",
+      "psych-up",
+      "rain-dance",
+      "rest",
+      "return",
+      "secret-power",
+      "shadow-ball",
+      "solar-beam",
+      "substitute",
+      "sunny-day",
+      "swagger",
+      "thief",
+      "toxic",
+      "water-pulse"
+    ]
+  },
+  "evolution": {
+    "previous": null,
+    "next": [
+      284
+    ],
+    "root": 283,
+    "next_details": []
+  }
+}

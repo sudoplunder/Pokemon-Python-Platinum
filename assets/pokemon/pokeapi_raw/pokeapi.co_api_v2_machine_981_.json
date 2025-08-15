@@ -1,0 +1,15 @@
+{
+  "id": 981,
+  "item": {
+    "name": "tm49",
+    "url": "https://pokeapi.co/api/v2/item/353/"
+  },
+  "move": {
+    "name": "sand-tomb",
+    "url": "https://pokeapi.co/api/v2/move/328/"
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "https://pokeapi.co/api/v2/version-group/20/"
+  }
+}
