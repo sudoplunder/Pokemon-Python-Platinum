@@ -1,1 +1,1 @@
-# Namespace package if needed later
+from .characters import characters

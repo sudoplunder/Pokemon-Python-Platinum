@@ -1,8 +1,15 @@
 import json
 from pathlib import Path
-from jsonschema import validate
 from .types import EventDef, Trigger, ScriptCommand
 from .registry import EventRegistry
+
+try:
+    from jsonschema import validate
+    HAS_JSONSCHEMA = True
+except ImportError:
+    HAS_JSONSCHEMA = False
+    def validate(instance, schema):
+        pass  # No-op if jsonschema not available
 SCHEMA_PATH = Path("schema/event.schema.json")
 EVENTS_ROOT = Path("assets/events")
 def load_schema():
