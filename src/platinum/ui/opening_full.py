@@ -18,10 +18,10 @@ import json, os, sys, time, threading, random, re, datetime
 from pathlib import Path
 from typing import List, Callable
 
-from platinum.ui.logo import colored_logo
-from platinum.audio.player import audio
-from platinum.ui.keys import read_key
-from platinum.core.logging import logger
+from .ui.logo import colored_logo
+from .audio.player import audio
+from .ui.keys import read_key
+from .core.logging import logger
 
 CONFIG_PATH = Path("assets/config/opening_config.json")
 

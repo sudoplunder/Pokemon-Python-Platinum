@@ -1,10 +1,10 @@
 from __future__ import annotations
 import os
-from platinum.system.settings import Settings
-from platinum.game.context import GameContext
-from platinum.ui.menu import main_menu
-from platinum.ui.opening import show_opening
-from platinum.core.logging import logger
+from .system.settings import Settings
+from .game.context import GameContext
+from .ui.menu import main_menu
+from .ui.opening import show_opening
+from .core.logging import logger
 
 def _dev_loop(ctx: GameContext):
     """Developer debug command loop."""

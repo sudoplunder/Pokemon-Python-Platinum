@@ -3,8 +3,8 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional
-from platinum.core.logging import logger
-from platinum.core.paths import LOCATIONS
+from ..core.logging import logger
+from ..core.paths import LOCATIONS
 
 @dataclass
 class Location:

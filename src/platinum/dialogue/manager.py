@@ -3,10 +3,10 @@ import json
 from pathlib import Path
 from random import Random
 from typing import Dict
-from platinum.core.logging import logger
-from platinum.dialogue.variant import DialogueEntry, VariantSelector
-from platinum.dialogue.render import render_line
-from platinum.core.paths import DIALOGUE_EN
+from .core.logging import logger
+from .dialogue.variant import DialogueEntry, VariantSelector
+from .dialogue.render import render_line
+from .core.paths import DIALOGUE_EN
 
 class DialogueManager:
     def __init__(self, settings):

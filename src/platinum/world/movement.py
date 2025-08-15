@@ -1,5 +1,5 @@
 from __future__ import annotations
-from platinum.core.logging import logger
+from ..core.logging import logger
 
 def move_player(ctx, new_location: str):
     """Handle player movement to a new location."""

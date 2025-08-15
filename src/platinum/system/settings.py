@@ -3,7 +3,7 @@ import json, os
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Callable, List
-from platinum.core.logging import logger
+from ..core.logging import logger
 
 SETTINGS_FILENAME = ".platinum_settings.json"
 

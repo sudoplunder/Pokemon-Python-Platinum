@@ -1,8 +1,8 @@
 from __future__ import annotations
 from typing import Dict, Any
-from platinum.events.commands.base import registry, ICommand
-from platinum.core.logging import logger
-from platinum.battle.models import make_pokemon
+from .base import registry, ICommand
+from ...core.logging import logger
+from ...battle.models import make_pokemon
 
 class ShowTextCommand:
     name = "SHOW_TEXT"

@@ -1,6 +1,6 @@
 from __future__ import annotations
 import random
-from platinum.battle.models import Pokemon, Move
+from .models import Pokemon, Move
 
 TYPE_EFFECTIVENESS = {
     ("fire","grass"): 2.0,

@@ -1,7 +1,7 @@
 from __future__ import annotations
 import json
 from pathlib import Path
-from platinum.core.logging import logger
+from ..core.logging import logger
 
 SAVE_DIR = Path("saves")
 SAVE_FILE = SAVE_DIR / "save1.json"

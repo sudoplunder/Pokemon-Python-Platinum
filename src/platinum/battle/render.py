@@ -1,5 +1,5 @@
 from __future__ import annotations
-from platinum.ui.colors import colored_text
+from ..ui.colors import colored_text
 
 def draw_hp_bar(current: int, max_hp: int, width: int = 20) -> str:
     if max_hp <= 0:

@@ -1,10 +1,10 @@
 from __future__ import annotations
 from typing import List
-from platinum.battle.models import make_pokemon, Pokemon
-from platinum.battle.mechanics import calculate_damage, accuracy_check
-from platinum.battle.ai import choose_move
-from platinum.battle.render import draw_hp_bar, format_battle_text
-from platinum.core.logging import logger
+from .models import make_pokemon, Pokemon
+from .mechanics import calculate_damage, accuracy_check
+from .ai import choose_move
+from .render import draw_hp_bar, format_battle_text
+from ..core.logging import logger
 
 class BattleService:
     def __init__(self, ctx):

@@ -1,6 +1,6 @@
 from __future__ import annotations
-from platinum.battle.models import Pokemon, Move
-from platinum.battle.mechanics import effectiveness
+from .models import Pokemon, Move
+from .mechanics import effectiveness
 
 def choose_move(user: Pokemon, foe: Pokemon):
     best = None

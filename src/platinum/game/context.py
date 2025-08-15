@@ -3,15 +3,15 @@ from dataclasses import dataclass, field
 import random
 import os
 from typing import List, Dict, Optional
-from platinum.core.flags import FlagSet
-from platinum.events.engine import EventEngine
-from platinum.events.loader import load_events
-from platinum.dialogue.manager import DialogueManager
-from platinum.system.settings import Settings
-from platinum.system.save import SaveStore
-from platinum.battle.service import BattleService
-from platinum.world.locations import LocationRegistry
-from platinum.world.encounters import EncounterRegistry
+from ..core.flags import FlagSet
+from ..events.engine import EventEngine
+from ..events.loader import load_events
+from ..dialogue.manager import DialogueManager
+from ..system.settings import Settings
+from ..system.save import SaveStore
+from ..battle.service import BattleService
+from ..world.locations import LocationRegistry
+from ..world.encounters import EncounterRegistry
 
 @dataclass
 class PlayerState:
@@ -88,7 +88,7 @@ class GameContext:
         self.player.money = p.get("money", self.player.money)
         self.inventory = data.get("inventory", {})
         # Party reconstruction placeholder (species minimal)
-        from platinum.battle.models import make_pokemon
+        from ..battle.models import make_pokemon
         self.party = []
         for entry in data.get("party", []):
             self.party.append(make_pokemon(entry["species"], entry.get("level", 5)))

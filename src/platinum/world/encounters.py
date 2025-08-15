@@ -3,8 +3,8 @@ import json, random
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Dict, Optional
-from platinum.core.logging import logger
-from platinum.core.paths import ENCOUNTERS
+from ..core.logging import logger
+from ..core.paths import ENCOUNTERS
 
 @dataclass
 class EncounterSlot:
