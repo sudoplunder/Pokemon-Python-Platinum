@@ -1,0 +1,8 @@
+{
+  "id": "route_201_grass",
+  "method": "grass",
+  "slots": [
+    {"species":"starly","rate":40,"min":2,"max":4},
+    {"species":"bidoof","rate":60,"min":2,"max":4}
+  ]
+}

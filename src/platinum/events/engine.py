@@ -1,8 +1,8 @@
 from __future__ import annotations
 from typing import Dict, Iterable
-from platinum.events.model import Event
-from platinum.events.commands.base import registry
-from platinum.core.logging import logger
+from .model import Event
+from .commands.base import registry
+from ..core.logging import logger
 
 class EventEngine:
     def __init__(self, context):
@@ -25,7 +25,7 @@ class EventEngine:
         while fired_loop and safety < 5:
             fired_loop = False
             for evt in candidates:
-                if not evt.eligible(self.context.flags):
+                if not evt.eligible(self.context.flags._flags):
                     continue
                 if not self._matches(evt.trigger, trigger):
                     continue

@@ -2,10 +2,10 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from typing import List
-from platinum.events.model import Event, EventAction
-from platinum.core.logging import logger
-from platinum.core.errors import DataLoadError
-from platinum.core.paths import EVENTS, SCHEMA
+from .model import Event, EventAction
+from ..core.logging import logger
+from ..core.errors import DataLoadError
+from ..core.paths import EVENTS, SCHEMA
 
 def _try_schema_validate(data: dict, path: Path):
     try:

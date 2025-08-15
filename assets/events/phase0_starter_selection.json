@@ -1,0 +1,10 @@
+{
+  "id": "starter_selection_intro",
+  "trigger": { "type": "flag_set", "value": "OPENING_COMPLETE" },
+  "prerequisites": { "none": ["STARTER_CHOSEN"] },
+  "actions": [
+    { "command": "show_dialogue", "dialogue_key": "rowan_intro_1" },
+    { "command": "starter_menu" }
+  ],
+  "once": true
+}

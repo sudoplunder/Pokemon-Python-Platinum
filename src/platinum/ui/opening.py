@@ -1,8 +1,15 @@
 from __future__ import annotations
-from platinum.ui.logo import print_logo
-from platinum.core.logging import logger
+import os
+from .logo import print_logo
+from ..core.logging import logger
 
 def show_opening():
-    print_logo()
-    print("Fan-made educational reconstruction – Scope C foundation.")
-    logger.info("Opening shown")
+    """Show the opening sequence, optionally skipping animation in minimal mode."""
+    if os.environ.get('PLAT_MINIMAL_OPENING') == '1':
+        print_logo()
+        print("Fan-made educational reconstruction – Scope C foundation.")
+        logger.info("Opening shown")
+    else:
+        # Import and run the full animated sequence
+        from .opening_full import show_opening_sequence
+        show_opening_sequence()

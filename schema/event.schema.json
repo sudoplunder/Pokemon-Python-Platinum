@@ -32,14 +32,24 @@
         "type": "object",
         "required": ["command"],
         "properties": {
-          "command": { "type": "string" },
+          "command": { 
+            "type": "string",
+            "enum": ["SHOW_TEXT", "show_dialogue", "give_item", "give_pokemon", "starter_menu", 
+                     "start_trainer_battle", "scripted_capture_demo", "set_location", 
+                     "start_wild_battle", "SET_FLAG", "CLEAR_FLAG", "START_BATTLE"]
+          },
           "dialogue_key": { "type": "string" },
           "keys": { "type": "array", "items": { "type": "string" } },
           "speaker": { "type": "string" },
-            "mode": { "type": "string" },
+          "mode": { "type": "string" },
           "battle_id": { "type": "string" },
           "menu": { "type": "string" },
           "flag": { "type": "string" },
+          "item": { "type": "string" },
+          "quantity": { "type": "integer", "minimum": 1 },
+          "species": { "type": "string" },
+          "level": { "type": "integer", "minimum": 1, "maximum": 100 },
+          "location": { "type": "string" },
           "value": {}
         },
         "additionalProperties": true
