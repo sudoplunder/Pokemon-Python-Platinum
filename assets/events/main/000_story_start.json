@@ -1,0 +1,11 @@
+{
+  "id": "story.start",
+  "trigger": { "type": "game_start" },
+  "once": true,
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.start.1" },
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.start.2" },
+    { "command": "SET_FLAG", "flag": "met_prof_rowan" }
+  ],
+  "set_flags": ["story_started"]
+}

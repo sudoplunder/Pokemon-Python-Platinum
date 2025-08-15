@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Event Definition",
+  "type": "object",
+  "required": ["id", "trigger", "actions"],
+  "properties": {
+    "id": { "type": "string" },
+    "trigger": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string" },
+        "value": { "type": ["string", "number", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "once": { "type": "boolean", "default": true },
+    "prerequisites": {
+      "type": "object",
+      "properties": {
+        "all": { "type": "array", "items": { "type": "string" } },
+        "any": { "type": "array", "items": { "type": "string" } },
+        "none": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "set_flags": { "type": "array", "items": { "type": "string" } },
+    "clear_flags": { "type": "array", "items": { "type": "string" } },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["command"],
+        "properties": {
+          "command": { "type": "string" },
+          "dialogue_key": { "type": "string" },
+          "keys": { "type": "array", "items": { "type": "string" } },
+          "speaker": { "type": "string" },
+            "mode": { "type": "string" },
+          "battle_id": { "type": "string" },
+          "menu": { "type": "string" },
+          "flag": { "type": "string" },
+          "value": {}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

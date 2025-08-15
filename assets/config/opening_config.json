@@ -1,0 +1,31 @@
+{
+  "music": "assets/audio/opening_theme.ogg",
+  "creators_lines": [
+    "Created by Joel Kweder",
+    "Music composed by Zame https://www.youtube.com/@The_Zame."
+  ],
+  "legal_lines": [
+    "Pok\u00e9mon \u00a9 1996\u2013{CURRENT_YEAR} Nintendo / Creatures Inc. / GAME FREAK inc.",
+    "Pok\u00e9mon Platinum \u00a9 2008\u20132009 Nintendo / Creatures Inc. / GAME FREAK inc.",
+    "This fan-made, non-commercial project is not affiliated with or endorsed by Nintendo, Creatures, or GAME FREAK."
+  ],
+  "timings": {
+    "twinkle_at": 6.0,
+    "logo_at": 21.5
+  },
+  "char_interval_creators": 0.035,
+  "char_interval_legal": 0.028,
+  "twinkle_frames": ["✦", "✧", "✩", "✧"],
+  "twinkle_frame_interval": 0.08,
+  "multi_sparkle": {
+    "enabled": true,
+    "count": 14,
+    "duration": 0.85,
+    "frame_interval": 0.08,
+  "vertical_offset": -1,
+  "extra_height_pad": 1,
+  "horizontal_pad_chars": 6,
+  "seed": null
+  },
+  "post_logo_prompt": "Press Enter To Start"
+}

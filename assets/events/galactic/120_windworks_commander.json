@@ -1,0 +1,13 @@
+{
+  "id": "galactic.windworks.commander.taunt",
+  "trigger": { "type": "flag_set", "value": "windworks_entered" },
+  "prerequisites": {
+    "all": ["windworks_entered"],
+    "none": ["commander_taunted"]
+  },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "windworks.commander.taunt" },
+    { "command": "SET_FLAG", "flag": "commander_taunted" }
+  ],
+  "set_flags": ["commander_taunted"]
+}

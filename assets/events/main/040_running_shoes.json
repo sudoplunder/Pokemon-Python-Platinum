@@ -1,0 +1,13 @@
+{
+  "id": "gift.running_shoes",
+  "trigger": { "type": "flag_set", "value": "starter_chosen" },
+  "prerequisites": {
+    "all": ["starter_chosen"],
+    "none": ["received_running_shoes"]
+  },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.mom.running_shoes" },
+    { "command": "SET_FLAG", "flag": "received_running_shoes" }
+  ],
+  "set_flags": ["received_running_shoes"]
+}

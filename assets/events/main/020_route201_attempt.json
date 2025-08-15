@@ -1,0 +1,13 @@
+{
+  "id": "route201.first_lake_plan",
+  "trigger": { "type": "flag_set", "value": "rival_introduced" },
+  "prerequisites": {
+    "all": ["rival_introduced"],
+    "none": ["starter_chosen"]
+  },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.lake.plan" },
+    { "command": "SET_FLAG", "flag": "lake_plan_formed" }
+  ],
+  "set_flags": ["lake_plan_formed"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "rival.visit.home",
+  "trigger": { "type": "flag_set", "value": "story_started" },
+  "prerequisites": {
+    "none": ["left_home"],
+    "all": ["story_started"]
+  },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.rival.intro" },
+    { "command": "SET_FLAG", "flag": "rival_introduced" }
+  ],
+  "set_flags": ["rival_introduced"]
+}

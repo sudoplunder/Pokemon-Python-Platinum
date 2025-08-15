@@ -1,0 +1,21 @@
+{
+  "_meta": { "phase": 1 },
+  "early.sandgem.rowan.1": {
+    "base": "So, you've obtained your first partner Pokémon.",
+    "concise": "You got a starter.",
+    "expanded": "I see you've already formed a bond with your first partner Pokémon—excellent.",
+    "speaker": "prof"
+  },
+  "early.pokedex.gift": {
+    "base": "Here is your Pokédex. It will record data automatically.",
+    "concise": "Take this Pokédex.",
+    "expanded": "Accept this Pokédex—it will automatically record detailed data on any Pokémon you encounter.",
+    "speaker": "prof"
+  },
+  "early.rival.challenge": {
+    "base": "I'll keep getting stronger! You do the same!",
+    "concise": "I'll get stronger!",
+    "expanded": "I'm going to train nonstop and get way stronger—you'd better keep pace too!",
+    "speaker": "rival"
+  }
+}

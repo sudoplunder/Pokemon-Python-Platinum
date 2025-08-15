@@ -1,0 +1,10 @@
+{
+  "id": "rival_battle_1",
+  "trainer": "rival",
+  "party": [
+    { "species": "Starly", "level": 5 }
+  ],
+  "rewards": {
+    "money": 500
+  }
+}

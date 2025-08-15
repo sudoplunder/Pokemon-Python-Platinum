@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: platinum-text
+Version: 0.1.0
+Summary: High-fidelity text-based reconstruction of Pokémon Platinum (Prima pacing)
+Requires-Python: >=3.11
+Requires-Dist: jsonschema>=4.21.0
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: pygame>=2.5.0
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: rich; extra == "dev"
