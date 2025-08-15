@@ -1,5 +1,5 @@
 from .characters import characters
-from platinum.ui.dialogue_manager import DialogueManager  # runtime injection expected
+# Import will be done at runtime to avoid circular dependency
 def cmd_SHOW_TEXT(ctx, **kwargs):
     text_id = kwargs.get("text_id")
     speaker_key = kwargs.get("speaker","narration")

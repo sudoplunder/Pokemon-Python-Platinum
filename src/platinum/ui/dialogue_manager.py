@@ -35,10 +35,21 @@ class DialogueManager:
             if isinstance(pool,list) and pool:
                 variant = random.choice(pool)
         if variant is None:
-            if "expanded" in entry: variant = entry["expanded"]
-            elif "base" in entry: variant = entry["base"]
+            if "expanded" in entry: 
+                variant = entry["expanded"]
+            elif "base" in entry: 
+                variant = entry["base"]
             else:
                 alt = entry.get("alt")
-                if isinstance(alt,list) and alt: variant = alt[0]
-                else: variant = "[no text]"
-        return variant
+                if isinstance(alt,list) and alt: 
+                    variant = alt[0]
+                else: 
+                    variant = "[no text]"
+        
+        # Ensure we always return a string, not a list
+        if isinstance(variant, list) and variant:
+            variant = variant[0]
+        elif isinstance(variant, list):
+            variant = "[empty list]"
+            
+        return str(variant)
