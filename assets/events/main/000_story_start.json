@@ -1,0 +1,5 @@
+{
+  "id":"story.start","category":"main","phase":0,"prerequisites":[],
+  "triggers":[{"type":"game_start"}],"once":true,"set_flags":["story.start"],
+  "script":[{"cmd":"SHOW_TEXT","speaker":"narration","text_id":"intro.tv.program"}]
+}

@@ -10,10 +10,14 @@ mkdir -p assets/battle_configs/rival
 mkdir -p assets/events/main
 mkdir -p assets/events/galactic
 mkdir -p src/platinum/events
+mkdir -p src/platinum/events/characters
 mkdir -p src/platinum/ui
 mkdir -p src/platinum/core
 mkdir -p src/platinum/inventory
 mkdir -p src/platinum/config
+mkdir -p src/platinum/system
+mkdir -p src/platinum/battle
+mkdir -p scripts
 mkdir -p tests/unit
 
 # ---- Write files ----

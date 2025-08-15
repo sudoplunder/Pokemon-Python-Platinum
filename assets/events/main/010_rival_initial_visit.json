@@ -1,0 +1,7 @@
+{
+  "id":"story.rival_initial_visit","category":"main","phase":0,
+  "prerequisites":["story.start","!story.rival_initial_visit"],
+  "triggers":[{"type":"enter_location","location":"PLAYER_HOUSE_1F"}],
+  "once":true,"set_flags":["story.rival_initial_visit"],
+  "script":[{"cmd":"SHOW_TEXT","speaker":"barry","text_id":"barry.enters.player.house"}]
+}

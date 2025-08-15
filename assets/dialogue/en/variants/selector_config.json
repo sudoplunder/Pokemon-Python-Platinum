@@ -1,0 +1,7 @@
+{ "default_mode":"expanded",
+  "modes":{
+    "concise":{"fallback":"base"},
+    "expanded":{"fallback":"expanded"},
+    "alt":{"cycle":true}
+  }
+}

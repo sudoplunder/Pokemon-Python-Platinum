@@ -1,0 +1,11 @@
+{
+  "id":"item.key.running_shoes","category":"main","phase":1,
+  "prerequisites":["story.received_starter","!item.key.running_shoes"],
+  "triggers":[{"type":"enter_location","location":"PLAYER_HOUSE_1F"}],
+  "once":true,"set_flags":["item.key.running_shoes"],
+  "script":[
+    {"cmd":"SHOW_TEXT","speaker":"mom_player","text_id":"return.home.mom.running.shoes"},
+    {"cmd":"GIVE_ITEM","item":"running_shoes"}
+  ],
+  "next_hints":[{"text_id":"hint_go_route201"}]
+}

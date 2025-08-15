@@ -1,0 +1,10 @@
+{
+  "id":"story.route201_attempt","category":"main","phase":0,
+  "prerequisites":["story.rival_initial_visit","!story.route201_attempt"],
+  "triggers":[{"type":"enter_location","location":"ROUTE_201_EDGE"}],
+  "once":true,"set_flags":["story.route201_attempt"],
+  "script":[
+    {"cmd":"SHOW_TEXT","speaker":"rowan","text_id":"route201.pre.grass.stop"},
+    {"cmd":"CALL_EVENT","event_id":"story.starter_selection"}
+  ]
+}
