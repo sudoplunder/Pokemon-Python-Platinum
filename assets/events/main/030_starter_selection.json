@@ -1,0 +1,13 @@
+{
+  "id":"story.starter_selection","category":"main","phase":0,
+  "prerequisites":["story.route201_attempt","!story.received_starter"],
+  "triggers":[{"type":"script_call","name":"invoke_starter_menu"}],
+  "once":true,"set_flags":["story.received_starter"],
+  "script":[
+    {"cmd":"SHOW_TEXT","speaker":"rowan","text_id":"rowan.offer.starters"},
+    {"cmd":"STARTER_CHOICE","choices":["turtwig","chimchar","piplup"],"assign_flag_prefix":"starter."},
+    {"cmd":"SHOW_TEXT","speaker":"narration","text_id":"starter.chosen.reaction"},
+    {"cmd":"SHOW_TEXT","speaker":"barry","text_id":"barry.first.challenge"},
+    {"cmd":"START_BATTLE","battle_id":"rival_1","context":"initial"}
+  ]
+}

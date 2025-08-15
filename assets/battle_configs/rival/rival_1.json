@@ -1,0 +1,11 @@
+{
+  "id":"rival_1",
+  "opponent_id":"TRAINER_RIVAL",
+  "teams":[
+    {"player_starter":"turtwig","enemy":[{"species":"chimchar","level":5,"moves":["scratch","leer"]}]},
+    {"player_starter":"chimchar","enemy":[{"species":"piplup","level":5,"moves":["pound","growl"]}]},
+    {"player_starter":"piplup","enemy":[{"species":"turtwig","level":5,"moves":["tackle","withdraw"]}]}
+  ],
+  "reward_money":300,
+  "ai":"basic"
+}

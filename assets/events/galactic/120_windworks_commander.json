@@ -1,0 +1,13 @@
+{
+  "id":"galactic.windworks_cleared","category":"galactic","phase":3,
+  "prerequisites":["item.key.works_key","!galactic.windworks_cleared"],
+  "triggers":[{"type":"enter_location","location":"VALLEY_WINDWORKS_INTERIOR"}],
+  "once":true,"set_flags":["galactic.windworks_cleared"],
+  "script":[
+    {"cmd":"SHOW_TEXT","speaker":"mars","text_id":"mars.pre.battle"},
+    {"cmd":"START_BATTLE","battle_id":"commander_mars_1"},
+    {"cmd":"SHOW_TEXT","speaker":"mars","text_id":"mars.post.battle"},
+    {"cmd":"SHOW_TEXT","speaker":"scientist_hostage","text_id":"windworks.hostage.freedom"}
+  ],
+  "reward":{"items":[{"id":"honey","qty":1}],"spawn_unlocks":["drifloon_friday"]}
+}
