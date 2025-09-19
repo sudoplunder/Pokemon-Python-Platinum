@@ -1,0 +1,17 @@
+{
+  "id": "sandgem.exit_lab",
+  "trigger": { "type": "enter_map", "value": "sandgem_town" },
+  "once": true,
+  "prerequisites": {
+    "all": ["pokedex_received"],
+    "none": ["lab_exit_tour_done"]
+  },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.assistant.tour.start" },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.assistant.tour.center" },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.assistant.tour.mart" },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.assistant.tour.finish" },
+    { "command": "SET_FLAG", "flag": "lab_exit_tour_done" }
+  ],
+  "set_flags": ["lab_exit_tour_done"]
+}

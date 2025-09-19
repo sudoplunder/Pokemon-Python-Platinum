@@ -40,6 +40,9 @@ class BattleSession:
         self.turn_counter = 0
         self.log: List[str] = []
         self.is_wild = is_wild
+        # Track which party members participated (entered battle) for EXP share
+        self.player_participants = {self.player.active_index}
+        self.enemy_participants = {self.enemy.active_index}
 
         def _capture(msg: str):
             self.log.append(msg)
@@ -51,6 +54,15 @@ class BattleSession:
     def step(self, player_move_idx: int = 0, enemy_move_idx: int = 0):
         self.player.auto_switch_if_fainted()
         self.enemy.auto_switch_if_fainted()
+        # Mark current actives as participants each step
+        try:
+            self.player_participants.add(self.player.active_index)
+        except Exception:
+            pass
+        try:
+            self.enemy_participants.add(self.enemy.active_index)
+        except Exception:
+            pass
         if self.is_over():
             return
         p_act = self.player.active()
@@ -110,6 +122,15 @@ class BattleSession:
             ball = 'poke-ball'
         res = attempt_capture(self.core.rng, capture_rate, max_hp, cur_hp, ball, enemy_active.status)
         if res.success:
+            # Stash capture metadata for events layer to handle post-battle party/PC placement
+            try:
+                setattr(self, '_capture_species_id', int(getattr(enemy_active, 'species_id')))
+            except Exception:
+                setattr(self, '_capture_species_id', None)
+            try:
+                setattr(self, '_capture_level', int(getattr(enemy_active, 'level', 1)))
+            except Exception:
+                setattr(self, '_capture_level', 1)
             return 'CAPTURED'
         return f'BREAK_OUT_{res.shakes}'
 

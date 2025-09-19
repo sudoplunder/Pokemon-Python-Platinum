@@ -1,0 +1,27 @@
+{
+  "id": "route_202",
+  "name": "Route 202",
+  "music": "route_202",
+  "required_trainers": [
+    {"id": "youngster_tristan", "flag": "route_202_youngster_tristan_defeated"},
+    {"id": "youngster_logan", "flag": "route_202_youngster_logan_defeated"},
+    {"id": "lass_beth", "flag": "route_202_lass_beth_defeated"}
+  ],
+  "actions": [
+    { "label": "Battle Youngster Tristan", "type": "trainer_battle", "trainer_id": "youngster_tristan", "set_flag": "route_202_youngster_tristan_defeated", "requires_not_flag": "route_202_youngster_tristan_defeated" },
+    { "label": "Speak to Youngster Tristan", "type": "trainer_post_battle", "trainer_id": "youngster_tristan", "requires_flag": "route_202_youngster_tristan_defeated" },
+    { "label": "Battle Youngster Logan", "type": "trainer_battle", "trainer_id": "youngster_logan", "set_flag": "route_202_youngster_logan_defeated", "requires_not_flag": "route_202_youngster_logan_defeated" },
+    { "label": "Speak to Youngster Logan", "type": "trainer_post_battle", "trainer_id": "youngster_logan", "requires_flag": "route_202_youngster_logan_defeated" },
+    { "label": "Battle Lass Beth", "type": "trainer_battle", "trainer_id": "lass_beth", "set_flag": "route_202_lass_beth_defeated", "requires_not_flag": "route_202_lass_beth_defeated" },
+    { "label": "Speak to Lass Beth", "type": "trainer_post_battle", "trainer_id": "lass_beth", "requires_flag": "route_202_lass_beth_defeated" },
+    { "label": "Search tall grass", "type": "encounter", "method": "grass", "zone": "route202" },
+    { "label": "Surf on water", "type": "encounter", "method": "water", "zone": "route202" },
+    { "label": "Use Old Rod (fishing)", "type": "encounter", "method": "old_rod", "zone": "route202" },
+    { "label": "Use Good Rod (fishing)", "type": "encounter", "method": "good_rod", "zone": "route202" },
+    { "label": "Use Super Rod (fishing)", "type": "encounter", "method": "super_rod", "zone": "route202" },
+    { "label": "Head south to Sandgem Town", "type": "move", "target": "sandgem_town" },
+    { "label": "Head north to Jubilife City", "type": "move_with_trainer_check", "target": "jubilife_city" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": []
+}

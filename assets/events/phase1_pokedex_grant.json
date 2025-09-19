@@ -3,8 +3,7 @@
   "trigger": { "type": "flag_set", "value": "REACHED_SANDGEM" },
   "prerequisites": { "all": ["FIRST_RIVAL_BATTLE_DONE"], "none": ["POKEDEX_OBTAINED"] },
   "actions": [
-    { "command": "show_dialogue", "dialogue_key": "rowan_pokedex_grant" },
-    { "command": "give_item", "item": "tm_return", "quantity": 1 }
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.rowan.pokedex.give" }
   ],
   "set_flags": ["POKEDEX_OBTAINED"],
   "once": true

@@ -1,0 +1,20 @@
+{
+  "id": "sandgem.pokedex.grant",
+  "trigger": { "type": "enter_map", "value": "sandgem_lab" },
+  "once": true,
+  "prerequisites": {
+    "all": ["sandgem_arrival_done"],
+    "none": ["pokedex_received"]
+  },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.rowan.rival.leaving" },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.rowan.lab.intro" },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.rowan.pokemon.happiness" },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.rowan.pokedex.offer" },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.rowan.pokedex.give" },
+    { "command": "GIVE_ITEM", "item": "TM27", "key": "tm27-return", "pocket": "TMs & HMs" },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.rowan.tm27.give" },
+    { "command": "SET_FLAG", "flag": "pokedex_received" }
+  ],
+  "set_flags": ["pokedex_received"]
+}

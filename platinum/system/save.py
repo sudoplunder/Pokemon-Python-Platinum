@@ -5,9 +5,13 @@ from pathlib import Path
 from typing import List, Dict, Any
 from platinum.core.logging import logger
 from platinum.battle.experience import clamp_level
+from platinum.battle.experience import required_exp_for_level
 
 SAVE_DIR_NAME = ".platinum_saves"
 LATEST_SYMLINK = "latest.txt"
+ALT_LATEST_SYMLINK = "latest.xt"  # compatibility alias per UI request
+MASTER_SAVE_FILENAME = "save_master.json"
+TEMP_SAVE_FILENAME = "save_temp.json"
 
 @dataclass
 class PartyMember:
@@ -18,6 +22,7 @@ class PartyMember:
     status: str | None = None
     exp: int = 0  # total accumulated experience (curve: n^3 placeholder)
     moves: list[str] = field(default_factory=list)  # learned move internal names (max 4 enforced on learn)
+    move_pp: Dict[str, int] = field(default_factory=dict)  # remaining PP per move key (internal name)
 
 @dataclass
 class GameState:
@@ -37,6 +42,8 @@ class GameState:
     play_time_seconds: int = 0
     last_save_ts: float = 0.0
     version: int = 1
+    system_time: str = "00:00"  # last captured system clock HH:MM
+    time_of_day: str = "day"     # enum: morning|day|evening|night
 
     def to_json(self) -> Dict[str, Any]:
         data = asdict(self)
@@ -50,6 +57,13 @@ class GameState:
         pc_box = [PartyMember(**p) for p in data.get("pc_box", [])]
         for pm in party + pc_box:
             pm.level = clamp_level(pm.level)
+            # Migration: ensure exp baseline matches level threshold so XP gains level correctly
+            try:
+                need = required_exp_for_level(pm.level)
+                if getattr(pm, 'exp', 0) < need:
+                    pm.exp = need
+            except Exception:
+                pass
         return cls(
             player_name=data.get("player_name", "PLAYER"),
             rival_name=data.get("rival_name", "RIVAL"),
@@ -66,7 +80,9 @@ class GameState:
             inventory=data.get("inventory", {}),
             play_time_seconds=data.get("play_time_seconds", 0),
             last_save_ts=data.get("last_save_ts", 0.0),
-            version=data.get("version", 1)
+            version=data.get("version", 1),
+            system_time=data.get("system_time", "00:00"),
+            time_of_day=data.get("time_of_day", "day")
         )
 
 
@@ -76,53 +92,117 @@ def _save_dir() -> Path:
     path.mkdir(parents=True, exist_ok=True)
     return path
 
+def _master_path() -> Path:
+    return _save_dir() / MASTER_SAVE_FILENAME
+
+def _temp_path() -> Path:
+    return _save_dir() / TEMP_SAVE_FILENAME
+
 
 def list_saves() -> List[Path]:
-    d = _save_dir()
-    return sorted(d.glob("save_*.json"))
+    """Single-file model: return the master file if it exists.
+
+    Back-compat: callers that expect a list still get a list type.
+    """
+    p = _master_path()
+    return [p] if p.exists() else []
 
 
 def save_game(state: GameState) -> Path:
+    """Write the single master save file and update pointer files."""
     d = _save_dir()
     state.last_save_ts = time.time()
-    # naive play time accumulation could be improved with session tracking
-    existing = list_saves()
-    idx = len(existing) + 1
-    path = d / f"save_{idx:02d}.json"
+    path = _master_path()
     path.write_text(json.dumps(state.to_json(), indent=2))
-    # Update latest pointer
+    # Update latest pointers (both names)
     (d / LATEST_SYMLINK).write_text(path.name)
+    try:
+        (d / ALT_LATEST_SYMLINK).write_text(path.name)
+    except Exception:
+        pass
     logger.info("GameSaved", file=str(path))
     return path
 
-def save_game_slot(state: GameState, slot_index: int) -> Path:
-    """Overwrite specific slot (1-based). Creates intermediate slots if missing by appending until index reached."""
+def save_temp(state: GameState) -> Path:
+    """Write the temporary session save (not used for Continue)."""
     d = _save_dir()
     state.last_save_ts = time.time()
-    existing = list_saves()
-    # If slot beyond existing count, just behave like append until we reach it
-    if slot_index > len(existing):
-        # append new
-        path = d / f"save_{slot_index:02d}.json"
-    else:
-        path = existing[slot_index-1]
+    path = _temp_path()
     path.write_text(json.dumps(state.to_json(), indent=2))
-    (d / LATEST_SYMLINK).write_text(path.name)
-    logger.info("GameSavedSlot", file=str(path), slot=slot_index)
+    logger.debug("GameTempSaved", file=str(path))
     return path
+
+def delete_temp() -> None:
+    """Delete the temporary session save if present."""
+    try:
+        p = _temp_path()
+        if p.exists():
+            p.unlink()
+            logger.debug("GameTempDeleted", file=str(p))
+    except Exception:
+        pass
+
+def save_game_slot(state: GameState, slot_index: int) -> Path:
+    """Single-file model: ignore slot and save to master file."""
+    return save_game(state)
 
 
 def load_latest() -> GameState | None:
     d = _save_dir()
+    master = _master_path()
+    # Preferred: load master save
+    if master.exists():
+        try:
+            data = json.loads(master.read_text())
+            return GameState.from_json(data)
+        except Exception as e:
+            logger.error("GameLoadFailed", file=str(master), error=str(e))
+            return None
+    # Legacy pointers
     pointer = d / LATEST_SYMLINK
     if not pointer.exists():
-        return None
+        alt = d / ALT_LATEST_SYMLINK
+        if alt.exists():
+            pointer = alt
+        else:
+            # As last resort, try to find any legacy save_*.json
+            legacy = sorted(d.glob("save_*.json"))
+            if not legacy:
+                return None
+            fp = legacy[-1]
+            try:
+                data = json.loads(fp.read_text())
+                # Migrate into master for future loads
+                try:
+                    master.write_text(json.dumps(data, indent=2))
+                    (d / LATEST_SYMLINK).write_text(master.name)
+                    try:
+                        (d / ALT_LATEST_SYMLINK).write_text(master.name)
+                    except Exception:
+                        pass
+                except Exception:
+                    pass
+                return GameState.from_json(data)
+            except Exception as e:
+                logger.error("GameLoadFailed", file=str(fp), error=str(e))
+                return None
+    # Try pointer target
     name = pointer.read_text().strip()
     fp = d / name
     if not fp.exists():
         return None
     try:
         data = json.loads(fp.read_text())
+        # Migrate into master
+        try:
+            master.write_text(json.dumps(data, indent=2))
+            (d / LATEST_SYMLINK).write_text(master.name)
+            try:
+                (d / ALT_LATEST_SYMLINK).write_text(master.name)
+            except Exception:
+                pass
+        except Exception:
+            pass
         return GameState.from_json(data)
     except Exception as e:
         logger.error("GameLoadFailed", file=str(fp), error=str(e))
@@ -130,13 +210,5 @@ def load_latest() -> GameState | None:
 
 
 def load_slot(index: int) -> GameState | None:
-    saves = list_saves()
-    if index < 1 or index > len(saves):
-        return None
-    fp = saves[index-1]
-    try:
-        data = json.loads(fp.read_text())
-        return GameState.from_json(data)
-    except Exception as e:
-        logger.error("GameLoadFailed", file=str(fp), error=str(e))
-        return None
+    """Single-file model: ignore slot index and return latest if present."""
+    return load_latest()

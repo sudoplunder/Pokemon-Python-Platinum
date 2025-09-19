@@ -19,10 +19,16 @@
   "flinch_chance": 0,
   "ailment": "none",
   "ailment_chance": 0,
-  "stat_changes": [],
+  "stat_changes": [
+    {
+      "stat": "attack",
+      "change": -1,
+      "chance": 100
+    }
+  ],
   "flags": {
     "contact": false,
-    "sound": false,
+    "sound": true,
     "punch": false,
     "bite": false,
     "powder": false,

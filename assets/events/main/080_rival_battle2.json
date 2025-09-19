@@ -3,15 +3,15 @@
   "trigger": { "type": "enter_map", "value": "route_203" },
   "once": true,
   "prerequisites": {
-    "all": ["parcel_delivered"],
-    "none": ["rival2_defeated"]
+    "all": ["pokedex_received"],
+    "none": ["rival_203_battle_done"]
   },
   "actions": [
   { "command": "SET_LOCATION", "location": "route_203" },
     { "command": "SHOW_TEXT", "dialogue_key": "rival2.prep" },
-    { "command": "START_BATTLE", "battle_id": "rival_route203_1" },
+    { "command": "TRAINER_BATTLE", "trainer_id": "rival_barry_2" },
     { "command": "SHOW_TEXT", "dialogue_key": "rival2.after" },
-    { "command": "SET_FLAG", "flag": "rival2_defeated" }
+    { "command": "SET_FLAG", "flag": "rival_203_battle_done" }
   ],
-  "set_flags": ["rival2_defeated"]
+  "set_flags": ["rival_203_battle_done"]
 }

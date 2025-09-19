@@ -1,0 +1,15 @@
+{
+  "id": "twinleaf_pokemon_center",
+  "name": "Twinleaf Town Pokémon Center",
+  "music": "pokemon_center_day",
+  "actions": [
+    { "label": "Talk to Nurse Joy", "type": "pokemon_center", "text": "Welcome to the Twinleaf Town Pokémon Center! This is where many trainers begin their journey!" },
+    { "label": "Use PC", "type": "inspect", "text": "Someone's PC. It looks like it can store Pokémon and items." },
+    { "label": "Rest on couch", "type": "inspect", "text": "A comfortable couch where trainers can rest and plan their next adventure." },
+    { "label": "Talk to excited kid", "type": "inspect", "text": "KID: My big brother just left for his Pokémon journey! I can't wait until I'm old enough!" },
+    { "label": "Chat with worried mother", "type": "inspect", "text": "MOTHER: I hope my child stays safe on their adventure... At least they can always come back here to heal." },
+    { "label": "Speak with elderly man", "type": "inspect", "text": "OLD MAN: Back in my day, we had to walk to Sandgem for medical care! This center is a blessing." },
+    { "label": "Leave Pokémon Center", "type": "move", "target": "twinleaf_town_outside" }
+  ],
+  "children": []
+}

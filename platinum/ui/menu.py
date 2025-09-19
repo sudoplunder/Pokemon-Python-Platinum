@@ -27,6 +27,7 @@ def options_submenu(settings) -> None:
             [
                 (f"Text Speed [{settings.data.text_speed}]", "text_speed"),
                 (f"Log Level [{settings.data.log_level}]", "log_level"),
+                (f"Menu Color [{settings.data.menu_color}]", "menu_color"),
                 ("Return", "return")
             ],
             footer="↑/↓ or W/S • Enter to edit • Esc to return"
@@ -37,6 +38,8 @@ def options_submenu(settings) -> None:
             _edit_text_speed(settings)
         elif choice == "log_level":
             _edit_log_level(settings)
+        elif choice == "menu_color":
+            _edit_menu_color(settings)
 
 def _edit_text_speed(settings):
     choice = select_menu(
@@ -71,4 +74,23 @@ def _edit_log_level(settings):
         lvl: str = settings.data.log_level
         if lvl in {"DEBUG","INFO","WARN","ERROR"}:
             logger.set_level(lvl)  # type: ignore[arg-type]
+        settings.save()
+
+def _edit_menu_color(settings):
+    choice = select_menu(
+        "MENU COLOR",
+        [
+            ("Bright White", "bright_white"),
+            ("Bright Cyan", "bright_cyan"),
+            ("Bright Yellow", "bright_yellow"),
+            ("Bright Green", "bright_green"),
+            ("Bright Magenta", "bright_magenta"),
+            ("Bright Red", "bright_red"),
+            ("Bright Blue", "bright_blue"),
+            ("Cancel", "cancel")
+        ]
+    )
+    if choice and choice in {"bright_white", "bright_cyan", "bright_yellow", "bright_green", "bright_magenta", "bright_red", "bright_blue"}:
+        settings.data.menu_color = choice
+        settings.data.normalize()
         settings.save()

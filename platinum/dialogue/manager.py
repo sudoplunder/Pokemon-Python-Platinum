@@ -80,10 +80,29 @@ class DialogueManager:
                     gender = getattr(ctx.state, 'player_gender', 'unspecified')
                     assistant = 'lucas' if gender == 'female' else 'dawn'
                 assistant_display = assistant.title()
+                from datetime import datetime
+                # Use GameState-captured system_time if present else live now
+                now_str = getattr(ctx.state, 'system_time', '') or datetime.now().strftime('%H:%M')
                 text = (text
                         .replace("{PLAYER}", ctx.state.player_name)
                         .replace("{RIVAL}", ctx.state.rival_name)
-                        .replace("{ASSISTANT}", assistant_display))
+                        .replace("{ASSISTANT}", assistant_display)
+                        .replace("{SYSTEM_TIME}", now_str))
+                # Dynamic rival speaker handling: avoid double prefix like 'RIVAL: Barry:'
+                if entry.speaker in ('rival', 'assistant'):
+                    if entry.speaker == 'rival':
+                        dynamic_name = ctx.state.rival_name
+                    else:
+                        dynamic_name = assistant_display
+                    if text.startswith(f"{dynamic_name}:"):
+                        render_speaker = None
+                    else:
+                        text = f"{dynamic_name}: {text}"
+                        render_speaker = None
+                else:
+                    render_speaker = entry.speaker
             except Exception:
-                pass
-        render_line(entry.speaker, text, self.characters, self.settings.data.text_speed)
+                render_speaker = entry.speaker
+        else:
+            render_speaker = entry.speaker
+        render_line(render_speaker, text, self.characters, self.settings.data.text_speed)

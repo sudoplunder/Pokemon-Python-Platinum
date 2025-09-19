@@ -1,6 +1,7 @@
 {
   "id": "lake_verity_path",
   "name": "Lake Verity Path",
+  "music": "lake_verity",
   "actions": [
     { "label": "Enter Lake Verity", "type": "move", "target": "lake_verity_shore" },
   { "label": "Return to Route 201", "type": "move", "target": "route_201" },

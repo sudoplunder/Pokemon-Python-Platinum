@@ -1,0 +1,18 @@
+{
+  "id": "route_219",
+  "name": "Route 219",
+  "music": "route_219",
+  "actions": [
+    { "label": "Walk along the sandy beach", "type": "dialogue", "fallback_text": "You walk along the beautiful sandy shoreline. The ocean stretches endlessly before you." },
+    { "label": "[DEV] Enable Surf ability", "type": "set_flag", "flag": "surf_unlocked", "requires_not_flag": "surf_unlocked" },
+    { "label": "Use Old Rod (fishing)", "type": "encounter", "method": "old_rod", "zone": "route219" },
+    { "label": "Use Good Rod (fishing)", "type": "encounter", "method": "good_rod", "zone": "route219", "requires_flag": "good_rod_obtained" },
+    { "label": "Use Super Rod (fishing)", "type": "encounter", "method": "super_rod", "zone": "route219", "requires_flag": "super_rod_obtained" },
+    { "label": "Enter the ocean waters", "type": "surf_attempt", "target": "route_219_surf", "requires_not_flag": "surf_unlocked", "fallback_text": "The water is deep and blue." },
+    { "label": "Surf on the ocean", "type": "encounter", "method": "water", "zone": "route219", "requires_flag": "surf_unlocked" },
+    { "label": "Head south on the ocean", "type": "move", "target": "route_220", "requires_flag": "surf_unlocked" },
+    { "label": "Head north to Sandgem Town", "type": "move", "target": "sandgem_town" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": ["route_220"]
+}

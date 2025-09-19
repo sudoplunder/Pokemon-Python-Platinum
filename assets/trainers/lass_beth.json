@@ -1,0 +1,22 @@
+{
+  "name": "Lass Beth",
+  "approach_dialogue": "I've been training hard! You better not take me lightly!",
+  "loss_dialogue": "Oh no, I can't believe I lost! My Pokémon tried their best... I'll need to train more.",
+  "post_battle_dialogue": "You won, but I'll keep trying my best! I'll get stronger with every battle!",
+  "money_won": 80,
+  "money_lost": 40,
+  "music": "battle_trainer",
+  "victory_music": "victory_trainer_battle",
+  "party": [
+    {
+      "species_id": 399,
+      "level": 3,
+      "moves": ["tackle", "growl"]
+    },
+    {
+      "species_id": 403,
+      "level": 4,
+      "moves": ["tackle", "leer"]
+    }
+  ]
+}

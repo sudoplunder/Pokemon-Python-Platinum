@@ -1,0 +1,34 @@
+{
+  "name": "Rival Barry",
+  "approach_dialogue": "Barry: I've been training hard since our last battle! This time I won't lose!",
+  "loss_dialogue": "Barry: What?! I lost again? Your Pokémon are really getting stronger!",
+  "money_won": 1500,
+  "money_lost": 750,
+  "music": "battle_rival",
+  "victory_music": "victory_trainer_battle",
+  "party": [
+    {
+      "species_id": 396,
+      "level": 9,
+      "moves": ["tackle", "growl", "quick-attack"]
+    },
+    {
+      "species_id": 390,
+      "level": 9,
+      "moves": ["scratch", "leer", "ember"],
+      "requires_flag": "rival_starter_chimchar"
+    },
+    {
+      "species_id": 393,
+      "level": 9,
+      "moves": ["pound", "growl", "bubble"],
+      "requires_flag": "rival_starter_piplup"
+    },
+    {
+      "species_id": 387,
+      "level": 9,
+      "moves": ["tackle", "withdraw", "absorb"],
+      "requires_flag": "rival_starter_turtwig"
+    }
+  ]
+}

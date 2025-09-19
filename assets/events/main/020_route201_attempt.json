@@ -3,13 +3,17 @@
   "trigger": { "type": "enter_map", "value": "twinleaf_town_outside" },
   "once": true,
   "prerequisites": {
-    "all": ["rival_introduced", "left_home"],
-    "none": ["starter_chosen", "lake_plan_formed"]
+    "all": ["rival_introduced"],
+    "none": ["starter_chosen", "lake_plan_formed", "left_home"]
   },
   "actions": [
+    { "command": "DEBUG_PRINT", "message": "[DEBUG] Route 201 plan firing.", "dump_flags": true },
+    { "command": "SHOW_TEXT", "dialogue_key": "intro.mom.farewell" },
+    { "command": "SET_FLAG", "flag": "left_home" },
+    { "command": "PLAY_MUSIC", "intro_key": "encounter_barry_intro", "key": "encounter_barry_loop" },
     { "command": "SHOW_TEXT", "dialogue_key": "intro.lake.plan" },
-    { "command": "WAIT_INPUT", "prompt": "(You consider the plan...) Press Enter to continue" },
+    { "command": "PLAY_MUSIC", "key": "twinleaf_town_loop", "loop": true },
     { "command": "SET_FLAG", "flag": "lake_plan_formed" }
   ],
-  "set_flags": ["lake_plan_formed"]
+  "set_flags": ["left_home", "lake_plan_formed"]
 }

@@ -6,7 +6,9 @@
     { "command": "SET_LOCATION", "location": "twinleaf_town_bedroom" },
     { "command": "SHOW_TEXT", "dialogue_key": "intro.start.1" },
     { "command": "SHOW_TEXT", "dialogue_key": "intro.start.2" },
-    { "command": "SET_FLAG", "flag": "met_prof_rowan" }
+  { "command": "SHOW_TEXT", "dialogue_key": "intro.start.3" },
+  { "command": "SHOW_TEXT", "dialogue_key": "intro.start.4" },
+    { "command": "SET_FLAG", "flag": "game_started" }
   ],
-  "set_flags": []
+  "set_flags": ["game_started"]
 }

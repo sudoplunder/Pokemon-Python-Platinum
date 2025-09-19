@@ -1,0 +1,16 @@
+{
+  "name": "Youngster Mikey",
+  "approach_dialogue": "Youngster Mikey: Hey! I just caught this Pokémon! Want to see how strong it is?",
+  "loss_dialogue": "Youngster Mikey: Aw man! I guess I need to train more with my Pokémon!",
+  "money_won": 240,
+  "money_lost": 100,
+  "music": "battle_trainer",
+  "victory_music": "victory_trainer_battle",
+  "party": [
+    {
+      "species_id": 19,
+      "level": 6,
+      "moves": ["tackle", "tail_whip"]
+    }
+  ]
+}

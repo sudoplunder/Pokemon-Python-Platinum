@@ -1,0 +1,16 @@
+{
+  "id": "sandgem.arrival",
+  "trigger": { "type": "enter_map", "value": "sandgem_town" },
+  "once": true,
+  "prerequisites": {
+    "all": ["first_rival_battle_done"],
+    "none": ["sandgem_arrival_done"]
+  },
+  "actions": [
+    { "command": "PLAY_MUSIC", "key": "encounter_npc", "loop": false },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.assistant.waiting" },
+    { "command": "SHOW_TEXT", "dialogue_key": "sandgem.assistant.to_lab" },
+    { "command": "SET_FLAG", "flag": "sandgem_arrival_done" }
+  ],
+  "set_flags": ["sandgem_arrival_done"]
+}

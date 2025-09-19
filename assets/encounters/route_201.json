@@ -1,8 +1,1 @@
-{
-  "zone": "route_201",
-  "method": "grass",
-  "slots": [
-    { "species": 396, "min_level": 3, "max_level": 4, "weight": 55 },
-    { "species": 399, "min_level": 3, "max_level": 4, "weight": 45 }
-  ]
-}
+{ "deprecated_zone": "route_201", "redirect": "route201" }

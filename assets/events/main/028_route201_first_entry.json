@@ -1,0 +1,17 @@
+{
+  "id": "route201.first_entry",
+  "trigger": { "type": "enter_map", "value": "route_201" },
+  "once": true,
+  "prerequisites": {
+    "all": ["lake_plan_formed"],
+    "none": ["route201_first_entry_done"]
+  },
+  "actions": [
+    { "command": "DEBUG_PRINT", "message": "[DEBUG] Route 201 first entry - Barry dialogue.", "dump_flags": true },
+    { "command": "PLAY_MUSIC", "intro_key": "encounter_barry_intro", "key": "encounter_barry_loop" },
+    { "command": "SHOW_TEXT", "dialogue_key": "route201.rival.slow" },
+    { "command": "SHOW_TEXT", "dialogue_key": "route201.rival.dibs" },
+    { "command": "SET_FLAG", "flag": "route201_first_entry_done" }
+  ],
+  "set_flags": ["route201_first_entry_done"]
+}

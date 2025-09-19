@@ -1,19 +1,59 @@
 {
   "_meta": { "phase": 0, "segment": "intro" },
   "intro.start.1": {
-    "expanded": "Welcome to the world of Pokémon—teeming with creatures of wonder and mystery!",
+    "expanded": "Welcome to the world of Pokémon! My name is Rowan, though most people know me as the Pokémon Professor here in Sinnoh.",
     "speaker": "prof"
   },
   "intro.start.2": {
-    "expanded": "My name is Rowan—though in these parts, most simply call me the Pokémon Professor.",
+    "expanded": "This land is filled with mysterious creatures called Pokémon. They live alongside us—some as loyal companions, others as partners in work, and many as trusted allies in battle.",
+    "speaker": "prof"
+  },
+  "intro.start.3": {
+    "expanded": "Even though we’ve lived with Pokémon for ages, there’s still so much we don’t understand about them. That’s why I study Pokémon every day—to uncover their secrets.",
+    "speaker": "prof"
+  },
+  "intro.start.4": {
+    "expanded": "But enough about me. Tell me about yourself. Are you a boy, or a girl? And what is your name?",
+    "speaker": "prof"
+  },
+  "intro.start.5": {
+    "expanded": "Ah, I see.",
+    "speaker": "prof"
+  },
+  "intro.start.6": {
+    "expanded": "Very well. The time has come for your journey to begin. Together with your Pokémon, you’ll write your own story—one of adventure, challenge, and discovery.",
+    "speaker": "prof"
+  },
+  "intro.start.7": {
+    "expanded": "I look forward to seeing the bonds you’ll form and the things you’ll learn. Now… step into the world of Pokémon!",
     "speaker": "prof"
   },
   "intro.rival.intro": {
     "expanded": "Your energetic friend was dashing about earlier, looking for you with unusual urgency.",
     "speaker": "mom"
   },
+  "intro.rival.burst": {
+    "expanded": "{RIVAL}: Hey!! You in there? Hurry up, I've got an idea so wild it might actually work!",
+    "base": "{RIVAL}: Yo! Big idea—open up!",
+    "concise": "{RIVAL}: Yo!",
+    "speaker": "rival"
+  },
   "intro.lake.plan": {
-    "expanded": "C'mon {PLAYER}! To the lake—we might find a super-rare Pokémon today!",
+  "expanded": "{RIVAL}: C'mon Joel! To the lake— I have a feeling we might find a super-rare Pokémon there today.\n\nIt's a ₽10 MILLION fine if you're late!",
+  "base": "{RIVAL}: {PLAYER}! Lake—maybe something rare!",
+  "concise": "{RIVAL}: Lake time!",
+    "speaker": "rival"
+  },
+  "route201.rival.slow": {
+    "expanded": "{RIVAL}: Slow! Way too slow! Alright, let's head to the lake.",
+    "base": "{RIVAL}: Too slow! To the lake!",
+    "concise": "{RIVAL}: Slow! Lake time!",
+    "speaker": "rival"
+  },
+  "route201.rival.dibs": {
+    "expanded": "{RIVAL}: I've got dibs on the legendary Pokémon!",
+    "base": "{RIVAL}: Dibs on the legendary!",
+    "concise": "{RIVAL}: My legendary!",
     "speaker": "rival"
   },
   "cyrus.lake.silent": {
@@ -21,47 +61,94 @@
     "speaker": "narration"
   },
   "cyrus.lake.depart": {
-    "expanded": "...A future shaped by will alone—no chaos, no frailty of spirit... Hmph. This place will play its role soon enough.",
+    "expanded": "...A future shaped by will alone— no chaos, no frailty of spirit... Hmph. This place will play its role soon enough. Allow me to pass. Step aside.",
     "speaker": "cyrus"
   },
   "rival.lake.cyrus.react": {
-    "expanded": "What was THAT guy's deal? Total ice-core vibes. Anyway—hey, is that a briefcase?",
-    "speaker": "rival"
+  "expanded": "{RIVAL}: What was THAT guy's deal? Total ice-core vibes. Anyway—hey, uhhh is that a briefcase?",
+  "base": "{RIVAL}: Weird guy... Uh—briefcase?",
+  "concise": "{RIVAL}: Weird... briefcase?",
+  "speaker": "rival"
   },
   "intro.briefcase": {
-    "expanded": "Somebody left a briefcase here... We should retur—whoa, wild Pokémon incoming!",
+  "expanded": "{RIVAL}: Somebody left a briefcase here... We should retur—whoa, wild Pokémon incoming!",
+  "base": "{RIVAL}: A briefcase? Uh—wild Pokémon incoming!",
+  "concise": "{RIVAL}: Briefcase—wild Pokémon!",
     "speaker": "rival"
   },
   "intro.briefcase.assistant": {
-    "expanded": "Professor Rowan's briefcase—he must have left it behind when he was studying the lake!",
+  "expanded": "{ASSISTANT}: Professor Rowan's briefcase—he must have left it behind when he was studying the lake!",
     "speaker": "assistant"
   },
   "intro.rowan.arrival": {
     "expanded": "Ah! My briefcase! I was dreadfully careless... You two are in danger—open it and choose a Pokémon at once!",
+    "base": "My briefcase! Quickly—pick a Pokémon!",
+    "concise": "Pick a Pokémon!",
     "speaker": "rowan"
   },
   "intro.choose.starter": {
-    "expanded": "Quick—choose a Pokémon from the briefcase so we can defend ourselves!",
+  "expanded": "{RIVAL}: Quick—choose a Pokémon from the briefcase so we can defend ourselves!",
+  "base": "{RIVAL}: Pick one so we can fight!",
+  "concise": "{RIVAL}: Pick one!",
+    "speaker": "rival"
+  },
+  "intro.rival.challenge": {
+  "expanded": "{RIVAL}: Alright {PLAYER}, let's test our brand-new partners—I won't hold back!",
+  "base": "{RIVAL}: {PLAYER}, battle time—no holding back!",
+  "concise": "{RIVAL}: Battle time!",
     "speaker": "rival"
   },
   "intro.after.battle": {
-    "expanded": "We pulled through! Your Pokémon really carried us there—nice!",
+  "expanded": "Barry: Fwahhh! You totally rocked! I'm going to thank the Professor in Sandgem Town. See you around, {PLAYER}!",
+  "base": "Barry: Fwahhh! You totally rocked! I'm going to thank the Professor in Sandgem Town. See you around, {PLAYER}!",
+  "concise": "Barry: You rocked! See you around!",
     "speaker": "rival"
   },
+  "intro.mom.farewell": {
+    "expanded": "Be safe out there. Keep your bag packed and come home if you’re hurt or tired.",
+    "base": "Be safe—and rest here if you’re tired.",
+    "concise": "Stay safe.",
+    "speaker": "mom"
+  },
   "intro.rowan.intervene": {
-    "expanded": "Stop right there! Venturing into tall grass without a Pokémon of your own is far too dangerous.",
+    "expanded": "HOLD IT!!!! Venturing into tall grass without a Pokémon of your own is far too dangerous.",
     "speaker": "rowan"
   },
   "intro.assistant.approach": {
-    "expanded": "Professor—those are the two we saw by the lake earlier.",
+  "expanded": "{ASSISTANT}: Professor—those are the two we saw by the lake earlier.",
     "speaker": "assistant"
   },
-  "intro.rowan.present": {
-    "expanded": "Hmm... Very well. I left my briefcase at the lake, but I retrieved it. Choose a partner Pokémon from inside so you may travel safely.",
+  "intro.rowan.briefcase": {
+    "expanded": "Hmm... Very well. It seems I left my briefcase at the lake, but you two have retrieved it.",
     "speaker": "rowan"
+  },
+  "intro.rowan.reckless": {
+    "expanded": "... a pair of reckless kids who foolishly try to enter tall grass.",
+    "speaker": "rowan"
+  },
+  "intro.rowan.present": {
+    "expanded": "I wouldn't like to imagine what could've happened to you to. Please, Choose a partner Pokémon from inside so you may travel safely.",
+    "speaker": "rowan"
+  },
+  "intro.rival.first_dibs": {
+    "expanded": "{RIVAL}: no way, thank you so much professor. hey, {PLAYER} you have first dibs but hurry up though, you're ALWAYS indecisive",
+    "speaker": "rival"
+  },
+  "intro.rowan.to_sandgem": {
+    "expanded": "We will return to Sandgem Town—it's west of Route 201. Come by my lab when you're ready.",
+    "speaker": "rowan"
+  },
+  "intro.assistant.depart": {
+    "expanded": "{ASSISTANT}: Understood, Professor. We'll head back now.",
+    "speaker": "assistant"
   },
   "intro.mom.running_shoes": {
     "expanded": "Take these Running Shoes—may they carry you swiftly on your journey.",
     "speaker": "mom"
+  }
+  ,
+  "lake.speak.rival.prompt": {
+    "expanded": "{RIVAL}: We've gotta find the professor to return that briefcase. Let's go find him, {PLAYER}!",
+    "speaker": "rival"
   }
 }

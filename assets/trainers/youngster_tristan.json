@@ -1,0 +1,22 @@
+{
+  "name": "Youngster Tristan",
+  "approach_dialogue": "Hey there! I've been training my Pokémon really hard. You ready for a battle?",
+  "loss_dialogue": "I thought I had this in the bag, but... I guess you're better than I thought.",
+  "post_battle_dialogue": "You were a tough opponent. I've learned a lot! I'll keep working on my Pokémon!",
+  "money_won": 80,
+  "money_lost": 40,
+  "music": "battle_trainer",
+  "victory_music": "victory_trainer_battle",
+  "party": [
+    {
+      "species_id": 396,
+      "level": 3,
+      "moves": ["tackle", "growl"]
+    },
+    {
+      "species_id": 399,
+      "level": 3,
+      "moves": ["tackle", "growl"]
+    }
+  ]
+}

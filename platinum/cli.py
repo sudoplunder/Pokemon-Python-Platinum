@@ -1,6 +1,6 @@
 from __future__ import annotations
 from platinum.system.settings import Settings
-from platinum.system.save import GameState, save_game, load_latest
+from platinum.system.save import GameState, save_game, load_latest, save_temp, delete_temp
 from platinum.core.logging import logger
 from platinum.dialogue.manager import DialogueManager
 from platinum.events.loader import load_events
@@ -9,6 +9,7 @@ from platinum.battle.service import battle_service
 from platinum.ui.menu import main_menu, options_submenu
 from platinum.ui.opening import show_opening_sequence
 from platinum.overworld import run_overworld
+from platinum.audio.player import audio
 
 class GameContext:
     def __init__(self, settings: Settings):
@@ -65,7 +66,8 @@ class GameContext:
         if self._autosave_suspended:
             return
         self._accumulate_play_time()
-        save_game(self.state)
+        # Write to temporary save only; master is updated only on explicit Save
+        save_temp(self.state)
 
     def add_money(self, amount: int):
         self.state.money = max(0, self.state.money + amount)
@@ -129,46 +131,125 @@ class GameContext:
 
 def start_new_game(ctx: GameContext):
     print("\n== New Game ==\n")
+    # If a save already exists, confirm deletion
+    from platinum.system.save import list_saves
+    saves = list_saves()
+    if saves:
+        print("A save for this game already exists. Are you SURE you want to delete it?")
+        while True:
+            resp = input("Type YES to delete, or NO to cancel (yes/no): ").strip().lower()
+            if resp in {"yes","no","y","n"}:
+                break
+        if resp in {"no","n"}:
+            print("Cancelled new game.")
+            input("Press Enter to continue...")
+            return
+        # Delete existing saves
+        try:
+            import os
+            for p in saves:
+                try:
+                    os.remove(p)
+                except Exception:
+                    pass
+            # Also remove pointer files if present
+            from pathlib import Path
+            from platinum.system.save import _save_dir, LATEST_SYMLINK
+            d = _save_dir()
+            for nm in (LATEST_SYMLINK, "latest.xt"):
+                fp = d / nm
+                if fp.exists():
+                    try:
+                        os.remove(fp)
+                    except Exception:
+                        pass
+            print("Previous saves deleted.")
+        except Exception:
+            print("Could not delete old saves; starting fresh state anyway.")
     # Fresh state & session start
     ctx.state = GameState()
     ctx.begin_session()
+    # Capture current system time for day/night context
+    from datetime import datetime
+    now = datetime.now()
+    ctx.state.system_time = now.strftime('%H:%M')
+    hour = now.hour
+    if 5 <= hour < 10:
+        tod = 'morning'
+    elif 10 <= hour < 18:
+        tod = 'day'
+    elif 18 <= hour < 22:
+        tod = 'evening'
+    else:
+        tod = 'night'
+    ctx.state.time_of_day = tod
     events = load_events()
     ctx.events.register_batch(events)
     
     # First ensure spawn location is set
     ctx.set_location("twinleaf_town_bedroom")
     
-    # Then trigger Rowan monologue (game_start trigger) BEFORE any player identity input
+    # Then trigger Rowan monologue (game_start trigger) up through the prompt to introduce yourself
+    # Start intro BGM
+    try:
+        audio.play_music("assets/audio/bgm/rowan_intro.ogg", loop=True)
+    except Exception:
+        pass
     ctx.suspend_autosave()
     try:
         ctx.events.dispatch_trigger({"type": "game_start"})
+        # Immediately fire an enter_map trigger for the initial location so any
+        # bedroom intro events (e.g., rival bursting in) occur without needing
+        # the player to leave and re-enter.
+        if ctx.state.location:
+            ctx.events.dispatch_trigger({"type": "enter_map", "value": ctx.state.location})
     finally:
         ctx.resume_autosave(flush=True)
-    # 2. Player self-identification (name + gender) then rival name
-    default_player = "PLAYER"
-    default_rival = "RIVAL"
-    gender_map = {"m": "male", "f": "female", "o": "other"}
+    # 2. Player self-identification (name + gender) prompted by Rowan
+    # --- Mandatory player name (no blank allowed) ---
+    while True:
+        try:
+            pn = input("Enter your name: ").strip()
+        except EOFError:
+            pn = ''
+        if pn:
+            break
+        print("Name cannot be empty.")
+    # --- Mandatory gender selection (M/F only) ---
+    while True:
+        try:
+            gn_raw = input("Select gender (M/F): ").strip().lower()
+        except EOFError:
+            gn_raw = ''
+        if gn_raw[:1] in ('m','f'):
+            break
+        print("Please enter M or F.")
+    # Rival name (blank -> Barry)
     try:
-        pn = input(f"Enter your name [{default_player}]: ").strip()
-    except EOFError:
-        pn = ''
-    try:
-        gn_raw = input("Select gender (M/F/O) [Unspecified]: ").strip().lower()
-    except EOFError:
-        gn_raw = ''
-    try:
-        rn = input(f"Enter your rival's name [{default_rival}]: ").strip()
+        rn = input("Enter your rival's name [Barry]: ").strip()
     except EOFError:
         rn = ''
-    ctx.state.player_name = pn or default_player
-    ctx.state.player_gender = gender_map.get(gn_raw[:1], "unspecified")
-    # Assistant counterpart: Dawn if player chooses boy (male) else Lucas if girl (female). Default Dawn otherwise.
-    ctx.state.assistant = 'lucas' if ctx.state.player_gender == 'female' else 'dawn'
-    ctx.state.rival_name = rn or default_rival
+    ctx.state.player_name = pn
+    ctx.state.player_gender = 'male' if gn_raw[:1] == 'm' else 'female'
+    # Assistant selection per spec: M -> Dawn, F -> Lucas, otherwise Dawn
+    ctx.state.assistant = derive_assistant(ctx.state.player_gender)
+    ctx.state.rival_name = rn or 'Barry'
+
+    # Show Rowan's follow-up lines acknowledging rival and sending you off
+    try:
+        ctx.dialogue.show("intro.start.5")
+        ctx.dialogue.show("intro.start.6")
+        ctx.dialogue.show("intro.start.7")
+    except Exception:
+        pass
+    # Fade out intro BGM to transition into overworld
+    try:
+        audio.fadeout(800)
+    except Exception:
+        pass
     
     # Now that player identity is set, trigger story progression
     ctx.set_flag("story_started")
-    
     # 3. Mom & rival plan are now player-driven: talk to Mom downstairs to set rival_introduced; leaving house afterward triggers lake plan.
     if not ctx.has_flag("starter_chosen"):
         print("(Head downstairs, talk to Mom, then exit north toward Lake Verity.)")
@@ -184,8 +265,12 @@ def continue_game(ctx: GameContext):
     ctx.state = gs
     ctx.flags = set(gs.flags)
     ctx.begin_session()
+    # Ensure events are loaded so story flags/triggers work in continued sessions
+    events = load_events()
+    ctx.events.register_batch(events)
     print(f"Loaded save for {gs.player_name} at {gs.location} (Badges: {len(gs.badges)})")
-    input("Press Enter to continue...")
+    # Drop straight into the overworld at the saved location
+    run_overworld(ctx)
 
 def manual_save(ctx: GameContext):
     # Offer save slot selection / overwrite
@@ -219,6 +304,11 @@ def run():
     elif log_level in {"DEBUG","INFO","WARN","ERROR"}:
         global_logger.set_level(log_level)  # type: ignore[arg-type]
     ctx = GameContext(settings)
+    # On app start, discard any leftover temp save (unsaved progress is lost by design)
+    try:
+        delete_temp()
+    except Exception:
+        pass
     # Back-reference for dialogue placeholder substitution
     settings._game_context = ctx  # type: ignore[attr-defined]
     ctx.dialogue._game_context = ctx  # type: ignore[attr-defined]
@@ -232,6 +322,10 @@ def run():
             continue_game(ctx)
         elif choice == "overworld":
             if ctx.state.party:
+                # Ensure events are loaded before entering overworld
+                if len(ctx.events.registry.events) == 0:
+                    events = load_events()
+                    ctx.events.register_batch(events)
                 run_overworld(ctx)
             else:
                 print("Start or continue a game first to enter the overworld.")
@@ -245,8 +339,17 @@ def run():
             input("Press Enter to continue...")
         elif choice == "quit":
             print("Goodbye!")
+            # Discard unsaved temp progress when quitting
+            try:
+                delete_temp()
+            except Exception:
+                pass
             break
     settings.save()
+
+def derive_assistant(player_gender: str) -> str:
+    # Male player -> Dawn; Female player -> Lucas
+    return 'lucas' if player_gender == 'female' else 'dawn'
 
 if __name__ == "__main__":
     run()

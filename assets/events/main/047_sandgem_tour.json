@@ -1,0 +1,13 @@
+{
+  "id": "sandgem.tour",
+  "trigger": { "type": "enter_map", "value": "sandgem_town" },
+  "once": true,
+  "prerequisites": {
+    "all": ["lab_exit_tour_done"],
+    "none": ["tour_complete"]
+  },
+  "actions": [
+    { "command": "SET_FLAG", "flag": "tour_complete" }
+  ],
+  "set_flags": ["tour_complete"]
+}

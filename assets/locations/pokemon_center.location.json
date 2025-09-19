@@ -1,0 +1,16 @@
+{
+  "id": "sandgem_pokemon_center",
+  "name": "Sandgem Town Pokémon Center",
+  "music": "pokemon_center_day",
+  "actions": [
+    { "label": "Talk to Nurse Joy", "type": "pokemon_center", "text": "Welcome to the Sandgem Town Pokémon Center! We heal your Pokémon to perfect health." },
+    { "label": "Use PC", "type": "inspect", "text": "Someone's PC. It looks like it can store Pokémon and items." },
+    { "label": "Rest on couch", "type": "inspect", "text": "A comfortable couch where trainers can rest and plan their next adventure." },
+    { "label": "Talk to Pokémon Researcher", "type": "inspect", "text": "RESEARCHER: Professor Rowan's research is some of the most cutting-edge in the world. His work on Pokémon evolution is groundbreaking.", "set_flag": "talked_to_researcher", "requires_not_flag": "talked_to_researcher" },
+    { "label": "Talk to Pokémon Researcher", "type": "inspect", "text": "RESEARCHER: I work closely with the professor, cataloging Pokémon species. It's fascinating to see how many varieties there are, even just in Sinnoh!", "requires_flag": "talked_to_researcher" },
+    { "label": "Speak with Town Elder", "type": "inspect", "text": "ELDER: Ah, so you've come to start your journey, young one. May the stars shine on your path and guide you toward great things.", "set_flag": "talked_to_elder", "requires_not_flag": "talked_to_elder" },
+    { "label": "Speak with Town Elder", "type": "inspect", "text": "ELDER: I've lived here for many years. Sandgem is peaceful, but the world beyond is full of adventure. Don't forget to return and tell us your stories.", "requires_flag": "talked_to_elder" },
+    { "label": "Leave Pokémon Center", "type": "move", "target": "sandgem_town" }
+  ],
+  "children": []
+}

@@ -15,6 +15,7 @@ class Key(Enum):
     RIGHT = auto()
     ENTER = auto()
     ESC = auto()
+    B = auto()
     OTHER = auto()
 
 @dataclass
@@ -29,6 +30,8 @@ def _win_read() -> KeyEvent:
         return KeyEvent(Key.ENTER, ch)
     if ch == b"\x1b":
         return KeyEvent(Key.ESC, ch)
+    if ch in (b"b", b"B"):
+        return KeyEvent(Key.B, ch)
     if ch in (b"w", b"W"):
         return KeyEvent(Key.UP, ch)
     if ch in (b"s", b"S"):
@@ -70,6 +73,8 @@ def _unix_read() -> KeyEvent:
                 }
                 return KeyEvent(mapping.get(seq2, Key.OTHER), "\x1b[" + seq2)
             return KeyEvent(Key.ESC, ch)
+        if ch in ("b","B"):
+            return KeyEvent(Key.B, ch)
         if ch in ("w","W"):
             return KeyEvent(Key.UP, ch)
         if ch in ("s","S"):
@@ -96,7 +101,8 @@ def read_key() -> KeyEvent:
             "s": Key.DOWN, "S": Key.DOWN,
             "a": Key.LEFT, "A": Key.LEFT,
             "d": Key.RIGHT, "D": Key.RIGHT,
-            "q": Key.ESC, "Q": Key.ESC
+            "q": Key.ESC, "Q": Key.ESC,
+            "b": Key.B, "B": Key.B
         }.get(line, Key.OTHER), line)
 
 def flush_input():

@@ -34,6 +34,7 @@
     "protect": false,
     "magic_coat": false,
     "defrost": false,
-    "charge": false
+    "charge": false,
+    "recharge": true
   }
 }

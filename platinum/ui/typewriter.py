@@ -26,7 +26,7 @@ def clear_screen():
     else:
         os.system('clear')
 
-def wait_for_continue(prompt: str = "Press Enter...", debug: bool = False):
+def wait_for_continue(prompt: str = "Press Enter to continue...", debug: bool = False):
     if os.getenv('PYTEST_CURRENT_TEST'):
         return
     try:

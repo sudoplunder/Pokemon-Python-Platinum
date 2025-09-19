@@ -2,13 +2,14 @@
   "id": "gym1.win",
   "trigger": { "type": "battle_end", "value": "roark_gym_battle" },
   "once": true,
-  "prerequisites": { "none": ["coal_badge"] },
+  "prerequisites": { "none": ["coal_badge_obtained"] },
   "actions": [
   { "command": "SET_LOCATION", "location": "oreburgh_gym" },
     { "command": "SHOW_TEXT", "dialogue_key": "gym1.victory" },
     { "command": "GIVE_ITEM", "value": { "item": "tm76_stealth_rock", "quantity": 1 } },
-    { "command": "SET_FLAG", "flag": "coal_badge" },
+    { "command": "SET_FLAG", "flag": "gym1_defeated" },
+    { "command": "SET_FLAG", "flag": "coal_badge_obtained" },
     { "command": "SET_FLAG", "flag": "can_use_rock_smash" }
   ],
-  "set_flags": ["coal_badge", "can_use_rock_smash"]
+  "set_flags": ["gym1_defeated", "coal_badge_obtained", "can_use_rock_smash"]
 }

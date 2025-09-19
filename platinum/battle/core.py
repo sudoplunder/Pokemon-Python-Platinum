@@ -81,7 +81,8 @@ class Move:
     ailment_chance: int = 0
     stat_changes: list[dict[str, int | str]] = field(default_factory=list)  # {'stat','change','chance'}
     target: str = "selected-pokemon"
-    flags: dict[str, bool] = field(default_factory=dict)
+    # Flags may contain booleans (contact, sound, etc.) and internal metadata strings (e.g., 'internal' move slug)
+    flags: dict[str, Any] = field(default_factory=dict)
     multi_turn: Optional[Tuple[int,int]] = None  # charge turns (min,max) if any
     max_pp: int = 0
     pp: int = 0  # current PP; 0 => cannot select (Struggle not yet implemented fully)
@@ -105,6 +106,14 @@ class Battler:
     flinched: bool = False
     charging_move: Optional[Move] = None
     charging_turns_left: int = 0
+    # True if the battler is semi-invulnerable this turn (e.g., Fly/Dig/Bounce/Dive charge turn)
+    semi_invulnerable: bool = False
+    # True if the battler must recharge this turn (Hyper Beam-style)
+    must_recharge: bool = False
+    # Passive HP recovery each turn from Aqua Ring
+    aqua_ring: bool = False
+    # If True, the battler's ability is suppressed (e.g., by Gastro Acid)
+    ability_suppressed: bool = False
 
     def __post_init__(self):
         # Always normalize current_hp to an int to simplify downstream logic
@@ -121,15 +130,33 @@ class FieldState:
     reflect: bool = False
     light_screen: bool = False
     turn: int = 0
+    # Durations (in turns) for field effects
+    weather_turns: int = 0
+    reflect_turns: int = 0
+    light_screen_turns: int = 0
+    # Additional field effects
+    trick_room_turns: int = 0
+    mist_turns: int = 0
+    stealth_rock: bool = False
 
 class BattleCore:
     def __init__(self, rng: Optional[random.Random] = None, message_cb: Optional[Callable[[str], None]] = None):
         self.rng = rng or random.Random()
         self.message_cb = message_cb
+        # Optional callback for UI to observe HP changes
+        self.hp_change_cb: Optional[Callable[[Battler, int, int, dict], None]] = None
 
     def _msg(self, text: str):
         if self.message_cb: self.message_cb(text)
         else: print(text)
+
+    def _notify_hp_change(self, target: 'Battler', old_hp: int, new_hp: int, meta: dict):
+        cb = getattr(self, 'hp_change_cb', None)
+        if cb:
+            try:
+                cb(target, int(old_hp), int(new_hp), dict(meta))
+            except Exception:
+                pass
 
     # ------------------------------------------------------------------
     # Mechanics
@@ -146,6 +173,13 @@ class BattleCore:
         return self.rng.random() < p
 
     def accuracy_check(self, user: Battler, target: Battler, move: Move) -> bool:
+        # Attacks generally miss when the target is semi-invulnerable unless the move is flagged to hit them
+        try:
+            if getattr(target, 'semi_invulnerable', False):
+                if not bool(move.flags.get('hits_semi_invulnerable', False)):
+                    return False
+        except Exception:
+            pass
         if move.accuracy is None: return True
         acc_mod = stage_multiplier_acc_eva(user.stages.accuracy)
         eva_mod = stage_multiplier_acc_eva(target.stages.evasion)
@@ -223,45 +257,91 @@ class BattleCore:
         total = sum(h["damage"] for h in hit_results)
         return {"hits": hit_results, "total": total, "crit_any": crit_any, "effectiveness": effectiveness or 1.0}
 
-    def apply_damage(self, target: Battler, amount: int):
+    def apply_damage(self, target: Battler, amount: int, *, cause: str = 'damage', meta: Optional[dict] = None):
         if target.current_hp is None:
             target.current_hp = int(target.stats.get("hp", 1))
-        target.current_hp = max(0, target.current_hp - amount)
+        old = int(target.current_hp)
+        target.current_hp = max(0, old - int(amount))
+        self._notify_hp_change(target, old, target.current_hp, {"cause": cause, **(meta or {})})
         if target.current_hp <= 0:
             self._msg(f"{target.name} fainted!")
+
+    def apply_heal(self, target: Battler, amount: int, *, cause: str = 'other', meta: Optional[dict] = None):
+        if target.current_hp is None:
+            target.current_hp = int(target.stats.get("hp", 1))
+        old = int(target.current_hp)
+        target.current_hp = min(int(target.stats.get("hp", 1)), old + int(amount))
+        self._notify_hp_change(target, old, target.current_hp, {"cause": cause, **(meta or {})})
 
     def end_of_turn(self, battlers: List[Battler], field: FieldState):
         for b in battlers:
             if b.status == "psn":
                 dmg = max(1, b.stats["hp"] // 8)
-                self.apply_damage(b, dmg)
+                self.apply_damage(b, dmg, cause='status', meta={'status': 'psn'})
                 self._msg(f"{b.name} is hurt by poison!")
             elif b.status == "brn":
                 dmg = max(1, b.stats["hp"] // 8)
-                self.apply_damage(b, dmg)
+                self.apply_damage(b, dmg, cause='status', meta={'status': 'brn'})
                 self._msg(f"{b.name} is hurt by its burn!")
             elif b.status == "tox":
                 # Increment toxic stage (cap at 15 like main games); first damaging stage = 1
                 b.toxic_stage = (b.toxic_stage + 1) if b.toxic_stage > 0 else 1
                 if b.toxic_stage > 15: b.toxic_stage = 15
                 dmg = max(1, (b.stats["hp"] * b.toxic_stage) // 16)
-                self.apply_damage(b, dmg)
+                self.apply_damage(b, dmg, cause='status', meta={'status': 'tox', 'stage': b.toxic_stage})
                 self._msg(f"{b.name} is badly poisoned!")
 
             if field.weather == "sand" and not any(t in _DEF_WEATHER_IMMUNITY["sand"] for t in b.types):
                 dmg = max(1, b.stats["hp"] // 16)
-                self.apply_damage(b, dmg)
+                self.apply_damage(b, dmg, cause='weather', meta={'weather': 'sand'})
                 self._msg(f"{b.name} is buffeted by the sandstorm!")
             elif field.weather == "hail" and not any(t in _DEF_WEATHER_IMMUNITY["hail"] for t in b.types):
                 dmg = max(1, b.stats["hp"] // 16)
-                self.apply_damage(b, dmg)
+                self.apply_damage(b, dmg, cause='weather', meta={'weather': 'hail'})
                 self._msg(f"{b.name} is pelted by hail!")
 
             if (b.current_hp is not None and b.current_hp > 0 and
                 (b.item or "").lower() == "leftovers" and b.current_hp < b.stats["hp"]):
                 heal = max(1, b.stats["hp"] // 16)
-                b.current_hp = min(b.stats["hp"], b.current_hp + heal)
+                self.apply_heal(b, heal, cause='item', meta={'item': 'leftovers'})
                 self._msg(f"{b.name} restored a little HP with Leftovers.")
+            # Aqua Ring passive heal (1/16 max HP)
+            if (b.current_hp is not None and b.current_hp > 0 and b.aqua_ring and b.current_hp < b.stats["hp"]):
+                heal = max(1, b.stats["hp"] // 16)
+                self.apply_heal(b, heal, cause='field', meta={'effect': 'aqua-ring'})
+                self._msg(f"{b.name} restored HP with Aqua Ring!")
+
+        # Decrement field effect durations and clear when over
+        if field.weather_turns > 0:
+            field.weather_turns -= 1
+            if field.weather_turns == 0 and field.weather is not None:
+                if field.weather == 'sun': self._msg("The sunlight faded.")
+                elif field.weather == 'rain': self._msg("The rain stopped.")
+                elif field.weather == 'sand': self._msg("The sandstorm subsided.")
+                elif field.weather == 'hail': self._msg("The hail stopped.")
+                field.weather = None
+        if field.reflect_turns > 0:
+            field.reflect_turns -= 1
+            if field.reflect_turns == 0 and field.reflect:
+                field.reflect = False
+                self._msg("Reflect wore off!")
+        if field.light_screen_turns > 0:
+            field.light_screen_turns -= 1
+            if field.light_screen_turns == 0 and field.light_screen:
+                field.light_screen = False
+                self._msg("Light Screen wore off!")
+        if field.trick_room_turns > 0:
+            field.trick_room_turns -= 1
+            # Mark battlers for next turn's turn order inversion
+            active = field.trick_room_turns > 0
+            for b in battlers:
+                setattr(b, '_trick_room_active', active)
+            if not active:
+                self._msg("The twisted dimensions returned to normal!")
+        if field.mist_turns > 0:
+            field.mist_turns -= 1
+            if field.mist_turns == 0:
+                self._msg("The mist faded!")
 
     def turn_order(self, a: Battler, b: Battler, move_a: Move, move_b: Move) -> List[tuple[Battler, Move]]:
         if move_a.priority != move_b.priority:
@@ -270,8 +350,12 @@ class BattleCore:
         speed_b = b.stats["speed"] * stage_multiplier_stat(b.stages.speed)
         if a.status == "par": speed_a *= 0.25
         if b.status == "par": speed_b *= 0.25
+        trick = bool(getattr(a, '_trick_room_active', False) or getattr(b, '_trick_room_active', False))
         if speed_a != speed_b:
-            return [(a, move_a), (b, move_b)] if speed_a > speed_b else [(b, move_b), (a, move_a)]
+            if (speed_a > speed_b) ^ trick:
+                return [(a, move_a), (b, move_b)]
+            else:
+                return [(b, move_b), (a, move_a)]
         return [(a, move_a), (b, move_b)] if self.rng.random() < 0.5 else [(b, move_b), (a, move_a)]
 
     def single_turn(self, user: Battler, user_move: Move, target: Battler, target_move: Optional[Move], field: FieldState):
@@ -304,7 +388,7 @@ class BattleCore:
                     else:
                         # hurt itself in confusion style (1/8 max HP)
                         dmg = max(1, acting.stats['hp']//8)
-                        self.apply_damage(acting, dmg)
+                        self.apply_damage(acting, dmg, cause='self', meta={'reason': 'disobedience'})
                         self._msg(f"{acting.name} was hurt in its disobedience!")
                     continue
             # PP check
@@ -316,6 +400,11 @@ class BattleCore:
             if acting.flinched:
                 self._msg(f"{acting.name} flinched and couldn't move!")
                 acting.flinched = False
+                continue
+            # Recharge turn takes precedence over other action checks
+            if getattr(acting, 'must_recharge', False):
+                self._msg(f"{acting.name} must recharge!")
+                acting.must_recharge = False
                 continue
             # Sleep handling
             if acting.status == 'slp':
@@ -348,37 +437,188 @@ class BattleCore:
                     continue
                 else:
                     self._msg(f"{acting.name} unleashes {mv.name}!")
+                    # Clear semi-invulnerable on the attack turn
+                    acting.semi_invulnerable = False
             elif mv.flags.get('charge') and acting.charging_move is None:
                 # Begin charging: skip damage this turn
                 acting.charging_move = mv
                 acting.charging_turns_left = 1  # simple two-turn assumption
                 self._msg(f"{acting.name} began charging {mv.name}!")
+                # Some moves make the user semi-invulnerable on the charge turn (e.g., Fly/Dig/Bounce/Dive)
+                if bool(mv.flags.get('semi_invulnerable', False)):
+                    acting.semi_invulnerable = True
                 continue
             if not self.accuracy_check(acting, opp, mv):
                 self._msg(f"{acting.name}'s {mv.name} missed!")
                 if mv.max_pp > 0 and mv.pp > 0:
                     mv.pp -= 1
                 continue
+            # Special fixed-damage and percent-HP moves handled explicitly
+            try:
+                internal = (mv.flags or {}).get('internal') if isinstance(mv.flags, dict) else None
+                mv_slug = str(internal or mv.name).lower().replace(' ', '-').replace("'", "")
+            except Exception:
+                mv_slug = str(mv.name).lower()
+            special_damage: Optional[int] = None
+            if mv_slug == 'dragon-rage':
+                special_damage = 40
+            elif mv_slug == 'sonic-boom':
+                special_damage = 20
+            elif mv_slug in {'night-shade','seismic-toss'}:
+                special_damage = int(getattr(acting, 'level', 1) or 1)
+            elif mv_slug == 'super-fang':
+                cur = int(opp.current_hp or opp.stats.get('hp', 1))
+                special_damage = max(1, cur // 2)
+            elif mv_slug == 'endeavor':
+                cur_o = int(opp.current_hp or opp.stats.get('hp', 1))
+                cur_u = int(acting.current_hp or acting.stats.get('hp', 1))
+                if cur_o > cur_u:
+                    special_damage = cur_o - cur_u
+                else:
+                    special_damage = 0
+            elif mv_slug == 'psywave':
+                # Simplified fixed damage
+                special_damage = max(1, int((getattr(acting, 'level', 1) or 1) * 0.8))
+            elif mv_slug == 'present':
+                special_damage = 40
+            if special_damage is not None:
+                # Type immunity check still applies
+                try:
+                    eff_chk = self.get_effectiveness(mv.type, opp.types)
+                except Exception:
+                    eff_chk = 1.0
+                if eff_chk == 0.0 or special_damage <= 0:
+                    self._msg("It doesn't affect the target...")
+                else:
+                    self.apply_damage(opp, special_damage, cause='move', meta={'move': mv.name, 'fixed': True})
+                    self._msg(f"{acting.name} used {mv.name}!")
+                if mv.max_pp > 0 and mv.pp > 0:
+                    mv.pp -= 1
+                continue
+            # Reactive or item/team dependent moves that won't work in smoke context
+            if mv_slug in {'counter','mirror-coat','metal-burst','bide','spit-up','natural-gift','fling','beat-up'}:
+                self._msg("But it failed!")
+                if mv.max_pp > 0 and mv.pp > 0:
+                    mv.pp -= 1
+                continue
+            # Temporary fallback base power for complex formula moves when data power is 0/None
+            orig_power = mv.power
+            power_overridden = False
+            if (orig_power or 0) <= 0:
+                fallback_map = {
+                    'grass-knot': 60,
+                    'low-kick': 60,
+                    'gyro-ball': 60,
+                    'crush-grip': 60,
+                    'wring-out': 60,
+                    'punishment': 60,
+                    'magnitude': 70,
+                    'return': 70,
+                    'frustration': 70,
+                    'trump-card': 40,
+                    'flail': 20,
+                    'reversal': 20,
+                }
+                fb = fallback_map.get(mv_slug)
+                if fb is not None:
+                    mv.power = fb
+                    power_overridden = True
             result = self.calc_damage(acting, opp, mv, field)
             if mv.category == "status":
-                # Apply simple status/stat changes to opponent or user as heuristic
+                # Announce the move first (UI overlay will handle wipe + SFX)
+                self._msg(f"{acting.name} used {mv.name}!")
+                # If the move's type has no effect on the target (e.g., Electric vs Ground), it fails
+                try:
+                    eff_chk = self.get_effectiveness(mv.type, opp.types)
+                except Exception:
+                    eff_chk = 1.0
+                if eff_chk == 0.0:
+                    self._msg("It doesn't affect the target...")
+                    if mv.max_pp > 0 and mv.pp > 0:
+                        mv.pp -= 1
+                    continue
+                # Apply simple status/stat changes to opponent or user.
                 applied_any = False
-                for sc in mv.stat_changes:
+                # Fallbacks for common Gen IV status moves when stat_changes absent in data
+                fallback_changes: list[dict[str, int | str]] = []
+                try:
+                    internal = mv.flags.get('internal') if isinstance(mv.flags, dict) else None
+                    if isinstance(internal, str) and internal:
+                        base = internal
+                    else:
+                        base = mv.name
+                    mv_slug = str(base).lower().replace(' ', '-').replace("'", "")
+                except Exception:
+                    mv_slug = str(mv.name).lower()
+                if (not mv.stat_changes):
+                    # Simple debuffs
+                    if mv_slug in {'growl'}:
+                        fallback_changes = [{"stat": "attack", "change": -1, "chance": 100}]
+                    elif mv_slug in {'leer','tail-whip'}:
+                        fallback_changes = [{"stat": "defense", "change": -1, "chance": 100}]
+                    elif mv_slug in {'string-shot'}:
+                        fallback_changes = [{"stat": "speed", "change": -1, "chance": 100}]
+                    elif mv_slug in {'cotton-spore'}:
+                        fallback_changes = [{"stat": "speed", "change": -2, "chance": 100}]
+                    # Simple self-buffs
+                    elif mv_slug in {'acid-armor','iron-defense'}:
+                        fallback_changes = [{"stat": "defense", "change": +2, "chance": 100}]
+                    elif mv_slug in {'agility','rock-polish'}:
+                        fallback_changes = [{"stat": "speed", "change": +2, "chance": 100}]
+                    elif mv_slug in {'amnesia'}:
+                        fallback_changes = [{"stat": "sp-def", "change": +2, "chance": 100}]
+                    elif mv_slug in {'barrier','withdraw','harden'}:
+                        fallback_changes = [{"stat": "defense", "change": +1, "chance": 100}]
+                    elif mv_slug in {'howl','meditate','sharpen'}:
+                        fallback_changes = [{"stat": "attack", "change": +1, "chance": 100}]
+                    elif mv_slug in {'swords-dance'}:
+                        fallback_changes = [{"stat": "attack", "change": +2, "chance": 100}]
+                    elif mv_slug in {'nasty-plot'}:
+                        fallback_changes = [{"stat": "sp-atk", "change": +2, "chance": 100}]
+                    elif mv_slug in {'calm-mind'}:
+                        fallback_changes = [{"stat": "sp-atk", "change": +1, "chance": 100}, {"stat": "sp-def", "change": +1, "chance": 100}]
+                    elif mv_slug in {'bulk-up'}:
+                        fallback_changes = [{"stat": "attack", "change": +1, "chance": 100}, {"stat": "defense", "change": +1, "chance": 100}]
+                    elif mv_slug in {'cosmic-power'}:
+                        fallback_changes = [{"stat": "defense", "change": +1, "chance": 100}, {"stat": "sp-def", "change": +1, "chance": 100}]
+                    elif mv_slug in {'charge'}:
+                        fallback_changes = [{"stat": "sp-def", "change": +1, "chance": 100}]
+                changes = mv.stat_changes or fallback_changes
+                # Helper for stat normalization & nice message text
+                def _normalize_stat(s: str) -> str:
+                    s = s.replace("_","-").lower()
+                    if s in ("special-attack","sp-atk","spatk"): return "sp-atk"
+                    if s in ("special-defense","sp-def","spdef"): return "sp-def"
+                    return s
+                def _stat_label(s: str) -> str:
+                    m = {
+                        'attack': 'Attack', 'defense': 'Defense', 'sp-atk': 'Special Attack', 'sp-def': 'Special Defense', 'speed': 'Speed', 'accuracy': 'Accuracy', 'evasion': 'Evasion'
+                    }
+                    return m.get(s, s.title())
+                for sc in changes:
                     try:
-                        chance = int(sc.get("chance", 100) or 100)
+                        chance = int(sc.get("chance", 100) or 100)  # type: ignore[arg-type]
                     except Exception:
                         chance = 100
                     if self.rng.randint(1,100) <= chance:
-                        stat = sc.get("stat")
+                        stat = _normalize_stat(str(sc.get("stat")))
                         try:
-                            change_val = int(sc.get("change", 0) or 0)
+                            change_val = int(sc.get("change", 0) or 0)  # type: ignore[arg-type]
                         except Exception:
                             change_val = 0
-                        if stat in {"attack","defense","sp-atk","sp-def","speed"} and change_val != 0:
+                        if stat in {"attack","defense","sp-atk","sp-def","speed","accuracy","evasion"} and change_val != 0:
                             attr = stat.replace("-","_")
                             target_entity = acting if change_val > 0 else opp
-                            cur = getattr(target_entity.stages, attr if attr != "sp_atk" else "sp_atk")
-                            setattr(target_entity.stages, attr if attr != "sp_atk" else "sp_atk", _clamp_stage(cur + change_val))
+                            cur = getattr(target_entity.stages, attr)
+                            setattr(target_entity.stages, attr, _clamp_stage(cur + change_val))
+                            # Message with adverbs for ±2/±3
+                            adverb = ""
+                            if abs(change_val) == 2:
+                                adverb = " sharply"
+                            elif abs(change_val) >= 3:
+                                adverb = " drastically"
+                            direction = " rose!" if change_val > 0 else " fell!"
+                            self._msg(f"{target_entity.name}'s {_stat_label(stat)}{adverb}{direction}")
                             applied_any = True
                 if mv.ailment and mv.ailment not in {"none","unknown"} and opp.status == "none":
                     if self.rng.randint(1,100) <= (mv.ailment_chance or 100):
@@ -386,15 +626,17 @@ class BattleCore:
                             'paralysis':'par','burn':'brn','poison':'psn','toxic':'tox','sleep':'slp','freeze':'frz'
                         }
                         code = status_map.get(mv.ailment, mv.ailment[:3])
-                        self._apply_status(opp, code)
-                        applied_any = True
+                        if self._apply_status(opp, code, move_type=mv.type):
+                            applied_any = True
                 # Healing / curing support moves
-                mv_name = mv.name.lower()
+                mv_name = mv_slug
                 if mv_name == 'rest':
                     if acting.current_hp == acting.stats['hp'] and acting.status == 'none':
-                        self._msg(f"{acting.name} used Rest... but it failed!")
+                        self._msg(f"But it failed!")
                     else:
-                        acting.current_hp = acting.stats['hp']
+                        heal_amt = int(acting.stats['hp'] - (acting.current_hp or 0))
+                        if heal_amt > 0:
+                            self.apply_heal(acting, heal_amt, cause='move', meta={'move': 'Rest'})
                         # Clear status then apply sleep (overwrite existing status even if none)
                         self._cure_status(acting, announce=False)
                         self._apply_status(acting, 'slp')
@@ -404,15 +646,78 @@ class BattleCore:
                     if acting.status in {'brn','par','psn','tox'}:
                         self._cure_status(acting)
                         applied_any = True
-                elif mv_name in {'heal bell','aromatherapy'}:
+                elif mv_name in {'heal-bell','aromatherapy'}:
                     # Simplified: heals only user in this 1v1 context
                     if acting.status != 'none':
                         self._cure_status(acting)
                         applied_any = True
-                if applied_any:
-                    self._msg(f"{acting.name} used {mv.name}! Effects applied.")
-                else:
-                    self._msg(f"{acting.name} used {mv.name}! But nothing happened.")
+                elif mv_name == 'aqua-ring':
+                    if not acting.aqua_ring:
+                        acting.aqua_ring = True
+                        self._msg(f"A veil of water surrounds {acting.name}!")
+                        applied_any = True
+                elif mv_name == 'magnet-rise':
+                    # Simplified: grant temporary levitation
+                    if not hasattr(acting, 'levitate_turns'):
+                        setattr(acting, 'levitate_turns', 0)
+                    if getattr(acting, 'levitate_turns', 0) <= 0:
+                        setattr(acting, 'levitate_turns', 5)
+                        self._msg(f"{acting.name} levitated with electromagnetism!")
+                        applied_any = True
+                elif mv_name == 'gastro-acid':
+                    # Simplified: suppress the target's ability (no duration handling; lasts while active)
+                    if getattr(opp, 'ability', None) and not getattr(opp, 'ability_suppressed', False):
+                        opp.ability_suppressed = True
+                        self._msg(f"{opp.name}'s Ability was suppressed!")
+                        applied_any = True
+                elif mv_name == 'mist':
+                    field.mist_turns = 5
+                    self._msg("A mist shrouded the field!")
+                    applied_any = True
+                elif mv_name == 'haze':
+                    # Reset all battlers' stat changes
+                    for b in (acting, opp):
+                        b.stages = Stages()
+                    self._msg("All stat changes were eliminated!")
+                    applied_any = True
+                elif mv_name == 'trick-room':
+                    field.trick_room_turns = 5
+                    self._msg("The dimensions were twisted!")
+                    applied_any = True
+                elif mv_name == 'stealth-rock':
+                    if not field.stealth_rock:
+                        field.stealth_rock = True
+                        self._msg("Pointed stones float in the air around the foe's team!")
+                        applied_any = True
+                elif mv_name in {'roar','whirlwind','teleport','destiny-bond','grudge'}:
+                    # Not fully simulated here; report a failure message to satisfy smoke
+                    self._msg("But it failed!")
+                elif mv_name == 'sunny-day':
+                    field.weather = 'sun'; field.weather_turns = 5
+                    self._msg("The sunlight turned harsh!")
+                    applied_any = True
+                elif mv_name == 'rain-dance':
+                    field.weather = 'rain'; field.weather_turns = 5
+                    self._msg("It started to rain!")
+                    applied_any = True
+                elif mv_name == 'sandstorm':
+                    field.weather = 'sand'; field.weather_turns = 5
+                    self._msg("A sandstorm kicked up!")
+                    applied_any = True
+                elif mv_name == 'hail':
+                    field.weather = 'hail'; field.weather_turns = 5
+                    self._msg("It started to hail!")
+                    applied_any = True
+                elif mv_name == 'reflect':
+                    field.reflect = True; field.reflect_turns = 5
+                    self._msg("Reflect raised your team's Defense!")
+                    applied_any = True
+                elif mv_name == 'light-screen':
+                    field.light_screen = True; field.light_screen_turns = 5
+                    self._msg("Light Screen raised your team's Sp. Def!")
+                    applied_any = True
+                if not applied_any:
+                    self._msg("But nothing happened.")
                 if mv.max_pp > 0 and mv.pp > 0:
                     mv.pp -= 1
                 continue
@@ -421,11 +726,11 @@ class BattleCore:
             total_damage = 0
             for idx, h in enumerate(result["hits"], 1):
                 if h["damage"] <= 0: continue
-                self.apply_damage(opp, h["damage"])
+                eff_mult = result["effectiveness"]
+                self.apply_damage(opp, h["damage"], cause='move', meta={'effectiveness': eff_mult, 'move': mv.name, 'attacker': acting.name, 'hit_index': idx, 'multi_hits': len(result['hits'])})
                 total_damage += h["damage"]
                 multi_prefix = f" (hit {idx})" if len(result['hits']) > 1 else ""
                 crit_txt = " A critical hit!" if h["crit"] else ""
-                eff_mult = result["effectiveness"]
                 eff_txt = "" if eff_mult == 1 else (" It's super effective!" if eff_mult > 1 else " It's not very effective...")
                 self._msg(f"{acting.name} used {mv.name}!{multi_prefix}{crit_txt}{eff_txt}")
                 if opp.current_hp is not None and opp.current_hp <= 0:
@@ -434,13 +739,23 @@ class BattleCore:
             if total_damage > 0 and mv.drain_ratio:
                 num, den = mv.drain_ratio
                 heal = max(1, (total_damage * num)//den)
-                if acting.current_hp is not None:
-                    acting.current_hp = min(acting.stats["hp"], acting.current_hp + heal)
-                    self._msg(f"{acting.name} restored HP!")
+                if heal > 0:
+                    self.apply_heal(acting, heal, cause='drain', meta={'move': mv.name})
+                    # Use Platinum-accurate text for draining moves
+                    if mv.name.lower() in ['absorb', 'mega-drain', 'giga-drain']:
+                        self._msg(f"{acting.name} absorbed nutrients from {opp.name}!")
+                    elif mv.name.lower() == 'leech-life':
+                        self._msg(f"{acting.name} sucked life from {opp.name}!")
+                    elif mv.name.lower() == 'dream-eater':
+                        self._msg(f"{acting.name} ate {opp.name}'s dream!")
+                    elif mv.name.lower() == 'drain-punch':
+                        self._msg(f"{acting.name} drained power from {opp.name}!")
+                    else:
+                        self._msg(f"{acting.name} had its energy drained!")
             if total_damage > 0 and mv.recoil_ratio:
                 rn, rd = mv.recoil_ratio
                 recoil = max(1, (total_damage * rn)//rd)
-                self.apply_damage(acting, recoil)
+                self.apply_damage(acting, recoil, cause='recoil', meta={'move': mv.name})
                 self._msg(f"{acting.name} is damaged by recoil!")
             # Ailment chance for damaging moves
             if total_damage > 0 and mv.ailment and mv.ailment not in {"none","unknown"} and opp.status == "none":
@@ -450,7 +765,7 @@ class BattleCore:
                     }
                     code = status_map.get(mv.ailment, mv.ailment[:3])
                     if code not in {'slp','frz'} or opp.status == 'none':
-                        self._apply_status(opp, code)
+                        self._apply_status(opp, code, move_type=mv.type)
             # Flinch chance
             if total_damage > 0 and mv.flinch_chance and opp.current_hp and opp.current_hp > 0:
                 if self.rng.randint(1,100) <= mv.flinch_chance:
@@ -460,8 +775,20 @@ class BattleCore:
             # Clear charging state after execution
             if acting.charging_move is mv and acting.charging_turns_left == 0:
                 acting.charging_move = None
+            # Set recharge requirement for Hyper Beam-style moves (only after executing the move this turn)
+            try:
+                internal = (mv.flags or {}).get('internal') if isinstance(mv.flags, dict) else None
+                mv_slug = str(internal or mv.name).lower().replace(' ', '-').replace("'", "")
+            except Exception:
+                mv_slug = str(mv.name).lower()
+            if (((mv.flags.get('recharge') if isinstance(mv.flags, dict) else False) or mv_slug in {
+                'hyper-beam','giga-impact','roar-of-time','blast-burn','frenzy-plant','hydro-cannon','rock-wrecker'
+            }) and not acting.must_recharge):
+                acting.must_recharge = True
             if mv.max_pp > 0 and mv.pp > 0:
                 mv.pp -= 1
+            if power_overridden:
+                mv.power = orig_power
         self.end_of_turn([user, target], field)
         # Reset flinch for next turn
         user.flinched = False if user.flinched else user.flinched
@@ -478,10 +805,14 @@ class BattleCore:
         is_contact = move.flags.get('contact', move.category == 'physical')
         if not is_contact:
             return
-        ability = (defender.ability or '').lower()
+        # Ignore suppressed ability
+        if getattr(defender, 'ability_suppressed', False):
+            ability = ''
+        else:
+            ability = (defender.ability or '').lower()
         if ability == 'rough-skin':
             thorn = max(1, defender.stats['hp']//16)
-            self.apply_damage(attacker, thorn)
+            self.apply_damage(attacker, thorn, cause='ability', meta={'ability': 'rough-skin'})
             self._msg(f"{attacker.name} is hurt by Rough Skin!")
         elif ability == 'static' and attacker.status == 'none':
             if self.rng.randint(1,100) <= 30:
@@ -499,9 +830,24 @@ class BattleCore:
     # ------------------------------------------------------------------
     # Status helper
     # ------------------------------------------------------------------
-    def _apply_status(self, target: Battler, code: str):
+    def _apply_status(self, target: Battler, code: str, move_type: Optional[str] = None) -> bool:
         if target.status != 'none':
-            return
+            return False
+        # Type-based immunities (Gen IV-friendly subset)
+        types = tuple(t.lower() for t in (target.types or ()))
+        if code == 'brn' and 'fire' in types:
+            return False
+        if code in {'psn','tox'} and ('poison' in types or 'steel' in types):
+            return False
+        if code == 'frz' and 'ice' in types:
+            return False
+        # If provided a move_type and it has no effect on the target, fail (e.g., Electric vs Ground for Thunder Wave)
+        if move_type is not None:
+            try:
+                if self.get_effectiveness(str(move_type), target.types) == 0.0:
+                    return False
+            except Exception:
+                pass
         target.status = code
         if code == 'slp':
             # Sleep lasts 1-7 turns in Gen IV after the turn it is set; we model 2-5 for simplicity
@@ -509,6 +855,7 @@ class BattleCore:
         elif code == 'tox':
             target.toxic_stage = 0  # will increment at end of turn
         self._msg(f"{target.name} is afflicted with {code}!")
+        return True
 
     def _cure_status(self, target: Battler, announce: bool = True):
         if target.status == 'none':

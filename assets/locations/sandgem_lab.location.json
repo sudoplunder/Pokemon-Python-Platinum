@@ -1,0 +1,13 @@
+{
+  "id": "sandgem_lab",
+  "name": "Professor Rowan's Lab",
+  "music": "sandgem_lab",
+  "actions": [
+    { "label": "Talk to Professor Rowan", "type": "dialogue", "fallback_text": "Professor Rowan: Welcome to my lab! This is where I study Pokémon." },
+    { "label": "Talk to Lab Assistant", "type": "dialogue", "fallback_text": "Lab Assistant: The Professor is always busy with his research." },
+    { "label": "Examine Research Equipment", "type": "dialogue", "fallback_text": "Various scientific instruments and computers line the lab tables." },
+    { "label": "Exit to Sandgem Town", "type": "move", "target": "sandgem_town" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": []
+}

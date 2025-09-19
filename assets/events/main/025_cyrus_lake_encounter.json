@@ -7,6 +7,7 @@
     "none": ["cyrus_lake_seen", "starter_chosen"]
   },
   "actions": [
+  { "command": "DEBUG_PRINT", "message": "[DEBUG] Cyrus lake encounter firing.", "dump_flags": true },
     { "command": "SET_LOCATION", "location": "lake_verity_shore" },
     { "command": "SHOW_TEXT", "dialogue_key": "cyrus.lake.silent" },
     { "command": "SHOW_TEXT", "dialogue_key": "cyrus.lake.depart" },

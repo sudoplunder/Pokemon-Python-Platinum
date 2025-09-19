@@ -1,10 +1,12 @@
 {
   "id": "lake_verity_shore",
   "name": "Lake Verity Shore",
+  "music": "lake_verity",
   "actions": [
-    { "label": "Search around the shore", "type": "inspect", "text": "The lake surface shimmers—something stirs beneath." },
-  { "label": "Inspect left briefcase", "type": "briefcase", "text": "A professor's briefcase... It looks forgotten." },
-    { "label": "Sense mysterious presence", "type": "inspect", "text": "You feel a watchful gaze from deep within the lake." },
+    { "label": "Search around the shore", "type": "inspect", "text": "The lake surface shimmers—something stirs beneath.", "night_text": "Moonbeams dance across the dark water, revealing subtle ripples that hint at ancient depths." },
+    { "label": "Inspect left briefcase", "type": "briefcase", "text": "A professor's briefcase... It looks forgotten.", "set_flag": "briefcase_inspected", "requires_not_flag": "starter_chosen" },
+    { "label": "Speak to {RIVAL}", "type": "dialogue", "dialogue_key": "lake.speak.rival.prompt", "requires_flag": "briefcase_inspected", "requires_not_flag": "starter_chosen" },
+    { "label": "Sense mysterious presence", "type": "inspect", "text": "You feel a watchful gaze from deep within the lake.", "night_text": "Under the pale moonlight, an ethereal presence seems to emanate from the lake's darkest depths." },
     { "label": "Return to Lake Path", "type": "move", "target": "lake_verity_path" },
     { "label": "Return to Main Menu", "type": "exit" }
   ],

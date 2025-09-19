@@ -1,0 +1,17 @@
+{
+  "id": "route_221",
+  "name": "Route 221",
+  "music": "route_221",
+  "actions": [
+    { "label": "Search tall grass", "type": "encounter", "method": "grass", "zone": "route221" },
+    { "label": "Surf on water", "type": "encounter", "method": "water", "zone": "route221", "requires_flag": "surf_unlocked" },
+    { "label": "Use Old Rod (fishing)", "type": "encounter", "method": "old_rod", "zone": "route221" },
+    { "label": "Use Good Rod (fishing)", "type": "encounter", "method": "good_rod", "zone": "route221", "requires_flag": "good_rod_obtained" },
+    { "label": "Use Super Rod (fishing)", "type": "encounter", "method": "super_rod", "zone": "route221", "requires_flag": "super_rod_obtained" },
+    { "label": "Try to enter the ocean", "type": "surf_attempt", "target": "route_221_water", "requires_not_flag": "surf_unlocked", "fallback_text": "The water is deep and blue." },
+    { "label": "Head west to Route 220", "type": "move", "target": "route_220" },
+    { "label": "Visit Pal Park", "type": "dialogue", "fallback_text": "Welcome to Pal Park! This facility allows you to transfer Pokémon from previous games.", "requires_flag": "national_dex_obtained" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": []
+}

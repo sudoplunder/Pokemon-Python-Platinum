@@ -170,6 +170,25 @@ def build_moves():
             "defrost": has("defrost"),
             "charge": has("charge"),
         }
+        # Custom engine flags for semi-invulnerability and counters
+        SEMI_INVUL = {"fly","dig","bounce","dive","shadow-force"}
+        HITS_SEMI = {
+            # Airborne
+            "gust","twister","thunder",
+            # Underground
+            "earthquake","magnitude",
+            # Underwater
+            "surf","whirlpool",
+            # Also Sky Uppercut can hit targets in air in Gen IV
+            "sky-uppercut",
+        }
+        if name in SEMI_INVUL:
+            flags["semi_invulnerable"] = True
+        if name in HITS_SEMI:
+            flags["hits_semi_invulnerable"] = True
+        # Recharge moves (Hyper Beam style)
+        if name in {"hyper-beam","giga-impact","roar-of-time","blast-burn","frenzy-plant","hydro-cannon","rock-wrecker"}:
+            flags["recharge"] = True
         move_obj = {
             "name": name,
             "display_name": _norm_display(name),

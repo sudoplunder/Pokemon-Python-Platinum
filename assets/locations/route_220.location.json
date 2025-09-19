@@ -1,0 +1,16 @@
+{
+  "id": "route_220",
+  "name": "Route 220",
+  "music": "route_220",
+  "actions": [
+    { "label": "Surf on water", "type": "encounter", "method": "water", "zone": "route220", "requires_flag": "surf_unlocked" },
+    { "label": "Use Old Rod (fishing)", "type": "encounter", "method": "old_rod", "zone": "route220" },
+    { "label": "Use Good Rod (fishing)", "type": "encounter", "method": "good_rod", "zone": "route220", "requires_flag": "good_rod_obtained" },
+    { "label": "Use Super Rod (fishing)", "type": "encounter", "method": "super_rod", "zone": "route220", "requires_flag": "super_rod_obtained" },
+    { "label": "Try to go deeper into the ocean", "type": "surf_attempt", "target": "route_220_deep", "requires_not_flag": "surf_unlocked", "fallback_text": "The water is deep and blue." },
+    { "label": "Head north to Route 219", "type": "move", "target": "route_219" },
+    { "label": "Head east to Route 221", "type": "move", "target": "route_221", "requires_flag": "surf_unlocked" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": ["route_221"]
+}

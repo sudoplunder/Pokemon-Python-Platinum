@@ -1,0 +1,22 @@
+{
+  "name": "Youngster Logan",
+  "approach_dialogue": "Let's see how tough I've gotten! I bet I'll win this time!",
+  "loss_dialogue": "I lost... But you're still new to the journey, right? I'll get better. You'll see!",
+  "post_battle_dialogue": "That was an awesome battle! You won fair and square. I need more experience!",
+  "money_won": 80,
+  "money_lost": 40,
+  "music": "battle_trainer",
+  "victory_music": "victory_trainer_battle",
+  "party": [
+    {
+      "species_id": 399,
+      "level": 3,
+      "moves": ["tackle", "growl"]
+    },
+    {
+      "species_id": 403,
+      "level": 4,
+      "moves": ["tackle", "leer"]
+    }
+  ]
+}

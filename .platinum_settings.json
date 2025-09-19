@@ -1,0 +1,7 @@
+{
+  "text_speed": 2,
+  "log_level": "INFO",
+  "autosave": true,
+  "debug": false,
+  "menu_color": "bright_red"
+}

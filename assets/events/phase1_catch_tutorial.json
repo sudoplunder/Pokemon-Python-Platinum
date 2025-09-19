@@ -3,9 +3,8 @@
   "trigger": { "type": "flag_set", "value": "ENTERED_ROUTE_202" },
   "prerequisites": { "all": ["POKEDEX_OBTAINED"], "none": ["CATCH_TUTORIAL_DONE"] },
   "actions": [
-    { "command": "show_dialogue", "dialogue_key": "catch_tutorial_intro" },
-    { "command": "scripted_capture_demo", "species": "bidoof", "level": 3 },
-    { "command": "give_item", "item": "poke_ball", "quantity": 5 }
+    { "command": "SHOW_TEXT", "dialogue_key": "tutorial.catch.intro" },
+    { "command": "SHOW_TEXT", "dialogue_key": "tutorial.catch.outro" }
   ],
   "set_flags": ["CATCH_TUTORIAL_DONE", "POKEBALLS_INITIAL_5_GRANTED"],
   "once": true

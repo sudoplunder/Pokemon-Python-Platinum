@@ -3,6 +3,7 @@ from typing import Dict
 from .registry import EventRegistry
 from .types import Event
 from . import scripts
+from platinum.core.logging import logger
 
 class EventEngine:
     def __init__(self, context):
@@ -15,6 +16,13 @@ class EventEngine:
 
     def dispatch_trigger(self, trigger: Dict):
         candidates = self.registry.events_for_trigger(trigger)
+        # Debug: announce trigger
+        try:
+            dbg = bool(getattr(self.context.settings, 'data', None) and getattr(self.context.settings.data, 'debug', False))
+        except Exception:
+            dbg = False
+        if dbg:
+            logger.debug("dispatch_trigger", type=trigger.get("type"), value=trigger.get("value"), candidates=len(candidates))
         fired_any = True
         # Loop allows cascading flags -> new events with same trigger type (rare)
         # but we limit iterations to avoid infinite loops.
@@ -23,9 +31,24 @@ class EventEngine:
             fired_any = False
             for evt in candidates:
                 if not evt.eligible(self.context.flags):
+                    if dbg:
+                        try:
+                            logger.debug("skip_event_prereq", id=evt.id)
+                        except Exception:
+                            pass
                     continue
                 if not self._trigger_matches(evt.trigger, trigger):
+                    if dbg:
+                        try:
+                            logger.debug("skip_event_trigger_mismatch", id=evt.id)
+                        except Exception:
+                            pass
                     continue
+                if dbg:
+                    try:
+                        logger.debug("execute_event", id=evt.id)
+                    except Exception:
+                        pass
                 self._execute(evt)
                 fired_any = True
             loops += 1

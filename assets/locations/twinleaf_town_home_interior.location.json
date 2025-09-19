@@ -1,14 +1,17 @@
 {
   "id": "twinleaf_town_home_interior",
   "name": "Downstairs",
+  "music": "twinleaf_town_loop",
   "actions": [
     {
       "label": "Talk to Mom",
       "type": "dialogue",
       "dialogue_key": "intro.rival.intro",
       "fallback_text": "MOM: Have a nice day dear!",
-      "set_flag": "rival_introduced"
+      "set_flag": "rival_introduced",
+      "requires_not_flag": "rival_introduced"
     },
+    { "label": "Talk to Mom", "type": "inspect", "text": "MOM: Welcome home, dear! Your {FIRST_POKEMON} looks tired from today's adventures. Make sure you all get some rest.", "requires_flag": "rival_introduced" },
     { "label": "Exit to Twinleaf Town", "type": "move", "target": "twinleaf_town_outside", "set_flag": "left_home" },
     { "label": "Go upstairs", "type": "move", "target": "twinleaf_town_bedroom" },
     { "label": "Return to Main Menu", "type": "exit" }

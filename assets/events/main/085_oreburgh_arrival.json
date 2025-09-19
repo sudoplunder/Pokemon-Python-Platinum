@@ -1,0 +1,11 @@
+{
+  "id": "oreburgh.arrival",
+  "trigger": { "type": "enter_map", "value": "oreburgh_city" },
+  "once": true,
+  "prerequisites": { "none": ["oreburgh_arrived"] },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "oreburgh.arrival.intro" },
+    { "command": "SET_FLAG", "flag": "oreburgh_arrived" }
+  ],
+  "set_flags": ["oreburgh_arrived"]
+}

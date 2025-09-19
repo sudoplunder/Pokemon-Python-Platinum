@@ -1,0 +1,26 @@
+{
+  "name": "Gym Leader Roark",
+  "approach_dialogue": "Roark: I'm Roark, the Oreburgh Gym Leader! I'll show you the rock-hard determination of a Rock-type trainer!",
+  "loss_dialogue": "Roark: Amazing! Your Pokémon's potential is as hard as stone! You've earned the Coal Badge!",
+  "money_won": 2640,
+  "money_lost": 1000,
+  "music": "battle_gym_leader",
+  "victory_music": "victory_trainer_battle",
+  "party": [
+    {
+      "species_id": 524,
+      "level": 12,
+      "moves": ["rock_throw", "harden", "headbutt"]
+    },
+    {
+      "species_id": 95,
+      "level": 12,
+      "moves": ["rock_throw", "screech", "bind"]
+    },
+    {
+      "species_id": 408,
+      "level": 14,
+      "moves": ["headbutt", "leer", "rock_blast"]
+    }
+  ]
+}

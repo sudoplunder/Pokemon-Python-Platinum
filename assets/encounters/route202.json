@@ -16,6 +16,21 @@
         {"species": 129, "min": 3, "max": 5, "weight": 100}
       ]
     },
+    "good_rod": {
+      "base_rate": 70,
+      "slots": [
+        {"species": 129, "min": 10, "max": 25, "weight": 60},
+        {"species": 54, "min": 10, "max": 25, "weight": 40}
+      ]
+    },
+    "super_rod": {
+      "base_rate": 70,
+      "slots": [
+        {"species": 130, "min": 30, "max": 40, "weight": 40},
+        {"species": 54, "min": 20, "max": 50, "weight": 40},
+        {"species": 55, "min": 30, "max": 55, "weight": 20}
+      ]
+    },
     "water": {
       "base_rate": 15,
       "slots": [

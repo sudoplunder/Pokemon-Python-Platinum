@@ -1,0 +1,11 @@
+{
+  "id": "rock_smash.preview",
+  "trigger": { "type": "npc_interact", "value": "oreburgh_gate_hiker_preview" },
+  "once": true,
+  "prerequisites": { "none": ["rock_smash_previewed"] },
+  "actions": [
+    { "command": "SHOW_TEXT", "dialogue_key": "oreburgh.gate.hiker.give.hm" },
+    { "command": "SET_FLAG", "flag": "rock_smash_previewed" }
+  ],
+  "set_flags": ["rock_smash_previewed"]
+}

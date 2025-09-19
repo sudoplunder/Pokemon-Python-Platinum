@@ -1,0 +1,21 @@
+{
+  "id": "example_trainer_battle",
+  "triggers": [
+    {
+      "type": "interact",
+      "value": "trainer_mikey"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "flag_not_set",
+      "value": "trainer_youngster_mikey_defeated"
+    }
+  ],
+  "actions": [
+    {
+      "command": "TRAINER_BATTLE",
+      "trainer_id": "youngster_mikey"
+    }
+  ]
+}

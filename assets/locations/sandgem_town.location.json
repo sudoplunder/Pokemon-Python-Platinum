@@ -1,0 +1,16 @@
+{
+  "id": "sandgem_town",
+  "name": "Sandgem Town",
+  "music": "sandgem_town",
+  "actions": [
+    { "label": "Enter Professor Rowan's Lab", "type": "move", "target": "sandgem_lab" },
+    { "label": "Visit Pokémon Center", "type": "move", "target": "sandgem_pokemon_center" },
+    { "label": "Visit Poké Mart", "type": "move", "target": "sandgem_poke_mart" },
+    { "label": "[DEV] Get Tentacool for Surf testing", "type": "catch_pokemon", "species": "tentacool", "level": 10, "requires_flag": "starter_chosen", "requires_not_flag": "tentacool_received" },
+    { "label": "Head west to Route 201", "type": "move", "target": "route_201" },
+    { "label": "Head north to Route 202", "type": "move", "target": "route_202" },
+    { "label": "Head south to Route 219", "type": "move", "target": "route_219" },
+    { "label": "Return to Main Menu", "type": "exit" }
+  ],
+  "children": ["sandgem_lab", "route_202", "route_219", "sandgem_pokemon_center", "sandgem_poke_mart"]
+}

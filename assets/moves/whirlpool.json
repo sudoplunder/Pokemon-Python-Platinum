@@ -37,6 +37,7 @@
     "protect": false,
     "magic_coat": false,
     "defrost": false,
-    "charge": false
+    "charge": false,
+    "hits_semi_invulnerable": true
   }
 }

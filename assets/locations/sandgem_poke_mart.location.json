@@ -1,0 +1,16 @@
+{
+  "id": "sandgem_poke_mart",
+  "name": "Sandgem Town Poké Mart",
+  "music": "pokemon_center_day",
+  "actions": [
+    { "label": "Talk to Clerk", "type": "poke_mart", "text": "Welcome to the Poké Mart! We have everything a trainer needs for their journey." },
+    { "label": "Browse items", "type": "inspect", "text": "The shelves are stocked with Poké Balls, Potions, and other essential items for trainers." },
+    { "label": "Check bulletin board", "type": "inspect", "text": "NOTICE: New trainers receive a discount on their first Poké Ball purchase! See clerk for details." },
+    { "label": "Talk to shopping trainer", "type": "inspect", "text": "TRAINER: I always stock up on Potions before heading out. You never know when you'll need them!", "set_flag": "talked_to_mart_trainer", "requires_not_flag": "talked_to_mart_trainer" },
+    { "label": "Talk to shopping trainer", "type": "inspect", "text": "TRAINER: The clerk here is really knowledgeable about which items work best for different situations.", "requires_flag": "talked_to_mart_trainer" },
+    { "label": "Speak with item enthusiast", "type": "inspect", "text": "ENTHUSIAST: Did you know different Poké Balls have different catch rates? Great Balls are worth the extra cost!", "set_flag": "talked_to_enthusiast", "requires_not_flag": "talked_to_enthusiast" },
+    { "label": "Speak with item enthusiast", "type": "inspect", "text": "ENTHUSIAST: I heard they're developing even better Poké Ball technology. The future of training is exciting!", "requires_flag": "talked_to_enthusiast" },
+    { "label": "Leave Poké Mart", "type": "move", "target": "sandgem_town" }
+  ],
+  "children": []
+}

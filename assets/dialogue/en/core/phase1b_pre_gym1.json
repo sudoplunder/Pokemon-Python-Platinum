@@ -1,19 +1,23 @@
 {
   "_meta": { "phase": 1, "segment": "pre_gym1" },
   "tutorial.catch.intro": {
-    "expanded": "Alright, keep your eyes sharp—I'll show you exactly how to weaken and then safely catch a wild Pokémon.",
+    "expanded": "Alright, sharp—I'll show you exactly how to weaken and then safely catch a wild Pokémon.",
+    "base": "Watch—how to weaken then catch a wild Pokémon.",
+    "concise": "Watch me catch one.",
     "speaker": "dawn"
   },
   "tutorial.catch.outro": {
     "expanded": "And that's the flow: soften it up, maybe inflict a status condition, then throw the right Poké Ball for a clean capture.",
+    "base": "So: weaken, maybe status, then the right Poké Ball.",
+    "concise": "Weaken, maybe status, ball.",
     "speaker": "dawn"
   },
   "quest.parcel.find_rival": {
-    "expanded": "Hey, you made it {PLAYER}! I've been buzzing with curiosity—do you have that parcel they said you'd bring?",
+    "expanded": "{RIVAL}: Hey, you made it {PLAYER}! I've been buzzing with curiosity—do you have that parcel they said you'd bring?",
     "speaker": "rival"
   },
   "quest.parcel.delivery": {
-    "expanded": "Whoa, a Town Map! Perfect—we can plot routes faster and never waste steps.",
+    "expanded": "{RIVAL}: Whoa, a Town Map! Perfect—we can plot routes faster and never waste steps.",
     "speaker": "rival"
   },
   "poketch.clown1.quiz": {
@@ -33,11 +37,15 @@
     "speaker": "announcer"
   },
   "rival2.prep": {
-    "expanded": "Time for a skill check—you've trained, I've trained—let's see whose team adapted better, {PLAYER}!",
+    "expanded": "{RIVAL}: Time for a skill check—you've trained, I've trained—let's see whose team adapted better, {PLAYER}!",
+    "base": "{RIVAL}: Skill check—whose team grew more, {PLAYER}?",
+    "concise": "{RIVAL}: Battle time, {PLAYER}!",
     "speaker": "rival"
   },
   "rival2.after": {
-    "expanded": "Whew—that gap's still there. I'm doubling my training—next time, I'll flip the script!",
+    "expanded": "{RIVAL}: Whew—that gap's still there. I'm doubling my training—next time, I'll flip the script!",
+    "base": "{RIVAL}: Still behind… I'll train harder!",
+    "concise": "{RIVAL}: I'll catch up!",
     "speaker": "rival"
   },
   "hm.rock_smash.give": {
@@ -59,10 +67,25 @@
   "gym1.victory": {
     "expanded": "Outstanding performance! Take the Coal Badge—and may it solidify your path forward!",
     "speaker": "roark"
-  }
-  ,
+  },
   "sandgem.rowan.lab.intro": {
     "expanded": "You arrived sooner than expected. You handled that borrowed Pokémon with notable care—commendable.",
+    "speaker": "prof"
+  },
+  "sandgem.assistant.waiting": {
+    "expanded": "Oh! There you are! I've been waiting for you.",
+    "speaker": "dawn"
+  },
+  "sandgem.assistant.to_lab": {
+    "expanded": "Come with me! Professor Rowan wants to see you right away.",
+    "speaker": "dawn"
+  },
+  "sandgem.rowan.rival.leaving": {
+    "expanded": "As you approach the lab, you see Professor Rowan escorting your frustrated rival outside. Barry looks pretty upset about something...",
+    "speaker": "narrator"
+  },
+  "sandgem.rowan.pokemon.happiness": {
+    "expanded": "Ah, there you are! Let me have a look at that Pokémon I lent you... Wonderful! I can see it's very happy with you. That's exactly what I was hoping to see.",
     "speaker": "prof"
   },
   "sandgem.rowan.keep.partner": {
@@ -70,91 +93,39 @@
     "speaker": "prof"
   },
   "sandgem.rowan.pokedex.offer": {
-    "expanded": "I study how Pokémon distribute across habitats. Will you aid my research by recording data on the species you encounter?",
+    "expanded": "Since you and this Pokémon have bonded so well, I'd like you to help me with my research. Would you be willing to travel through Sinnoh and document the Pokémon you encounter?",
     "speaker": "prof"
   },
   "sandgem.rowan.pokedex.give": {
-    "expanded": "Excellent. Take this Pokédex—an advanced device that automatically logs rich data when you observe a Pokémon.",
+    "expanded": "Excellent! This is a Pokédex - it automatically records data about any Pokémon you see or catch. It will be invaluable for both your journey and my research.",
+    "speaker": "prof"
+  },
+  "sandgem.rowan.tm27.give": {
+    "expanded": "One more thing before you go - please take this TM27. It contains the move Return, which grows stronger the more your Pokémon trusts you. Remember, TMs can only be used once!",
     "speaker": "prof"
   },
   "sandgem.assistant.tour.start": {
-    "expanded": "Great! I’ll walk you through town—healing, supplies, and what to do next.",
+    "expanded": "Now that you have a Pokédex, your real adventure can begin! But first, let me show you around town.",
     "speaker": "dawn"
   },
   "sandgem.assistant.tour.center": {
-    "expanded": "Pokémon Center—restore your team to full strength instantly. Remember to heal after tough battles.",
+    "expanded": "This is the Pokémon Center - you'll find one in almost every town. They'll heal your Pokémon for free, and the staff often have helpful information. Always visit the Pokémon Center first when you reach a new place!",
     "speaker": "dawn"
   },
   "sandgem.assistant.tour.mart": {
-    "expanded": "Poké Mart—stock up on Poké Balls, status cures, and a few Antidotes for forest routes.",
+    "expanded": "And this is the Poké Mart - your one-stop shop for supplies! Most marts have two cashiers: the right one sells standard items, while the left one usually has local specialties. Your selection will grow as you earn more Gym Badges!",
     "speaker": "dawn"
   },
   "sandgem.assistant.tour.finish": {
-    "expanded": "That’s the basics. Tell your mom about the journey, then head north toward Jubilife City.",
+    "expanded": "Oh, and don't forget to visit your mom before you head out on your journey! Also, see that path south of town? It leads to the ocean, but you'll need a Pokémon that knows Surf to explore those waters. Save it for later!",
     "speaker": "dawn"
   },
   "twinleaf.mom.react.pokedex": {
-    "expanded": "A Pokédex already? That’s remarkable. Your adventure begins in earnest now.",
+    "expanded": "A Pokédex already? That's remarkable. Your adventure begins in earnest now.",
     "speaker": "mom"
   },
   "twinleaf.mom.give.running_shoes": {
-    "expanded": "Here—Running Shoes. Hold them to move with purpose; don’t squander daylight.",
+    "expanded": "Here—Running Shoes. Hold them to move with purpose; don't squander daylight.",
     "speaker": "mom"
-  },
-  "lookers.intro": {
-    "expanded": "Halt—civilian? No, just a Trainer. I am… merely a curious bystander. Should you see suspicious uniformed individuals, report mentally to… well, to yourself. I’ll be observing.",
-    "speaker": "looker"
-  },
-  "poketch.rep.pitch": {
-    "expanded": "Pokétch Company promo! Answer three simple knowledge checks scattered through the city, return with the coupons, earn a free Pokétch!",
-    "speaker": "announcer"
-  },
-  "poketch.rep.complete": {
-    "expanded": "All three coupons verified—splendid! Here’s your Pokétch. Apps update your journey flow—use it wisely.",
-    "speaker": "announcer"
-  },
-  "oreburgh.gate.hiker.give.hm": {
-    "expanded": "Shortcut seeker? Take HM Rock Smash. With a Gym Badge your Pokémon can shatter fragile boulders blocking side paths.",
-    "speaker": "hiker"
-  },
-  "oreburgh.city.rival.gym_hint": {
-    "expanded": "Looking for the Leader? Roark’s down in the mine swinging pick and testing teams. Fetch him and the Gym opens.",
-    "speaker": "rival"
-  },
-  "oreburgh.mine.worker.pointer": {
-    "expanded": "Roark headed deeper—mind the ore carts and keep an ear out for wild Pokémon echo.",
-    "speaker": "worker"
-  },
-  "oreburgh.mine.roark.intro": {
-    "expanded": "You tracked me here? Determination noted. Let’s return to the Gym—I’ll prepare the arena.",
-    "speaker": "roark"
-  },
-  "gym1.guide.welcome": {
-    "expanded": "Welcome challenger! Oreburgh Gym specializes in Rock types—resilient defense, vulnerable to Water and Grass. Adapt and prevail.",
-    "speaker": "announcer"
-  },
-  "gym1.roark.prebattle": {
-    "expanded": "I’m Roark—miner by trade, Leader by duty. Show me how you and your partner overcame the region’s first hurdles!",
-    "speaker": "roark"
-  },
-  "gym1.roark.midfight.1": {
-    "expanded": "Defense is more than walls—it’s buying time to force mistakes. Can you break through cleanly?",
-    "speaker": "roark"
-  },
-  "gym1.roark.midfight.2": {
-    "expanded": "Pressure applied—let’s escalate. Endurance or tactics: which will crack first?",
-    "speaker": "roark"
-  },
-  "gym1.roark.ace_send": {
-    "expanded": "My ace—a relic of ancient stone. Endure this assault if you can!",
-    "speaker": "roark"
-  },
-  "gym1.roark.postbattle": {
-    "expanded": "A decisive victory. Accept the Coal Badge—proof you can shape pressure into progress. Take this TM as well; use it to refine your strategy.",
-    "speaker": "roark"
-  },
-  "gym1.guide.after": {
-    "expanded": "With your first Badge secured, wild encounters will respect your growing presence. New paths will now reward revisits.",
-    "speaker": "announcer"
   }
 }

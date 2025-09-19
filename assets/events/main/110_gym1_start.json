@@ -3,7 +3,7 @@
   "trigger": { "type": "enter_map", "value": "oreburgh_gym" },
   "once": true,
   "prerequisites": {
-    "all": ["roark_found"],
+  "all": ["leader_found", "oreburgh_arrived"],
     "none": ["gym1_started"]
   },
   "actions": [

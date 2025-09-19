@@ -7,13 +7,22 @@
     "all": ["cyrus_lake_seen"]
   },
   "actions": [
+    { "command": "DEBUG_PRINT", "message": "[DEBUG] Tall grass intercept entered (Route 201)." },
+  { "command": "PLAY_MUSIC", "key": "rowan_intro", "snapshot": true, "loop": true, "volume": 0.7 },
     { "command": "SHOW_TEXT", "dialogue_key": "intro.rowan.intervene" },
     { "command": "SHOW_TEXT", "dialogue_key": "intro.assistant.approach" },
     { "command": "SHOW_TEXT", "dialogue_key": "intro.rowan.present" },
-    { "command": "WAIT_INPUT", "prompt": "(Open the briefcase?) Press Enter to view starters" },
-    { "command": "CHOOSE_STARTER" },
+    { "command": "WAIT_INPUT", "prompt": "(Open the briefcase?) Press Enter to view what lies inside." },
+  { "command": "CHOOSE_STARTER" },
+  { "command": "DEBUG_PRINT", "message": "[DEBUG] Starter chosen; firing rival battle 1." },
+  { "command": "SHOW_TEXT", "dialogue_key": "intro.rowan.to_sandgem" },
+  { "command": "SHOW_TEXT", "dialogue_key": "intro.assistant.depart" },
+  { "command": "SHOW_TEXT", "dialogue_key": "intro.rival.challenge" },
+  { "command": "TRAINER_BATTLE", "trainer_id": "rival_barry_1" },
     { "command": "SHOW_TEXT", "dialogue_key": "intro.after.battle" },
-    { "command": "SET_FLAG", "flag": "starter_chosen" }
+    { "command": "SET_FLAG", "flag": "starter_chosen" },
+    { "command": "SET_FLAG", "flag": "story_started" },
+    { "command": "SET_FLAG", "flag": "first_rival_battle_done" }
   ],
-  "set_flags": ["starter_chosen"]
+  "set_flags": ["starter_chosen", "story_started", "first_rival_battle_done"]
 }

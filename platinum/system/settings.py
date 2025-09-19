@@ -13,12 +13,15 @@ class SettingsData:
     log_level: str = "INFO"        # DEBUG / INFO / WARN / ERROR
     autosave: bool = True          # Automatically save after key progression changes
     debug: bool = False            # Verbose battle/debug prints
+    menu_color: str = "bright_white"  # Menu border and highlight color
 
     def normalize(self):
         if self.text_speed not in {1,2,3}:
             self.text_speed = 2
         if self.log_level not in {"DEBUG","INFO","WARN","ERROR"}:
             self.log_level = "INFO"
+        if self.menu_color not in {"bright_white", "bright_cyan", "bright_yellow", "bright_green", "bright_magenta", "bright_red", "bright_blue"}:
+            self.menu_color = "bright_white"
 
 class Settings:
     def __init__(self, data: SettingsData, path: Path):
@@ -28,10 +31,15 @@ class Settings:
 
     @classmethod
     def _resolve_path(cls) -> Path:
+        # Try to save in the project directory first for better access
+        project_path = Path.cwd() / SETTINGS_FILENAME
+        if os.access(Path.cwd(), os.W_OK):
+            return project_path
+        
         home = Path(os.path.expanduser("~"))
         if home.is_dir() and os.access(home, os.W_OK):
             return home / SETTINGS_FILENAME
-        return Path.cwd() / SETTINGS_FILENAME
+        return project_path
 
     @classmethod
     def load(cls) -> "Settings":

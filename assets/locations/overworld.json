@@ -4,7 +4,7 @@
   "actions": [
     { "label": "Head downstairs", "type": "move", "target": "twinleaf_town_home_interior" },
     { "label": "Look at Wii", "type": "inspect", "text": "It's a Wii. The system is a little dusty but still works." },
-    { "label": "Look at clock", "type": "inspect", "text": "You adjust the clock. The hands whirl then settle.", "set_flag": "clock_synced" },
+  { "label": "Look at clock", "type": "inspect", "text": "You adjust the clock. The hands whirl then settle. It's currently {SYSTEM_TIME}!", "set_flag": "clock_synced" },
     { "label": "Return to Main Menu", "type": "exit" }
   ],
   "children": [

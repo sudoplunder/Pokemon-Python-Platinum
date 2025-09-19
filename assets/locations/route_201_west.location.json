@@ -1,12 +1,18 @@
 {
   "id": "route_201",
   "name": "Route 201",
+  "music": "route_201",
   "actions": [
-  { "label": "Step into tall grass (east)", "type": "tall_grass_attempt", "zone": "route_201" },
-  { "label": "Search tall grass (after starter)", "type": "encounter", "method": "grass", "zone": "route_201" },
-    { "label": "Head east toward Lake Path", "type": "move", "target": "lake_verity_path" },
-    { "label": "Return to Twinleaf Town", "type": "move", "target": "twinleaf_town_outside" },
-    { "label": "Return to Main Menu", "type": "exit" }
+  { "label": "Step into tall grass (east)", "type": "tall_grass_attempt", "zone": "route_201", "requires_not_flag": "first_rival_battle_done", "fallback_text": "You can search the grass now." },
+  { "label": "Search tall grass", "type": "encounter", "method": "grass", "zone": "route_201", "requires_flag": "first_rival_battle_done" },
+  { "label": "Head northwest toward Lake Path", "type": "move", "target": "lake_verity_path" },
+  { "label": "Head east toward Sandgem Town", "type": "move", "target": "sandgem_town", "requires_flag": "first_rival_battle_done" },
+  { "label": "Speak to girl", "type": "dialogue", "fallback_text": "GIRL: If your Pokemon's health-its HP-is getting low, you should go home and get some rest.", "requires_flag": "first_rival_battle_done", "set_flag": "talked_to_route201_girl", "requires_not_flag": "talked_to_route201_girl" },
+  { "label": "Speak to girl", "type": "dialogue", "fallback_text": "GIRL: Take care of your Pokemon and they'll take care of you! That's what my mom always says.", "requires_flag": "talked_to_route201_girl" },
+  { "label": "Speak to boy", "type": "dialogue", "fallback_text": "BOY: Did you know that a Pokemon's health is measured by Hit Points-HP for short?\nIf a Pokemon runs out of HP, it faints and can't battle anymore.\nI work at the Poke mart. Here, try these potions!", "set_flag": "route201_boy_item", "requires_flag": "first_rival_battle_done", "requires_not_flag": "route201_boy_item_given" },
+  { "label": "Speak to boy", "type": "dialogue", "fallback_text": "BOY: Those potions should help keep your Pokemon healthy!\nRemember to use them when your Pokemon's HP gets low.", "requires_flag": "route201_boy_item_given" },
+  { "label": "Head south toward Twinleaf Town", "type": "move", "target": "twinleaf_town_outside" },
+  { "label": "Return to Main Menu", "type": "exit" }
   ],
   "children": ["lake_verity_path"]
 }

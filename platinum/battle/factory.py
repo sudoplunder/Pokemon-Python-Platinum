@@ -32,9 +32,12 @@ def battler_from_species(species_id: int, level: int, nickname: str | None = Non
     for mv in chosen:
         raw_name = mv["name"]
         md = get_move(raw_name)
-        drain_ratio = tuple(md["drain"]) if md.get("drain") else None
-        recoil_ratio = tuple(md["recoil"]) if md.get("recoil") else None
-        hits = tuple(md["multi_hit"]) if md.get("multi_hit") else None
+        _dr = md.get("drain")
+        drain_ratio = tuple(_dr) if isinstance(_dr, (list, tuple)) else None
+        _rr = md.get("recoil")
+        recoil_ratio = tuple(_rr) if isinstance(_rr, (list, tuple)) else None
+        _mh = md.get("multi_hit")
+        hits = tuple(_mh) if isinstance(_mh, (list, tuple)) else None
         multi_turn = md.get("multi_turn")
         if multi_turn is not None and not isinstance(multi_turn, (list, tuple)):
             multi_turn = None
@@ -52,7 +55,7 @@ def battler_from_species(species_id: int, level: int, nickname: str | None = Non
             ailment_chance=md.get("ailment_chance", 0),
             stat_changes=[{ "stat": sc.get("stat"), "change": sc.get("change"), "chance": sc.get("chance",0)} for sc in md.get("stat_changes", [])],
             target=md.get("targets") or "selected-pokemon",
-            flags=md.get("flags", {}),
+            flags={"internal": raw_name} | (md.get("flags", {}) or {}),
             multi_turn=tuple(multi_turn) if multi_turn else None,
             max_pp=md.get("pp", 0) or 0,
             pp=md.get("pp", 0) or 0

@@ -1,0 +1,14 @@
+{
+  "id": "route201.boy.gives.potions",
+  "trigger": { "type": "flag_set", "value": "route201_boy_item" },
+  "once": true,
+  "prerequisites": {
+    "all": ["left_home"],
+    "none": []
+  },
+  "actions": [
+    { "command": "GIVE_ITEM", "item": "Potions", "key": "potion", "amount": 3, "pocket": "Medicine" },
+    { "command": "SET_FLAG", "flag": "route201_boy_item_given" }
+  ],
+  "set_flags": ["route201_boy_item_given"]
+}
