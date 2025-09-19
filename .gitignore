@@ -32,6 +32,9 @@ logs/
 # Audio/Music large source originals (keep only optimized OGG in assets if needed)
 assets/audio/original_sources/
 *.wav
+# Large audio files that exceed GitHub's 100MB limit
+assets/audio/cd1.mp3
+build/
 
 # Cache / downloaded data (PokéAPI prefetch to be added later)
 assets/cache/
