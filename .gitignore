@@ -36,6 +36,18 @@ assets/audio/original_sources/
 assets/audio/cd1.mp3
 build/
 
+# Extracted audio files (use bundles instead)
+assets/audio/sfx/cries/
+assets/audio/sfx/moves/
+# Keep the bundles and manifest
+!bundles/
+!bundles/*.zip
+!bundles/*.tar.gz
+!bundles/asset_manifest.json
+
+# Asset extraction state
+.asset_extraction_state.json
+
 # Cache / downloaded data (PokéAPI prefetch to be added later)
 assets/cache/
 assets/pokeapi_raw/
